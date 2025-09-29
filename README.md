@@ -30,7 +30,7 @@ The Langflow Factory repository includes:
 
 | Use Cases | Industry | Description | Flow | Preview |
 |-----------|----------|-------------|------|---------|
-| Ingestion Router | AI/ML | Routes and processes document ingestion with intelligent routing capabilities. | [View Template](https://github.com/Empreiteiro/langflow-templates/blob/master/ai_patterns/agentic_rag/ingestion_router) | ![Ingestion Router Flow](https://github.com/Empreiteiro/langflow-templates/blob/master/ai_patterns/agentic_rag/ingestion_router/ingestion_router.png) |
+| Ingestion Router | AI/ML | Routes and processes document ingestion with intelligent routing capabilities. | [View Template](https://github.com/Empreiteiro/langflow-templates/blob/master/ai_patterns/agentic_rag/ingestion_router) | [🖼️ Preview](https://github.com/Empreiteiro/langflow-templates/blob/master/ai_patterns/agentic_rag/ingestion_router/ingestion_router.png) |
 | RAG Article in Web with Agent | AI/ML | Implements web-based RAG (Retrieval Augmented Generation) with intelligent agent capabilities for article processing. | [View Template](https://github.com/Empreiteiro/langflow-templates/blob/master/ai_patterns/agentic_rag/rag_article_in_web_with_agent) | - |
 | RAG Article in Web | AI/ML | Provides web-based retrieval augmented generation for article and content creation. | [View Template](https://github.com/Empreiteiro/langflow-templates/blob/master/ai_patterns/agentic_rag/rag_article_in_web) | - |
 | Tool Based RAG | AI/ML | Implements tool-enhanced RAG system for advanced information retrieval and generation. | [View Template](https://github.com/Empreiteiro/langflow-templates/blob/master/ai_patterns/agentic_rag/tool_based_rag) | - |
