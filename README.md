@@ -2,6 +2,28 @@
 
 This document provides a comprehensive overview of all available use case templates organized by AI patterns and business function categories.
 
+## About
+
+Langflow Templates is a curated collection of ready-to-use workflow templates for [Langflow](https://github.com/langflow-ai/langflow), the visual framework for building multi-agent and RAG applications. These templates demonstrate best practices for implementing AI-powered solutions across various industries and use cases.
+
+**Key Features:**
+- 🎯 **Production-Ready Templates**: Battle-tested workflows for real-world scenarios
+- 🔧 **Modular Design**: Easy to customize and extend for specific needs  
+- 📚 **Comprehensive Coverage**: Templates spanning AI patterns and business functions
+- 🚀 **Quick Start**: Import and deploy workflows in minutes
+- 🔄 **Regular Updates**: Continuously updated with new patterns and improvements
+
+## Custom Components
+
+For advanced functionality beyond standard Langflow components, explore our comprehensive collection of custom components available at: **[Langflow Factory](https://github.com/Empreiteiro/langflow-factory)**
+
+The Langflow Factory repository includes:
+- 🔗 **API Integrations**: Google Cloud Platform, WhatsApp, Apollo, Astra DB
+- 📊 **Data Processing**: Enhanced DataFrame operations, file processing, structured output
+- 🎨 **AI Generators**: Image generation (DALL-E, Imagen), audio generation (ElevenLabs, OpenAI TTS)  
+- 🛠️ **Utilities**: API request builders, conditional routers, dynamic UI components
+- 💬 **Communication**: Multi-modal processing, messaging automation
+
 ## AI Patterns
 
 ### Agentic RAG
