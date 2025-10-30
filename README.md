@@ -1,7 +1,3 @@
-### Langflow Factory - Use Cases Templates
-
-This document provides a comprehensive overview of all available use case templates organized by AI patterns and business function categories.
-
 ## About
 
 Langflow Templates is a curated collection of ready-to-use workflow templates for [Langflow](https://github.com/langflow-ai/langflow), the visual framework for building multi-agent and RAG applications. These templates demonstrate best practices for implementing AI-powered solutions across various industries and use cases.
@@ -132,5 +128,5 @@ The Langflow Factory repository includes:
 
 ---
 
-*Last updated: September 2025*
+*Last updated: October 2025*
 *Total Templates: 56 use cases across 2 main categories: AI Patterns and Business Functions*
