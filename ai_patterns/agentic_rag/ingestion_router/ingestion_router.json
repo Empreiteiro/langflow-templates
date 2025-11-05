@@ -6,36 +6,8 @@
         "className": "",
         "data": {
           "sourceHandle": {
-            "dataType": "LanguageModelComponent",
-            "id": "LanguageModelComponent-zMWxY",
-            "name": "model_output",
-            "output_types": [
-              "LanguageModel"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "llm",
-            "id": "SmartRouter-Y635w",
-            "inputTypes": [
-              "LanguageModel"
-            ],
-            "type": "other"
-          }
-        },
-        "id": "xy-edge__LanguageModelComponent-zMWxY{œdataTypeœ:œLanguageModelComponentœ,œidœ:œLanguageModelComponent-zMWxYœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-SmartRouter-Y635w{œfieldNameœ:œllmœ,œidœ:œSmartRouter-Y635wœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œotherœ}",
-        "selected": false,
-        "source": "LanguageModelComponent-zMWxY",
-        "sourceHandle": "{œdataTypeœ:œLanguageModelComponentœ,œidœ:œLanguageModelComponent-zMWxYœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
-        "target": "SmartRouter-Y635w",
-        "targetHandle": "{œfieldNameœ:œllmœ,œidœ:œSmartRouter-Y635wœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œotherœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
             "dataType": "File",
-            "id": "File-PG4mr",
+            "id": "File-xqev4",
             "name": "message",
             "output_types": [
               "Message"
@@ -43,27 +15,111 @@
           },
           "targetHandle": {
             "fieldName": "input_text",
-            "id": "SmartRouter-Y635w",
+            "id": "SmartRouter-w8q4W",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "xy-edge__File-PG4mr{œdataTypeœ:œFileœ,œidœ:œFile-PG4mrœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-SmartRouter-Y635w{œfieldNameœ:œinput_textœ,œidœ:œSmartRouter-Y635wœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-File-xqev4{œdataTypeœ:œFileœ,œidœ:œFile-xqev4œ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-SmartRouter-w8q4W{œfieldNameœ:œinput_textœ,œidœ:œSmartRouter-w8q4Wœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "File-PG4mr",
-        "sourceHandle": "{œdataTypeœ:œFileœ,œidœ:œFile-PG4mrœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "SmartRouter-Y635w",
-        "targetHandle": "{œfieldNameœ:œinput_textœ,œidœ:œSmartRouter-Y635wœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "source": "File-xqev4",
+        "sourceHandle": "{œdataTypeœ:œFileœ,œidœ:œFile-xqev4œ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "SmartRouter-w8q4W",
+        "targetHandle": "{œfieldNameœ:œinput_textœ,œidœ:œSmartRouter-w8q4Wœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       },
       {
         "animated": false,
         "className": "",
         "data": {
           "sourceHandle": {
+            "dataType": "SplitText",
+            "id": "SplitText-3wZk9",
+            "name": "dataframe",
+            "output_types": [
+              "DataFrame"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_df",
+            "id": "KnowledgeIngestion-TuXc7",
+            "inputTypes": [
+              "Data",
+              "DataFrame"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "reactflow__edge-SplitText-3wZk9{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-3wZk9œ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}-KnowledgeIngestion-TuXc7{œfieldNameœ:œinput_dfœ,œidœ:œKnowledgeIngestion-TuXc7œ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "SplitText-3wZk9",
+        "sourceHandle": "{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-3wZk9œ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}",
+        "target": "KnowledgeIngestion-TuXc7",
+        "targetHandle": "{œfieldNameœ:œinput_dfœ,œidœ:œKnowledgeIngestion-TuXc7œ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "SplitText",
+            "id": "SplitText-vOIpD",
+            "name": "dataframe",
+            "output_types": [
+              "DataFrame"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_df",
+            "id": "KnowledgeIngestion-C8FGD",
+            "inputTypes": [
+              "Data",
+              "DataFrame"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "reactflow__edge-SplitText-vOIpD{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-vOIpDœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}-KnowledgeIngestion-C8FGD{œfieldNameœ:œinput_dfœ,œidœ:œKnowledgeIngestion-C8FGDœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "SplitText-vOIpD",
+        "sourceHandle": "{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-vOIpDœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}",
+        "target": "KnowledgeIngestion-C8FGD",
+        "targetHandle": "{œfieldNameœ:œinput_dfœ,œidœ:œKnowledgeIngestion-C8FGDœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "data": {
+          "sourceHandle": {
+            "dataType": "LanguageModelComponent",
+            "id": "LanguageModelComponent-sLthl",
+            "name": "model_output",
+            "output_types": [
+              "LanguageModel"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "llm",
+            "id": "SmartRouter-w8q4W",
+            "inputTypes": [
+              "LanguageModel"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__LanguageModelComponent-sLthl{œdataTypeœ:œLanguageModelComponentœ,œidœ:œLanguageModelComponent-sLthlœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-SmartRouter-w8q4W{œfieldNameœ:œllmœ,œidœ:œSmartRouter-w8q4Wœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "LanguageModelComponent-sLthl",
+        "sourceHandle": "{œdataTypeœ:œLanguageModelComponentœ,œidœ:œLanguageModelComponent-sLthlœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
+        "target": "SmartRouter-w8q4W",
+        "targetHandle": "{œfieldNameœ:œllmœ,œidœ:œSmartRouter-w8q4Wœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "data": {
+          "sourceHandle": {
             "dataType": "SmartRouter",
-            "id": "SmartRouter-Y635w",
+            "id": "SmartRouter-w8q4W",
             "name": "category_1_result",
             "output_types": [
               "Message"
@@ -71,7 +127,7 @@
           },
           "targetHandle": {
             "fieldName": "data_inputs",
-            "id": "SplitText-FbSo1",
+            "id": "SplitText-3wZk9",
             "inputTypes": [
               "Data",
               "DataFrame",
@@ -80,20 +136,19 @@
             "type": "other"
           }
         },
-        "id": "xy-edge__SmartRouter-Y635w{œdataTypeœ:œSmartRouterœ,œidœ:œSmartRouter-Y635wœ,œnameœ:œcategory_1_resultœ,œoutput_typesœ:[œMessageœ]}-SplitText-FbSo1{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-FbSo1œ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
+        "id": "xy-edge__SmartRouter-w8q4W{œdataTypeœ:œSmartRouterœ,œidœ:œSmartRouter-w8q4Wœ,œnameœ:œcategory_1_resultœ,œoutput_typesœ:[œMessageœ]}-SplitText-3wZk9{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-3wZk9œ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "SmartRouter-Y635w",
-        "sourceHandle": "{œdataTypeœ:œSmartRouterœ,œidœ:œSmartRouter-Y635wœ,œnameœ:œcategory_1_resultœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "SplitText-FbSo1",
-        "targetHandle": "{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-FbSo1œ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
+        "source": "SmartRouter-w8q4W",
+        "sourceHandle": "{œdataTypeœ:œSmartRouterœ,œidœ:œSmartRouter-w8q4Wœ,œnameœ:œcategory_1_resultœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "SplitText-3wZk9",
+        "targetHandle": "{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-3wZk9œ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
-        "className": "",
         "data": {
           "sourceHandle": {
             "dataType": "SmartRouter",
-            "id": "SmartRouter-Y635w",
+            "id": "SmartRouter-w8q4W",
             "name": "category_2_result",
             "output_types": [
               "Message"
@@ -101,7 +156,7 @@
           },
           "targetHandle": {
             "fieldName": "data_inputs",
-            "id": "SplitText-IgKq7",
+            "id": "SplitText-vOIpD",
             "inputTypes": [
               "Data",
               "DataFrame",
@@ -110,76 +165,18 @@
             "type": "other"
           }
         },
-        "id": "xy-edge__SmartRouter-Y635w{œdataTypeœ:œSmartRouterœ,œidœ:œSmartRouter-Y635wœ,œnameœ:œcategory_2_resultœ,œoutput_typesœ:[œMessageœ]}-SplitText-IgKq7{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-IgKq7œ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
+        "id": "xy-edge__SmartRouter-w8q4W{œdataTypeœ:œSmartRouterœ,œidœ:œSmartRouter-w8q4Wœ,œnameœ:œcategory_2_resultœ,œoutput_typesœ:[œMessageœ]}-SplitText-vOIpD{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-vOIpDœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "SmartRouter-Y635w",
-        "sourceHandle": "{œdataTypeœ:œSmartRouterœ,œidœ:œSmartRouter-Y635wœ,œnameœ:œcategory_2_resultœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "SplitText-IgKq7",
-        "targetHandle": "{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-IgKq7œ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "SplitText",
-            "id": "SplitText-FbSo1",
-            "name": "dataframe",
-            "output_types": [
-              "DataFrame"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "input_df",
-            "id": "KnowledgeIngestion-z1fuI",
-            "inputTypes": [
-              "Data",
-              "DataFrame"
-            ],
-            "type": "other"
-          }
-        },
-        "id": "xy-edge__SplitText-FbSo1{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-FbSo1œ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}-KnowledgeIngestion-z1fuI{œfieldNameœ:œinput_dfœ,œidœ:œKnowledgeIngestion-z1fuIœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
-        "selected": false,
-        "source": "SplitText-FbSo1",
-        "sourceHandle": "{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-FbSo1œ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}",
-        "target": "KnowledgeIngestion-z1fuI",
-        "targetHandle": "{œfieldNameœ:œinput_dfœ,œidœ:œKnowledgeIngestion-z1fuIœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "SplitText",
-            "id": "SplitText-IgKq7",
-            "name": "dataframe",
-            "output_types": [
-              "DataFrame"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "input_df",
-            "id": "KnowledgeIngestion-Q3l5B",
-            "inputTypes": [
-              "Data",
-              "DataFrame"
-            ],
-            "type": "other"
-          }
-        },
-        "id": "xy-edge__SplitText-IgKq7{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-IgKq7œ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}-KnowledgeIngestion-Q3l5B{œfieldNameœ:œinput_dfœ,œidœ:œKnowledgeIngestion-Q3l5Bœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
-        "selected": false,
-        "source": "SplitText-IgKq7",
-        "sourceHandle": "{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-IgKq7œ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}",
-        "target": "KnowledgeIngestion-Q3l5B",
-        "targetHandle": "{œfieldNameœ:œinput_dfœ,œidœ:œKnowledgeIngestion-Q3l5Bœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}"
+        "source": "SmartRouter-w8q4W",
+        "sourceHandle": "{œdataTypeœ:œSmartRouterœ,œidœ:œSmartRouter-w8q4Wœ,œnameœ:œcategory_2_resultœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "SplitText-vOIpD",
+        "targetHandle": "{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-vOIpDœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
       }
     ],
     "nodes": [
       {
         "data": {
-          "id": "SmartRouter-Y635w",
+          "id": "SmartRouter-w8q4W",
           "node": {
             "base_classes": [],
             "beta": false,
@@ -199,21 +196,20 @@
             ],
             "frozen": false,
             "icon": "equal",
-            "last_updated": "2025-09-26T20:41:15.269Z",
+            "last_updated": "2025-11-05T20:16:58.268Z",
             "legacy": false,
-            "lf_version": "1.6.0",
             "metadata": {
-              "code_hash": "c7ea82a61ad1",
+              "code_hash": "c07080af208a",
               "dependencies": {
                 "dependencies": [
                   {
-                    "name": "langflow",
+                    "name": "lfx",
                     "version": null
                   }
                 ],
                 "total_dependencies": 1
               },
-              "module": "lfx.components.logic.llm_conditional_router.SmartRouterComponent"
+              "module": "custom_components.smart_router"
             },
             "minimized": false,
             "output_types": [],
@@ -272,11 +268,11 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "from typing import Any\n\nfrom langflow.custom import Component\nfrom langflow.io import BoolInput, HandleInput, MessageInput, MessageTextInput, MultilineInput, Output, TableInput\nfrom langflow.schema.message import Message\n\n\nclass SmartRouterComponent(Component):\n    display_name = \"Smart Router\"\n    description = \"Routes an input message using LLM-based categorization.\"\n    icon = \"equal\"\n    name = \"SmartRouter\"\n\n    def __init__(self, **kwargs):\n        super().__init__(**kwargs)\n        self._matched_category = None\n\n    inputs = [\n        HandleInput(\n            name=\"llm\",\n            display_name=\"Language Model\",\n            info=\"LLM to use for categorization.\",\n            input_types=[\"LanguageModel\"],\n            required=True,\n        ),\n        MessageTextInput(\n            name=\"input_text\",\n            display_name=\"Input\",\n            info=\"The primary text input for the operation.\",\n            required=True,\n        ),\n        TableInput(\n            name=\"routes\",\n            display_name=\"Routes\",\n            info=(\n                \"Define the categories for routing. Each row should have a route/category name \"\n                \"and optionally a custom output value.\"\n            ),\n            table_schema=[\n                {\n                    \"name\": \"route_category\",\n                    \"display_name\": \"Route/Category\",\n                    \"type\": \"str\",\n                    \"description\": \"Name for the route/category (used for both output name and category matching)\",\n                },\n                {\n                    \"name\": \"output_value\",\n                    \"display_name\": \"Output Value\",\n                    \"type\": \"str\",\n                    \"description\": \"Custom message for this category (overrides default output message if filled)\",\n                    \"default\": \"\",\n                },\n            ],\n            value=[\n                {\"route_category\": \"Positive\", \"output_value\": \"\"},\n                {\"route_category\": \"Negative\", \"output_value\": \"\"},\n            ],\n            real_time_refresh=True,\n            required=True,\n        ),\n        MessageInput(\n            name=\"message\",\n            display_name=\"Override Output\",\n            info=(\n                \"Optional override message that will replace both the Input and Output Value \"\n                \"for all routes when filled.\"\n            ),\n            required=False,\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"enable_else_output\",\n            display_name=\"Include Else Output\",\n            info=\"Include an Else output for cases that don't match any route.\",\n            value=False,\n            advanced=True,\n        ),\n        MultilineInput(\n            name=\"custom_prompt\",\n            display_name=\"Additional Instructions\",\n            info=(\n                \"Additional instructions for LLM-based categorization. \"\n                \"These will be added to the base prompt. \"\n                \"Use {input_text} for the input text and {routes} for the available categories.\"\n            ),\n            advanced=True,\n        ),\n    ]\n\n    outputs: list[Output] = []\n\n    def update_outputs(self, frontend_node: dict, field_name: str, field_value: Any) -> dict:\n        \"\"\"Create a dynamic output for each category in the categories table.\"\"\"\n        if field_name in {\"routes\", \"enable_else_output\"}:\n            frontend_node[\"outputs\"] = []\n\n            # Get the routes data - either from field_value (if routes field) or from component state\n            routes_data = field_value if field_name == \"routes\" else getattr(self, \"routes\", [])\n\n            # Add a dynamic output for each category - all using the same method\n            for i, row in enumerate(routes_data):\n                route_category = row.get(\"route_category\", f\"Category {i + 1}\")\n                frontend_node[\"outputs\"].append(\n                    Output(\n                        display_name=route_category,\n                        name=f\"category_{i + 1}_result\",\n                        method=\"process_case\",\n                        group_outputs=True,\n                    )\n                )\n            # Add default output only if enabled\n            if field_name == \"enable_else_output\":\n                enable_else = field_value\n            else:\n                enable_else = getattr(self, \"enable_else_output\", False)\n\n            if enable_else:\n                frontend_node[\"outputs\"].append(\n                    Output(display_name=\"Else\", name=\"default_result\", method=\"default_response\", group_outputs=True)\n                )\n        return frontend_node\n\n    def process_case(self) -> Message:\n        \"\"\"Process all categories using LLM categorization and return message for matching category.\"\"\"\n        # Clear any previous match state\n        self._matched_category = None\n\n        categories = getattr(self, \"routes\", [])\n        input_text = getattr(self, \"input_text\", \"\")\n\n        # Find the matching category using LLM-based categorization\n        matched_category = None\n        llm = getattr(self, \"llm\", None)\n\n        if llm and categories:\n            # Create prompt for categorization\n            category_values = [\n                category.get(\"route_category\", f\"Category {i + 1}\") for i, category in enumerate(categories)\n            ]\n            categories_text = \", \".join([f'\"{cat}\"' for cat in category_values if cat])\n\n            # Create base prompt\n            base_prompt = (\n                f\"You are a text classifier. Given the following text and categories, \"\n                f\"determine which category best matches the text.\\n\\n\"\n                f'Text to classify: \"{input_text}\"\\n\\n'\n                f\"Available categories: {categories_text}\\n\\n\"\n                f\"Respond with ONLY the exact category name that best matches the text. \"\n                f'If none match well, respond with \"NONE\".\\n\\n'\n                f\"Category:\"\n            )\n\n            # Use custom prompt as additional instructions if provided\n            custom_prompt = getattr(self, \"custom_prompt\", \"\")\n            if custom_prompt and custom_prompt.strip():\n                self.status = \"Using custom prompt as additional instructions\"\n                # Format custom prompt with variables\n                formatted_custom = custom_prompt.format(input_text=input_text, routes=categories_text)\n                # Combine base prompt with custom instructions\n                prompt = f\"{base_prompt}\\n\\nAdditional Instructions:\\n{formatted_custom}\"\n            else:\n                self.status = \"Using default prompt for LLM categorization\"\n                prompt = base_prompt\n\n            # Log the final prompt being sent to LLM\n            self.status = f\"Prompt sent to LLM:\\n{prompt}\"\n\n            try:\n                # Use the LLM to categorize\n                if hasattr(llm, \"invoke\"):\n                    response = llm.invoke(prompt)\n                    if hasattr(response, \"content\"):\n                        categorization = response.content.strip().strip('\"')\n                    else:\n                        categorization = str(response).strip().strip('\"')\n                else:\n                    categorization = str(llm(prompt)).strip().strip('\"')\n\n                # Log the categorization process\n                self.status = f\"LLM response: '{categorization}'\"\n\n                # Find matching category based on LLM response\n                for i, category in enumerate(categories):\n                    route_category = category.get(\"route_category\", \"\")\n\n                    # Log each comparison attempt\n                    self.status = (\n                        f\"Comparing '{categorization}' with category {i + 1}: route_category='{route_category}'\"\n                    )\n\n                    if categorization.lower() == route_category.lower():\n                        matched_category = i\n                        self.status = f\"MATCH FOUND! Category {i + 1} matched with '{categorization}'\"\n                        break\n\n                if matched_category is None:\n                    self.status = (\n                        f\"No match found for '{categorization}'. Available categories: \"\n                        f\"{[category.get('route_category', '') for category in categories]}\"\n                    )\n\n            except RuntimeError as e:\n                self.status = f\"Error in LLM categorization: {e!s}\"\n        else:\n            self.status = \"No LLM provided for categorization\"\n\n        if matched_category is not None:\n            # Store the matched category for other outputs to check\n            self._matched_category = matched_category\n\n            # Stop all category outputs except the matched one\n            for i in range(len(categories)):\n                if i != matched_category:\n                    self.stop(f\"category_{i + 1}_result\")\n\n            # Also stop the default output (if it exists)\n            enable_else = getattr(self, \"enable_else_output\", False)\n            if enable_else:\n                self.stop(\"default_result\")\n\n            route_category = categories[matched_category].get(\"route_category\", f\"Category {matched_category + 1}\")\n            self.status = f\"Categorized as {route_category}\"\n\n            # Check if there's an override output (takes precedence over everything)\n            override_output = getattr(self, \"message\", None)\n            if (\n                override_output\n                and hasattr(override_output, \"text\")\n                and override_output.text\n                and str(override_output.text).strip()\n            ):\n                return Message(text=str(override_output.text))\n            if override_output and isinstance(override_output, str) and override_output.strip():\n                return Message(text=str(override_output))\n\n            # Check if there's a custom output value for this category\n            custom_output = categories[matched_category].get(\"output_value\", \"\")\n            # Treat None, empty string, or whitespace as blank\n            if custom_output and str(custom_output).strip() and str(custom_output).strip().lower() != \"none\":\n                # Use custom output value\n                return Message(text=str(custom_output))\n            # Use input as default output\n            return Message(text=input_text)\n        # No match found, stop all category outputs\n        for i in range(len(categories)):\n            self.stop(f\"category_{i + 1}_result\")\n\n        # Check if else output is enabled\n        enable_else = getattr(self, \"enable_else_output\", False)\n        if enable_else:\n            # The default_response will handle the else case\n            self.stop(\"process_case\")\n            return Message(text=\"\")\n        # No else output, so no output at all\n        self.status = \"No match found and Else output is disabled\"\n        return Message(text=\"\")\n\n    def default_response(self) -> Message:\n        \"\"\"Handle the else case when no conditions match.\"\"\"\n        # Check if else output is enabled\n        enable_else = getattr(self, \"enable_else_output\", False)\n        if not enable_else:\n            self.status = \"Else output is disabled\"\n            return Message(text=\"\")\n\n        # Clear any previous match state if not already set\n        if not hasattr(self, \"_matched_category\"):\n            self._matched_category = None\n\n        categories = getattr(self, \"routes\", [])\n        input_text = getattr(self, \"input_text\", \"\")\n\n        # Check if a match was already found in process_case\n        if hasattr(self, \"_matched_category\") and self._matched_category is not None:\n            self.status = (\n                f\"Match already found in process_case (Category {self._matched_category + 1}), \"\n                \"stopping default_response\"\n            )\n            self.stop(\"default_result\")\n            return Message(text=\"\")\n\n        # Check if any category matches using LLM categorization\n        has_match = False\n        llm = getattr(self, \"llm\", None)\n\n        if llm and categories:\n            try:\n                # Create prompt for categorization\n                category_values = [\n                    category.get(\"route_category\", f\"Category {i + 1}\") for i, category in enumerate(categories)\n                ]\n                categories_text = \", \".join([f'\"{cat}\"' for cat in category_values if cat])\n\n                # Create base prompt\n                base_prompt = (\n                    \"You are a text classifier. Given the following text and categories, \"\n                    \"determine which category best matches the text.\\n\\n\"\n                    f'Text to classify: \"{input_text}\"\\n\\n'\n                    f\"Available categories: {categories_text}\\n\\n\"\n                    \"Respond with ONLY the exact category name that best matches the text. \"\n                    'If none match well, respond with \"NONE\".\\n\\n'\n                    \"Category:\"\n                )\n\n                # Use custom prompt as additional instructions if provided\n                custom_prompt = getattr(self, \"custom_prompt\", \"\")\n                if custom_prompt and custom_prompt.strip():\n                    self.status = \"Using custom prompt as additional instructions (default check)\"\n                    # Format custom prompt with variables\n                    formatted_custom = custom_prompt.format(input_text=input_text, routes=categories_text)\n                    # Combine base prompt with custom instructions\n                    prompt = f\"{base_prompt}\\n\\nAdditional Instructions:\\n{formatted_custom}\"\n                else:\n                    self.status = \"Using default prompt for LLM categorization (default check)\"\n                    prompt = base_prompt\n\n                # Log the final prompt being sent to LLM for default check\n                self.status = f\"Default check - Prompt sent to LLM:\\n{prompt}\"\n\n                # Use the LLM to categorize\n                if hasattr(llm, \"invoke\"):\n                    response = llm.invoke(prompt)\n                    if hasattr(response, \"content\"):\n                        categorization = response.content.strip().strip('\"')\n                    else:\n                        categorization = str(response).strip().strip('\"')\n                else:\n                    categorization = str(llm(prompt)).strip().strip('\"')\n\n                # Log the categorization process for default check\n                self.status = f\"Default check - LLM response: '{categorization}'\"\n\n                # Check if LLM response matches any category\n                for i, category in enumerate(categories):\n                    route_category = category.get(\"route_category\", \"\")\n\n                    # Log each comparison attempt\n                    self.status = (\n                        f\"Default check - Comparing '{categorization}' with category {i + 1}: \"\n                        f\"route_category='{route_category}'\"\n                    )\n\n                    if categorization.lower() == route_category.lower():\n                        has_match = True\n                        self.status = f\"Default check - MATCH FOUND! Category {i + 1} matched with '{categorization}'\"\n                        break\n\n                if not has_match:\n                    self.status = (\n                        f\"Default check - No match found for '{categorization}'. \"\n                        f\"Available categories: \"\n                        f\"{[category.get('route_category', '') for category in categories]}\"\n                    )\n\n            except RuntimeError:\n                pass  # If there's an error, treat as no match\n\n        if has_match:\n            # A case matches, stop this output\n            self.stop(\"default_result\")\n            return Message(text=\"\")\n\n        # No case matches, check for override output first, then use input as default\n        override_output = getattr(self, \"message\", None)\n        if (\n            override_output\n            and hasattr(override_output, \"text\")\n            and override_output.text\n            and str(override_output.text).strip()\n        ):\n            self.status = \"Routed to Else (no match) - using override output\"\n            return Message(text=str(override_output.text))\n        if override_output and isinstance(override_output, str) and override_output.strip():\n            self.status = \"Routed to Else (no match) - using override output\"\n            return Message(text=str(override_output))\n        self.status = \"Routed to Else (no match) - using input as default\"\n        return Message(text=input_text)\n"
+                "value": "from typing import Any\n\nfrom lfx.custom import Component\nfrom lfx.io import BoolInput, HandleInput, MessageInput, MessageTextInput, MultilineInput, Output, TableInput\nfrom lfx.schema.message import Message\nfrom lfx.schema.table import EditMode\n\n\nclass SmartRouterComponent(Component):\n    display_name = \"Smart Router\"\n    description = \"Routes an input message using LLM-based categorization.\"\n    icon = \"equal\"\n    name = \"SmartRouter\"\n\n    def __init__(self, **kwargs):\n        super().__init__(**kwargs)\n        self._matched_category = None\n\n    inputs = [\n        HandleInput(\n            name=\"llm\",\n            display_name=\"Language Model\",\n            info=\"LLM to use for categorization.\",\n            input_types=[\"LanguageModel\"],\n            required=True,\n        ),\n        MessageTextInput(\n            name=\"input_text\",\n            display_name=\"Input\",\n            info=\"The primary text input for the operation.\",\n            required=True,\n        ),\n        TableInput(\n            name=\"routes\",\n            display_name=\"Routes\",\n            info=(\n                \"Define the categories for routing. Each row should have a route/category name \"\n                \"and optionally a custom output value.\"\n            ),\n            table_schema=[\n                {\n                    \"name\": \"route_category\",\n                    \"display_name\": \"Route Name\",\n                    \"type\": \"str\",\n                    \"description\": \"Name for the route (used for both output name and category matching)\",\n                    \"edit_mode\": EditMode.INLINE,\n                },\n                {\n                    \"name\": \"route_description\",\n                    \"display_name\": \"Route Description\",\n                    \"type\": \"str\",\n                    \"description\": \"Description of when this route should be used (helps LLM understand the category)\",\n                    \"default\": \"\",\n                    \"edit_mode\": EditMode.POPOVER,\n                },\n                {\n                    \"name\": \"output_value\",\n                    \"display_name\": \"Route Message (Optional)\",\n                    \"type\": \"str\",\n                    \"description\": (\n                        \"Optional message to send when this route is matched.\"\n                        \"Leave empty to pass through the original input text.\"\n                    ),\n                    \"default\": \"\",\n                    \"edit_mode\": EditMode.POPOVER,\n                },\n            ],\n            value=[\n                {\n                    \"route_category\": \"Positive\",\n                    \"route_description\": \"Positive feedback, satisfaction, or compliments\",\n                    \"output_value\": \"\",\n                },\n                {\n                    \"route_category\": \"Negative\",\n                    \"route_description\": \"Complaints, issues, or dissatisfaction\",\n                    \"output_value\": \"\",\n                },\n            ],\n            real_time_refresh=True,\n            required=True,\n        ),\n        MessageInput(\n            name=\"message\",\n            display_name=\"Override Output\",\n            info=(\n                \"Optional override message that will replace both the Input and Output Value \"\n                \"for all routes when filled.\"\n            ),\n            required=False,\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"enable_else_output\",\n            display_name=\"Include Else Output\",\n            info=\"Include an Else output for cases that don't match any route.\",\n            value=False,\n            advanced=True,\n        ),\n        MultilineInput(\n            name=\"custom_prompt\",\n            display_name=\"Additional Instructions\",\n            info=(\n                \"Additional instructions for LLM-based categorization. \"\n                \"These will be added to the base prompt. \"\n                \"Use {input_text} for the input text and {routes} for the available categories.\"\n            ),\n            advanced=True,\n        ),\n    ]\n\n    outputs: list[Output] = []\n\n    def update_outputs(self, frontend_node: dict, field_name: str, field_value: Any) -> dict:\n        \"\"\"Create a dynamic output for each category in the categories table.\"\"\"\n        if field_name in {\"routes\", \"enable_else_output\"}:\n            frontend_node[\"outputs\"] = []\n\n            # Get the routes data - either from field_value (if routes field) or from component state\n            routes_data = field_value if field_name == \"routes\" else getattr(self, \"routes\", [])\n\n            # Add a dynamic output for each category - all using the same method\n            for i, row in enumerate(routes_data):\n                route_category = row.get(\"route_category\", f\"Category {i + 1}\")\n                frontend_node[\"outputs\"].append(\n                    Output(\n                        display_name=route_category,\n                        name=f\"category_{i + 1}_result\",\n                        method=\"process_case\",\n                        group_outputs=True,\n                    )\n                )\n            # Add default output only if enabled\n            if field_name == \"enable_else_output\":\n                enable_else = field_value\n            else:\n                enable_else = getattr(self, \"enable_else_output\", False)\n\n            if enable_else:\n                frontend_node[\"outputs\"].append(\n                    Output(display_name=\"Else\", name=\"default_result\", method=\"default_response\", group_outputs=True)\n                )\n        return frontend_node\n\n    def process_case(self) -> Message:\n        \"\"\"Process all categories using LLM categorization and return message for matching category.\"\"\"\n        # Clear any previous match state\n        self._matched_category = None\n\n        # Get categories and input text\n        categories = getattr(self, \"routes\", [])\n        input_text = getattr(self, \"input_text\", \"\")\n\n        # Find the matching category using LLM-based categorization\n        matched_category = None\n        llm = getattr(self, \"llm\", None)\n\n        if llm and categories:\n            # Create prompt for categorization\n            category_info = []\n            for i, category in enumerate(categories):\n                cat_name = category.get(\"route_category\", f\"Category {i + 1}\")\n                cat_desc = category.get(\"route_description\", \"\")\n                if cat_desc and cat_desc.strip():\n                    category_info.append(f'\"{cat_name}\": {cat_desc}')\n                else:\n                    category_info.append(f'\"{cat_name}\"')\n\n            categories_text = \"\\n\".join([f\"- {info}\" for info in category_info if info])\n\n            # Create base prompt\n            base_prompt = (\n                f\"You are a text classifier. Given the following text and categories, \"\n                f\"determine which category best matches the text.\\n\\n\"\n                f'Text to classify: \"{input_text}\"\\n\\n'\n                f\"Available categories:\\n{categories_text}\\n\\n\"\n                f\"Respond with ONLY the exact category name that best matches the text. \"\n                f'If none match well, respond with \"NONE\".\\n\\n'\n                f\"Category:\"\n            )\n\n            # Use custom prompt as additional instructions if provided\n            custom_prompt = getattr(self, \"custom_prompt\", \"\")\n            if custom_prompt and custom_prompt.strip():\n                self.status = \"Using custom prompt as additional instructions\"\n                # Format custom prompt with variables\n                # For the routes variable, create a simpler format for custom prompt usage\n                simple_routes = \", \".join(\n                    [f'\"{cat.get(\"route_category\", f\"Category {i + 1}\")}\"' for i, cat in enumerate(categories)]\n                )\n                formatted_custom = custom_prompt.format(input_text=input_text, routes=simple_routes)\n                # Combine base prompt with custom instructions\n                prompt = f\"{base_prompt}\\n\\nAdditional Instructions:\\n{formatted_custom}\"\n            else:\n                self.status = \"Using default prompt for LLM categorization\"\n                prompt = base_prompt\n\n            # Log the final prompt being sent to LLM\n            self.status = f\"Prompt sent to LLM:\\n{prompt}\"\n\n            try:\n                # Use the LLM to categorize\n                if hasattr(llm, \"invoke\"):\n                    response = llm.invoke(prompt)\n                    if hasattr(response, \"content\"):\n                        categorization = response.content.strip().strip('\"')\n                    else:\n                        categorization = str(response).strip().strip('\"')\n                else:\n                    categorization = str(llm(prompt)).strip().strip('\"')\n\n                # Log the categorization process\n                self.status = f\"LLM response: '{categorization}'\"\n\n                # Find matching category based on LLM response\n                for i, category in enumerate(categories):\n                    route_category = category.get(\"route_category\", \"\")\n\n                    # Log each comparison attempt\n                    self.status = (\n                        f\"Comparing '{categorization}' with category {i + 1}: route_category='{route_category}'\"\n                    )\n\n                    # Case-insensitive match\n                    if categorization.lower() == route_category.lower():\n                        matched_category = i\n                        self.status = f\"MATCH FOUND! Category {i + 1} matched with '{categorization}'\"\n                        break\n\n                if matched_category is None:\n                    self.status = (\n                        f\"No match found for '{categorization}'. Available categories: \"\n                        f\"{[category.get('route_category', '') for category in categories]}\"\n                    )\n\n            except RuntimeError as e:\n                self.status = f\"Error in LLM categorization: {e!s}\"\n        else:\n            self.status = \"No LLM provided for categorization\"\n\n        if matched_category is not None:\n            # Store the matched category for other outputs to check\n            self._matched_category = matched_category\n\n            # Stop all category outputs except the matched one\n            for i in range(len(categories)):\n                if i != matched_category:\n                    self.stop(f\"category_{i + 1}_result\")\n\n            # Also stop the default output (if it exists)\n            enable_else = getattr(self, \"enable_else_output\", False)\n            if enable_else:\n                self.stop(\"default_result\")\n\n            route_category = categories[matched_category].get(\"route_category\", f\"Category {matched_category + 1}\")\n            self.status = f\"Categorized as {route_category}\"\n\n            # Check if there's an override output (takes precedence over everything)\n            override_output = getattr(self, \"message\", None)\n            if (\n                override_output\n                and hasattr(override_output, \"text\")\n                and override_output.text\n                and str(override_output.text).strip()\n            ):\n                return Message(text=str(override_output.text))\n            if override_output and isinstance(override_output, str) and override_output.strip():\n                return Message(text=str(override_output))\n\n            # Check if there's a custom output value for this category\n            custom_output = categories[matched_category].get(\"output_value\", \"\")\n            # Treat None, empty string, or whitespace as blank\n            if custom_output and str(custom_output).strip() and str(custom_output).strip().lower() != \"none\":\n                # Use custom output value\n                return Message(text=str(custom_output))\n            # Use input as default output\n            return Message(text=input_text)\n        # No match found, stop all category outputs\n        for i in range(len(categories)):\n            self.stop(f\"category_{i + 1}_result\")\n\n        # Check if else output is enabled\n        enable_else = getattr(self, \"enable_else_output\", False)\n        if enable_else:\n            # The default_response will handle the else case\n            self.stop(\"process_case\")\n            return Message(text=\"\")\n        # No else output, so no output at all\n        self.status = \"No match found and Else output is disabled\"\n        return Message(text=\"\")\n\n    def default_response(self) -> Message:\n        \"\"\"Handle the else case when no conditions match.\"\"\"\n        # Check if else output is enabled\n        enable_else = getattr(self, \"enable_else_output\", False)\n        if not enable_else:\n            self.status = \"Else output is disabled\"\n            return Message(text=\"\")\n\n        # Clear any previous match state if not already set\n        if not hasattr(self, \"_matched_category\"):\n            self._matched_category = None\n\n        categories = getattr(self, \"routes\", [])\n        input_text = getattr(self, \"input_text\", \"\")\n\n        # Check if a match was already found in process_case\n        if hasattr(self, \"_matched_category\") and self._matched_category is not None:\n            self.status = (\n                f\"Match already found in process_case (Category {self._matched_category + 1}), \"\n                \"stopping default_response\"\n            )\n            self.stop(\"default_result\")\n            return Message(text=\"\")\n\n        # Check if any category matches using LLM categorization\n        has_match = False\n        llm = getattr(self, \"llm\", None)\n\n        if llm and categories:\n            try:\n                # Create prompt for categorization\n                category_info = []\n                for i, category in enumerate(categories):\n                    cat_name = category.get(\"route_category\", f\"Category {i + 1}\")\n                    cat_desc = category.get(\"route_description\", \"\")\n                    if cat_desc and cat_desc.strip():\n                        category_info.append(f'\"{cat_name}\": {cat_desc}')\n                    else:\n                        category_info.append(f'\"{cat_name}\"')\n\n                categories_text = \"\\n\".join([f\"- {info}\" for info in category_info if info])\n\n                # Create base prompt\n                base_prompt = (\n                    \"You are a text classifier. Given the following text and categories, \"\n                    \"determine which category best matches the text.\\n\\n\"\n                    f'Text to classify: \"{input_text}\"\\n\\n'\n                    f\"Available categories:\\n{categories_text}\\n\\n\"\n                    \"Respond with ONLY the exact category name that best matches the text. \"\n                    'If none match well, respond with \"NONE\".\\n\\n'\n                    \"Category:\"\n                )\n\n                # Use custom prompt as additional instructions if provided\n                custom_prompt = getattr(self, \"custom_prompt\", \"\")\n                if custom_prompt and custom_prompt.strip():\n                    self.status = \"Using custom prompt as additional instructions (default check)\"\n                    # Format custom prompt with variables\n                    # For the routes variable, create a simpler format for custom prompt usage\n                    simple_routes = \", \".join(\n                        [f'\"{cat.get(\"route_category\", f\"Category {i + 1}\")}\"' for i, cat in enumerate(categories)]\n                    )\n                    formatted_custom = custom_prompt.format(input_text=input_text, routes=simple_routes)\n                    # Combine base prompt with custom instructions\n                    prompt = f\"{base_prompt}\\n\\nAdditional Instructions:\\n{formatted_custom}\"\n                else:\n                    self.status = \"Using default prompt for LLM categorization (default check)\"\n                    prompt = base_prompt\n\n                # Log the final prompt being sent to LLM for default check\n                self.status = f\"Default check - Prompt sent to LLM:\\n{prompt}\"\n\n                # Use the LLM to categorize\n                if hasattr(llm, \"invoke\"):\n                    response = llm.invoke(prompt)\n                    if hasattr(response, \"content\"):\n                        categorization = response.content.strip().strip('\"')\n                    else:\n                        categorization = str(response).strip().strip('\"')\n                else:\n                    categorization = str(llm(prompt)).strip().strip('\"')\n\n                # Log the categorization process for default check\n                self.status = f\"Default check - LLM response: '{categorization}'\"\n\n                # Check if LLM response matches any category\n                for i, category in enumerate(categories):\n                    route_category = category.get(\"route_category\", \"\")\n\n                    # Log each comparison attempt\n                    self.status = (\n                        f\"Default check - Comparing '{categorization}' with category {i + 1}: \"\n                        f\"route_category='{route_category}'\"\n                    )\n\n                    if categorization.lower() == route_category.lower():\n                        has_match = True\n                        self.status = f\"Default check - MATCH FOUND! Category {i + 1} matched with '{categorization}'\"\n                        break\n\n                if not has_match:\n                    self.status = (\n                        f\"Default check - No match found for '{categorization}'. \"\n                        f\"Available categories: \"\n                        f\"{[category.get('route_category', '') for category in categories]}\"\n                    )\n\n            except RuntimeError:\n                pass  # If there's an error, treat as no match\n\n        if has_match:\n            # A case matches, stop this output\n            self.stop(\"default_result\")\n            return Message(text=\"\")\n\n        # No case matches, check for override output first, then use input as default\n        override_output = getattr(self, \"message\", None)\n        if (\n            override_output\n            and hasattr(override_output, \"text\")\n            and override_output.text\n            and str(override_output.text).strip()\n        ):\n            self.status = \"Routed to Else (no match) - using override output\"\n            return Message(text=str(override_output.text))\n        if override_output and isinstance(override_output, str) and override_output.strip():\n            self.status = \"Routed to Else (no match) - using override output\"\n            return Message(text=str(override_output))\n        self.status = \"Routed to Else (no match) - using input as default\"\n        return Message(text=input_text)\n"
               },
               "custom_prompt": {
                 "_input_type": "MultilineInput",
-                "advanced": false,
+                "advanced": true,
                 "copy_field": false,
                 "display_name": "Additional Instructions",
                 "dynamic": false,
@@ -391,6 +387,7 @@
                 "info": "Define the categories for routing. Each row should have a route/category name and optionally a custom output value.",
                 "is_list": true,
                 "list_add_label": "Add More",
+                "load_from_db": false,
                 "name": "routes",
                 "placeholder": "",
                 "real_time_refresh": true,
@@ -399,16 +396,27 @@
                 "table_icon": "Table",
                 "table_schema": [
                   {
-                    "description": "Name for the route/category (used for both output name and category matching)",
-                    "display_name": "Route/Category",
+                    "description": "Name for the route (used for both output name and category matching)",
+                    "display_name": "Route Name",
+                    "edit_mode": "inline",
                     "formatter": "text",
                     "name": "route_category",
                     "type": "str"
                   },
                   {
                     "default": "",
-                    "description": "Custom message for this category (overrides default output message if filled)",
-                    "display_name": "Output Value",
+                    "description": "Description of when this route should be used (helps LLM understand the category)",
+                    "display_name": "Route Description",
+                    "edit_mode": "popover",
+                    "formatter": "text",
+                    "name": "route_description",
+                    "type": "str"
+                  },
+                  {
+                    "default": "",
+                    "description": "Optional message to send when this route is matched.Leave empty to pass through the original input text.",
+                    "display_name": "Route Message (Optional)",
+                    "edit_mode": "popover",
                     "formatter": "text",
                     "name": "output_value",
                     "type": "str"
@@ -438,351 +446,21 @@
           "type": "SmartRouter"
         },
         "dragging": false,
-        "id": "SmartRouter-Y635w",
+        "id": "SmartRouter-w8q4W",
         "measured": {
-          "height": 474,
+          "height": 391,
           "width": 320
         },
         "position": {
-          "x": 398.3577638098218,
-          "y": 555.5622212340828
+          "x": 401.7703467064981,
+          "y": 284.1924296201529
         },
         "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "LanguageModelComponent-zMWxY",
-          "node": {
-            "base_classes": [
-              "LanguageModel",
-              "Message"
-            ],
-            "beta": false,
-            "conditional_paths": [],
-            "custom_fields": {},
-            "description": "Runs a language model given a specified provider.",
-            "display_name": "Language Model",
-            "documentation": "https://docs.langflow.org/components-models",
-            "edited": false,
-            "field_order": [
-              "provider",
-              "model_name",
-              "api_key",
-              "input_value",
-              "system_message",
-              "stream",
-              "temperature"
-            ],
-            "frozen": false,
-            "icon": "brain-circuit",
-            "last_updated": "2025-09-26T20:41:15.271Z",
-            "legacy": false,
-            "lf_version": "1.6.0",
-            "metadata": {
-              "code_hash": "bb5f8714781b",
-              "dependencies": {
-                "dependencies": [
-                  {
-                    "name": "langchain_anthropic",
-                    "version": "0.3.14"
-                  },
-                  {
-                    "name": "langchain_google_genai",
-                    "version": "2.0.6"
-                  },
-                  {
-                    "name": "langchain_openai",
-                    "version": "0.3.23"
-                  },
-                  {
-                    "name": "lfx",
-                    "version": null
-                  }
-                ],
-                "total_dependencies": 4
-              },
-              "keywords": [
-                "model",
-                "llm",
-                "language model",
-                "large language model"
-              ],
-              "module": "lfx.components.models.language_model.LanguageModelComponent"
-            },
-            "minimized": false,
-            "output_types": [],
-            "outputs": [
-              {
-                "allows_loop": false,
-                "cache": true,
-                "display_name": "Model Response",
-                "group_outputs": false,
-                "method": "text_response",
-                "name": "text_output",
-                "options": null,
-                "required_inputs": null,
-                "selected": "Message",
-                "tool_mode": true,
-                "types": [
-                  "Message"
-                ],
-                "value": "__UNDEFINED__"
-              },
-              {
-                "allows_loop": false,
-                "cache": true,
-                "display_name": "Language Model",
-                "group_outputs": false,
-                "method": "build_model",
-                "name": "model_output",
-                "options": null,
-                "required_inputs": null,
-                "selected": "LanguageModel",
-                "tool_mode": true,
-                "types": [
-                  "LanguageModel"
-                ],
-                "value": "__UNDEFINED__"
-              }
-            ],
-            "pinned": false,
-            "priority": 0,
-            "template": {
-              "_type": "Component",
-              "api_key": {
-                "_input_type": "SecretStrInput",
-                "advanced": false,
-                "display_name": "OpenAI API Key",
-                "dynamic": false,
-                "info": "Model Provider API key",
-                "input_types": [],
-                "load_from_db": true,
-                "name": "api_key",
-                "password": true,
-                "placeholder": "",
-                "real_time_refresh": true,
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "type": "str",
-                "value": ""
-              },
-              "code": {
-                "advanced": true,
-                "dynamic": true,
-                "fileTypes": [],
-                "file_path": "",
-                "info": "",
-                "list": false,
-                "load_from_db": false,
-                "multiline": true,
-                "name": "code",
-                "password": false,
-                "placeholder": "",
-                "required": true,
-                "show": true,
-                "title_case": false,
-                "type": "code",
-                "value": "from typing import Any\n\nfrom langchain_anthropic import ChatAnthropic\nfrom langchain_google_genai import ChatGoogleGenerativeAI\nfrom langchain_openai import ChatOpenAI\n\nfrom lfx.base.models.anthropic_constants import ANTHROPIC_MODELS\nfrom lfx.base.models.google_generative_ai_constants import GOOGLE_GENERATIVE_AI_MODELS\nfrom lfx.base.models.model import LCModelComponent\nfrom lfx.base.models.openai_constants import OPENAI_CHAT_MODEL_NAMES, OPENAI_REASONING_MODEL_NAMES\nfrom lfx.field_typing import LanguageModel\nfrom lfx.field_typing.range_spec import RangeSpec\nfrom lfx.inputs.inputs import BoolInput\nfrom lfx.io import DropdownInput, MessageInput, MultilineInput, SecretStrInput, SliderInput\nfrom lfx.schema.dotdict import dotdict\n\n\nclass LanguageModelComponent(LCModelComponent):\n    display_name = \"Language Model\"\n    description = \"Runs a language model given a specified provider.\"\n    documentation: str = \"https://docs.langflow.org/components-models\"\n    icon = \"brain-circuit\"\n    category = \"models\"\n    priority = 0  # Set priority to 0 to make it appear first\n\n    inputs = [\n        DropdownInput(\n            name=\"provider\",\n            display_name=\"Model Provider\",\n            options=[\"OpenAI\", \"Anthropic\", \"Google\"],\n            value=\"OpenAI\",\n            info=\"Select the model provider\",\n            real_time_refresh=True,\n            options_metadata=[{\"icon\": \"OpenAI\"}, {\"icon\": \"Anthropic\"}, {\"icon\": \"GoogleGenerativeAI\"}],\n        ),\n        DropdownInput(\n            name=\"model_name\",\n            display_name=\"Model Name\",\n            options=OPENAI_CHAT_MODEL_NAMES + OPENAI_REASONING_MODEL_NAMES,\n            value=OPENAI_CHAT_MODEL_NAMES[0],\n            info=\"Select the model to use\",\n            real_time_refresh=True,\n        ),\n        SecretStrInput(\n            name=\"api_key\",\n            display_name=\"OpenAI API Key\",\n            info=\"Model Provider API key\",\n            required=False,\n            show=True,\n            real_time_refresh=True,\n        ),\n        MessageInput(\n            name=\"input_value\",\n            display_name=\"Input\",\n            info=\"The input text to send to the model\",\n        ),\n        MultilineInput(\n            name=\"system_message\",\n            display_name=\"System Message\",\n            info=\"A system message that helps set the behavior of the assistant\",\n            advanced=False,\n        ),\n        BoolInput(\n            name=\"stream\",\n            display_name=\"Stream\",\n            info=\"Whether to stream the response\",\n            value=False,\n            advanced=True,\n        ),\n        SliderInput(\n            name=\"temperature\",\n            display_name=\"Temperature\",\n            value=0.1,\n            info=\"Controls randomness in responses\",\n            range_spec=RangeSpec(min=0, max=1, step=0.01),\n            advanced=True,\n        ),\n    ]\n\n    def build_model(self) -> LanguageModel:\n        provider = self.provider\n        model_name = self.model_name\n        temperature = self.temperature\n        stream = self.stream\n\n        if provider == \"OpenAI\":\n            if not self.api_key:\n                msg = \"OpenAI API key is required when using OpenAI provider\"\n                raise ValueError(msg)\n\n            if model_name in OPENAI_REASONING_MODEL_NAMES:\n                # reasoning models do not support temperature (yet)\n                temperature = None\n\n            return ChatOpenAI(\n                model_name=model_name,\n                temperature=temperature,\n                streaming=stream,\n                openai_api_key=self.api_key,\n            )\n        if provider == \"Anthropic\":\n            if not self.api_key:\n                msg = \"Anthropic API key is required when using Anthropic provider\"\n                raise ValueError(msg)\n            return ChatAnthropic(\n                model=model_name,\n                temperature=temperature,\n                streaming=stream,\n                anthropic_api_key=self.api_key,\n            )\n        if provider == \"Google\":\n            if not self.api_key:\n                msg = \"Google API key is required when using Google provider\"\n                raise ValueError(msg)\n            return ChatGoogleGenerativeAI(\n                model=model_name,\n                temperature=temperature,\n                streaming=stream,\n                google_api_key=self.api_key,\n            )\n        msg = f\"Unknown provider: {provider}\"\n        raise ValueError(msg)\n\n    def update_build_config(self, build_config: dotdict, field_value: Any, field_name: str | None = None) -> dotdict:\n        if field_name == \"provider\":\n            if field_value == \"OpenAI\":\n                build_config[\"model_name\"][\"options\"] = OPENAI_CHAT_MODEL_NAMES + OPENAI_REASONING_MODEL_NAMES\n                build_config[\"model_name\"][\"value\"] = OPENAI_CHAT_MODEL_NAMES[0]\n                build_config[\"api_key\"][\"display_name\"] = \"OpenAI API Key\"\n            elif field_value == \"Anthropic\":\n                build_config[\"model_name\"][\"options\"] = ANTHROPIC_MODELS\n                build_config[\"model_name\"][\"value\"] = ANTHROPIC_MODELS[0]\n                build_config[\"api_key\"][\"display_name\"] = \"Anthropic API Key\"\n            elif field_value == \"Google\":\n                build_config[\"model_name\"][\"options\"] = GOOGLE_GENERATIVE_AI_MODELS\n                build_config[\"model_name\"][\"value\"] = GOOGLE_GENERATIVE_AI_MODELS[0]\n                build_config[\"api_key\"][\"display_name\"] = \"Google API Key\"\n        elif field_name == \"model_name\" and field_value.startswith(\"o1\") and self.provider == \"OpenAI\":\n            # Hide system_message for o1 models - currently unsupported\n            if \"system_message\" in build_config:\n                build_config[\"system_message\"][\"show\"] = False\n        elif field_name == \"model_name\" and not field_value.startswith(\"o1\") and \"system_message\" in build_config:\n            build_config[\"system_message\"][\"show\"] = True\n        return build_config\n"
-              },
-              "input_value": {
-                "_input_type": "MessageInput",
-                "advanced": false,
-                "display_name": "Input",
-                "dynamic": false,
-                "info": "The input text to send to the model",
-                "input_types": [
-                  "Message"
-                ],
-                "list": false,
-                "list_add_label": "Add More",
-                "load_from_db": false,
-                "name": "input_value",
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_input": true,
-                "trace_as_metadata": true,
-                "type": "str",
-                "value": ""
-              },
-              "model_name": {
-                "_input_type": "DropdownInput",
-                "advanced": false,
-                "combobox": false,
-                "dialog_inputs": {},
-                "display_name": "Model Name",
-                "dynamic": false,
-                "external_options": {},
-                "info": "Select the model to use",
-                "name": "model_name",
-                "options": [
-                  "gpt-4o-mini",
-                  "gpt-4o",
-                  "gpt-4.1",
-                  "gpt-4.1-mini",
-                  "gpt-4.1-nano",
-                  "gpt-4-turbo",
-                  "gpt-4-turbo-preview",
-                  "gpt-4",
-                  "gpt-3.5-turbo",
-                  "gpt-5",
-                  "gpt-5-mini",
-                  "gpt-5-nano",
-                  "gpt-5-chat-latest",
-                  "o1",
-                  "o3-mini",
-                  "o3",
-                  "o3-pro",
-                  "o4-mini",
-                  "o4-mini-high"
-                ],
-                "options_metadata": [],
-                "placeholder": "",
-                "real_time_refresh": true,
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "toggle": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "type": "str",
-                "value": "gpt-4.1"
-              },
-              "provider": {
-                "_input_type": "DropdownInput",
-                "advanced": false,
-                "combobox": false,
-                "dialog_inputs": {},
-                "display_name": "Model Provider",
-                "dynamic": false,
-                "external_options": {},
-                "info": "Select the model provider",
-                "name": "provider",
-                "options": [
-                  "OpenAI",
-                  "Anthropic",
-                  "Google"
-                ],
-                "options_metadata": [
-                  {
-                    "icon": "OpenAI"
-                  },
-                  {
-                    "icon": "Anthropic"
-                  },
-                  {
-                    "icon": "GoogleGenerativeAI"
-                  }
-                ],
-                "placeholder": "",
-                "real_time_refresh": true,
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "toggle": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "type": "str",
-                "value": "OpenAI"
-              },
-              "stream": {
-                "_input_type": "BoolInput",
-                "advanced": true,
-                "display_name": "Stream",
-                "dynamic": false,
-                "info": "Whether to stream the response",
-                "list": false,
-                "list_add_label": "Add More",
-                "name": "stream",
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "type": "bool",
-                "value": false
-              },
-              "system_message": {
-                "_input_type": "MultilineInput",
-                "advanced": false,
-                "copy_field": false,
-                "display_name": "System Message",
-                "dynamic": false,
-                "info": "A system message that helps set the behavior of the assistant",
-                "input_types": [
-                  "Message"
-                ],
-                "list": false,
-                "list_add_label": "Add More",
-                "load_from_db": false,
-                "multiline": true,
-                "name": "system_message",
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_input": true,
-                "trace_as_metadata": true,
-                "type": "str",
-                "value": ""
-              },
-              "temperature": {
-                "_input_type": "SliderInput",
-                "advanced": true,
-                "display_name": "Temperature",
-                "dynamic": false,
-                "info": "Controls randomness in responses",
-                "max_label": "",
-                "max_label_icon": "",
-                "min_label": "",
-                "min_label_icon": "",
-                "name": "temperature",
-                "placeholder": "",
-                "range_spec": {
-                  "max": 1,
-                  "min": 0,
-                  "step": 0.01,
-                  "step_type": "float"
-                },
-                "required": false,
-                "show": true,
-                "slider_buttons": false,
-                "slider_buttons_options": [],
-                "slider_input": false,
-                "title_case": false,
-                "tool_mode": false,
-                "type": "slider",
-                "value": 0.1
-              }
-            },
-            "tool_mode": false
-          },
-          "selected_output": "model_output",
-          "showNode": false,
-          "type": "LanguageModelComponent"
-        },
-        "dragging": false,
-        "id": "LanguageModelComponent-zMWxY",
-        "measured": {
-          "height": 48,
-          "width": 192
-        },
-        "position": {
-          "x": 12.930183033963374,
-          "y": 542.3082955414574
-        },
-        "selected": false,
-        "type": "genericNode"
-      },
-      {
-        "data": {
-          "id": "File-PG4mr",
+          "id": "File-xqev4",
           "node": {
             "base_classes": [
               "Message"
@@ -791,7 +469,7 @@
             "conditional_paths": [],
             "custom_fields": {},
             "description": "Loads content from one or more files.",
-            "display_name": "File",
+            "display_name": "Read File",
             "documentation": "https://docs.langflow.org/components-data#file",
             "edited": false,
             "field_order": [
@@ -814,11 +492,10 @@
             ],
             "frozen": false,
             "icon": "file-text",
-            "last_updated": "2025-09-26T20:41:15.273Z",
+            "last_updated": "2025-11-05T20:16:53.087Z",
             "legacy": false,
-            "lf_version": "1.6.0",
             "metadata": {
-              "code_hash": "9a1d497f4f91",
+              "code_hash": "85abc1094130",
               "dependencies": {
                 "dependencies": [
                   {
@@ -828,7 +505,7 @@
                 ],
                 "total_dependencies": 1
               },
-              "module": "lfx.components.data.file.FileComponent"
+              "module": "custom_components.read_file"
             },
             "minimized": false,
             "output_types": [],
@@ -848,23 +525,6 @@
                   "Message"
                 ],
                 "value": "__UNDEFINED__"
-              },
-              {
-                "allows_loop": false,
-                "cache": true,
-                "display_name": "File Path",
-                "group_outputs": false,
-                "hidden": null,
-                "method": "load_files_path",
-                "name": "path",
-                "options": null,
-                "required_inputs": null,
-                "selected": "Message",
-                "tool_mode": true,
-                "types": [
-                  "Message"
-                ],
-                "value": "__UNDEFINED__"
               }
             ],
             "pinned": false,
@@ -872,10 +532,10 @@
               "_type": "Component",
               "advanced_mode": {
                 "_input_type": "BoolInput",
-                "advanced": true,
+                "advanced": false,
                 "display_name": "Advanced Parser",
                 "dynamic": false,
-                "info": "Enable advanced document processing and export with Docling for PDFs, images, and office documents. Available only for single file processing.Note that advanced document processing can consume significant resources.",
+                "info": "Enable advanced document processing and export with Docling for PDFs, images, and office documents. Note that advanced document processing can consume significant resources.",
                 "list": false,
                 "list_add_label": "Add More",
                 "name": "advanced_mode",
@@ -905,7 +565,7 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "\"\"\"Enhanced file component with Docling support and process isolation.\n\nNotes:\n-----\n- ALL Docling parsing/export runs in a separate OS process to prevent memory\n  growth and native library state from impacting the main Langflow process.\n- Standard text/structured parsing continues to use existing BaseFileComponent\n  utilities (and optional threading via `parallel_load_data`).\n\"\"\"\n\nfrom __future__ import annotations\n\nimport json\nimport subprocess\nimport sys\nimport textwrap\nfrom copy import deepcopy\nfrom typing import Any\n\nfrom lfx.base.data.base_file import BaseFileComponent\nfrom lfx.base.data.utils import TEXT_FILE_TYPES, parallel_load_data, parse_text_file_to_data\nfrom lfx.inputs.inputs import DropdownInput, MessageTextInput, StrInput\nfrom lfx.io import BoolInput, FileInput, IntInput, Output\nfrom lfx.schema import DataFrame  # noqa: TC001\nfrom lfx.schema.data import Data\nfrom lfx.schema.message import Message\n\n\nclass FileComponent(BaseFileComponent):\n    \"\"\"File component with optional Docling processing (isolated in a subprocess).\"\"\"\n\n    display_name = \"File\"\n    description = \"Loads content from one or more files.\"\n    documentation: str = \"https://docs.langflow.org/components-data#file\"\n    icon = \"file-text\"\n    name = \"File\"\n\n    # Docling-supported/compatible extensions; TEXT_FILE_TYPES are supported by the base loader.\n    VALID_EXTENSIONS = [\n        *TEXT_FILE_TYPES,\n        \"adoc\",\n        \"asciidoc\",\n        \"asc\",\n        \"bmp\",\n        \"dotx\",\n        \"dotm\",\n        \"docm\",\n        \"jpeg\",\n        \"png\",\n        \"potx\",\n        \"ppsx\",\n        \"pptm\",\n        \"potm\",\n        \"ppsm\",\n        \"pptx\",\n        \"tiff\",\n        \"xls\",\n        \"xlsx\",\n        \"xhtml\",\n        \"webp\",\n    ]\n\n    # Fixed export settings used when markdown export is requested.\n    EXPORT_FORMAT = \"Markdown\"\n    IMAGE_MODE = \"placeholder\"\n\n    _base_inputs = deepcopy(BaseFileComponent.get_base_inputs())\n\n    for input_item in _base_inputs:\n        if isinstance(input_item, FileInput) and input_item.name == \"path\":\n            input_item.real_time_refresh = True\n            break\n\n    inputs = [\n        *_base_inputs,\n        BoolInput(\n            name=\"advanced_mode\",\n            display_name=\"Advanced Parser\",\n            value=False,\n            real_time_refresh=True,\n            info=(\n                \"Enable advanced document processing and export with Docling for PDFs, images, and office documents. \"\n                \"Available only for single file processing.\"\n                \"Note that advanced document processing can consume significant resources.\"\n            ),\n            show=False,\n        ),\n        DropdownInput(\n            name=\"pipeline\",\n            display_name=\"Pipeline\",\n            info=\"Docling pipeline to use\",\n            options=[\"standard\", \"vlm\"],\n            value=\"standard\",\n            advanced=True,\n            real_time_refresh=True,\n        ),\n        DropdownInput(\n            name=\"ocr_engine\",\n            display_name=\"OCR Engine\",\n            info=\"OCR engine to use. Only available when pipeline is set to 'standard'.\",\n            options=[\"None\", \"easyocr\"],\n            value=\"easyocr\",\n            show=False,\n            advanced=True,\n        ),\n        StrInput(\n            name=\"md_image_placeholder\",\n            display_name=\"Image placeholder\",\n            info=\"Specify the image placeholder for markdown exports.\",\n            value=\"<!-- image -->\",\n            advanced=True,\n            show=False,\n        ),\n        StrInput(\n            name=\"md_page_break_placeholder\",\n            display_name=\"Page break placeholder\",\n            info=\"Add this placeholder between pages in the markdown output.\",\n            value=\"\",\n            advanced=True,\n            show=False,\n        ),\n        MessageTextInput(\n            name=\"doc_key\",\n            display_name=\"Doc Key\",\n            info=\"The key to use for the DoclingDocument column.\",\n            value=\"doc\",\n            advanced=True,\n            show=False,\n        ),\n        # Deprecated input retained for backward-compatibility.\n        BoolInput(\n            name=\"use_multithreading\",\n            display_name=\"[Deprecated] Use Multithreading\",\n            advanced=True,\n            value=True,\n            info=\"Set 'Processing Concurrency' greater than 1 to enable multithreading.\",\n        ),\n        IntInput(\n            name=\"concurrency_multithreading\",\n            display_name=\"Processing Concurrency\",\n            advanced=True,\n            info=\"When multiple files are being processed, the number of files to process concurrently.\",\n            value=1,\n        ),\n        BoolInput(\n            name=\"markdown\",\n            display_name=\"Markdown Export\",\n            info=\"Export processed documents to Markdown format. Only available when advanced mode is enabled.\",\n            value=False,\n            show=False,\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Raw Content\", name=\"message\", method=\"load_files_message\"),\n    ]\n\n    # ------------------------------ UI helpers --------------------------------------\n\n    def _path_value(self, template: dict) -> list[str]:\n        \"\"\"Return the list of currently selected file paths from the template.\"\"\"\n        return template.get(\"path\", {}).get(\"file_path\", [])\n\n    def update_build_config(\n        self,\n        build_config: dict[str, Any],\n        field_value: Any,\n        field_name: str | None = None,\n    ) -> dict[str, Any]:\n        \"\"\"Show/hide Advanced Parser and related fields based on selection context.\"\"\"\n        if field_name == \"path\":\n            paths = self._path_value(build_config)\n            file_path = paths[0] if paths else \"\"\n            file_count = len(field_value) if field_value else 0\n\n            # Advanced mode only for single (non-tabular) file\n            allow_advanced = file_count == 1 and not file_path.endswith((\".csv\", \".xlsx\", \".parquet\"))\n            build_config[\"advanced_mode\"][\"show\"] = allow_advanced\n            if not allow_advanced:\n                build_config[\"advanced_mode\"][\"value\"] = False\n                for f in (\"pipeline\", \"ocr_engine\", \"doc_key\", \"md_image_placeholder\", \"md_page_break_placeholder\"):\n                    if f in build_config:\n                        build_config[f][\"show\"] = False\n\n        # Docling Processing\n        elif field_name == \"advanced_mode\":\n            for f in (\"pipeline\", \"ocr_engine\", \"doc_key\", \"md_image_placeholder\", \"md_page_break_placeholder\"):\n                if f in build_config:\n                    build_config[f][\"show\"] = bool(field_value)\n\n        elif field_name == \"pipeline\":\n            if field_value == \"standard\":\n                build_config[\"ocr_engine\"][\"show\"] = True\n                build_config[\"ocr_engine\"][\"value\"] = \"easyocr\"\n            else:\n                build_config[\"ocr_engine\"][\"show\"] = False\n                build_config[\"ocr_engine\"][\"value\"] = \"None\"\n\n        return build_config\n\n    def update_outputs(self, frontend_node: dict[str, Any], field_name: str, field_value: Any) -> dict[str, Any]:  # noqa: ARG002\n        \"\"\"Dynamically show outputs based on file count/type and advanced mode.\"\"\"\n        if field_name not in [\"path\", \"advanced_mode\", \"pipeline\"]:\n            return frontend_node\n\n        template = frontend_node.get(\"template\", {})\n        paths = self._path_value(template)\n        if not paths:\n            return frontend_node\n\n        frontend_node[\"outputs\"] = []\n        if len(paths) == 1:\n            file_path = paths[0] if field_name == \"path\" else frontend_node[\"template\"][\"path\"][\"file_path\"][0]\n            if file_path.endswith((\".csv\", \".xlsx\", \".parquet\")):\n                frontend_node[\"outputs\"].append(\n                    Output(display_name=\"Structured Content\", name=\"dataframe\", method=\"load_files_structured\"),\n                )\n            elif file_path.endswith(\".json\"):\n                frontend_node[\"outputs\"].append(\n                    Output(display_name=\"Structured Content\", name=\"json\", method=\"load_files_json\"),\n                )\n\n            advanced_mode = frontend_node.get(\"template\", {}).get(\"advanced_mode\", {}).get(\"value\", False)\n            if advanced_mode:\n                frontend_node[\"outputs\"].append(\n                    Output(display_name=\"Structured Output\", name=\"advanced_dataframe\", method=\"load_files_dataframe\"),\n                )\n                frontend_node[\"outputs\"].append(\n                    Output(display_name=\"Markdown\", name=\"advanced_markdown\", method=\"load_files_markdown\"),\n                )\n                frontend_node[\"outputs\"].append(\n                    Output(display_name=\"File Path\", name=\"path\", method=\"load_files_path\"),\n                )\n            else:\n                frontend_node[\"outputs\"].append(\n                    Output(display_name=\"Raw Content\", name=\"message\", method=\"load_files_message\"),\n                )\n                frontend_node[\"outputs\"].append(\n                    Output(display_name=\"File Path\", name=\"path\", method=\"load_files_path\"),\n                )\n        else:\n            # Multiple files => DataFrame output; advanced parser disabled\n            frontend_node[\"outputs\"].append(Output(display_name=\"Files\", name=\"dataframe\", method=\"load_files\"))\n\n        return frontend_node\n\n    # ------------------------------ Core processing ----------------------------------\n\n    def _is_docling_compatible(self, file_path: str) -> bool:\n        \"\"\"Lightweight extension gate for Docling-compatible types.\"\"\"\n        docling_exts = (\n            \".adoc\",\n            \".asciidoc\",\n            \".asc\",\n            \".bmp\",\n            \".csv\",\n            \".dotx\",\n            \".dotm\",\n            \".docm\",\n            \".docx\",\n            \".htm\",\n            \".html\",\n            \".jpeg\",\n            \".json\",\n            \".md\",\n            \".pdf\",\n            \".png\",\n            \".potx\",\n            \".ppsx\",\n            \".pptm\",\n            \".potm\",\n            \".ppsm\",\n            \".pptx\",\n            \".tiff\",\n            \".txt\",\n            \".xls\",\n            \".xlsx\",\n            \".xhtml\",\n            \".xml\",\n            \".webp\",\n        )\n        return file_path.lower().endswith(docling_exts)\n\n    def _process_docling_in_subprocess(self, file_path: str) -> Data | None:\n        \"\"\"Run Docling in a separate OS process and map the result to a Data object.\n\n        We avoid multiprocessing pickling by launching `python -c \"<script>\"` and\n        passing JSON config via stdin. The child prints a JSON result to stdout.\n        \"\"\"\n        if not file_path:\n            return None\n\n        args: dict[str, Any] = {\n            \"file_path\": file_path,\n            \"markdown\": bool(self.markdown),\n            \"image_mode\": str(self.IMAGE_MODE),\n            \"md_image_placeholder\": str(self.md_image_placeholder),\n            \"md_page_break_placeholder\": str(self.md_page_break_placeholder),\n            \"pipeline\": str(self.pipeline),\n            \"ocr_engine\": (\n                self.ocr_engine if self.ocr_engine and self.ocr_engine != \"None\" and self.pipeline != \"vlm\" else None\n            ),\n        }\n\n        self.log(f\"Starting Docling subprocess for file: {file_path}\")\n        self.log(args)\n\n        # Child script for isolating the docling processing\n        child_script = textwrap.dedent(\n            r\"\"\"\n            import json, sys\n\n            def try_imports():\n                # Strategy 1: latest layout\n                try:\n                    from docling.datamodel.base_models import ConversionStatus, InputFormat  # type: ignore\n                    from docling.document_converter import DocumentConverter  # type: ignore\n                    from docling_core.types.doc import ImageRefMode  # type: ignore\n                    return ConversionStatus, InputFormat, DocumentConverter, ImageRefMode, \"latest\"\n                except Exception:\n                    pass\n                # Strategy 2: alternative layout\n                try:\n                    from docling.document_converter import DocumentConverter  # type: ignore\n                    try:\n                        from docling_core.types import ConversionStatus, InputFormat  # type: ignore\n                    except Exception:\n                        try:\n                            from docling.datamodel import ConversionStatus, InputFormat  # type: ignore\n                        except Exception:\n                            class ConversionStatus: SUCCESS = \"success\"\n                            class InputFormat:\n                                PDF=\"pdf\"; IMAGE=\"image\"\n                    try:\n                        from docling_core.types.doc import ImageRefMode  # type: ignore\n                    except Exception:\n                        class ImageRefMode:\n                            PLACEHOLDER=\"placeholder\"; EMBEDDED=\"embedded\"\n                    return ConversionStatus, InputFormat, DocumentConverter, ImageRefMode, \"alternative\"\n                except Exception:\n                    pass\n                # Strategy 3: basic converter only\n                try:\n                    from docling.document_converter import DocumentConverter  # type: ignore\n                    class ConversionStatus: SUCCESS = \"success\"\n                    class InputFormat:\n                        PDF=\"pdf\"; IMAGE=\"image\"\n                    class ImageRefMode:\n                        PLACEHOLDER=\"placeholder\"; EMBEDDED=\"embedded\"\n                    return ConversionStatus, InputFormat, DocumentConverter, ImageRefMode, \"basic\"\n                except Exception as e:\n                    raise ImportError(f\"Docling imports failed: {e}\") from e\n\n            def create_converter(strategy, input_format, DocumentConverter, pipeline, ocr_engine):\n                # --- Standard PDF/IMAGE pipeline (your existing behavior), with optional OCR ---\n                if pipeline == \"standard\":\n                    try:\n                        from docling.datamodel.pipeline_options import PdfPipelineOptions  # type: ignore\n                        from docling.document_converter import PdfFormatOption  # type: ignore\n\n                        pipe = PdfPipelineOptions()\n                        pipe.do_ocr = False\n\n                        if ocr_engine:\n                            try:\n                                from docling.models.factories import get_ocr_factory  # type: ignore\n                                pipe.do_ocr = True\n                                fac = get_ocr_factory(allow_external_plugins=False)\n                                pipe.ocr_options = fac.create_options(kind=ocr_engine)\n                            except Exception:\n                                # If OCR setup fails, disable it\n                                pipe.do_ocr = False\n\n                        fmt = {}\n                        if hasattr(input_format, \"PDF\"):\n                            fmt[getattr(input_format, \"PDF\")] = PdfFormatOption(pipeline_options=pipe)\n                        if hasattr(input_format, \"IMAGE\"):\n                            fmt[getattr(input_format, \"IMAGE\")] = PdfFormatOption(pipeline_options=pipe)\n\n                        return DocumentConverter(format_options=fmt)\n                    except Exception:\n                        return DocumentConverter()\n\n                # --- Vision-Language Model (VLM) pipeline ---\n                if pipeline == \"vlm\":\n                    try:\n                        from docling.pipeline.vlm_pipeline import VlmPipeline\n                        from docling.document_converter import PdfFormatOption  # type: ignore\n\n                        vl_pipe = VlmPipelineOptions()\n\n                        # VLM paths generally don't need OCR; keep OCR off by default here.\n                        fmt = {}\n                        if hasattr(input_format, \"PDF\"):\n                            fmt[getattr(input_format, \"PDF\")] = PdfFormatOption(pipeline_cls=VlmPipeline)\n                        if hasattr(input_format, \"IMAGE\"):\n                            fmt[getattr(input_format, \"IMAGE\")] = PdfFormatOption(pipeline_cls=VlmPipeline)\n\n                        return DocumentConverter(format_options=fmt)\n                    except Exception:\n                        return DocumentConverter()\n\n                # --- Fallback: default converter with no special options ---\n                return DocumentConverter()\n\n            def export_markdown(document, ImageRefMode, image_mode, img_ph, pg_ph):\n                try:\n                    mode = getattr(ImageRefMode, image_mode.upper(), image_mode)\n                    return document.export_to_markdown(\n                        image_mode=mode,\n                        image_placeholder=img_ph,\n                        page_break_placeholder=pg_ph,\n                    )\n                except Exception:\n                    try:\n                        return document.export_to_text()\n                    except Exception:\n                        return str(document)\n\n            def to_rows(doc_dict):\n                rows = []\n                for t in doc_dict.get(\"texts\", []):\n                    prov = t.get(\"prov\") or []\n                    page_no = None\n                    if prov and isinstance(prov, list) and isinstance(prov[0], dict):\n                        page_no = prov[0].get(\"page_no\")\n                    rows.append({\n                        \"page_no\": page_no,\n                        \"label\": t.get(\"label\"),\n                        \"text\": t.get(\"text\"),\n                        \"level\": t.get(\"level\"),\n                    })\n                return rows\n\n            def main():\n                cfg = json.loads(sys.stdin.read())\n                file_path = cfg[\"file_path\"]\n                markdown = cfg[\"markdown\"]\n                image_mode = cfg[\"image_mode\"]\n                img_ph = cfg[\"md_image_placeholder\"]\n                pg_ph = cfg[\"md_page_break_placeholder\"]\n                pipeline = cfg[\"pipeline\"]\n                ocr_engine = cfg.get(\"ocr_engine\")\n                meta = {\"file_path\": file_path}\n\n                try:\n                    ConversionStatus, InputFormat, DocumentConverter, ImageRefMode, strategy = try_imports()\n                    converter = create_converter(strategy, InputFormat, DocumentConverter, pipeline, ocr_engine)\n                    try:\n                        res = converter.convert(file_path)\n                    except Exception as e:\n                        print(json.dumps({\"ok\": False, \"error\": f\"Docling conversion error: {e}\", \"meta\": meta}))\n                        return\n\n                    ok = False\n                    if hasattr(res, \"status\"):\n                        try:\n                            ok = (res.status == ConversionStatus.SUCCESS) or (str(res.status).lower() == \"success\")\n                        except Exception:\n                            ok = (str(res.status).lower() == \"success\")\n                    if not ok and hasattr(res, \"document\"):\n                        ok = getattr(res, \"document\", None) is not None\n                    if not ok:\n                        print(json.dumps({\"ok\": False, \"error\": \"Docling conversion failed\", \"meta\": meta}))\n                        return\n\n                    doc = getattr(res, \"document\", None)\n                    if doc is None:\n                        print(json.dumps({\"ok\": False, \"error\": \"Docling produced no document\", \"meta\": meta}))\n                        return\n\n                    if markdown:\n                        text = export_markdown(doc, ImageRefMode, image_mode, img_ph, pg_ph)\n                        print(json.dumps({\"ok\": True, \"mode\": \"markdown\", \"text\": text, \"meta\": meta}))\n                        return\n\n                    # structured\n                    try:\n                        doc_dict = doc.export_to_dict()\n                    except Exception as e:\n                        print(json.dumps({\"ok\": False, \"error\": f\"Docling export_to_dict failed: {e}\", \"meta\": meta}))\n                        return\n\n                    rows = to_rows(doc_dict)\n                    print(json.dumps({\"ok\": True, \"mode\": \"structured\", \"doc\": rows, \"meta\": meta}))\n                except Exception as e:\n                    print(\n                        json.dumps({\n                            \"ok\": False,\n                            \"error\": f\"Docling processing error: {e}\",\n                            \"meta\": {\"file_path\": file_path},\n                        })\n                    )\n\n            if __name__ == \"__main__\":\n                main()\n            \"\"\"\n        )\n\n        # Validate file_path to avoid command injection or unsafe input\n        if not isinstance(args[\"file_path\"], str) or any(c in args[\"file_path\"] for c in [\";\", \"|\", \"&\", \"$\", \"`\"]):\n            return Data(data={\"error\": \"Unsafe file path detected.\", \"file_path\": args[\"file_path\"]})\n\n        proc = subprocess.run(  # noqa: S603\n            [sys.executable, \"-u\", \"-c\", child_script],\n            input=json.dumps(args).encode(\"utf-8\"),\n            capture_output=True,\n            check=False,\n        )\n\n        if not proc.stdout:\n            err_msg = proc.stderr.decode(\"utf-8\", errors=\"replace\") or \"no output from child process\"\n            return Data(data={\"error\": f\"Docling subprocess error: {err_msg}\", \"file_path\": file_path})\n\n        try:\n            result = json.loads(proc.stdout.decode(\"utf-8\"))\n        except Exception as e:  # noqa: BLE001\n            err_msg = proc.stderr.decode(\"utf-8\", errors=\"replace\")\n            return Data(\n                data={\"error\": f\"Invalid JSON from Docling subprocess: {e}. stderr={err_msg}\", \"file_path\": file_path},\n            )\n\n        if not result.get(\"ok\"):\n            return Data(data={\"error\": result.get(\"error\", \"Unknown Docling error\"), **result.get(\"meta\", {})})\n\n        meta = result.get(\"meta\", {})\n        if result.get(\"mode\") == \"markdown\":\n            exported_content = str(result.get(\"text\", \"\"))\n            return Data(\n                text=exported_content,\n                data={\"exported_content\": exported_content, \"export_format\": self.EXPORT_FORMAT, **meta},\n            )\n\n        rows = list(result.get(\"doc\", []))\n        return Data(data={\"doc\": rows, \"export_format\": self.EXPORT_FORMAT, **meta})\n\n    def process_files(\n        self,\n        file_list: list[BaseFileComponent.BaseFile],\n    ) -> list[BaseFileComponent.BaseFile]:\n        \"\"\"Process input files.\n\n        - Single file + advanced_mode => Docling in a separate process.\n        - Otherwise => standard parsing in current process (optionally threaded).\n        \"\"\"\n        if not file_list:\n            msg = \"No files to process.\"\n            raise ValueError(msg)\n\n        def process_file_standard(file_path: str, *, silent_errors: bool = False) -> Data | None:\n            try:\n                return parse_text_file_to_data(file_path, silent_errors=silent_errors)\n            except FileNotFoundError as e:\n                self.log(f\"File not found: {file_path}. Error: {e}\")\n                if not silent_errors:\n                    raise\n                return None\n            except Exception as e:\n                self.log(f\"Unexpected error processing {file_path}: {e}\")\n                if not silent_errors:\n                    raise\n                return None\n\n        # Advanced path: only for a single Docling-compatible file\n        if len(file_list) == 1:\n            file_path = str(file_list[0].path)\n            if self.advanced_mode and self._is_docling_compatible(file_path):\n                advanced_data: Data | None = self._process_docling_in_subprocess(file_path)\n\n                # --- UNNEST: expand each element in `doc` to its own Data row\n                payload = getattr(advanced_data, \"data\", {}) or {}\n                doc_rows = payload.get(\"doc\")\n                if isinstance(doc_rows, list):\n                    rows: list[Data | None] = [\n                        Data(\n                            data={\n                                \"file_path\": file_path,\n                                **(item if isinstance(item, dict) else {\"value\": item}),\n                            },\n                        )\n                        for item in doc_rows\n                    ]\n                    return self.rollup_data(file_list, rows)\n\n                # If not structured, keep as-is (e.g., markdown export or error dict)\n                return self.rollup_data(file_list, [advanced_data])\n\n        # Standard multi-file (or single non-advanced) path\n        concurrency = 1 if not self.use_multithreading else max(1, self.concurrency_multithreading)\n        file_paths = [str(f.path) for f in file_list]\n        self.log(f\"Starting parallel processing of {len(file_paths)} files with concurrency: {concurrency}.\")\n        my_data = parallel_load_data(\n            file_paths,\n            silent_errors=self.silent_errors,\n            load_function=process_file_standard,\n            max_concurrency=concurrency,\n        )\n        return self.rollup_data(file_list, my_data)\n\n    # ------------------------------ Output helpers -----------------------------------\n\n    def load_files_helper(self) -> DataFrame:\n        result = self.load_files()\n\n        # Error condition - raise error if no text and an error is present\n        if not hasattr(result, \"text\"):\n            if hasattr(result, \"error\"):\n                raise ValueError(result.error[0])\n            msg = \"No content generated.\"\n            raise ValueError(msg)\n\n        return result\n\n    def load_files_dataframe(self) -> DataFrame:\n        \"\"\"Load files using advanced Docling processing and export to DataFrame format.\"\"\"\n        self.markdown = False\n        return self.load_files_helper()\n\n    def load_files_markdown(self) -> Message:\n        \"\"\"Load files using advanced Docling processing and export to Markdown format.\"\"\"\n        self.markdown = True\n        result = self.load_files_helper()\n        return Message(text=str(result.text[0]))\n"
+                "value": "\"\"\"Enhanced file component with Docling support and process isolation.\n\nNotes:\n-----\n- ALL Docling parsing/export runs in a separate OS process to prevent memory\n  growth and native library state from impacting the main Langflow process.\n- Standard text/structured parsing continues to use existing BaseFileComponent\n  utilities (and optional threading via `parallel_load_data`).\n\"\"\"\n\nfrom __future__ import annotations\n\nimport json\nimport subprocess\nimport sys\nimport textwrap\nfrom copy import deepcopy\nfrom typing import Any\n\nfrom lfx.base.data.base_file import BaseFileComponent\nfrom lfx.base.data.utils import TEXT_FILE_TYPES, parallel_load_data, parse_text_file_to_data\nfrom lfx.inputs.inputs import DropdownInput, MessageTextInput, StrInput\nfrom lfx.io import BoolInput, FileInput, IntInput, Output\nfrom lfx.schema.data import Data\nfrom lfx.schema.dataframe import DataFrame  # noqa: TC001\nfrom lfx.schema.message import Message\n\n\nclass FileComponent(BaseFileComponent):\n    \"\"\"File component with optional Docling processing (isolated in a subprocess).\"\"\"\n\n    display_name = \"Read File\"\n    description = \"Loads content from one or more files.\"\n    documentation: str = \"https://docs.langflow.org/components-data#file\"\n    icon = \"file-text\"\n    name = \"File\"\n\n    # Docling-supported/compatible extensions; TEXT_FILE_TYPES are supported by the base loader.\n    VALID_EXTENSIONS = [\n        *TEXT_FILE_TYPES,\n        \"adoc\",\n        \"asciidoc\",\n        \"asc\",\n        \"bmp\",\n        \"dotx\",\n        \"dotm\",\n        \"docm\",\n        \"jpg\",\n        \"jpeg\",\n        \"png\",\n        \"potx\",\n        \"ppsx\",\n        \"pptm\",\n        \"potm\",\n        \"ppsm\",\n        \"pptx\",\n        \"tiff\",\n        \"xls\",\n        \"xlsx\",\n        \"xhtml\",\n        \"webp\",\n    ]\n\n    # Fixed export settings used when markdown export is requested.\n    EXPORT_FORMAT = \"Markdown\"\n    IMAGE_MODE = \"placeholder\"\n\n    _base_inputs = deepcopy(BaseFileComponent.get_base_inputs())\n\n    for input_item in _base_inputs:\n        if isinstance(input_item, FileInput) and input_item.name == \"path\":\n            input_item.real_time_refresh = True\n            break\n\n    inputs = [\n        *_base_inputs,\n        BoolInput(\n            name=\"advanced_mode\",\n            display_name=\"Advanced Parser\",\n            value=False,\n            real_time_refresh=True,\n            info=(\n                \"Enable advanced document processing and export with Docling for PDFs, images, and office documents. \"\n                \"Note that advanced document processing can consume significant resources.\"\n            ),\n            show=True,\n        ),\n        DropdownInput(\n            name=\"pipeline\",\n            display_name=\"Pipeline\",\n            info=\"Docling pipeline to use\",\n            options=[\"standard\", \"vlm\"],\n            value=\"standard\",\n            advanced=True,\n            real_time_refresh=True,\n        ),\n        DropdownInput(\n            name=\"ocr_engine\",\n            display_name=\"OCR Engine\",\n            info=\"OCR engine to use. Only available when pipeline is set to 'standard'.\",\n            options=[\"None\", \"easyocr\"],\n            value=\"easyocr\",\n            show=False,\n            advanced=True,\n        ),\n        StrInput(\n            name=\"md_image_placeholder\",\n            display_name=\"Image placeholder\",\n            info=\"Specify the image placeholder for markdown exports.\",\n            value=\"<!-- image -->\",\n            advanced=True,\n            show=False,\n        ),\n        StrInput(\n            name=\"md_page_break_placeholder\",\n            display_name=\"Page break placeholder\",\n            info=\"Add this placeholder between pages in the markdown output.\",\n            value=\"\",\n            advanced=True,\n            show=False,\n        ),\n        MessageTextInput(\n            name=\"doc_key\",\n            display_name=\"Doc Key\",\n            info=\"The key to use for the DoclingDocument column.\",\n            value=\"doc\",\n            advanced=True,\n            show=False,\n        ),\n        # Deprecated input retained for backward-compatibility.\n        BoolInput(\n            name=\"use_multithreading\",\n            display_name=\"[Deprecated] Use Multithreading\",\n            advanced=True,\n            value=True,\n            info=\"Set 'Processing Concurrency' greater than 1 to enable multithreading.\",\n        ),\n        IntInput(\n            name=\"concurrency_multithreading\",\n            display_name=\"Processing Concurrency\",\n            advanced=True,\n            info=\"When multiple files are being processed, the number of files to process concurrently.\",\n            value=1,\n        ),\n        BoolInput(\n            name=\"markdown\",\n            display_name=\"Markdown Export\",\n            info=\"Export processed documents to Markdown format. Only available when advanced mode is enabled.\",\n            value=False,\n            show=False,\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Raw Content\", name=\"message\", method=\"load_files_message\"),\n    ]\n\n    # ------------------------------ UI helpers --------------------------------------\n\n    def _path_value(self, template: dict) -> list[str]:\n        \"\"\"Return the list of currently selected file paths from the template.\"\"\"\n        return template.get(\"path\", {}).get(\"file_path\", [])\n\n    def update_build_config(\n        self,\n        build_config: dict[str, Any],\n        field_value: Any,\n        field_name: str | None = None,\n    ) -> dict[str, Any]:\n        \"\"\"Show/hide Advanced Parser and related fields based on selection context.\"\"\"\n        if field_name == \"path\":\n            paths = self._path_value(build_config)\n\n            # If all files can be processed by docling, do so\n            allow_advanced = all(not file_path.endswith((\".csv\", \".xlsx\", \".parquet\")) for file_path in paths)\n            build_config[\"advanced_mode\"][\"show\"] = allow_advanced\n            if not allow_advanced:\n                build_config[\"advanced_mode\"][\"value\"] = False\n                for f in (\"pipeline\", \"ocr_engine\", \"doc_key\", \"md_image_placeholder\", \"md_page_break_placeholder\"):\n                    if f in build_config:\n                        build_config[f][\"show\"] = False\n\n        # Docling Processing\n        elif field_name == \"advanced_mode\":\n            for f in (\"pipeline\", \"ocr_engine\", \"doc_key\", \"md_image_placeholder\", \"md_page_break_placeholder\"):\n                if f in build_config:\n                    build_config[f][\"show\"] = bool(field_value)\n                    if f == \"pipeline\":\n                        build_config[f][\"advanced\"] = not bool(field_value)\n\n        elif field_name == \"pipeline\":\n            if field_value == \"standard\":\n                build_config[\"ocr_engine\"][\"show\"] = True\n                build_config[\"ocr_engine\"][\"value\"] = \"easyocr\"\n            else:\n                build_config[\"ocr_engine\"][\"show\"] = False\n                build_config[\"ocr_engine\"][\"value\"] = \"None\"\n\n        return build_config\n\n    def update_outputs(self, frontend_node: dict[str, Any], field_name: str, field_value: Any) -> dict[str, Any]:  # noqa: ARG002\n        \"\"\"Dynamically show outputs based on file count/type and advanced mode.\"\"\"\n        if field_name not in [\"path\", \"advanced_mode\", \"pipeline\"]:\n            return frontend_node\n\n        template = frontend_node.get(\"template\", {})\n        paths = self._path_value(template)\n        if not paths:\n            return frontend_node\n\n        frontend_node[\"outputs\"] = []\n        if len(paths) == 1:\n            file_path = paths[0] if field_name == \"path\" else frontend_node[\"template\"][\"path\"][\"file_path\"][0]\n            if file_path.endswith((\".csv\", \".xlsx\", \".parquet\")):\n                frontend_node[\"outputs\"].append(\n                    Output(display_name=\"Structured Content\", name=\"dataframe\", method=\"load_files_structured\"),\n                )\n            elif file_path.endswith(\".json\"):\n                frontend_node[\"outputs\"].append(\n                    Output(display_name=\"Structured Content\", name=\"json\", method=\"load_files_json\"),\n                )\n\n            advanced_mode = frontend_node.get(\"template\", {}).get(\"advanced_mode\", {}).get(\"value\", False)\n            if advanced_mode:\n                frontend_node[\"outputs\"].append(\n                    Output(display_name=\"Structured Output\", name=\"advanced_dataframe\", method=\"load_files_dataframe\"),\n                )\n                frontend_node[\"outputs\"].append(\n                    Output(display_name=\"Markdown\", name=\"advanced_markdown\", method=\"load_files_markdown\"),\n                )\n                frontend_node[\"outputs\"].append(\n                    Output(display_name=\"File Path\", name=\"path\", method=\"load_files_path\"),\n                )\n            else:\n                frontend_node[\"outputs\"].append(\n                    Output(display_name=\"Raw Content\", name=\"message\", method=\"load_files_message\"),\n                )\n                frontend_node[\"outputs\"].append(\n                    Output(display_name=\"File Path\", name=\"path\", method=\"load_files_path\"),\n                )\n        else:\n            # Multiple files => DataFrame output; advanced parser disabled\n            frontend_node[\"outputs\"].append(Output(display_name=\"Files\", name=\"dataframe\", method=\"load_files\"))\n\n        return frontend_node\n\n    # ------------------------------ Core processing ----------------------------------\n\n    def _is_docling_compatible(self, file_path: str) -> bool:\n        \"\"\"Lightweight extension gate for Docling-compatible types.\"\"\"\n        docling_exts = (\n            \".adoc\",\n            \".asciidoc\",\n            \".asc\",\n            \".bmp\",\n            \".csv\",\n            \".dotx\",\n            \".dotm\",\n            \".docm\",\n            \".docx\",\n            \".htm\",\n            \".html\",\n            \".jpg\",\n            \".jpeg\",\n            \".json\",\n            \".md\",\n            \".pdf\",\n            \".png\",\n            \".potx\",\n            \".ppsx\",\n            \".pptm\",\n            \".potm\",\n            \".ppsm\",\n            \".pptx\",\n            \".tiff\",\n            \".txt\",\n            \".xls\",\n            \".xlsx\",\n            \".xhtml\",\n            \".xml\",\n            \".webp\",\n        )\n        return file_path.lower().endswith(docling_exts)\n\n    def _process_docling_in_subprocess(self, file_path: str) -> Data | None:\n        \"\"\"Run Docling in a separate OS process and map the result to a Data object.\n\n        We avoid multiprocessing pickling by launching `python -c \"<script>\"` and\n        passing JSON config via stdin. The child prints a JSON result to stdout.\n        \"\"\"\n        if not file_path:\n            return None\n\n        args: dict[str, Any] = {\n            \"file_path\": file_path,\n            \"markdown\": bool(self.markdown),\n            \"image_mode\": str(self.IMAGE_MODE),\n            \"md_image_placeholder\": str(self.md_image_placeholder),\n            \"md_page_break_placeholder\": str(self.md_page_break_placeholder),\n            \"pipeline\": str(self.pipeline),\n            \"ocr_engine\": (\n                self.ocr_engine if self.ocr_engine and self.ocr_engine != \"None\" and self.pipeline != \"vlm\" else None\n            ),\n        }\n\n        self.log(f\"Starting Docling subprocess for file: {file_path}\")\n        self.log(args)\n\n        # Child script for isolating the docling processing\n        child_script = textwrap.dedent(\n            r\"\"\"\n            import json, sys\n\n            def try_imports():\n                try:\n                    from docling.datamodel.base_models import ConversionStatus, InputFormat  # type: ignore\n                    from docling.document_converter import DocumentConverter  # type: ignore\n                    from docling_core.types.doc import ImageRefMode  # type: ignore\n                    return ConversionStatus, InputFormat, DocumentConverter, ImageRefMode, \"latest\"\n                except Exception as e:\n                    raise e\n\n            def create_converter(strategy, input_format, DocumentConverter, pipeline, ocr_engine):\n                # --- Standard PDF/IMAGE pipeline (your existing behavior), with optional OCR ---\n                if pipeline == \"standard\":\n                    try:\n                        from docling.datamodel.pipeline_options import PdfPipelineOptions  # type: ignore\n                        from docling.document_converter import PdfFormatOption  # type: ignore\n\n                        pipe = PdfPipelineOptions()\n                        pipe.do_ocr = False\n\n                        if ocr_engine:\n                            try:\n                                from docling.models.factories import get_ocr_factory  # type: ignore\n                                pipe.do_ocr = True\n                                fac = get_ocr_factory(allow_external_plugins=False)\n                                pipe.ocr_options = fac.create_options(kind=ocr_engine)\n                            except Exception:\n                                # If OCR setup fails, disable it\n                                pipe.do_ocr = False\n\n                        fmt = {}\n                        if hasattr(input_format, \"PDF\"):\n                            fmt[getattr(input_format, \"PDF\")] = PdfFormatOption(pipeline_options=pipe)\n                        if hasattr(input_format, \"IMAGE\"):\n                            fmt[getattr(input_format, \"IMAGE\")] = PdfFormatOption(pipeline_options=pipe)\n\n                        return DocumentConverter(format_options=fmt)\n                    except Exception:\n                        return DocumentConverter()\n\n                # --- Vision-Language Model (VLM) pipeline ---\n                if pipeline == \"vlm\":\n                    try:\n                        from docling.datamodel.pipeline_options import VlmPipelineOptions\n                        from docling.datamodel.vlm_model_specs import GRANITEDOCLING_MLX, GRANITEDOCLING_TRANSFORMERS\n                        from docling.document_converter import PdfFormatOption\n                        from docling.pipeline.vlm_pipeline import VlmPipeline\n\n                        vl_pipe = VlmPipelineOptions(\n                            vlm_options=GRANITEDOCLING_TRANSFORMERS,\n                        )\n\n                        if sys.platform == \"darwin\":\n                            try:\n                                import mlx_vlm\n                                vl_pipe.vlm_options = GRANITEDOCLING_MLX\n                            except ImportError as e:\n                                raise e\n\n                        # VLM paths generally don't need OCR; keep OCR off by default here.\n                        fmt = {}\n                        if hasattr(input_format, \"PDF\"):\n                            fmt[getattr(input_format, \"PDF\")] = PdfFormatOption(\n                            pipeline_cls=VlmPipeline,\n                            pipeline_options=vl_pipe\n                        )\n                        if hasattr(input_format, \"IMAGE\"):\n                            fmt[getattr(input_format, \"IMAGE\")] = PdfFormatOption(\n                            pipeline_cls=VlmPipeline,\n                            pipeline_options=vl_pipe\n                        )\n\n                        return DocumentConverter(format_options=fmt)\n                    except Exception as e:\n                        raise e\n\n                # --- Fallback: default converter with no special options ---\n                return DocumentConverter()\n\n            def export_markdown(document, ImageRefMode, image_mode, img_ph, pg_ph):\n                try:\n                    mode = getattr(ImageRefMode, image_mode.upper(), image_mode)\n                    return document.export_to_markdown(\n                        image_mode=mode,\n                        image_placeholder=img_ph,\n                        page_break_placeholder=pg_ph,\n                    )\n                except Exception:\n                    try:\n                        return document.export_to_text()\n                    except Exception:\n                        return str(document)\n\n            def to_rows(doc_dict):\n                rows = []\n                for t in doc_dict.get(\"texts\", []):\n                    prov = t.get(\"prov\") or []\n                    page_no = None\n                    if prov and isinstance(prov, list) and isinstance(prov[0], dict):\n                        page_no = prov[0].get(\"page_no\")\n                    rows.append({\n                        \"page_no\": page_no,\n                        \"label\": t.get(\"label\"),\n                        \"text\": t.get(\"text\"),\n                        \"level\": t.get(\"level\"),\n                    })\n                return rows\n\n            def main():\n                cfg = json.loads(sys.stdin.read())\n                file_path = cfg[\"file_path\"]\n                markdown = cfg[\"markdown\"]\n                image_mode = cfg[\"image_mode\"]\n                img_ph = cfg[\"md_image_placeholder\"]\n                pg_ph = cfg[\"md_page_break_placeholder\"]\n                pipeline = cfg[\"pipeline\"]\n                ocr_engine = cfg.get(\"ocr_engine\")\n                meta = {\"file_path\": file_path}\n\n                try:\n                    ConversionStatus, InputFormat, DocumentConverter, ImageRefMode, strategy = try_imports()\n                    converter = create_converter(strategy, InputFormat, DocumentConverter, pipeline, ocr_engine)\n                    try:\n                        res = converter.convert(file_path)\n                    except Exception as e:\n                        print(json.dumps({\"ok\": False, \"error\": f\"Docling conversion error: {e}\", \"meta\": meta}))\n                        return\n\n                    ok = False\n                    if hasattr(res, \"status\"):\n                        try:\n                            ok = (res.status == ConversionStatus.SUCCESS) or (str(res.status).lower() == \"success\")\n                        except Exception:\n                            ok = (str(res.status).lower() == \"success\")\n                    if not ok and hasattr(res, \"document\"):\n                        ok = getattr(res, \"document\", None) is not None\n                    if not ok:\n                        print(json.dumps({\"ok\": False, \"error\": \"Docling conversion failed\", \"meta\": meta}))\n                        return\n\n                    doc = getattr(res, \"document\", None)\n                    if doc is None:\n                        print(json.dumps({\"ok\": False, \"error\": \"Docling produced no document\", \"meta\": meta}))\n                        return\n\n                    if markdown:\n                        text = export_markdown(doc, ImageRefMode, image_mode, img_ph, pg_ph)\n                        print(json.dumps({\"ok\": True, \"mode\": \"markdown\", \"text\": text, \"meta\": meta}))\n                        return\n\n                    # structured\n                    try:\n                        doc_dict = doc.export_to_dict()\n                    except Exception as e:\n                        print(json.dumps({\"ok\": False, \"error\": f\"Docling export_to_dict failed: {e}\", \"meta\": meta}))\n                        return\n\n                    rows = to_rows(doc_dict)\n                    print(json.dumps({\"ok\": True, \"mode\": \"structured\", \"doc\": rows, \"meta\": meta}))\n                except Exception as e:\n                    print(\n                        json.dumps({\n                            \"ok\": False,\n                            \"error\": f\"Docling processing error: {e}\",\n                            \"meta\": {\"file_path\": file_path},\n                        })\n                    )\n\n            if __name__ == \"__main__\":\n                main()\n            \"\"\"\n        )\n\n        # Validate file_path to avoid command injection or unsafe input\n        if not isinstance(args[\"file_path\"], str) or any(c in args[\"file_path\"] for c in [\";\", \"|\", \"&\", \"$\", \"`\"]):\n            return Data(data={\"error\": \"Unsafe file path detected.\", \"file_path\": args[\"file_path\"]})\n\n        proc = subprocess.run(  # noqa: S603\n            [sys.executable, \"-u\", \"-c\", child_script],\n            input=json.dumps(args).encode(\"utf-8\"),\n            capture_output=True,\n            check=False,\n        )\n\n        if not proc.stdout:\n            err_msg = proc.stderr.decode(\"utf-8\", errors=\"replace\") or \"no output from child process\"\n            return Data(data={\"error\": f\"Docling subprocess error: {err_msg}\", \"file_path\": file_path})\n\n        try:\n            result = json.loads(proc.stdout.decode(\"utf-8\"))\n        except Exception as e:  # noqa: BLE001\n            err_msg = proc.stderr.decode(\"utf-8\", errors=\"replace\")\n            return Data(\n                data={\"error\": f\"Invalid JSON from Docling subprocess: {e}. stderr={err_msg}\", \"file_path\": file_path},\n            )\n\n        if not result.get(\"ok\"):\n            return Data(data={\"error\": result.get(\"error\", \"Unknown Docling error\"), **result.get(\"meta\", {})})\n\n        meta = result.get(\"meta\", {})\n        if result.get(\"mode\") == \"markdown\":\n            exported_content = str(result.get(\"text\", \"\"))\n            return Data(\n                text=exported_content,\n                data={\"exported_content\": exported_content, \"export_format\": self.EXPORT_FORMAT, **meta},\n            )\n\n        rows = list(result.get(\"doc\", []))\n        return Data(data={\"doc\": rows, \"export_format\": self.EXPORT_FORMAT, **meta})\n\n    def process_files(\n        self,\n        file_list: list[BaseFileComponent.BaseFile],\n    ) -> list[BaseFileComponent.BaseFile]:\n        \"\"\"Process input files.\n\n        - advanced_mode => Docling in a separate process.\n        - Otherwise => standard parsing in current process (optionally threaded).\n        \"\"\"\n        if not file_list:\n            msg = \"No files to process.\"\n            raise ValueError(msg)\n\n        def process_file_standard(file_path: str, *, silent_errors: bool = False) -> Data | None:\n            try:\n                return parse_text_file_to_data(file_path, silent_errors=silent_errors)\n            except FileNotFoundError as e:\n                self.log(f\"File not found: {file_path}. Error: {e}\")\n                if not silent_errors:\n                    raise\n                return None\n            except Exception as e:\n                self.log(f\"Unexpected error processing {file_path}: {e}\")\n                if not silent_errors:\n                    raise\n                return None\n\n        docling_compatible = all(self._is_docling_compatible(str(f.path)) for f in file_list)\n\n        # Advanced path: Check if ALL files are compatible with Docling\n        if self.advanced_mode and docling_compatible:\n            final_return: list[BaseFileComponent.BaseFile] = []\n            for file in file_list:\n                file_path = str(file.path)\n                advanced_data: Data | None = self._process_docling_in_subprocess(file_path)\n\n                # --- UNNEST: expand each element in `doc` to its own Data row\n                payload = getattr(advanced_data, \"data\", {}) or {}\n                doc_rows = payload.get(\"doc\")\n                if isinstance(doc_rows, list):\n                    rows: list[Data | None] = [\n                        Data(\n                            data={\n                                \"file_path\": file_path,\n                                **(item if isinstance(item, dict) else {\"value\": item}),\n                            },\n                        )\n                        for item in doc_rows\n                    ]\n                    final_return.extend(self.rollup_data(file_list, rows))\n                else:\n                    # If not structured, keep as-is (e.g., markdown export or error dict)\n                    final_return.extend(self.rollup_data(file_list, [advanced_data]))\n            return final_return\n\n        # Standard multi-file (or single non-advanced) path\n        concurrency = 1 if not self.use_multithreading else max(1, self.concurrency_multithreading)\n        file_paths = [str(f.path) for f in file_list]\n        self.log(f\"Starting parallel processing of {len(file_paths)} files with concurrency: {concurrency}.\")\n        my_data = parallel_load_data(\n            file_paths,\n            silent_errors=self.silent_errors,\n            load_function=process_file_standard,\n            max_concurrency=concurrency,\n        )\n        return self.rollup_data(file_list, my_data)\n\n    # ------------------------------ Output helpers -----------------------------------\n\n    def load_files_helper(self) -> DataFrame:\n        result = self.load_files()\n\n        # Error condition - raise error if no text and an error is present\n        if not hasattr(result, \"text\"):\n            if hasattr(result, \"error\"):\n                raise ValueError(result.error[0])\n            msg = \"Could not extract content from the provided file(s).\"\n            raise ValueError(msg)\n\n        return result\n\n    def load_files_dataframe(self) -> DataFrame:\n        \"\"\"Load files using advanced Docling processing and export to DataFrame format.\"\"\"\n        self.markdown = False\n        return self.load_files_helper()\n\n    def load_files_markdown(self) -> Message:\n        \"\"\"Load files using advanced Docling processing and export to Markdown format.\"\"\"\n        self.markdown = True\n        result = self.load_files_helper()\n        return Message(text=str(result.text[0]))\n"
               },
               "concurrency_multithreading": {
                 "_input_type": "IntInput",
@@ -1135,6 +795,7 @@
                   "dotx",
                   "dotm",
                   "docm",
+                  "jpg",
                   "jpeg",
                   "png",
                   "potx",
@@ -1154,10 +815,8 @@
                   "bz2",
                   "gz"
                 ],
-                "file_path": [
-                  "6868b6ba-83ee-4148-bafa-8e6c579ee172/resume-sample.pdf"
-                ],
-                "info": "Supported file extensions: csv, json, pdf, txt, md, mdx, yaml, yml, xml, html, htm, docx, py, sh, sql, js, ts, tsx, adoc, asciidoc, asc, bmp, dotx, dotm, docm, jpeg, png, potx, ppsx, pptm, potm, ppsm, pptx, tiff, xls, xlsx, xhtml, webp; optionally bundled in file extensions: zip, tar, tgz, bz2, gz",
+                "file_path": [],
+                "info": "Supported file extensions: csv, json, pdf, txt, md, mdx, yaml, yml, xml, html, htm, docx, py, sh, sql, js, ts, tsx, adoc, asciidoc, asc, bmp, dotx, dotm, docm, jpg, jpeg, png, potx, ppsx, pptm, potm, ppsm, pptx, tiff, xls, xlsx, xhtml, webp; optionally bundled in file extensions: zip, tar, tgz, bz2, gz",
                 "list": true,
                 "list_add_label": "Add More",
                 "name": "path",
@@ -1167,6 +826,7 @@
                 "show": true,
                 "temp_file": false,
                 "title_case": false,
+                "tool_mode": true,
                 "trace_as_metadata": true,
                 "type": "file",
                 "value": ""
@@ -1189,7 +849,7 @@
                 "placeholder": "",
                 "real_time_refresh": true,
                 "required": false,
-                "show": false,
+                "show": true,
                 "title_case": false,
                 "toggle": false,
                 "tool_mode": false,
@@ -1260,21 +920,21 @@
           "type": "File"
         },
         "dragging": false,
-        "id": "File-PG4mr",
+        "id": "File-xqev4",
         "measured": {
-          "height": 217,
+          "height": 255,
           "width": 320
         },
         "position": {
-          "x": -106.79142443067576,
-          "y": 820.1291618345234
+          "x": -32.72418037557975,
+          "y": 582.0715934677175
         },
         "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "KnowledgeIngestion-z1fuI",
+          "id": "KnowledgeIngestion-TuXc7",
           "node": {
             "base_classes": [
               "Data"
@@ -1654,21 +1314,21 @@
           "type": "KnowledgeIngestion"
         },
         "dragging": false,
-        "id": "KnowledgeIngestion-z1fuI",
+        "id": "KnowledgeIngestion-TuXc7",
         "measured": {
-          "height": 332,
+          "height": 331,
           "width": 320
         },
         "position": {
-          "x": 1254.2268837263043,
-          "y": 539.0863136699206
+          "x": 1163.9150097035892,
+          "y": 179.79393683845137
         },
         "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "SplitText-FbSo1",
+          "id": "SplitText-3wZk9",
           "node": {
             "base_classes": [
               "DataFrame"
@@ -1854,7 +1514,7 @@
                 "trace_as_input": true,
                 "trace_as_metadata": true,
                 "type": "str",
-                "value": " "
+                "value": ""
               },
               "text_key": {
                 "_input_type": "MessageTextInput",
@@ -1886,21 +1546,21 @@
           "type": "SplitText"
         },
         "dragging": false,
-        "id": "SplitText-FbSo1",
+        "id": "SplitText-3wZk9",
         "measured": {
           "height": 48,
           "width": 192
         },
         "position": {
-          "x": 862.5205186243443,
-          "y": 833.9835348690854
+          "x": 792.8928440057797,
+          "y": 328.22113698724274
         },
         "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "SplitText-IgKq7",
+          "id": "SplitText-vOIpD",
           "node": {
             "base_classes": [
               "DataFrame"
@@ -2085,7 +1745,7 @@
                 "trace_as_input": true,
                 "trace_as_metadata": true,
                 "type": "str",
-                "value": " "
+                "value": ""
               },
               "text_key": {
                 "_input_type": "MessageTextInput",
@@ -2117,21 +1777,21 @@
           "type": "SplitText"
         },
         "dragging": false,
-        "id": "SplitText-IgKq7",
+        "id": "SplitText-vOIpD",
         "measured": {
           "height": 48,
           "width": 192
         },
         "position": {
-          "x": 863.3644368264573,
-          "y": 1014.0531257968231
+          "x": 821.247083776682,
+          "y": 549.5208743580342
         },
         "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "KnowledgeIngestion-Q3l5B",
+          "id": "KnowledgeIngestion-C8FGD",
           "node": {
             "base_classes": [
               "Data"
@@ -2511,30 +2171,354 @@
           "type": "KnowledgeIngestion"
         },
         "dragging": false,
-        "id": "KnowledgeIngestion-Q3l5B",
+        "id": "KnowledgeIngestion-C8FGD",
         "measured": {
-          "height": 332,
+          "height": 331,
           "width": 320
         },
         "position": {
-          "x": 1243.659368419228,
-          "y": 1002.3422188280038
+          "x": 1164.4082794822493,
+          "y": 566.3624754306873
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "LanguageModelComponent-sLthl",
+          "node": {
+            "base_classes": [
+              "LanguageModel",
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Runs a language model given a specified provider.",
+            "display_name": "Language Model",
+            "documentation": "https://docs.langflow.org/components-models",
+            "edited": false,
+            "field_order": [
+              "provider",
+              "model_name",
+              "api_key",
+              "input_value",
+              "system_message",
+              "stream",
+              "temperature"
+            ],
+            "frozen": false,
+            "icon": "brain-circuit",
+            "last_updated": "2025-11-05T20:17:11.305Z",
+            "legacy": false,
+            "metadata": {
+              "code_hash": "4c0db80cc017",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "langchain_anthropic",
+                    "version": "0.3.14"
+                  },
+                  {
+                    "name": "langchain_openai",
+                    "version": "0.3.23"
+                  },
+                  {
+                    "name": "lfx",
+                    "version": null
+                  }
+                ],
+                "total_dependencies": 3
+              },
+              "keywords": [
+                "model",
+                "llm",
+                "language model",
+                "large language model"
+              ],
+              "module": "lfx.components.models.language_model.LanguageModelComponent"
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Model Response",
+                "group_outputs": false,
+                "method": "text_response",
+                "name": "text_output",
+                "options": null,
+                "required_inputs": null,
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Language Model",
+                "group_outputs": false,
+                "method": "build_model",
+                "name": "model_output",
+                "options": null,
+                "required_inputs": null,
+                "selected": "LanguageModel",
+                "tool_mode": true,
+                "types": [
+                  "LanguageModel"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "priority": 0,
+            "template": {
+              "_type": "Component",
+              "api_key": {
+                "_input_type": "SecretStrInput",
+                "advanced": false,
+                "display_name": "OpenAI API Key",
+                "dynamic": false,
+                "info": "Model Provider API key",
+                "input_types": [],
+                "load_from_db": true,
+                "name": "api_key",
+                "password": true,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": ""
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from typing import Any\n\nfrom langchain_anthropic import ChatAnthropic\nfrom langchain_openai import ChatOpenAI\n\nfrom lfx.base.models.anthropic_constants import ANTHROPIC_MODELS\nfrom lfx.base.models.google_generative_ai_constants import GOOGLE_GENERATIVE_AI_MODELS\nfrom lfx.base.models.google_generative_ai_model import ChatGoogleGenerativeAIFixed\nfrom lfx.base.models.model import LCModelComponent\nfrom lfx.base.models.openai_constants import OPENAI_CHAT_MODEL_NAMES, OPENAI_REASONING_MODEL_NAMES\nfrom lfx.field_typing import LanguageModel\nfrom lfx.field_typing.range_spec import RangeSpec\nfrom lfx.inputs.inputs import BoolInput\nfrom lfx.io import DropdownInput, MessageInput, MultilineInput, SecretStrInput, SliderInput\nfrom lfx.schema.dotdict import dotdict\n\n\nclass LanguageModelComponent(LCModelComponent):\n    display_name = \"Language Model\"\n    description = \"Runs a language model given a specified provider.\"\n    documentation: str = \"https://docs.langflow.org/components-models\"\n    icon = \"brain-circuit\"\n    category = \"models\"\n    priority = 0  # Set priority to 0 to make it appear first\n\n    inputs = [\n        DropdownInput(\n            name=\"provider\",\n            display_name=\"Model Provider\",\n            options=[\"OpenAI\", \"Anthropic\", \"Google\"],\n            value=\"OpenAI\",\n            info=\"Select the model provider\",\n            real_time_refresh=True,\n            options_metadata=[{\"icon\": \"OpenAI\"}, {\"icon\": \"Anthropic\"}, {\"icon\": \"GoogleGenerativeAI\"}],\n        ),\n        DropdownInput(\n            name=\"model_name\",\n            display_name=\"Model Name\",\n            options=OPENAI_CHAT_MODEL_NAMES + OPENAI_REASONING_MODEL_NAMES,\n            value=OPENAI_CHAT_MODEL_NAMES[0],\n            info=\"Select the model to use\",\n            real_time_refresh=True,\n        ),\n        SecretStrInput(\n            name=\"api_key\",\n            display_name=\"OpenAI API Key\",\n            info=\"Model Provider API key\",\n            required=False,\n            show=True,\n            real_time_refresh=True,\n        ),\n        MessageInput(\n            name=\"input_value\",\n            display_name=\"Input\",\n            info=\"The input text to send to the model\",\n        ),\n        MultilineInput(\n            name=\"system_message\",\n            display_name=\"System Message\",\n            info=\"A system message that helps set the behavior of the assistant\",\n            advanced=False,\n        ),\n        BoolInput(\n            name=\"stream\",\n            display_name=\"Stream\",\n            info=\"Whether to stream the response\",\n            value=False,\n            advanced=True,\n        ),\n        SliderInput(\n            name=\"temperature\",\n            display_name=\"Temperature\",\n            value=0.1,\n            info=\"Controls randomness in responses\",\n            range_spec=RangeSpec(min=0, max=1, step=0.01),\n            advanced=True,\n        ),\n    ]\n\n    def build_model(self) -> LanguageModel:\n        provider = self.provider\n        model_name = self.model_name\n        temperature = self.temperature\n        stream = self.stream\n\n        if provider == \"OpenAI\":\n            if not self.api_key:\n                msg = \"OpenAI API key is required when using OpenAI provider\"\n                raise ValueError(msg)\n\n            if model_name in OPENAI_REASONING_MODEL_NAMES:\n                # reasoning models do not support temperature (yet)\n                temperature = None\n\n            return ChatOpenAI(\n                model_name=model_name,\n                temperature=temperature,\n                streaming=stream,\n                openai_api_key=self.api_key,\n            )\n        if provider == \"Anthropic\":\n            if not self.api_key:\n                msg = \"Anthropic API key is required when using Anthropic provider\"\n                raise ValueError(msg)\n            return ChatAnthropic(\n                model=model_name,\n                temperature=temperature,\n                streaming=stream,\n                anthropic_api_key=self.api_key,\n            )\n        if provider == \"Google\":\n            if not self.api_key:\n                msg = \"Google API key is required when using Google provider\"\n                raise ValueError(msg)\n            return ChatGoogleGenerativeAIFixed(\n                model=model_name,\n                temperature=temperature,\n                streaming=stream,\n                google_api_key=self.api_key,\n            )\n        msg = f\"Unknown provider: {provider}\"\n        raise ValueError(msg)\n\n    def update_build_config(self, build_config: dotdict, field_value: Any, field_name: str | None = None) -> dotdict:\n        if field_name == \"provider\":\n            if field_value == \"OpenAI\":\n                build_config[\"model_name\"][\"options\"] = OPENAI_CHAT_MODEL_NAMES + OPENAI_REASONING_MODEL_NAMES\n                build_config[\"model_name\"][\"value\"] = OPENAI_CHAT_MODEL_NAMES[0]\n                build_config[\"api_key\"][\"display_name\"] = \"OpenAI API Key\"\n            elif field_value == \"Anthropic\":\n                build_config[\"model_name\"][\"options\"] = ANTHROPIC_MODELS\n                build_config[\"model_name\"][\"value\"] = ANTHROPIC_MODELS[0]\n                build_config[\"api_key\"][\"display_name\"] = \"Anthropic API Key\"\n            elif field_value == \"Google\":\n                build_config[\"model_name\"][\"options\"] = GOOGLE_GENERATIVE_AI_MODELS\n                build_config[\"model_name\"][\"value\"] = GOOGLE_GENERATIVE_AI_MODELS[0]\n                build_config[\"api_key\"][\"display_name\"] = \"Google API Key\"\n        elif field_name == \"model_name\" and field_value.startswith(\"o1\") and self.provider == \"OpenAI\":\n            # Hide system_message for o1 models - currently unsupported\n            if \"system_message\" in build_config:\n                build_config[\"system_message\"][\"show\"] = False\n        elif field_name == \"model_name\" and not field_value.startswith(\"o1\") and \"system_message\" in build_config:\n            build_config[\"system_message\"][\"show\"] = True\n        return build_config\n"
+              },
+              "input_value": {
+                "_input_type": "MessageInput",
+                "advanced": false,
+                "display_name": "Input",
+                "dynamic": false,
+                "info": "The input text to send to the model",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "input_value",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "model_name": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Model Name",
+                "dynamic": false,
+                "external_options": {},
+                "info": "Select the model to use",
+                "name": "model_name",
+                "options": [
+                  "gpt-4o-mini",
+                  "gpt-4o",
+                  "gpt-4.1",
+                  "gpt-4.1-mini",
+                  "gpt-4.1-nano",
+                  "gpt-4-turbo",
+                  "gpt-4-turbo-preview",
+                  "gpt-4",
+                  "gpt-3.5-turbo",
+                  "gpt-5",
+                  "gpt-5-mini",
+                  "gpt-5-nano",
+                  "gpt-5-chat-latest",
+                  "o1",
+                  "o3-mini",
+                  "o3",
+                  "o3-pro",
+                  "o4-mini",
+                  "o4-mini-high"
+                ],
+                "options_metadata": [],
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "gpt-4o-mini"
+              },
+              "provider": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Model Provider",
+                "dynamic": false,
+                "external_options": {},
+                "info": "Select the model provider",
+                "name": "provider",
+                "options": [
+                  "OpenAI",
+                  "Anthropic",
+                  "Google"
+                ],
+                "options_metadata": [
+                  {
+                    "icon": "OpenAI"
+                  },
+                  {
+                    "icon": "Anthropic"
+                  },
+                  {
+                    "icon": "GoogleGenerativeAI"
+                  }
+                ],
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "OpenAI"
+              },
+              "stream": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Stream",
+                "dynamic": false,
+                "info": "Whether to stream the response",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "stream",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": false
+              },
+              "system_message": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "copy_field": false,
+                "display_name": "System Message",
+                "dynamic": false,
+                "info": "A system message that helps set the behavior of the assistant",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "system_message",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "temperature": {
+                "_input_type": "SliderInput",
+                "advanced": true,
+                "display_name": "Temperature",
+                "dynamic": false,
+                "info": "Controls randomness in responses",
+                "max_label": "",
+                "max_label_icon": "",
+                "min_label": "",
+                "min_label_icon": "",
+                "name": "temperature",
+                "placeholder": "",
+                "range_spec": {
+                  "max": 1,
+                  "min": 0,
+                  "step": 0.01,
+                  "step_type": "float"
+                },
+                "required": false,
+                "show": true,
+                "slider_buttons": false,
+                "slider_buttons_options": [],
+                "slider_input": false,
+                "title_case": false,
+                "tool_mode": false,
+                "type": "slider",
+                "value": 0.1
+              }
+            },
+            "tool_mode": false
+          },
+          "selected_output": "model_output",
+          "showNode": true,
+          "type": "LanguageModelComponent"
+        },
+        "dragging": false,
+        "id": "LanguageModelComponent-sLthl",
+        "measured": {
+          "height": 531,
+          "width": 320
+        },
+        "position": {
+          "x": -69.18070527068343,
+          "y": 22.737676573678257
         },
         "selected": false,
         "type": "genericNode"
       }
     ],
     "viewport": {
-      "x": 111.638428134724,
-      "y": -184.4290347938479,
-      "zoom": 0.5865492334113969
+      "x": 230.22700803966165,
+      "y": -41.57611847143011,
+      "zoom": 0.5743491774985177
     }
   },
   "description": "",
   "endpoint_name": null,
-  "id": "2647bb54-f110-48a5-a9e7-0ae71bdb50bc",
+  "id": "4151a61f-6fbf-4607-a0a4-c072b35030cf",
   "is_component": false,
-  "last_tested_version": "1.6.0",
+  "last_tested_version": "1.6.4",
   "name": "Ingestion Router",
   "tags": []
 }
