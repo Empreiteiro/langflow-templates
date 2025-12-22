@@ -1,10 +1,3 @@
-
-dashboard_chart_generation.json
-Página
-
-/
-1
-
 {
   "data": {
     "edges": [
@@ -14,7 +7,7 @@ Página
         "data": {
           "sourceHandle": {
             "dataType": "TextInput",
-            "id": "TextInput-9xTXn",
+            "id": "TextInput-zf57U",
             "name": "text",
             "output_types": [
               "Message"
@@ -22,19 +15,19 @@ Página
           },
           "targetHandle": {
             "fieldName": "Schema",
-            "id": "Prompt-YyUMV",
+            "id": "Prompt-jjyVg",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "reactflow__edge-TextInput-9xTXn{œdataTypeœ:œTextInputœ,œidœ:œTextInput-9xTXnœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-Prompt-YyUMV{œfieldNameœ:œSchemaœ,œidœ:œPrompt-YyUMVœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-TextInput-zf57U{œdataTypeœ:œTextInputœ,œidœ:œTextInput-zf57Uœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-Prompt-jjyVg{œfieldNameœ:œSchemaœ,œidœ:œPrompt-jjyVgœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "TextInput-9xTXn",
-        "sourceHandle": "{œdataTypeœ:œTextInputœ,œidœ:œTextInput-9xTXnœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Prompt-YyUMV",
-        "targetHandle": "{œfieldNameœ:œSchemaœ,œidœ:œPrompt-YyUMVœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "source": "TextInput-zf57U",
+        "sourceHandle": "{œdataTypeœ:œTextInputœ,œidœ:œTextInput-zf57Uœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt-jjyVg",
+        "targetHandle": "{œfieldNameœ:œSchemaœ,œidœ:œPrompt-jjyVgœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       },
       {
         "animated": false,
@@ -42,7 +35,7 @@ Página
         "data": {
           "sourceHandle": {
             "dataType": "ChatInput",
-            "id": "ChatInput-I1eiJ",
+            "id": "ChatInput-XPPV2",
             "name": "message",
             "output_types": [
               "Message"
@@ -50,19 +43,19 @@ Página
           },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "Agent-9VSj7",
+            "id": "Agent-HAFd9",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "reactflow__edge-ChatInput-I1eiJ{œdataTypeœ:œChatInputœ,œidœ:œChatInput-I1eiJœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Agent-9VSj7{œfieldNameœ:œinput_valueœ,œidœ:œAgent-9VSj7œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-ChatInput-XPPV2{œdataTypeœ:œChatInputœ,œidœ:œChatInput-XPPV2œ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Agent-HAFd9{œfieldNameœ:œinput_valueœ,œidœ:œAgent-HAFd9œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "ChatInput-I1eiJ",
-        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-I1eiJœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Agent-9VSj7",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œAgent-9VSj7œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "source": "ChatInput-XPPV2",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-XPPV2œ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Agent-HAFd9",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œAgent-HAFd9œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       },
       {
         "animated": false,
@@ -70,7 +63,7 @@ Página
         "data": {
           "sourceHandle": {
             "dataType": "Prompt",
-            "id": "Prompt-YyUMV",
+            "id": "Prompt-jjyVg",
             "name": "prompt",
             "output_types": [
               "Message"
@@ -78,19 +71,19 @@ Página
           },
           "targetHandle": {
             "fieldName": "system_prompt",
-            "id": "Agent-9VSj7",
+            "id": "Agent-HAFd9",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "reactflow__edge-Prompt-YyUMV{œdataTypeœ:œPromptœ,œidœ:œPrompt-YyUMVœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-Agent-9VSj7{œfieldNameœ:œsystem_promptœ,œidœ:œAgent-9VSj7œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-Prompt-jjyVg{œdataTypeœ:œPromptœ,œidœ:œPrompt-jjyVgœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-Agent-HAFd9{œfieldNameœ:œsystem_promptœ,œidœ:œAgent-HAFd9œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "Prompt-YyUMV",
-        "sourceHandle": "{œdataTypeœ:œPromptœ,œidœ:œPrompt-YyUMVœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Agent-9VSj7",
-        "targetHandle": "{œfieldNameœ:œsystem_promptœ,œidœ:œAgent-9VSj7œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "source": "Prompt-jjyVg",
+        "sourceHandle": "{œdataTypeœ:œPromptœ,œidœ:œPrompt-jjyVgœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Agent-HAFd9",
+        "targetHandle": "{œfieldNameœ:œsystem_promptœ,œidœ:œAgent-HAFd9œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       },
       {
         "animated": false,
@@ -98,7 +91,7 @@ Página
         "data": {
           "sourceHandle": {
             "dataType": "Prompt",
-            "id": "Prompt-NqWRD",
+            "id": "Prompt-4rlvI",
             "name": "prompt",
             "output_types": [
               "Message"
@@ -106,19 +99,19 @@ Página
           },
           "targetHandle": {
             "fieldName": "system_prompt",
-            "id": "Agent-epq2d",
+            "id": "Agent-omfrX",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "reactflow__edge-Prompt-NqWRD{œdataTypeœ:œPromptœ,œidœ:œPrompt-NqWRDœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-Agent-epq2d{œfieldNameœ:œsystem_promptœ,œidœ:œAgent-epq2dœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-Prompt-4rlvI{œdataTypeœ:œPromptœ,œidœ:œPrompt-4rlvIœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-Agent-omfrX{œfieldNameœ:œsystem_promptœ,œidœ:œAgent-omfrXœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "Prompt-NqWRD",
-        "sourceHandle": "{œdataTypeœ:œPromptœ,œidœ:œPrompt-NqWRDœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Agent-epq2d",
-        "targetHandle": "{œfieldNameœ:œsystem_promptœ,œidœ:œAgent-epq2dœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "source": "Prompt-4rlvI",
+        "sourceHandle": "{œdataTypeœ:œPromptœ,œidœ:œPrompt-4rlvIœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Agent-omfrX",
+        "targetHandle": "{œfieldNameœ:œsystem_promptœ,œidœ:œAgent-omfrXœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       },
       {
         "animated": false,
@@ -126,7 +119,7 @@ Página
         "data": {
           "sourceHandle": {
             "dataType": "Agent",
-            "id": "Agent-9VSj7",
+            "id": "Agent-HAFd9",
             "name": "response",
             "output_types": [
               "Message"
@@ -134,19 +127,19 @@ Página
           },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "Agent-epq2d",
+            "id": "Agent-omfrX",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "reactflow__edge-Agent-9VSj7{œdataTypeœ:œAgentœ,œidœ:œAgent-9VSj7œ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}-Agent-epq2d{œfieldNameœ:œinput_valueœ,œidœ:œAgent-epq2dœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-Agent-HAFd9{œdataTypeœ:œAgentœ,œidœ:œAgent-HAFd9œ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}-Agent-omfrX{œfieldNameœ:œinput_valueœ,œidœ:œAgent-omfrXœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "Agent-9VSj7",
-        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-9VSj7œ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Agent-epq2d",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œAgent-epq2dœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "source": "Agent-HAFd9",
+        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-HAFd9œ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Agent-omfrX",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œAgent-omfrXœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       },
       {
         "animated": false,
@@ -154,7 +147,7 @@ Página
         "data": {
           "sourceHandle": {
             "dataType": "ChatInput",
-            "id": "ChatInput-I1eiJ",
+            "id": "ChatInput-XPPV2",
             "name": "message",
             "output_types": [
               "Message"
@@ -162,19 +155,19 @@ Página
           },
           "targetHandle": {
             "fieldName": "input",
-            "id": "Prompt-NqWRD",
+            "id": "Prompt-4rlvI",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "reactflow__edge-ChatInput-I1eiJ{œdataTypeœ:œChatInputœ,œidœ:œChatInput-I1eiJœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Prompt-NqWRD{œfieldNameœ:œinputœ,œidœ:œPrompt-NqWRDœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-ChatInput-XPPV2{œdataTypeœ:œChatInputœ,œidœ:œChatInput-XPPV2œ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Prompt-4rlvI{œfieldNameœ:œinputœ,œidœ:œPrompt-4rlvIœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "ChatInput-I1eiJ",
-        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-I1eiJœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Prompt-NqWRD",
-        "targetHandle": "{œfieldNameœ:œinputœ,œidœ:œPrompt-NqWRDœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "source": "ChatInput-XPPV2",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-XPPV2œ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt-4rlvI",
+        "targetHandle": "{œfieldNameœ:œinputœ,œidœ:œPrompt-4rlvIœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       },
       {
         "animated": false,
@@ -182,7 +175,7 @@ Página
         "data": {
           "sourceHandle": {
             "dataType": "SQLComponent",
-            "id": "SQLComponent-fE9sn",
+            "id": "SQLComponent-U88JU",
             "name": "component_as_tool",
             "output_types": [
               "Tool"
@@ -190,19 +183,19 @@ Página
           },
           "targetHandle": {
             "fieldName": "tools",
-            "id": "Agent-9VSj7",
+            "id": "Agent-HAFd9",
             "inputTypes": [
               "Tool"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-SQLComponent-fE9sn{œdataTypeœ:œSQLComponentœ,œidœ:œSQLComponent-fE9snœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-9VSj7{œfieldNameœ:œtoolsœ,œidœ:œAgent-9VSj7œ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-SQLComponent-U88JU{œdataTypeœ:œSQLComponentœ,œidœ:œSQLComponent-U88JUœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-HAFd9{œfieldNameœ:œtoolsœ,œidœ:œAgent-HAFd9œ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "SQLComponent-fE9sn",
-        "sourceHandle": "{œdataTypeœ:œSQLComponentœ,œidœ:œSQLComponent-fE9snœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
-        "target": "Agent-9VSj7",
-        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-9VSj7œ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+        "source": "SQLComponent-U88JU",
+        "sourceHandle": "{œdataTypeœ:œSQLComponentœ,œidœ:œSQLComponent-U88JUœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
+        "target": "Agent-HAFd9",
+        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-HAFd9œ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -210,7 +203,7 @@ Página
         "data": {
           "sourceHandle": {
             "dataType": "Agent",
-            "id": "Agent-epq2d",
+            "id": "Agent-omfrX",
             "name": "response",
             "output_types": [
               "Message"
@@ -218,19 +211,19 @@ Página
           },
           "targetHandle": {
             "fieldName": "python_code",
-            "id": "PythonREPLComponent-0Y7rR",
+            "id": "PythonREPLComponent-dKHX8",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "reactflow__edge-Agent-epq2d{œdataTypeœ:œAgentœ,œidœ:œAgent-epq2dœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}-PythonREPLComponent-0Y7rR{œfieldNameœ:œpython_codeœ,œidœ:œPythonREPLComponent-0Y7rRœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-Agent-omfrX{œdataTypeœ:œAgentœ,œidœ:œAgent-omfrXœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}-PythonREPLComponent-dKHX8{œfieldNameœ:œpython_codeœ,œidœ:œPythonREPLComponent-dKHX8œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "Agent-epq2d",
-        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-epq2dœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "PythonREPLComponent-0Y7rR",
-        "targetHandle": "{œfieldNameœ:œpython_codeœ,œidœ:œPythonREPLComponent-0Y7rRœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "source": "Agent-omfrX",
+        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-omfrXœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "PythonREPLComponent-dKHX8",
+        "targetHandle": "{œfieldNameœ:œpython_codeœ,œidœ:œPythonREPLComponent-dKHX8œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       },
       {
         "animated": false,
@@ -238,7 +231,7 @@ Página
         "data": {
           "sourceHandle": {
             "dataType": "PythonREPLComponent",
-            "id": "PythonREPLComponent-0Y7rR",
+            "id": "PythonREPLComponent-dKHX8",
             "name": "results",
             "output_types": [
               "Data"
@@ -246,7 +239,7 @@ Página
           },
           "targetHandle": {
             "fieldName": "input_data",
-            "id": "ParserComponent-QjNe2",
+            "id": "ParserComponent-FBsZj",
             "inputTypes": [
               "DataFrame",
               "Data"
@@ -254,12 +247,12 @@ Página
             "type": "other"
           }
         },
-        "id": "xy-edge__PythonREPLComponent-0Y7rR{œdataTypeœ:œPythonREPLComponentœ,œidœ:œPythonREPLComponent-0Y7rRœ,œnameœ:œresultsœ,œoutput_typesœ:[œDataœ]}-ParserComponent-QjNe2{œfieldNameœ:œinput_dataœ,œidœ:œParserComponent-QjNe2œ,œinputTypesœ:[œDataFrameœ,œDataœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-PythonREPLComponent-dKHX8{œdataTypeœ:œPythonREPLComponentœ,œidœ:œPythonREPLComponent-dKHX8œ,œnameœ:œresultsœ,œoutput_typesœ:[œDataœ]}-ParserComponent-FBsZj{œfieldNameœ:œinput_dataœ,œidœ:œParserComponent-FBsZjœ,œinputTypesœ:[œDataFrameœ,œDataœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "PythonREPLComponent-0Y7rR",
-        "sourceHandle": "{œdataTypeœ:œPythonREPLComponentœ,œidœ:œPythonREPLComponent-0Y7rRœ,œnameœ:œresultsœ,œoutput_typesœ:[œDataœ]}",
-        "target": "ParserComponent-QjNe2",
-        "targetHandle": "{œfieldNameœ:œinput_dataœ,œidœ:œParserComponent-QjNe2œ,œinputTypesœ:[œDataFrameœ,œDataœ],œtypeœ:œotherœ}"
+        "source": "PythonREPLComponent-dKHX8",
+        "sourceHandle": "{œdataTypeœ:œPythonREPLComponentœ,œidœ:œPythonREPLComponent-dKHX8œ,œnameœ:œresultsœ,œoutput_typesœ:[œDataœ]}",
+        "target": "ParserComponent-FBsZj",
+        "targetHandle": "{œfieldNameœ:œinput_dataœ,œidœ:œParserComponent-FBsZjœ,œinputTypesœ:[œDataFrameœ,œDataœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -267,7 +260,7 @@ Página
         "data": {
           "sourceHandle": {
             "dataType": "ParserComponent",
-            "id": "ParserComponent-QjNe2",
+            "id": "ParserComponent-FBsZj",
             "name": "parsed_text",
             "output_types": [
               "Message"
@@ -275,7 +268,7 @@ Página
           },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "ChatOutput-Y1dxK",
+            "id": "ChatOutput-V8uXu",
             "inputTypes": [
               "Data",
               "DataFrame",
@@ -284,18 +277,18 @@ Página
             "type": "other"
           }
         },
-        "id": "xy-edge__ParserComponent-QjNe2{œdataTypeœ:œParserComponentœ,œidœ:œParserComponent-QjNe2œ,œnameœ:œparsed_textœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-Y1dxK{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-Y1dxKœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-ParserComponent-FBsZj{œdataTypeœ:œParserComponentœ,œidœ:œParserComponent-FBsZjœ,œnameœ:œparsed_textœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-V8uXu{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-V8uXuœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "ParserComponent-QjNe2",
-        "sourceHandle": "{œdataTypeœ:œParserComponentœ,œidœ:œParserComponent-QjNe2œ,œnameœ:œparsed_textœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "ChatOutput-Y1dxK",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-Y1dxKœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
+        "source": "ParserComponent-FBsZj",
+        "sourceHandle": "{œdataTypeœ:œParserComponentœ,œidœ:œParserComponent-FBsZjœ,œnameœ:œparsed_textœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "ChatOutput-V8uXu",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-V8uXuœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
       }
     ],
     "nodes": [
       {
         "data": {
-          "id": "ChatInput-I1eiJ",
+          "id": "ChatInput-XPPV2",
           "node": {
             "base_classes": [
               "Message"
@@ -471,7 +464,7 @@ Página
                 "trace_as_metadata": true,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": "qual o total de venda ao longo do tempo?"
+                "value": "What is the total sales over time?"
               },
               "sender": {
                 "_input_type": "DropdownInput",
@@ -577,7 +570,7 @@ Página
           "type": "ChatInput"
         },
         "dragging": false,
-        "id": "ChatInput-I1eiJ",
+        "id": "ChatInput-XPPV2",
         "measured": {
           "height": 203,
           "width": 320
@@ -591,7 +584,7 @@ Página
       },
       {
         "data": {
-          "id": "Agent-9VSj7",
+          "id": "Agent-HAFd9",
           "node": {
             "base_classes": [
               "Message"
@@ -633,7 +626,7 @@ Página
             ],
             "frozen": false,
             "icon": "bot",
-            "last_updated": "2025-12-18T14:25:09.672Z",
+            "last_updated": "2025-12-22T16:40:41.515Z",
             "legacy": false,
             "lf_version": "1.7.0",
             "metadata": {
@@ -682,10 +675,10 @@ Página
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
-                "value": "698932f8-4c04-4a55-a601-af04bb55aabb"
+                "value": "16bfcdba-70b6-4f68-874a-023c15aa6f1b"
               },
               "_frontend_node_folder_id": {
-                "value": "98040557-39f8-42bc-8e54-bc06d2b576a0"
+                "value": "49507220-ddb6-4661-84fb-ce3cb04425e4"
               },
               "_type": "Component",
               "add_current_date_tool": {
@@ -1379,7 +1372,7 @@ Página
           "type": "Agent"
         },
         "dragging": false,
-        "id": "Agent-9VSj7",
+        "id": "Agent-HAFd9",
         "measured": {
           "height": 591,
           "width": 320
@@ -1393,7 +1386,7 @@ Página
       },
       {
         "data": {
-          "id": "Prompt-YyUMV",
+          "id": "Prompt-jjyVg",
           "node": {
             "base_classes": [
               "Message"
@@ -1536,7 +1529,7 @@ Página
           "type": "Prompt"
         },
         "dragging": false,
-        "id": "Prompt-YyUMV",
+        "id": "Prompt-jjyVg",
         "measured": {
           "height": 365,
           "width": 320
@@ -1550,7 +1543,7 @@ Página
       },
       {
         "data": {
-          "id": "SQLComponent-fE9sn",
+          "id": "SQLComponent-U88JU",
           "node": {
             "base_classes": [
               "DataFrame"
@@ -1570,7 +1563,7 @@ Página
             ],
             "frozen": false,
             "icon": "database",
-            "last_updated": "2025-12-18T14:25:09.680Z",
+            "last_updated": "2025-12-22T16:40:41.518Z",
             "legacy": false,
             "lf_version": "1.7.0",
             "metadata": {
@@ -1626,10 +1619,10 @@ Página
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
-                "value": "698932f8-4c04-4a55-a601-af04bb55aabb"
+                "value": "16bfcdba-70b6-4f68-874a-023c15aa6f1b"
               },
               "_frontend_node_folder_id": {
-                "value": "98040557-39f8-42bc-8e54-bc06d2b576a0"
+                "value": "49507220-ddb6-4661-84fb-ce3cb04425e4"
               },
               "_type": "Component",
               "add_error": {
@@ -1693,7 +1686,7 @@ Página
                 "trace_as_metadata": true,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": "sqlite:////mnt/c/Users/...."
+                "value": ""
               },
               "include_columns": {
                 "_input_type": "BoolInput",
@@ -1803,7 +1796,7 @@ Página
           "type": "SQLComponent"
         },
         "dragging": false,
-        "id": "SQLComponent-fE9sn",
+        "id": "SQLComponent-U88JU",
         "measured": {
           "height": 299,
           "width": 320
@@ -1817,7 +1810,7 @@ Página
       },
       {
         "data": {
-          "id": "TextInput-9xTXn",
+          "id": "TextInput-zf57U",
           "node": {
             "base_classes": [
               "Message"
@@ -1927,7 +1920,7 @@ Página
           "type": "TextInput"
         },
         "dragging": false,
-        "id": "TextInput-9xTXn",
+        "id": "TextInput-zf57U",
         "measured": {
           "height": 203,
           "width": 320
@@ -1941,7 +1934,7 @@ Página
       },
       {
         "data": {
-          "id": "ChatOutput-Y1dxK",
+          "id": "ChatOutput-V8uXu",
           "node": {
             "base_classes": [
               "Message"
@@ -2228,7 +2221,7 @@ Página
           "type": "ChatOutput"
         },
         "dragging": false,
-        "id": "ChatOutput-Y1dxK",
+        "id": "ChatOutput-V8uXu",
         "measured": {
           "height": 165,
           "width": 320
@@ -2242,7 +2235,7 @@ Página
       },
       {
         "data": {
-          "id": "Agent-epq2d",
+          "id": "Agent-omfrX",
           "node": {
             "base_classes": [
               "Message"
@@ -2284,7 +2277,7 @@ Página
             ],
             "frozen": false,
             "icon": "bot",
-            "last_updated": "2025-12-18T14:25:09.682Z",
+            "last_updated": "2025-12-22T16:40:41.520Z",
             "legacy": false,
             "lf_version": "1.7.0",
             "metadata": {
@@ -2333,10 +2326,10 @@ Página
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
-                "value": "698932f8-4c04-4a55-a601-af04bb55aabb"
+                "value": "16bfcdba-70b6-4f68-874a-023c15aa6f1b"
               },
               "_frontend_node_folder_id": {
-                "value": "98040557-39f8-42bc-8e54-bc06d2b576a0"
+                "value": "49507220-ddb6-4661-84fb-ce3cb04425e4"
               },
               "_type": "Component",
               "add_current_date_tool": {
@@ -3030,7 +3023,7 @@ Página
           "type": "Agent"
         },
         "dragging": false,
-        "id": "Agent-epq2d",
+        "id": "Agent-omfrX",
         "measured": {
           "height": 591,
           "width": 320
@@ -3044,7 +3037,7 @@ Página
       },
       {
         "data": {
-          "id": "Prompt-NqWRD",
+          "id": "Prompt-4rlvI",
           "node": {
             "base_classes": [
               "Message"
@@ -3187,7 +3180,7 @@ Página
           "type": "Prompt"
         },
         "dragging": false,
-        "id": "Prompt-NqWRD",
+        "id": "Prompt-4rlvI",
         "measured": {
           "height": 365,
           "width": 320
@@ -3201,7 +3194,7 @@ Página
       },
       {
         "data": {
-          "id": "PythonREPLComponent-0Y7rR",
+          "id": "PythonREPLComponent-dKHX8",
           "node": {
             "base_classes": [
               "Data"
@@ -3337,7 +3330,7 @@ Página
           "type": "PythonREPLComponent"
         },
         "dragging": false,
-        "id": "PythonREPLComponent-0Y7rR",
+        "id": "PythonREPLComponent-dKHX8",
         "measured": {
           "height": 301,
           "width": 320
@@ -3351,7 +3344,7 @@ Página
       },
       {
         "data": {
-          "id": "ParserComponent-QjNe2",
+          "id": "ParserComponent-FBsZj",
           "node": {
             "base_classes": [
               "Message"
@@ -3534,7 +3527,7 @@ Página
           "type": "ParserComponent"
         },
         "dragging": false,
-        "id": "ParserComponent-QjNe2",
+        "id": "ParserComponent-FBsZj",
         "measured": {
           "height": 327,
           "width": 320
@@ -3548,7 +3541,7 @@ Página
       },
       {
         "data": {
-          "id": "note-s6NGp",
+          "id": "note-cymtH",
           "node": {
             "description": "### ⚠️ Schema Definition Required\n\n**You must update the \"Database Schema\" field before running.**\n\nThe current text is a placeholder example (`table: clientes...`).\n👉 **Action:** Replace it with your actual database structure (table names and column definitions) so the AI can generate correct queries.",
             "display_name": "",
@@ -3561,7 +3554,7 @@ Página
         },
         "dragging": false,
         "height": 450,
-        "id": "note-s6NGp",
+        "id": "note-cymtH",
         "measured": {
           "height": 450,
           "width": 350
@@ -3577,7 +3570,7 @@ Página
       },
       {
         "data": {
-          "id": "note-XK8tj",
+          "id": "note-M73oH",
           "node": {
             "description": "### ⚠️ Required Setup\n\n**Before running the flow, you must update the \"Database URL\" field.**",
             "display_name": "",
@@ -3590,7 +3583,7 @@ Página
         },
         "dragging": false,
         "height": 415,
-        "id": "note-XK8tj",
+        "id": "note-M73oH",
         "measured": {
           "height": 415,
           "width": 346
@@ -3606,7 +3599,7 @@ Página
       },
       {
         "data": {
-          "id": "note-OUuWb",
+          "id": "note-4sgbJ",
           "node": {
             "description": "### ⚠️ Configuration Required\n\nTo enable custom charts, you must install the **Matplotlib** library in the same Python environment where Langflow is running.\n\n1. Execute the command below:\n```bash\nuv add matplotlib\n```\n\n\n2. Finally, **restart Langflow** for the changes to take effect.",
             "display_name": "",
@@ -3619,7 +3612,7 @@ Página
         },
         "dragging": false,
         "height": 677,
-        "id": "note-OUuWb",
+        "id": "note-4sgbJ",
         "measured": {
           "height": 677,
           "width": 357
@@ -3635,17 +3628,16 @@ Página
       }
     ],
     "viewport": {
-      "x": 2262.6896548193054,
-      "y": 2415.870865171616,
-      "zoom": 0.9608442081790112
+      "x": 1629.0846378881565,
+      "y": 1083.951433618309,
+      "zoom": 0.5743491774985182
     }
   },
   "description": "Text Generation Meets Business Transformation.",
   "endpoint_name": null,
-  "id": "698932f8-4c04-4a55-a601-af04bb55aabb",
+  "id": "16bfcdba-70b6-4f68-874a-023c15aa6f1b",
   "is_component": false,
   "last_tested_version": "1.7.0",
   "name": "dashboard_chart_generation",
   "tags": []
 }
-Exibindo dashboard_chart_generation.json…
