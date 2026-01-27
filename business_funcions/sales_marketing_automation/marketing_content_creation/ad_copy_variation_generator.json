@@ -6599,16 +6599,43 @@
           "width": 192
         },
         "position": {
-          "x": 2711.278236029909,
-          "y": 299.6192765013773
+          "x": 2522.7291029146127,
+          "y": 305.3328865957802
         },
-        "selected": false,
+        "selected": true,
         "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "note-WmeJG",
+          "node": {
+            "description": "## 📋 How to Use\n\nProvide these 6 details in your message:\n- Product\n- Target Audience\n- Benefits\n- Tone of Voice\n- Platform (Google Ads, Facebook, etc.)\n- Number of Variations\n\nThe agent will collect the info, research platform specs, and generate optimized ad copy variations.\n\n**Example:**\n\"Facebook Ads for B2B SaaS. Target: small business owners. Benefits: productivity, collaboration. Tone: professional. 5 variations.\"",
+            "display_name": "",
+            "documentation": "",
+            "template": {}
+          },
+          "type": "note"
+        },
+        "dragging": false,
+        "height": 526,
+        "id": "note-WmeJG",
+        "measured": {
+          "height": 526,
+          "width": 341
+        },
+        "position": {
+          "x": 239.07994601912873,
+          "y": -536.3719981356959
+        },
+        "resizing": false,
+        "selected": false,
+        "type": "noteNode",
+        "width": 341
       }
     ],
     "viewport": {
-      "x": 180.60541955355723,
-      "y": 277.04569333578877,
+      "x": 317.6054195535571,
+      "y": 265.04569333578877,
       "zoom": 0.35004138661110434
     }
   },
