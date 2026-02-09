@@ -11999,7 +11999,7 @@
         "data": {
           "id": "note-r1K0O",
           "node": {
-            "description": "📄 **Sample Resume for Testing**\n\nAccess this link to download a sample resume PDF that you can use to test the flow:\n[Link to sample_resume_developer.pdf]💡 Job Description: Provide the complete Job Description.",
+            "description": "📄 **Sample Resume for Testing**\n\nAccess this link to download a sample resume PDF that you can use to test the flow:\n[https://github.com/Empreiteiro/langflow-templates/blob/main/business_funcions/hr_services/candidate_screening_flow/sample_resume_developer.pdf]💡 Job Description: Provide the complete Job Description.",
             "display_name": "",
             "documentation": "",
             "template": {
