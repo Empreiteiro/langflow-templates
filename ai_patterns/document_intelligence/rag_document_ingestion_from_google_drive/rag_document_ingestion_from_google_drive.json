@@ -7,7 +7,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "GoogleDriveFolderReader",
-            "id": "CustomComponent-hZVAg",
+            "id": "GoogleDriveFolderReader-71TM8",
             "name": "documents",
             "output_types": [
               "DataFrame"
@@ -15,7 +15,7 @@
           },
           "targetHandle": {
             "fieldName": "data_inputs",
-            "id": "SplitText-bhJsI",
+            "id": "SplitText-Sg0fo",
             "inputTypes": [
               "Data",
               "DataFrame",
@@ -24,12 +24,12 @@
             "type": "other"
           }
         },
-        "id": "xy-edge__CustomComponent-hZVAg{œdataTypeœ:œGoogleDriveFolderReaderœ,œidœ:œCustomComponent-hZVAgœ,œnameœ:œdocumentsœ,œoutput_typesœ:[œDataFrameœ]}-SplitText-bhJsI{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-bhJsIœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-GoogleDriveFolderReader-71TM8{œdataTypeœ:œGoogleDriveFolderReaderœ,œidœ:œGoogleDriveFolderReader-71TM8œ,œnameœ:œdocumentsœ,œoutput_typesœ:[œDataFrameœ]}-SplitText-Sg0fo{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-Sg0foœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "CustomComponent-hZVAg",
-        "sourceHandle": "{œdataTypeœ:œGoogleDriveFolderReaderœ,œidœ:œCustomComponent-hZVAgœ,œnameœ:œdocumentsœ,œoutput_typesœ:[œDataFrameœ]}",
-        "target": "SplitText-bhJsI",
-        "targetHandle": "{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-bhJsIœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
+        "source": "GoogleDriveFolderReader-71TM8",
+        "sourceHandle": "{œdataTypeœ:œGoogleDriveFolderReaderœ,œidœ:œGoogleDriveFolderReader-71TM8œ,œnameœ:œdocumentsœ,œoutput_typesœ:[œDataFrameœ]}",
+        "target": "SplitText-Sg0fo",
+        "targetHandle": "{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-Sg0foœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -37,7 +37,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "SplitText",
-            "id": "SplitText-bhJsI",
+            "id": "SplitText-Sg0fo",
             "name": "dataframe",
             "output_types": [
               "DataFrame"
@@ -45,7 +45,7 @@
           },
           "targetHandle": {
             "fieldName": "ingest_data",
-            "id": "AstraDB-S7pRc",
+            "id": "AstraDB-HKDYb",
             "inputTypes": [
               "Data",
               "DataFrame"
@@ -53,12 +53,12 @@
             "type": "other"
           }
         },
-        "id": "xy-edge__SplitText-bhJsI{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-bhJsIœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}-AstraDB-S7pRc{œfieldNameœ:œingest_dataœ,œidœ:œAstraDB-S7pRcœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-SplitText-Sg0fo{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-Sg0foœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}-AstraDB-HKDYb{œfieldNameœ:œingest_dataœ,œidœ:œAstraDB-HKDYbœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "SplitText-bhJsI",
-        "sourceHandle": "{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-bhJsIœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}",
-        "target": "AstraDB-S7pRc",
-        "targetHandle": "{œfieldNameœ:œingest_dataœ,œidœ:œAstraDB-S7pRcœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}"
+        "source": "SplitText-Sg0fo",
+        "sourceHandle": "{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-Sg0foœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}",
+        "target": "AstraDB-HKDYb",
+        "targetHandle": "{œfieldNameœ:œingest_dataœ,œidœ:œAstraDB-HKDYbœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -66,7 +66,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "EmbeddingModel",
-            "id": "EmbeddingModel-K3FqD",
+            "id": "EmbeddingModel-Mi0F0",
             "name": "embeddings",
             "output_types": [
               "Embeddings"
@@ -74,25 +74,25 @@
           },
           "targetHandle": {
             "fieldName": "embedding_model",
-            "id": "AstraDB-S7pRc",
+            "id": "AstraDB-HKDYb",
             "inputTypes": [
               "Embeddings"
             ],
             "type": "other"
           }
         },
-        "id": "xy-edge__EmbeddingModel-K3FqD{œdataTypeœ:œEmbeddingModelœ,œidœ:œEmbeddingModel-K3FqDœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-AstraDB-S7pRc{œfieldNameœ:œembedding_modelœ,œidœ:œAstraDB-S7pRcœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-EmbeddingModel-Mi0F0{œdataTypeœ:œEmbeddingModelœ,œidœ:œEmbeddingModel-Mi0F0œ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-AstraDB-HKDYb{œfieldNameœ:œembedding_modelœ,œidœ:œAstraDB-HKDYbœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "EmbeddingModel-K3FqD",
-        "sourceHandle": "{œdataTypeœ:œEmbeddingModelœ,œidœ:œEmbeddingModel-K3FqDœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}",
-        "target": "AstraDB-S7pRc",
-        "targetHandle": "{œfieldNameœ:œembedding_modelœ,œidœ:œAstraDB-S7pRcœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}"
+        "source": "EmbeddingModel-Mi0F0",
+        "sourceHandle": "{œdataTypeœ:œEmbeddingModelœ,œidœ:œEmbeddingModel-Mi0F0œ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}",
+        "target": "AstraDB-HKDYb",
+        "targetHandle": "{œfieldNameœ:œembedding_modelœ,œidœ:œAstraDB-HKDYbœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}"
       }
     ],
     "nodes": [
       {
         "data": {
-          "id": "AstraDB-S7pRc",
+          "id": "AstraDB-HKDYb",
           "node": {
             "base_classes": [
               "Data",
@@ -134,6 +134,7 @@
             "icon": "AstraDB",
             "last_updated": "2026-01-15T18:42:47.576Z",
             "legacy": false,
+            "lf_version": "1.9.2",
             "metadata": {
               "code_hash": "d52094e54e96",
               "dependencies": {
@@ -326,7 +327,7 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "from astrapy import DataAPIClient\nfrom langchain_core.documents import Document\n\nfrom lfx.base.datastax.astradb_base import AstraDBBaseComponent\nfrom lfx.base.vectorstores.model import LCVectorStoreComponent, check_cached_vector_store\nfrom lfx.base.vectorstores.vector_store_connection_decorator import vector_store_connection\nfrom lfx.helpers.data import docs_to_data\nfrom lfx.io import BoolInput, DropdownInput, FloatInput, HandleInput, IntInput, NestedDictInput, QueryInput, StrInput\nfrom lfx.schema.data import Data\nfrom lfx.serialization import serialize\nfrom lfx.utils.version import get_version_info\n\n\n@vector_store_connection\nclass AstraDBVectorStoreComponent(AstraDBBaseComponent, LCVectorStoreComponent):\n    display_name: str = \"Astra DB\"\n    description: str = \"Ingest and search documents in Astra DB\"\n    documentation: str = \"https://docs.langflow.org/bundles-datastax\"\n    name = \"AstraDB\"\n    icon: str = \"AstraDB\"\n\n    inputs = [\n        *AstraDBBaseComponent.inputs,\n        *LCVectorStoreComponent.inputs,\n        HandleInput(\n            name=\"embedding_model\",\n            display_name=\"Embedding Model\",\n            input_types=[\"Embeddings\"],\n            info=\"Specify the Embedding Model. Not required for Astra Vectorize collections.\",\n            required=False,\n            show=True,\n        ),\n        StrInput(\n            name=\"content_field\",\n            display_name=\"Content Field\",\n            info=\"Field to use as the text content field for the vector store.\",\n            advanced=True,\n        ),\n        StrInput(\n            name=\"deletion_field\",\n            display_name=\"Deletion Based On Field\",\n            info=\"When this parameter is provided, documents in the target collection with \"\n            \"metadata field values matching the input metadata field value will be deleted \"\n            \"before new data is loaded.\",\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"ignore_invalid_documents\",\n            display_name=\"Ignore Invalid Documents\",\n            info=\"Boolean flag to determine whether to ignore invalid documents at runtime.\",\n            advanced=True,\n        ),\n        NestedDictInput(\n            name=\"astradb_vectorstore_kwargs\",\n            display_name=\"AstraDBVectorStore Parameters\",\n            info=\"Optional dictionary of additional parameters for the AstraDBVectorStore.\",\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"search_method\",\n            display_name=\"Search Method\",\n            info=(\n                \"Determine how your content is matched: Vector finds semantic similarity, \"\n                \"and Hybrid Search (suggested) combines both approaches \"\n                \"with a reranker.\"\n            ),\n            options=[\"Hybrid Search\", \"Vector Search\"],  # TODO: Restore Lexical Search?\n            options_metadata=[{\"icon\": \"SearchHybrid\"}, {\"icon\": \"SearchVector\"}],\n            value=\"Vector Search\",\n            advanced=True,\n            real_time_refresh=True,\n        ),\n        DropdownInput(\n            name=\"reranker\",\n            display_name=\"Reranker\",\n            info=\"Post-retrieval model that re-scores results for optimal relevance ranking.\",\n            show=False,\n            toggle=True,\n        ),\n        QueryInput(\n            name=\"lexical_terms\",\n            display_name=\"Lexical Terms\",\n            info=\"Add additional terms/keywords to augment search precision.\",\n            placeholder=\"Enter terms to search...\",\n            separator=\" \",\n            show=False,\n            value=\"\",\n        ),\n        IntInput(\n            name=\"number_of_results\",\n            display_name=\"Number of Search Results\",\n            info=\"Number of search results to return.\",\n            advanced=True,\n            value=4,\n        ),\n        DropdownInput(\n            name=\"search_type\",\n            display_name=\"Search Type\",\n            info=\"Search type to use\",\n            options=[\"Similarity\", \"Similarity with score threshold\", \"MMR (Max Marginal Relevance)\"],\n            value=\"Similarity\",\n            advanced=True,\n        ),\n        FloatInput(\n            name=\"search_score_threshold\",\n            display_name=\"Search Score Threshold\",\n            info=\"Minimum similarity score threshold for search results. \"\n            \"(when using 'Similarity with score threshold')\",\n            value=0,\n            advanced=True,\n        ),\n        NestedDictInput(\n            name=\"advanced_search_filter\",\n            display_name=\"Search Metadata Filter\",\n            info=\"Optional dictionary of filters to apply to the search query.\",\n            advanced=True,\n        ),\n    ]\n\n    async def update_build_config(\n        self,\n        build_config: dict,\n        field_value: str | dict,\n        field_name: str | None = None,\n    ) -> dict:\n        \"\"\"Update build configuration with proper handling of embedding and search options.\"\"\"\n        # Handle base astra db build config updates\n        build_config = await super().update_build_config(\n            build_config,\n            field_value=field_value,\n            field_name=field_name,\n        )\n\n        # Set embedding model display based on provider selection\n        if isinstance(field_value, dict) and \"02_embedding_generation_provider\" in field_value:\n            embedding_provider = field_value.get(\"02_embedding_generation_provider\")\n            is_custom_provider = embedding_provider and embedding_provider != \"Bring your own\"\n            provider = embedding_provider.lower() if is_custom_provider and embedding_provider is not None else None\n\n            build_config[\"embedding_model\"][\"show\"] = not bool(provider)\n            build_config[\"embedding_model\"][\"required\"] = not bool(provider)\n\n        # Early return if no API endpoint is configured\n        if not self.get_api_endpoint():\n            return build_config\n\n        # Configure search method and related options\n        return self._configure_search_options(build_config)\n\n    def _configure_search_options(self, build_config: dict) -> dict:\n        \"\"\"Configure hybrid search, reranker, and vector search options.\"\"\"\n        # Detect available hybrid search capabilities\n        hybrid_capabilities = self._detect_hybrid_capabilities()\n\n        # Return if we haven't selected a collection\n        if not build_config[\"collection_name\"][\"options\"] or not build_config[\"collection_name\"][\"value\"]:\n            return build_config\n\n        # Get collection options\n        collection_options = self._get_collection_options(build_config)\n\n        # Get the selected collection index\n        index = build_config[\"collection_name\"][\"options\"].index(build_config[\"collection_name\"][\"value\"])\n        provider = build_config[\"collection_name\"][\"options_metadata\"][index][\"provider\"]\n        build_config[\"embedding_model\"][\"show\"] = not bool(provider)\n        build_config[\"embedding_model\"][\"required\"] = not bool(provider)\n\n        # Determine search configuration\n        is_vector_search = build_config[\"search_method\"][\"value\"] == \"Vector Search\"\n        is_autodetect = build_config[\"autodetect_collection\"][\"value\"]\n\n        # Apply hybrid search configuration\n        if hybrid_capabilities[\"available\"]:\n            build_config[\"search_method\"][\"show\"] = True\n            build_config[\"search_method\"][\"options\"] = [\"Hybrid Search\", \"Vector Search\"]\n            build_config[\"search_method\"][\"value\"] = build_config[\"search_method\"].get(\"value\", \"Hybrid Search\")\n\n            build_config[\"reranker\"][\"options\"] = hybrid_capabilities[\"reranker_models\"]\n            build_config[\"reranker\"][\"options_metadata\"] = hybrid_capabilities[\"reranker_metadata\"]\n            if hybrid_capabilities[\"reranker_models\"]:\n                build_config[\"reranker\"][\"value\"] = hybrid_capabilities[\"reranker_models\"][0]\n        else:\n            build_config[\"search_method\"][\"show\"] = False\n            build_config[\"search_method\"][\"options\"] = [\"Vector Search\"]\n            build_config[\"search_method\"][\"value\"] = \"Vector Search\"\n            build_config[\"reranker\"][\"options\"] = []\n            build_config[\"reranker\"][\"options_metadata\"] = []\n\n        # Configure reranker visibility and state\n        hybrid_enabled = (\n            collection_options[\"rerank_enabled\"] and build_config[\"search_method\"][\"value\"] == \"Hybrid Search\"\n        )\n\n        build_config[\"reranker\"][\"show\"] = hybrid_enabled\n        build_config[\"reranker\"][\"toggle_value\"] = hybrid_enabled\n        build_config[\"reranker\"][\"toggle_disable\"] = is_vector_search\n\n        # Configure lexical terms\n        lexical_visible = collection_options[\"lexical_enabled\"] and not is_vector_search\n        build_config[\"lexical_terms\"][\"show\"] = lexical_visible\n        build_config[\"lexical_terms\"][\"value\"] = \"\" if is_vector_search else build_config[\"lexical_terms\"][\"value\"]\n\n        # Configure search type and score threshold\n        build_config[\"search_type\"][\"show\"] = is_vector_search\n        build_config[\"search_score_threshold\"][\"show\"] = is_vector_search\n\n        # Force similarity search for hybrid mode or autodetect\n        if hybrid_enabled or is_autodetect:\n            build_config[\"search_type\"][\"value\"] = \"Similarity\"\n\n        return build_config\n\n    def _detect_hybrid_capabilities(self) -> dict:\n        \"\"\"Detect available hybrid search and reranking capabilities.\"\"\"\n        environment = self.get_environment(self.environment)\n        client = DataAPIClient(environment=environment)\n        admin_client = client.get_admin()\n        db_admin = admin_client.get_database_admin(self.get_api_endpoint(), token=self.token)\n\n        try:\n            providers = db_admin.find_reranking_providers()\n            reranker_models = [\n                model.name for provider_data in providers.reranking_providers.values() for model in provider_data.models\n            ]\n            reranker_metadata = [\n                {\"icon\": self.get_provider_icon(provider_name=model.name.split(\"/\")[0])}\n                for provider in providers.reranking_providers.values()\n                for model in provider.models\n            ]\n        except Exception as e:  # noqa: BLE001\n            self.log(f\"Hybrid search not available: {e}\")\n            return {\n                \"available\": False,\n                \"reranker_models\": [],\n                \"reranker_metadata\": [],\n            }\n        else:\n            return {\n                \"available\": True,\n                \"reranker_models\": reranker_models,\n                \"reranker_metadata\": reranker_metadata,\n            }\n\n    def _get_collection_options(self, build_config: dict) -> dict:\n        \"\"\"Retrieve collection-level search options.\"\"\"\n        database = self.get_database_object(api_endpoint=build_config[\"api_endpoint\"][\"value\"])\n        collection = database.get_collection(\n            name=build_config[\"collection_name\"][\"value\"],\n            keyspace=build_config[\"keyspace\"][\"value\"],\n        )\n\n        col_options = collection.options()\n\n        return {\n            \"rerank_enabled\": bool(col_options.rerank and col_options.rerank.enabled),\n            \"lexical_enabled\": bool(col_options.lexical and col_options.lexical.enabled),\n        }\n\n    @check_cached_vector_store\n    def build_vector_store(self):\n        try:\n            from langchain_astradb import AstraDBVectorStore\n            from langchain_astradb.utils.astradb import HybridSearchMode\n        except ImportError as e:\n            msg = (\n                \"Could not import langchain Astra DB integration package. \"\n                \"Please install it with `pip install langchain-astradb`.\"\n            )\n            raise ImportError(msg) from e\n\n        # Get the embedding model and additional params\n        embedding_params = {\"embedding\": self.embedding_model} if self.embedding_model else {}\n\n        # Get the additional parameters\n        additional_params = self.astradb_vectorstore_kwargs or {}\n\n        # Get Langflow version and platform information\n        __version__ = get_version_info()[\"version\"]\n        langflow_prefix = \"\"\n        # if os.getenv(\"AWS_EXECUTION_ENV\") == \"AWS_ECS_FARGATE\":  # TODO: More precise way of detecting\n        #     langflow_prefix = \"ds-\"\n\n        # Get the database object\n        database = self.get_database_object()\n        autodetect = self.collection_name in database.list_collection_names() and self.autodetect_collection\n\n        # Bundle up the auto-detect parameters\n        autodetect_params = {\n            \"autodetect_collection\": autodetect,\n            \"content_field\": (\n                self.content_field\n                if self.content_field and embedding_params\n                else (\n                    \"page_content\"\n                    if embedding_params\n                    and self.collection_data(collection_name=self.collection_name, database=database) == 0\n                    else None\n                )\n            ),\n            \"ignore_invalid_documents\": self.ignore_invalid_documents,\n        }\n\n        # Choose HybridSearchMode based on the selected param\n        hybrid_search_mode = HybridSearchMode.DEFAULT if self.search_method == \"Hybrid Search\" else HybridSearchMode.OFF\n\n        # Attempt to build the Vector Store object\n        try:\n            vector_store = AstraDBVectorStore(\n                # Astra DB Authentication Parameters\n                token=self.token,\n                api_endpoint=database.api_endpoint,\n                namespace=database.keyspace,\n                collection_name=self.collection_name,\n                environment=self.environment,\n                # Hybrid Search Parameters\n                hybrid_search=hybrid_search_mode,\n                # Astra DB Usage Tracking Parameters\n                ext_callers=[(f\"{langflow_prefix}langflow\", __version__)],\n                # Astra DB Vector Store Parameters\n                **autodetect_params,\n                **embedding_params,\n                **additional_params,\n            )\n        except ValueError as e:\n            msg = f\"Error initializing AstraDBVectorStore: {e}\"\n            raise ValueError(msg) from e\n\n        # Add documents to the vector store\n        self._add_documents_to_vector_store(vector_store)\n\n        return vector_store\n\n    def _add_documents_to_vector_store(self, vector_store) -> None:\n        self.ingest_data = self._prepare_ingest_data()\n\n        documents = []\n        for _input in self.ingest_data or []:\n            if isinstance(_input, Data):\n                documents.append(_input.to_lc_document())\n            else:\n                msg = \"Vector Store Inputs must be Data objects.\"\n                raise TypeError(msg)\n\n        documents = [\n            Document(page_content=doc.page_content, metadata=serialize(doc.metadata, to_str=True)) for doc in documents\n        ]\n\n        if documents and self.deletion_field:\n            self.log(f\"Deleting documents where {self.deletion_field}\")\n            try:\n                database = self.get_database_object()\n                collection = database.get_collection(self.collection_name, keyspace=database.keyspace)\n                delete_values = list({doc.metadata[self.deletion_field] for doc in documents})\n                self.log(f\"Deleting documents where {self.deletion_field} matches {delete_values}.\")\n                collection.delete_many({f\"metadata.{self.deletion_field}\": {\"$in\": delete_values}})\n            except ValueError as e:\n                msg = f\"Error deleting documents from AstraDBVectorStore based on '{self.deletion_field}': {e}\"\n                raise ValueError(msg) from e\n\n        if documents:\n            self.log(f\"Adding {len(documents)} documents to the Vector Store.\")\n            try:\n                vector_store.add_documents(documents)\n            except ValueError as e:\n                msg = f\"Error adding documents to AstraDBVectorStore: {e}\"\n                raise ValueError(msg) from e\n        else:\n            self.log(\"No documents to add to the Vector Store.\")\n\n    def _map_search_type(self) -> str:\n        search_type_mapping = {\n            \"Similarity with score threshold\": \"similarity_score_threshold\",\n            \"MMR (Max Marginal Relevance)\": \"mmr\",\n        }\n\n        return search_type_mapping.get(self.search_type, \"similarity\")\n\n    def _build_search_args(self):\n        # Clean up the search query\n        query = self.search_query if isinstance(self.search_query, str) and self.search_query.strip() else None\n        lexical_terms = self.lexical_terms or None\n\n        # Check if we have a search query, and if so set the args\n        if query:\n            args = {\n                \"query\": query,\n                \"search_type\": self._map_search_type(),\n                \"k\": self.number_of_results,\n                \"score_threshold\": self.search_score_threshold,\n                \"lexical_query\": lexical_terms,\n            }\n        elif self.advanced_search_filter:\n            args = {\n                \"n\": self.number_of_results,\n            }\n        else:\n            return {}\n\n        filter_arg = self.advanced_search_filter or {}\n        if filter_arg:\n            args[\"filter\"] = filter_arg\n\n        return args\n\n    def search_documents(self, vector_store=None) -> list[Data]:\n        vector_store = vector_store or self.build_vector_store()\n\n        self.log(f\"Search input: {self.search_query}\")\n        self.log(f\"Search type: {self.search_type}\")\n        self.log(f\"Number of results: {self.number_of_results}\")\n        self.log(f\"store.hybrid_search: {vector_store.hybrid_search}\")\n        self.log(f\"Lexical terms: {self.lexical_terms}\")\n        self.log(f\"Reranker: {self.reranker}\")\n\n        try:\n            search_args = self._build_search_args()\n        except ValueError as e:\n            msg = f\"Error in AstraDBVectorStore._build_search_args: {e}\"\n            raise ValueError(msg) from e\n\n        if not search_args:\n            self.log(\"No search input or filters provided. Skipping search.\")\n            return []\n\n        docs = []\n        search_method = \"search\" if \"query\" in search_args else \"metadata_search\"\n\n        try:\n            self.log(f\"Calling vector_store.{search_method} with args: {search_args}\")\n            docs = getattr(vector_store, search_method)(**search_args)\n        except ValueError as e:\n            msg = f\"Error performing {search_method} in AstraDBVectorStore: {e}\"\n            raise ValueError(msg) from e\n\n        self.log(f\"Retrieved documents: {len(docs)}\")\n\n        data = docs_to_data(docs)\n        self.log(f\"Converted documents to data: {len(data)}\")\n        self.status = data\n\n        return data\n\n    def get_retriever_kwargs(self):\n        search_args = self._build_search_args()\n\n        return {\n            \"search_type\": self._map_search_type(),\n            \"search_kwargs\": search_args,\n        }\n"
+                "value": "from astrapy import DataAPIClient\nfrom langchain_core.documents import Document\n\nfrom lfx.base.datastax.astradb_base import AstraDBBaseComponent\nfrom lfx.base.models.unified_models import (\n    apply_provider_variable_config_to_build_config,\n    get_embedding_model_options,\n    get_embeddings,\n    update_model_options_in_build_config,\n)\nfrom lfx.base.vectorstores.model import LCVectorStoreComponent, check_cached_vector_store\nfrom lfx.base.vectorstores.vector_store_connection_decorator import vector_store_connection\nfrom lfx.helpers.data import docs_to_data\nfrom lfx.io import (\n    BoolInput,\n    DropdownInput,\n    FloatInput,\n    IntInput,\n    ModelInput,\n    NestedDictInput,\n    QueryInput,\n    SecretStrInput,\n    StrInput,\n)\nfrom lfx.schema.data import Data\nfrom lfx.serialization import serialize\nfrom lfx.utils.version import get_version_info\n\n\n@vector_store_connection\nclass AstraDBVectorStoreComponent(AstraDBBaseComponent, LCVectorStoreComponent):\n    display_name: str = \"Astra DB\"\n    description: str = \"Ingest and search documents in Astra DB\"\n    documentation: str = \"https://docs.langflow.org/bundles-datastax\"\n    name = \"AstraDB\"\n    icon: str = \"AstraDB\"\n\n    inputs = [\n        *AstraDBBaseComponent.inputs,\n        *LCVectorStoreComponent.inputs,\n        ModelInput(\n            name=\"embedding_model\",\n            display_name=\"Embedding Model\",\n            info=\"Specify the Embedding Model. Not required for Astra Vectorize collections.\",\n            required=False,\n            show=True,\n            model_type=\"embedding\",\n            input_types=[\"Embeddings\"],\n            real_time_refresh=True,\n        ),\n        SecretStrInput(\n            name=\"api_key\",\n            display_name=\"API Key\",\n            info=\"Overrides global provider settings. Leave blank to use your pre-configured API Key.\",\n            real_time_refresh=True,\n            advanced=True,\n        ),\n        StrInput(\n            name=\"content_field\",\n            display_name=\"Content Field\",\n            info=\"Field to use as the text content field for the vector store.\",\n            advanced=True,\n        ),\n        StrInput(\n            name=\"deletion_field\",\n            display_name=\"Deletion Based On Field\",\n            info=\"When this parameter is provided, documents in the target collection with \"\n            \"metadata field values matching the input metadata field value will be deleted \"\n            \"before new data is loaded.\",\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"ignore_invalid_documents\",\n            display_name=\"Ignore Invalid Documents\",\n            info=\"Boolean flag to determine whether to ignore invalid documents at runtime.\",\n            advanced=True,\n        ),\n        NestedDictInput(\n            name=\"astradb_vectorstore_kwargs\",\n            display_name=\"AstraDBVectorStore Parameters\",\n            info=\"Optional dictionary of additional parameters for the AstraDBVectorStore.\",\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"search_method\",\n            display_name=\"Search Method\",\n            info=(\n                \"Determine how your content is matched: Vector finds semantic similarity, \"\n                \"and Hybrid Search (suggested) combines both approaches \"\n                \"with a reranker.\"\n            ),\n            options=[\"Hybrid Search\", \"Vector Search\"],  # TODO: Restore Lexical Search?\n            options_metadata=[{\"icon\": \"SearchHybrid\"}, {\"icon\": \"SearchVector\"}],\n            value=\"Vector Search\",\n            advanced=True,\n            real_time_refresh=True,\n        ),\n        DropdownInput(\n            name=\"reranker\",\n            display_name=\"Reranker\",\n            info=\"Post-retrieval model that re-scores results for optimal relevance ranking.\",\n            show=False,\n            toggle=True,\n        ),\n        QueryInput(\n            name=\"lexical_terms\",\n            display_name=\"Lexical Terms\",\n            info=\"Add additional terms/keywords to augment search precision.\",\n            placeholder=\"Enter terms to search...\",\n            separator=\" \",\n            show=False,\n            value=\"\",\n        ),\n        IntInput(\n            name=\"number_of_results\",\n            display_name=\"Number of Search Results\",\n            info=\"Number of search results to return.\",\n            advanced=True,\n            value=4,\n        ),\n        DropdownInput(\n            name=\"search_type\",\n            display_name=\"Search Type\",\n            info=\"Search type to use\",\n            options=[\"Similarity\", \"Similarity with score threshold\", \"MMR (Max Marginal Relevance)\"],\n            value=\"Similarity\",\n            advanced=True,\n        ),\n        FloatInput(\n            name=\"search_score_threshold\",\n            display_name=\"Search Score Threshold\",\n            info=\"Minimum similarity score threshold for search results. \"\n            \"(when using 'Similarity with score threshold')\",\n            value=0,\n            advanced=True,\n        ),\n        NestedDictInput(\n            name=\"advanced_search_filter\",\n            display_name=\"Search Metadata Filter\",\n            info=\"Optional dictionary of filters to apply to the search query.\",\n            advanced=True,\n        ),\n    ]\n\n    async def update_build_config(\n        self,\n        build_config: dict,\n        field_value: str | dict,\n        field_name: str | None = None,\n    ) -> dict:\n        \"\"\"Update build configuration with proper handling of embedding and search options.\"\"\"\n        # Update model options for ModelInput only when relevant.\n        # Only refresh when: initial load (None), embedding_model field changes, or api_key changes.\n        #\n        # Note: this intentionally uses update_model_options_in_build_config directly rather than\n        # handle_model_input_update because:\n        #   1. The model field is named \"embedding_model\" (not \"model\"), requiring model_field_name.\n        #   2. The refresh is conditional - we skip it for unrelated fields (e.g. database_name,\n        #      collection_name) to avoid unnecessary work.\n        #   3. AstraDB manages its own provider-field visibility (embedding_generation_provider\n        #      dialog), so the generic provider-field hide/show steps in handle_model_input_update\n        #      are not applicable here.\n        if field_name in (None, \"embedding_model\", \"api_key\"):\n            build_config = update_model_options_in_build_config(\n                component=self,\n                build_config=build_config,\n                cache_key_prefix=\"embedding_model_options\",\n                get_options_func=get_embedding_model_options,\n                field_name=field_name,\n                field_value=field_value if field_name == \"embedding_model\" else None,\n                model_field_name=\"embedding_model\",\n            )\n\n            # Auto-populate API key based on the selected embedding model's provider.\n            # Skip when user directly edits api_key to preserve their value.\n            if field_name != \"api_key\":\n                model_value = build_config.get(\"embedding_model\", {}).get(\"value\")\n                if isinstance(model_value, list) and model_value:\n                    provider = model_value[0].get(\"provider\", \"\")\n                    if provider:\n                        build_config = apply_provider_variable_config_to_build_config(build_config, provider)\n\n            # Ensure the API key field is always visible\n            if \"api_key\" in build_config:\n                build_config[\"api_key\"][\"show\"] = True\n\n        # Handle base astra db build config updates\n        build_config = await super().update_build_config(\n            build_config,\n            field_value=field_value,\n            field_name=field_name,\n        )\n\n        # Set embedding model display based on provider selection\n        if isinstance(field_value, dict) and \"02_embedding_generation_provider\" in field_value:\n            embedding_provider = field_value.get(\"02_embedding_generation_provider\")\n            is_custom_provider = embedding_provider and embedding_provider != \"Bring your own\"\n            provider = embedding_provider.lower() if is_custom_provider and embedding_provider is not None else None\n\n            build_config[\"embedding_model\"][\"show\"] = not bool(provider)\n            build_config[\"embedding_model\"][\"required\"] = not bool(provider)\n\n        # Early return if no API endpoint is configured\n        if not self.get_api_endpoint():\n            return build_config\n\n        # Configure search method and related options\n        return self._configure_search_options(build_config)\n\n    def _configure_search_options(self, build_config: dict) -> dict:\n        \"\"\"Configure hybrid search, reranker, and vector search options.\"\"\"\n        # Detect available hybrid search capabilities\n        hybrid_capabilities = self._detect_hybrid_capabilities()\n\n        # Return if we haven't selected a collection\n        if not build_config[\"collection_name\"][\"options\"] or not build_config[\"collection_name\"][\"value\"]:\n            return build_config\n\n        # Get collection options\n        collection_options = self._get_collection_options(build_config)\n\n        # Get the selected collection index\n        index = build_config[\"collection_name\"][\"options\"].index(build_config[\"collection_name\"][\"value\"])\n        provider = build_config[\"collection_name\"][\"options_metadata\"][index][\"provider\"]\n        build_config[\"embedding_model\"][\"show\"] = not bool(provider)\n        build_config[\"embedding_model\"][\"required\"] = not bool(provider)\n\n        # Determine search configuration\n        is_vector_search = build_config[\"search_method\"][\"value\"] == \"Vector Search\"\n        is_autodetect = build_config[\"autodetect_collection\"][\"value\"]\n\n        # Apply hybrid search configuration\n        if hybrid_capabilities[\"available\"]:\n            build_config[\"search_method\"][\"show\"] = True\n            build_config[\"search_method\"][\"options\"] = [\"Hybrid Search\", \"Vector Search\"]\n            build_config[\"search_method\"][\"value\"] = build_config[\"search_method\"].get(\"value\", \"Hybrid Search\")\n\n            build_config[\"reranker\"][\"options\"] = hybrid_capabilities[\"reranker_models\"]\n            build_config[\"reranker\"][\"options_metadata\"] = hybrid_capabilities[\"reranker_metadata\"]\n            if hybrid_capabilities[\"reranker_models\"]:\n                build_config[\"reranker\"][\"value\"] = hybrid_capabilities[\"reranker_models\"][0]\n        else:\n            build_config[\"search_method\"][\"show\"] = False\n            build_config[\"search_method\"][\"options\"] = [\"Vector Search\"]\n            build_config[\"search_method\"][\"value\"] = \"Vector Search\"\n            build_config[\"reranker\"][\"options\"] = []\n            build_config[\"reranker\"][\"options_metadata\"] = []\n\n        # Configure reranker visibility and state\n        hybrid_enabled = (\n            collection_options[\"rerank_enabled\"] and build_config[\"search_method\"][\"value\"] == \"Hybrid Search\"\n        )\n\n        build_config[\"reranker\"][\"show\"] = hybrid_enabled\n        build_config[\"reranker\"][\"toggle_value\"] = hybrid_enabled\n        build_config[\"reranker\"][\"toggle_disable\"] = is_vector_search\n\n        # Configure lexical terms\n        lexical_visible = collection_options[\"lexical_enabled\"] and not is_vector_search\n        build_config[\"lexical_terms\"][\"show\"] = lexical_visible\n        build_config[\"lexical_terms\"][\"value\"] = \"\" if is_vector_search else build_config[\"lexical_terms\"][\"value\"]\n\n        # Configure search type and score threshold\n        build_config[\"search_type\"][\"show\"] = is_vector_search\n        build_config[\"search_score_threshold\"][\"show\"] = is_vector_search\n\n        # Force similarity search for hybrid mode or autodetect\n        if hybrid_enabled or is_autodetect:\n            build_config[\"search_type\"][\"value\"] = \"Similarity\"\n\n        return build_config\n\n    def _detect_hybrid_capabilities(self) -> dict:\n        \"\"\"Detect available hybrid search and reranking capabilities.\"\"\"\n        environment = self.get_environment(self.environment)\n        client = DataAPIClient(environment=environment)\n        admin_client = client.get_admin()\n        db_admin = admin_client.get_database_admin(self.get_api_endpoint(), token=self.token)\n\n        try:\n            providers = db_admin.find_reranking_providers()\n            reranker_models = [\n                model.name for provider_data in providers.reranking_providers.values() for model in provider_data.models\n            ]\n            reranker_metadata = [\n                {\"icon\": self.get_provider_icon(provider_name=model.name.split(\"/\")[0])}\n                for provider in providers.reranking_providers.values()\n                for model in provider.models\n            ]\n        except Exception as e:  # noqa: BLE001\n            self.log(f\"Hybrid search not available: {e}\")\n            return {\n                \"available\": False,\n                \"reranker_models\": [],\n                \"reranker_metadata\": [],\n            }\n        else:\n            return {\n                \"available\": True,\n                \"reranker_models\": reranker_models,\n                \"reranker_metadata\": reranker_metadata,\n            }\n\n    def _get_collection_options(self, build_config: dict) -> dict:\n        \"\"\"Retrieve collection-level search options.\"\"\"\n        database = self.get_database_object(api_endpoint=build_config[\"api_endpoint\"][\"value\"])\n        collection = database.get_collection(\n            name=build_config[\"collection_name\"][\"value\"],\n            keyspace=build_config[\"keyspace\"][\"value\"],\n        )\n\n        col_options = collection.options()\n\n        return {\n            \"rerank_enabled\": bool(col_options.rerank and col_options.rerank.enabled),\n            \"lexical_enabled\": bool(col_options.lexical and col_options.lexical.enabled),\n        }\n\n    @check_cached_vector_store\n    def build_vector_store(self):\n        try:\n            from langchain_astradb import AstraDBVectorStore\n            from langchain_astradb.utils.astradb import HybridSearchMode\n        except ImportError as e:\n            msg = (\n                \"Could not import langchain Astra DB integration package. \"\n                \"Please install it with `pip install langchain-astradb`.\"\n            )\n            raise ImportError(msg) from e\n\n        # Resolve the embedding model from ModelInput selection to an Embeddings instance\n        embedding = None\n        if self.embedding_model:\n            embedding = get_embeddings(\n                model=self.embedding_model,\n                user_id=self.user_id,\n                api_key=getattr(self, \"api_key\", None),\n            )\n        embedding_params = {\"embedding\": embedding} if embedding else {}\n\n        # Get the additional parameters\n        additional_params = self.astradb_vectorstore_kwargs or {}\n\n        # Get Langflow version and platform information\n        __version__ = get_version_info()[\"version\"]\n        langflow_prefix = \"\"\n        # if os.getenv(\"AWS_EXECUTION_ENV\") == \"AWS_ECS_FARGATE\":  # TODO: More precise way of detecting\n        #     langflow_prefix = \"ds-\"\n\n        # Get the database object\n        database = self.get_database_object()\n        autodetect = self.collection_name in database.list_collection_names() and self.autodetect_collection\n\n        # Bundle up the auto-detect parameters\n        autodetect_params = {\n            \"autodetect_collection\": autodetect,\n            \"content_field\": (\n                self.content_field\n                if self.content_field and embedding_params\n                else (\n                    \"page_content\"\n                    if embedding_params\n                    and self.collection_data(collection_name=self.collection_name, database=database) == 0\n                    else None\n                )\n            ),\n            \"ignore_invalid_documents\": self.ignore_invalid_documents,\n        }\n\n        # Choose HybridSearchMode based on the selected param\n        hybrid_search_mode = HybridSearchMode.DEFAULT if self.search_method == \"Hybrid Search\" else HybridSearchMode.OFF\n\n        # Attempt to build the Vector Store object\n        try:\n            vector_store = AstraDBVectorStore(\n                # Astra DB Authentication Parameters\n                token=self.token,\n                api_endpoint=database.api_endpoint,\n                namespace=database.keyspace,\n                collection_name=self.collection_name,\n                environment=self.environment,\n                # Hybrid Search Parameters\n                hybrid_search=hybrid_search_mode,\n                # Astra DB Usage Tracking Parameters\n                ext_callers=[(f\"{langflow_prefix}langflow\", __version__)],\n                # Astra DB Vector Store Parameters\n                **autodetect_params,\n                **embedding_params,\n                **additional_params,\n            )\n        except ValueError as e:\n            msg = f\"Error initializing AstraDBVectorStore: {e}\"\n            raise ValueError(msg) from e\n\n        # Add documents to the vector store\n        self._add_documents_to_vector_store(vector_store)\n\n        return vector_store\n\n    def _add_documents_to_vector_store(self, vector_store) -> None:\n        self.ingest_data = self._prepare_ingest_data()\n\n        documents = []\n        for _input in self.ingest_data or []:\n            if isinstance(_input, Data):\n                documents.append(_input.to_lc_document())\n            else:\n                msg = \"Vector Store Inputs must be Data objects.\"\n                raise TypeError(msg)\n\n        documents = [\n            Document(page_content=doc.page_content, metadata=serialize(doc.metadata, to_str=True)) for doc in documents\n        ]\n\n        if documents and self.deletion_field:\n            self.log(f\"Deleting documents where {self.deletion_field}\")\n            try:\n                database = self.get_database_object()\n                collection = database.get_collection(self.collection_name, keyspace=database.keyspace)\n                delete_values = list({doc.metadata[self.deletion_field] for doc in documents})\n                self.log(f\"Deleting documents where {self.deletion_field} matches {delete_values}.\")\n                collection.delete_many({f\"metadata.{self.deletion_field}\": {\"$in\": delete_values}})\n            except ValueError as e:\n                msg = f\"Error deleting documents from AstraDBVectorStore based on '{self.deletion_field}': {e}\"\n                raise ValueError(msg) from e\n\n        if documents:\n            self.log(f\"Adding {len(documents)} documents to the Vector Store.\")\n            try:\n                vector_store.add_documents(documents)\n            except ValueError as e:\n                msg = f\"Error adding documents to AstraDBVectorStore: {e}\"\n                raise ValueError(msg) from e\n        else:\n            self.log(\"No documents to add to the Vector Store.\")\n\n    def _map_search_type(self) -> str:\n        search_type_mapping = {\n            \"Similarity with score threshold\": \"similarity_score_threshold\",\n            \"MMR (Max Marginal Relevance)\": \"mmr\",\n        }\n\n        return search_type_mapping.get(self.search_type, \"similarity\")\n\n    def _build_search_args(self):\n        # Clean up the search query\n        query = self.search_query if isinstance(self.search_query, str) and self.search_query.strip() else None\n        lexical_terms = self.lexical_terms or None\n\n        # Check if we have a search query, and if so set the args\n        if query:\n            args = {\n                \"query\": query,\n                \"search_type\": self._map_search_type(),\n                \"k\": self.number_of_results,\n                \"score_threshold\": self.search_score_threshold,\n                \"lexical_query\": lexical_terms,\n            }\n        elif self.advanced_search_filter:\n            args = {\n                \"n\": self.number_of_results,\n            }\n        else:\n            return {}\n\n        filter_arg = self.advanced_search_filter or {}\n        if filter_arg:\n            args[\"filter\"] = filter_arg\n\n        return args\n\n    def search_documents(self, vector_store=None) -> list[Data]:\n        vector_store = vector_store or self.build_vector_store()\n\n        self.log(f\"Search input: {self.search_query}\")\n        self.log(f\"Search type: {self.search_type}\")\n        self.log(f\"Number of results: {self.number_of_results}\")\n        self.log(f\"store.hybrid_search: {vector_store.hybrid_search}\")\n        self.log(f\"Lexical terms: {self.lexical_terms}\")\n        self.log(f\"Reranker: {self.reranker}\")\n\n        try:\n            search_args = self._build_search_args()\n        except ValueError as e:\n            msg = f\"Error in AstraDBVectorStore._build_search_args: {e}\"\n            raise ValueError(msg) from e\n\n        if not search_args:\n            self.log(\"No search input or filters provided. Skipping search.\")\n            return []\n\n        docs = []\n        search_method = \"search\" if \"query\" in search_args else \"metadata_search\"\n\n        try:\n            self.log(f\"Calling vector_store.{search_method} with args: {search_args}\")\n            docs = getattr(vector_store, search_method)(**search_args)\n        except ValueError as e:\n            msg = f\"Error performing {search_method} in AstraDBVectorStore: {e}\"\n            raise ValueError(msg) from e\n\n        self.log(f\"Retrieved documents: {len(docs)}\")\n\n        data = docs_to_data(docs)\n        self.log(f\"Converted documents to data: {len(data)}\")\n        self.status = data\n\n        return data\n\n    def get_retriever_kwargs(self):\n        search_args = self._build_search_args()\n\n        return {\n            \"search_type\": self._map_search_type(),\n            \"search_kwargs\": search_args,\n        }\n"
               },
               "collection_name": {
                 "_input_type": "DropdownInput",
@@ -446,7 +447,7 @@
                 "display_name": "Collection",
                 "dynamic": false,
                 "external_options": {},
-                "info": "The name of the collection within Astra DB where the vectors will be stored.",
+                "info": "Name of the vector collection inside the database. If it doesn't exist, Astra will create it automatically on first write.",
                 "name": "collection_name",
                 "options": [],
                 "options_metadata": [],
@@ -584,7 +585,7 @@
                 "display_name": "Database",
                 "dynamic": false,
                 "external_options": {},
-                "info": "The Database name for the Astra DB instance.",
+                "info": "Name of your Astra database (visible in the Astra dashboard). When the token is valid, the dropdown auto-discovers your databases — pick one from the list.",
                 "name": "database_name",
                 "options": [
                   "support_agent",
@@ -1008,9 +1009,9 @@
                 "advanced": false,
                 "display_name": "Astra DB Application Token",
                 "dynamic": false,
-                "info": "Authentication token for accessing Astra DB.",
+                "info": "Astra DB application token. Create one at https://astra.datastax.com → Tokens, with Database Administrator role. The token starts with `AstraCS:...`.",
                 "input_types": [],
-                "load_from_db": true,
+                "load_from_db": false,
                 "name": "token",
                 "override_skip": false,
                 "password": true,
@@ -1031,9 +1032,9 @@
           "type": "AstraDB"
         },
         "dragging": false,
-        "id": "AstraDB-S7pRc",
+        "id": "AstraDB-HKDYb",
         "measured": {
-          "height": 455,
+          "height": 457,
           "width": 320
         },
         "position": {
@@ -1045,7 +1046,7 @@
       },
       {
         "data": {
-          "id": "CustomComponent-hZVAg",
+          "id": "GoogleDriveFolderReader-71TM8",
           "node": {
             "base_classes": [
               "DataFrame"
@@ -1068,7 +1069,7 @@
             "frozen": true,
             "icon": "Google",
             "legacy": false,
-            "lf_version": "1.7.1",
+            "lf_version": "1.9.2",
             "metadata": {
               "code_hash": "8dcc1fd7af03",
               "dependencies": {
@@ -1188,7 +1189,7 @@
                 "advanced": false,
                 "display_name": "Folder ID",
                 "dynamic": false,
-                "info": "Google Drive folder ID to read documents from.",
+                "info": "Google Drive folder ID — the long alphanumeric string after `/folders/` in the folder's URL. The flow ships with a sample folder ID; replace it with yours.",
                 "input_types": [
                   "Message"
                 ],
@@ -1206,7 +1207,7 @@
                 "trace_as_metadata": true,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": "1FCkhUiNYiaBJrc979ovLWLnPaaCP-tAB"
+                "value": ""
               },
               "include_non_google_docs": {
                 "_input_type": "DropdownInput",
@@ -1245,7 +1246,7 @@
                   "json"
                 ],
                 "file_path": "",
-                "info": "Upload your Google Cloud Platform service account JSON key.",
+                "info": "Full contents of the Google service account JSON key file. Create a service account at https://console.cloud.google.com/iam-admin/serviceaccounts, generate a JSON key, then share the target Drive folder with the service account's email (Viewer role).",
                 "list": false,
                 "list_add_label": "Add More",
                 "name": "service_account_json",
@@ -1266,9 +1267,9 @@
                 "advanced": true,
                 "display_name": "GCP Credentials Secret Key",
                 "dynamic": false,
-                "info": "Your Google Cloud Platform service account JSON key as a secret string (complete JSON content).",
+                "info": "Secret reference name for the service account credentials. Use this when you stored the JSON in Langflow's secrets store and want to reference it by name instead of pasting JSON inline.",
                 "input_types": [],
-                "load_from_db": true,
+                "load_from_db": false,
                 "name": "service_account_key",
                 "override_skip": false,
                 "password": true,
@@ -1287,9 +1288,9 @@
           "type": "GoogleDriveFolderReader"
         },
         "dragging": false,
-        "id": "CustomComponent-hZVAg",
+        "id": "GoogleDriveFolderReader-71TM8",
         "measured": {
-          "height": 447,
+          "height": 449,
           "width": 320
         },
         "position": {
@@ -1301,7 +1302,7 @@
       },
       {
         "data": {
-          "id": "SplitText-bhJsI",
+          "id": "SplitText-Sg0fo",
           "node": {
             "base_classes": [
               "DataFrame"
@@ -1324,7 +1325,7 @@
             "frozen": false,
             "icon": "scissors-line-dashed",
             "legacy": false,
-            "lf_version": "1.7.1",
+            "lf_version": "1.9.2",
             "metadata": {
               "code_hash": "b9d63ae59e8a",
               "dependencies": {
@@ -1419,7 +1420,7 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "from langchain_text_splitters import CharacterTextSplitter\n\nfrom lfx.custom.custom_component.component import Component\nfrom lfx.io import DropdownInput, HandleInput, IntInput, MessageTextInput, Output\nfrom lfx.schema.data import Data\nfrom lfx.schema.dataframe import DataFrame\nfrom lfx.schema.message import Message\nfrom lfx.utils.util import unescape_string\n\n\nclass SplitTextComponent(Component):\n    display_name: str = \"Split Text\"\n    description: str = \"Split text into chunks based on specified criteria.\"\n    documentation: str = \"https://docs.langflow.org/split-text\"\n    icon = \"scissors-line-dashed\"\n    name = \"SplitText\"\n\n    inputs = [\n        HandleInput(\n            name=\"data_inputs\",\n            display_name=\"Input\",\n            info=\"The data with texts to split in chunks.\",\n            input_types=[\"Data\", \"DataFrame\", \"Message\"],\n            required=True,\n        ),\n        IntInput(\n            name=\"chunk_overlap\",\n            display_name=\"Chunk Overlap\",\n            info=\"Number of characters to overlap between chunks.\",\n            value=200,\n        ),\n        IntInput(\n            name=\"chunk_size\",\n            display_name=\"Chunk Size\",\n            info=(\n                \"The maximum length of each chunk. Text is first split by separator, \"\n                \"then chunks are merged up to this size. \"\n                \"Individual splits larger than this won't be further divided.\"\n            ),\n            value=1000,\n        ),\n        MessageTextInput(\n            name=\"separator\",\n            display_name=\"Separator\",\n            info=(\n                \"The character to split on. Use \\\\n for newline. \"\n                \"Examples: \\\\n\\\\n for paragraphs, \\\\n for lines, . for sentences\"\n            ),\n            value=\"\\n\",\n        ),\n        MessageTextInput(\n            name=\"text_key\",\n            display_name=\"Text Key\",\n            info=\"The key to use for the text column.\",\n            value=\"text\",\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"keep_separator\",\n            display_name=\"Keep Separator\",\n            info=\"Whether to keep the separator in the output chunks and where to place it.\",\n            options=[\"False\", \"True\", \"Start\", \"End\"],\n            value=\"False\",\n            advanced=True,\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Chunks\", name=\"dataframe\", method=\"split_text\"),\n    ]\n\n    def _docs_to_data(self, docs) -> list[Data]:\n        return [Data(text=doc.page_content, data=doc.metadata) for doc in docs]\n\n    def _fix_separator(self, separator: str) -> str:\n        \"\"\"Fix common separator issues and convert to proper format.\"\"\"\n        if separator == \"/n\":\n            return \"\\n\"\n        if separator == \"/t\":\n            return \"\\t\"\n        return separator\n\n    def split_text_base(self):\n        separator = self._fix_separator(self.separator)\n        separator = unescape_string(separator)\n\n        if isinstance(self.data_inputs, DataFrame):\n            if not len(self.data_inputs):\n                msg = \"DataFrame is empty\"\n                raise TypeError(msg)\n\n            self.data_inputs.text_key = self.text_key\n            try:\n                documents = self.data_inputs.to_lc_documents()\n            except Exception as e:\n                msg = f\"Error converting DataFrame to documents: {e}\"\n                raise TypeError(msg) from e\n        elif isinstance(self.data_inputs, Message):\n            self.data_inputs = [self.data_inputs.to_data()]\n            return self.split_text_base()\n        else:\n            if not self.data_inputs:\n                msg = \"No data inputs provided\"\n                raise TypeError(msg)\n\n            documents = []\n            if isinstance(self.data_inputs, Data):\n                self.data_inputs.text_key = self.text_key\n                documents = [self.data_inputs.to_lc_document()]\n            else:\n                try:\n                    documents = [input_.to_lc_document() for input_ in self.data_inputs if isinstance(input_, Data)]\n                    if not documents:\n                        msg = f\"No valid Data inputs found in {type(self.data_inputs)}\"\n                        raise TypeError(msg)\n                except AttributeError as e:\n                    msg = f\"Invalid input type in collection: {e}\"\n                    raise TypeError(msg) from e\n        try:\n            # Convert string 'False'/'True' to boolean\n            keep_sep = self.keep_separator\n            if isinstance(keep_sep, str):\n                if keep_sep.lower() == \"false\":\n                    keep_sep = False\n                elif keep_sep.lower() == \"true\":\n                    keep_sep = True\n                # 'start' and 'end' are kept as strings\n\n            splitter = CharacterTextSplitter(\n                chunk_overlap=self.chunk_overlap,\n                chunk_size=self.chunk_size,\n                separator=separator,\n                keep_separator=keep_sep,\n            )\n            return splitter.split_documents(documents)\n        except Exception as e:\n            msg = f\"Error splitting text: {e}\"\n            raise TypeError(msg) from e\n\n    def split_text(self) -> DataFrame:\n        return DataFrame(self._docs_to_data(self.split_text_base()))\n"
+                "value": "from langchain_text_splitters import CharacterTextSplitter\n\nfrom lfx.custom.custom_component.component import Component\nfrom lfx.io import BoolInput, DropdownInput, HandleInput, IntInput, MessageTextInput, Output\nfrom lfx.schema.data import Data\nfrom lfx.schema.dataframe import DataFrame\nfrom lfx.schema.message import Message\nfrom lfx.utils.util import unescape_string\n\n\nclass SplitTextComponent(Component):\n    display_name: str = \"Split Text\"\n    description: str = \"Split text into chunks based on specified criteria.\"\n    documentation: str = \"https://docs.langflow.org/split-text\"\n    icon = \"scissors-line-dashed\"\n    name = \"SplitText\"\n\n    inputs = [\n        HandleInput(\n            name=\"data_inputs\",\n            display_name=\"Input\",\n            info=\"The data with texts to split in chunks.\",\n            input_types=[\"Data\", \"JSON\", \"DataFrame\", \"Table\", \"Message\"],\n            required=True,\n        ),\n        IntInput(\n            name=\"chunk_overlap\",\n            display_name=\"Chunk Overlap\",\n            info=\"Number of characters to overlap between chunks.\",\n            value=200,\n        ),\n        IntInput(\n            name=\"chunk_size\",\n            display_name=\"Chunk Size\",\n            info=(\n                \"The maximum length of each chunk. Text is first split by separator, \"\n                \"then chunks are merged up to this size. \"\n                \"Individual splits larger than this won't be further divided.\"\n            ),\n            value=1000,\n        ),\n        MessageTextInput(\n            name=\"separator\",\n            display_name=\"Separator\",\n            info=(\n                \"The character to split on. Use \\\\n for newline. \"\n                \"Examples: \\\\n\\\\n for paragraphs, \\\\n for lines, . for sentences\"\n            ),\n            value=\"\\n\",\n        ),\n        MessageTextInput(\n            name=\"text_key\",\n            display_name=\"Text Key\",\n            info=\"The key to use for the text column.\",\n            value=\"text\",\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"keep_separator\",\n            display_name=\"Keep Separator\",\n            info=\"Whether to keep the separator in the output chunks and where to place it.\",\n            options=[\"False\", \"True\", \"Start\", \"End\"],\n            value=\"False\",\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"clean_output\",\n            display_name=\"Clean Output\",\n            info=\"When enabled, only the text column is included in the output. Metadata columns are removed.\",\n            value=False,\n            advanced=True,\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Chunks\", name=\"dataframe\", method=\"split_text\"),\n    ]\n\n    def _docs_to_data(self, docs, *, clean: bool = False) -> list[Data]:\n        return [\n            Data(text=doc.page_content) if clean else Data(text=doc.page_content, data=doc.metadata) for doc in docs\n        ]\n\n    def _fix_separator(self, separator: str) -> str:\n        \"\"\"Fix common separator issues and convert to proper format.\"\"\"\n        if separator == \"/n\":\n            return \"\\n\"\n        if separator == \"/t\":\n            return \"\\t\"\n        return separator\n\n    def split_text_base(self):\n        separator = self._fix_separator(self.separator)\n        separator = unescape_string(separator)\n\n        if isinstance(self.data_inputs, DataFrame):\n            if not len(self.data_inputs):\n                msg = \"DataFrame is empty\"\n                raise TypeError(msg)\n\n            self.data_inputs.text_key = self.text_key\n            try:\n                documents = self.data_inputs.to_lc_documents()\n            except Exception as e:\n                msg = f\"Error converting DataFrame to documents: {e}\"\n                raise TypeError(msg) from e\n        elif isinstance(self.data_inputs, Message):\n            self.data_inputs = [self.data_inputs.to_data()]\n            return self.split_text_base()\n        else:\n            if not self.data_inputs:\n                msg = \"No data inputs provided\"\n                raise TypeError(msg)\n\n            documents = []\n            if isinstance(self.data_inputs, Data):\n                self.data_inputs.text_key = self.text_key\n                documents = [self.data_inputs.to_lc_document()]\n            else:\n                try:\n                    documents = [input_.to_lc_document() for input_ in self.data_inputs if isinstance(input_, Data)]\n                    if not documents:\n                        msg = f\"No valid Data inputs found in {type(self.data_inputs)}\"\n                        raise TypeError(msg)\n                except AttributeError as e:\n                    msg = f\"Invalid input type in collection: {e}\"\n                    raise TypeError(msg) from e\n        try:\n            # Convert string 'False'/'True' to boolean\n            keep_sep = self.keep_separator\n            if isinstance(keep_sep, str):\n                if keep_sep.lower() == \"false\":\n                    keep_sep = False\n                elif keep_sep.lower() == \"true\":\n                    keep_sep = True\n                # 'start' and 'end' are kept as strings\n\n            splitter = CharacterTextSplitter(\n                chunk_overlap=self.chunk_overlap,\n                chunk_size=self.chunk_size,\n                separator=separator,\n                keep_separator=keep_sep,\n            )\n            return splitter.split_documents(documents)\n        except Exception as e:\n            msg = f\"Error splitting text: {e}\"\n            raise TypeError(msg) from e\n\n    def split_text(self) -> DataFrame:\n        docs = self.split_text_base()\n        df = DataFrame(self._docs_to_data(docs, clean=self.clean_output))\n        return df if self.clean_output else df.smart_column_order()\n"
               },
               "data_inputs": {
                 "_input_type": "HandleInput",
@@ -1531,9 +1532,9 @@
           "type": "SplitText"
         },
         "dragging": false,
-        "id": "SplitText-bhJsI",
+        "id": "SplitText-Sg0fo",
         "measured": {
-          "height": 411,
+          "height": 413,
           "width": 320
         },
         "position": {
@@ -1545,7 +1546,7 @@
       },
       {
         "data": {
-          "id": "EmbeddingModel-K3FqD",
+          "id": "EmbeddingModel-Mi0F0",
           "node": {
             "base_classes": [
               "Embeddings"
@@ -1558,13 +1559,12 @@
             "documentation": "https://docs.langflow.org/components-embedding-models",
             "edited": false,
             "field_order": [
-              "provider",
-              "api_base",
-              "ollama_base_url",
-              "base_url_ibm_watsonx",
               "model",
               "api_key",
+              "api_base",
+              "base_url_ibm_watsonx",
               "project_id",
+              "ollama_base_url",
               "dimensions",
               "chunk_size",
               "request_timeout",
@@ -1576,42 +1576,19 @@
             ],
             "frozen": false,
             "icon": "binary",
-            "last_updated": "2026-01-27T13:44:59.396Z",
+            "last_updated": "2026-05-26T14:07:44.502Z",
             "legacy": false,
+            "lf_version": "1.9.2",
             "metadata": {
-              "code_hash": "c5e0a4535a27",
+              "code_hash": "59c007553b38",
               "dependencies": {
                 "dependencies": [
                   {
-                    "name": "requests",
-                    "version": "2.32.5"
-                  },
-                  {
-                    "name": "ibm_watsonx_ai",
-                    "version": "1.4.11"
-                  },
-                  {
-                    "name": "langchain_openai",
-                    "version": "0.3.35"
-                  },
-                  {
                     "name": "lfx",
-                    "version": "0.2.1"
-                  },
-                  {
-                    "name": "langchain_ollama",
-                    "version": "0.3.10"
-                  },
-                  {
-                    "name": "langchain_community",
-                    "version": "0.3.21"
-                  },
-                  {
-                    "name": "langchain_ibm",
-                    "version": "0.3.20"
+                    "version": null
                   }
                 ],
-                "total_dependencies": 7
+                "total_dependencies": 1
               },
               "module": "lfx.components.models_and_agents.embedding_model.EmbeddingModelComponent"
             },
@@ -1623,6 +1600,7 @@
                 "cache": true,
                 "display_name": "Embedding Model",
                 "group_outputs": false,
+                "hidden": null,
                 "loop_types": null,
                 "method": "build_embeddings",
                 "name": "embeddings",
@@ -1639,10 +1617,10 @@
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
-                "value": "bb806354-6312-47bb-ab99-c042fd9a7518"
+                "value": "11231c31-3da4-49b8-b6a8-a4e8d00ddf38"
               },
               "_frontend_node_folder_id": {
-                "value": "3f1d0bf7-bd50-4fa9-a5d3-0974cfa99642"
+                "value": "1e4c5551-d9ba-4614-8253-793a5e2c40cb"
               },
               "_type": "Component",
               "api_base": {
@@ -1672,28 +1650,28 @@
               },
               "api_key": {
                 "_input_type": "SecretStrInput",
-                "advanced": false,
-                "display_name": "OpenAI API Key",
+                "advanced": true,
+                "display_name": "API Key",
                 "dynamic": false,
-                "info": "Model Provider API key",
+                "info": "Falls back to OPENAI_API_KEY environment variable",
                 "input_types": [],
-                "load_from_db": false,
+                "load_from_db": true,
                 "name": "api_key",
                 "override_skip": false,
                 "password": true,
                 "placeholder": "",
                 "real_time_refresh": true,
-                "required": true,
+                "required": false,
                 "show": true,
                 "title_case": false,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": ""
+                "value": "OPENAI_API_KEY"
               },
               "base_url_ibm_watsonx": {
                 "_input_type": "DropdownInput",
                 "advanced": false,
-                "combobox": false,
+                "combobox": true,
                 "dialog_inputs": {},
                 "display_name": "watsonx API Endpoint",
                 "dynamic": false,
@@ -1758,7 +1736,7 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "from typing import Any\n\nimport requests\nfrom ibm_watsonx_ai.metanames import EmbedTextParamsMetaNames\nfrom langchain_openai import OpenAIEmbeddings\n\nfrom lfx.base.embeddings.model import LCEmbeddingsModel\nfrom lfx.base.models.model_utils import get_ollama_models, is_valid_ollama_url\nfrom lfx.base.models.openai_constants import OPENAI_EMBEDDING_MODEL_NAMES\nfrom lfx.base.models.watsonx_constants import (\n    IBM_WATSONX_URLS,\n    WATSONX_EMBEDDING_MODEL_NAMES,\n)\nfrom lfx.field_typing import Embeddings\nfrom lfx.io import (\n    BoolInput,\n    DictInput,\n    DropdownInput,\n    FloatInput,\n    IntInput,\n    MessageTextInput,\n    SecretStrInput,\n)\nfrom lfx.log.logger import logger\nfrom lfx.schema.dotdict import dotdict\nfrom lfx.utils.util import transform_localhost_url\n\n# Ollama API constants\nHTTP_STATUS_OK = 200\nJSON_MODELS_KEY = \"models\"\nJSON_NAME_KEY = \"name\"\nJSON_CAPABILITIES_KEY = \"capabilities\"\nDESIRED_CAPABILITY = \"embedding\"\nDEFAULT_OLLAMA_URL = \"http://localhost:11434\"\n\n\nclass EmbeddingModelComponent(LCEmbeddingsModel):\n    display_name = \"Embedding Model\"\n    description = \"Generate embeddings using a specified provider.\"\n    documentation: str = \"https://docs.langflow.org/components-embedding-models\"\n    icon = \"binary\"\n    name = \"EmbeddingModel\"\n    category = \"models\"\n\n    inputs = [\n        DropdownInput(\n            name=\"provider\",\n            display_name=\"Model Provider\",\n            options=[\"OpenAI\", \"Ollama\", \"IBM watsonx.ai\"],\n            value=\"OpenAI\",\n            info=\"Select the embedding model provider\",\n            real_time_refresh=True,\n            options_metadata=[{\"icon\": \"OpenAI\"}, {\"icon\": \"Ollama\"}, {\"icon\": \"WatsonxAI\"}],\n        ),\n        MessageTextInput(\n            name=\"api_base\",\n            display_name=\"API Base URL\",\n            info=\"Base URL for the API. Leave empty for default.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"ollama_base_url\",\n            display_name=\"Ollama API URL\",\n            info=f\"Endpoint of the Ollama API (Ollama only). Defaults to {DEFAULT_OLLAMA_URL}\",\n            value=DEFAULT_OLLAMA_URL,\n            show=False,\n            real_time_refresh=True,\n            load_from_db=True,\n        ),\n        DropdownInput(\n            name=\"base_url_ibm_watsonx\",\n            display_name=\"watsonx API Endpoint\",\n            info=\"The base URL of the API (IBM watsonx.ai only)\",\n            options=IBM_WATSONX_URLS,\n            value=IBM_WATSONX_URLS[0],\n            show=False,\n            real_time_refresh=True,\n        ),\n        DropdownInput(\n            name=\"model\",\n            display_name=\"Model Name\",\n            options=OPENAI_EMBEDDING_MODEL_NAMES,\n            value=OPENAI_EMBEDDING_MODEL_NAMES[0],\n            info=\"Select the embedding model to use\",\n            real_time_refresh=True,\n            refresh_button=True,\n        ),\n        SecretStrInput(\n            name=\"api_key\",\n            display_name=\"OpenAI API Key\",\n            info=\"Model Provider API key\",\n            required=True,\n            show=True,\n            real_time_refresh=True,\n        ),\n        # Watson-specific inputs\n        MessageTextInput(\n            name=\"project_id\",\n            display_name=\"Project ID\",\n            info=\"IBM watsonx.ai Project ID (required for IBM watsonx.ai)\",\n            show=False,\n        ),\n        IntInput(\n            name=\"dimensions\",\n            display_name=\"Dimensions\",\n            info=\"The number of dimensions the resulting output embeddings should have. \"\n            \"Only supported by certain models.\",\n            advanced=True,\n        ),\n        IntInput(name=\"chunk_size\", display_name=\"Chunk Size\", advanced=True, value=1000),\n        FloatInput(name=\"request_timeout\", display_name=\"Request Timeout\", advanced=True),\n        IntInput(name=\"max_retries\", display_name=\"Max Retries\", advanced=True, value=3),\n        BoolInput(name=\"show_progress_bar\", display_name=\"Show Progress Bar\", advanced=True),\n        DictInput(\n            name=\"model_kwargs\",\n            display_name=\"Model Kwargs\",\n            advanced=True,\n            info=\"Additional keyword arguments to pass to the model.\",\n        ),\n        IntInput(\n            name=\"truncate_input_tokens\",\n            display_name=\"Truncate Input Tokens\",\n            advanced=True,\n            value=200,\n            show=False,\n        ),\n        BoolInput(\n            name=\"input_text\",\n            display_name=\"Include the original text in the output\",\n            value=True,\n            advanced=True,\n            show=False,\n        ),\n    ]\n\n    @staticmethod\n    def fetch_ibm_models(base_url: str) -> list[str]:\n        \"\"\"Fetch available models from the watsonx.ai API.\"\"\"\n        try:\n            endpoint = f\"{base_url}/ml/v1/foundation_model_specs\"\n            params = {\n                \"version\": \"2024-09-16\",\n                \"filters\": \"function_embedding,!lifecycle_withdrawn:and\",\n            }\n            response = requests.get(endpoint, params=params, timeout=10)\n            response.raise_for_status()\n            data = response.json()\n            models = [model[\"model_id\"] for model in data.get(\"resources\", [])]\n            return sorted(models)\n        except Exception:  # noqa: BLE001\n            logger.exception(\"Error fetching models\")\n            return WATSONX_EMBEDDING_MODEL_NAMES\n\n    def build_embeddings(self) -> Embeddings:\n        provider = self.provider\n        model = self.model\n        api_key = self.api_key\n        api_base = self.api_base\n        base_url_ibm_watsonx = self.base_url_ibm_watsonx\n        ollama_base_url = self.ollama_base_url\n        dimensions = self.dimensions\n        chunk_size = self.chunk_size\n        request_timeout = self.request_timeout\n        max_retries = self.max_retries\n        show_progress_bar = self.show_progress_bar\n        model_kwargs = self.model_kwargs or {}\n\n        if provider == \"OpenAI\":\n            if not api_key:\n                msg = \"OpenAI API key is required when using OpenAI provider\"\n                raise ValueError(msg)\n            return OpenAIEmbeddings(\n                model=model,\n                dimensions=dimensions or None,\n                base_url=api_base or None,\n                api_key=api_key,\n                chunk_size=chunk_size,\n                max_retries=max_retries,\n                timeout=request_timeout or None,\n                show_progress_bar=show_progress_bar,\n                model_kwargs=model_kwargs,\n            )\n\n        if provider == \"Ollama\":\n            try:\n                from langchain_ollama import OllamaEmbeddings\n            except ImportError:\n                try:\n                    from langchain_community.embeddings import OllamaEmbeddings\n                except ImportError:\n                    msg = \"Please install langchain-ollama: pip install langchain-ollama\"\n                    raise ImportError(msg) from None\n\n            transformed_base_url = transform_localhost_url(ollama_base_url)\n\n            # Check if URL contains /v1 suffix (OpenAI-compatible mode)\n            if transformed_base_url and transformed_base_url.rstrip(\"/\").endswith(\"/v1\"):\n                # Strip /v1 suffix and log warning\n                transformed_base_url = transformed_base_url.rstrip(\"/\").removesuffix(\"/v1\")\n                logger.warning(\n                    \"Detected '/v1' suffix in base URL. The Ollama component uses the native Ollama API, \"\n                    \"not the OpenAI-compatible API. The '/v1' suffix has been automatically removed. \"\n                    \"If you want to use the OpenAI-compatible API, please use the OpenAI component instead. \"\n                    \"Learn more at https://docs.ollama.com/openai#openai-compatibility\"\n                )\n\n            return OllamaEmbeddings(\n                model=model,\n                base_url=transformed_base_url or \"http://localhost:11434\",\n                **model_kwargs,\n            )\n\n        if provider == \"IBM watsonx.ai\":\n            try:\n                from langchain_ibm import WatsonxEmbeddings\n            except ImportError:\n                msg = \"Please install langchain-ibm: pip install langchain-ibm\"\n                raise ImportError(msg) from None\n\n            if not api_key:\n                msg = \"IBM watsonx.ai API key is required when using IBM watsonx.ai provider\"\n                raise ValueError(msg)\n\n            project_id = self.project_id\n\n            if not project_id:\n                msg = \"Project ID is required for IBM watsonx.ai provider\"\n                raise ValueError(msg)\n\n            from ibm_watsonx_ai import APIClient, Credentials\n\n            credentials = Credentials(\n                api_key=self.api_key,\n                url=base_url_ibm_watsonx or \"https://us-south.ml.cloud.ibm.com\",\n            )\n\n            api_client = APIClient(credentials)\n\n            params = {\n                EmbedTextParamsMetaNames.TRUNCATE_INPUT_TOKENS: self.truncate_input_tokens,\n                EmbedTextParamsMetaNames.RETURN_OPTIONS: {\"input_text\": self.input_text},\n            }\n\n            return WatsonxEmbeddings(\n                model_id=model,\n                params=params,\n                watsonx_client=api_client,\n                project_id=project_id,\n            )\n\n        msg = f\"Unknown provider: {provider}\"\n        raise ValueError(msg)\n\n    async def update_build_config(\n        self, build_config: dotdict, field_value: Any, field_name: str | None = None\n    ) -> dotdict:\n        if field_name == \"provider\":\n            if field_value == \"OpenAI\":\n                build_config[\"model\"][\"options\"] = OPENAI_EMBEDDING_MODEL_NAMES\n                build_config[\"model\"][\"value\"] = OPENAI_EMBEDDING_MODEL_NAMES[0]\n                build_config[\"api_key\"][\"display_name\"] = \"OpenAI API Key\"\n                build_config[\"api_key\"][\"required\"] = True\n                build_config[\"api_key\"][\"show\"] = True\n                build_config[\"api_base\"][\"display_name\"] = \"OpenAI API Base URL\"\n                build_config[\"api_base\"][\"advanced\"] = True\n                build_config[\"api_base\"][\"show\"] = True\n                build_config[\"ollama_base_url\"][\"show\"] = False\n                build_config[\"project_id\"][\"show\"] = False\n                build_config[\"base_url_ibm_watsonx\"][\"show\"] = False\n                build_config[\"truncate_input_tokens\"][\"show\"] = False\n                build_config[\"input_text\"][\"show\"] = False\n            elif field_value == \"Ollama\":\n                build_config[\"ollama_base_url\"][\"show\"] = True\n\n                if await is_valid_ollama_url(url=self.ollama_base_url):\n                    try:\n                        models = await get_ollama_models(\n                            base_url_value=self.ollama_base_url,\n                            desired_capability=DESIRED_CAPABILITY,\n                            json_models_key=JSON_MODELS_KEY,\n                            json_name_key=JSON_NAME_KEY,\n                            json_capabilities_key=JSON_CAPABILITIES_KEY,\n                        )\n                        build_config[\"model\"][\"options\"] = models\n                        build_config[\"model\"][\"value\"] = models[0] if models else \"\"\n                    except ValueError:\n                        build_config[\"model\"][\"options\"] = []\n                        build_config[\"model\"][\"value\"] = \"\"\n                else:\n                    build_config[\"model\"][\"options\"] = []\n                    build_config[\"model\"][\"value\"] = \"\"\n                build_config[\"truncate_input_tokens\"][\"show\"] = False\n                build_config[\"input_text\"][\"show\"] = False\n                build_config[\"api_key\"][\"display_name\"] = \"API Key (Optional)\"\n                build_config[\"api_key\"][\"required\"] = False\n                build_config[\"api_key\"][\"show\"] = False\n                build_config[\"api_base\"][\"show\"] = False\n                build_config[\"project_id\"][\"show\"] = False\n                build_config[\"base_url_ibm_watsonx\"][\"show\"] = False\n\n            elif field_value == \"IBM watsonx.ai\":\n                build_config[\"model\"][\"options\"] = self.fetch_ibm_models(base_url=self.base_url_ibm_watsonx)\n                build_config[\"model\"][\"value\"] = self.fetch_ibm_models(base_url=self.base_url_ibm_watsonx)[0]\n                build_config[\"api_key\"][\"display_name\"] = \"IBM watsonx.ai API Key\"\n                build_config[\"api_key\"][\"required\"] = True\n                build_config[\"api_key\"][\"show\"] = True\n                build_config[\"api_base\"][\"show\"] = False\n                build_config[\"ollama_base_url\"][\"show\"] = False\n                build_config[\"base_url_ibm_watsonx\"][\"show\"] = True\n                build_config[\"project_id\"][\"show\"] = True\n                build_config[\"truncate_input_tokens\"][\"show\"] = True\n                build_config[\"input_text\"][\"show\"] = True\n        elif field_name == \"base_url_ibm_watsonx\":\n            build_config[\"model\"][\"options\"] = self.fetch_ibm_models(base_url=field_value)\n            build_config[\"model\"][\"value\"] = self.fetch_ibm_models(base_url=field_value)[0]\n        elif field_name == \"ollama_base_url\":\n            # # Refresh Ollama models when base URL changes\n            # if hasattr(self, \"provider\") and self.provider == \"Ollama\":\n            # Use field_value if provided, otherwise fall back to instance attribute\n            ollama_url = self.ollama_base_url\n            if await is_valid_ollama_url(url=ollama_url):\n                try:\n                    models = await get_ollama_models(\n                        base_url_value=ollama_url,\n                        desired_capability=DESIRED_CAPABILITY,\n                        json_models_key=JSON_MODELS_KEY,\n                        json_name_key=JSON_NAME_KEY,\n                        json_capabilities_key=JSON_CAPABILITIES_KEY,\n                    )\n                    build_config[\"model\"][\"options\"] = models\n                    build_config[\"model\"][\"value\"] = models[0] if models else \"\"\n                except ValueError:\n                    await logger.awarning(\"Failed to fetch Ollama embedding models.\")\n                    build_config[\"model\"][\"options\"] = []\n                    build_config[\"model\"][\"value\"] = \"\"\n\n        elif field_name == \"model\" and self.provider == \"Ollama\":\n            ollama_url = self.ollama_base_url\n            if await is_valid_ollama_url(url=ollama_url):\n                try:\n                    models = await get_ollama_models(\n                        base_url_value=ollama_url,\n                        desired_capability=DESIRED_CAPABILITY,\n                        json_models_key=JSON_MODELS_KEY,\n                        json_name_key=JSON_NAME_KEY,\n                        json_capabilities_key=JSON_CAPABILITIES_KEY,\n                    )\n                    build_config[\"model\"][\"options\"] = models\n                except ValueError:\n                    await logger.awarning(\"Failed to refresh Ollama embedding models.\")\n                    build_config[\"model\"][\"options\"] = []\n\n        return build_config\n"
+                "value": "from lfx.base.embeddings.model import LCEmbeddingsModel\nfrom lfx.base.models.unified_models import (\n    get_embedding_model_options,\n    get_embeddings,\n    handle_model_input_update,\n)\nfrom lfx.base.models.watsonx_constants import IBM_WATSONX_URLS\nfrom lfx.field_typing import Embeddings\nfrom lfx.io import (\n    BoolInput,\n    DictInput,\n    DropdownInput,\n    FloatInput,\n    IntInput,\n    MessageTextInput,\n    ModelInput,\n    SecretStrInput,\n    StrInput,\n)\n\nDEFAULT_OLLAMA_URL = \"http://localhost:11434\"\n\n\nclass EmbeddingModelComponent(LCEmbeddingsModel):\n    display_name = \"Embedding Model\"\n    description = \"Generate embeddings using a specified provider.\"\n    documentation: str = \"https://docs.langflow.org/components-embedding-models\"\n    icon = \"binary\"\n    name = \"EmbeddingModel\"\n    category = \"models\"\n\n    def update_build_config(self, build_config: dict, field_value: str, field_name: str | None = None):\n        \"\"\"Dynamically update build config with user-filtered model options.\"\"\"\n        return handle_model_input_update(\n            self,\n            dict(build_config),\n            field_value,\n            field_name,\n            cache_key_prefix=\"embedding_model_options\",\n            get_options_func=get_embedding_model_options,\n        )\n\n    inputs = [\n        ModelInput(\n            name=\"model\",\n            display_name=\"Embedding Model\",\n            info=\"Select your model provider\",\n            real_time_refresh=True,\n            required=True,\n            model_type=\"embedding\",\n            input_types=[\"Embeddings\"],  # Override default to accept Embeddings instead of LanguageModel\n        ),\n        SecretStrInput(\n            name=\"api_key\",\n            display_name=\"API Key\",\n            info=\"Overrides global provider settings. Leave blank to use your pre-configured API Key.\",\n            real_time_refresh=True,\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"api_base\",\n            display_name=\"API Base URL\",\n            info=\"Base URL for the API. Leave empty for default.\",\n            advanced=True,\n        ),\n        # Watson-specific inputs\n        DropdownInput(\n            name=\"base_url_ibm_watsonx\",\n            display_name=\"watsonx API Endpoint\",\n            info=\"The base URL of the API (IBM watsonx.ai only)\",\n            options=IBM_WATSONX_URLS,\n            value=IBM_WATSONX_URLS[0],\n            combobox=True,\n            show=False,\n            real_time_refresh=True,\n        ),\n        MessageTextInput(\n            name=\"project_id\",\n            display_name=\"Project ID\",\n            info=\"IBM watsonx.ai Project ID (required for IBM watsonx.ai)\",\n            show=False,\n        ),\n        # Ollama-specific input\n        StrInput(\n            name=\"ollama_base_url\",\n            display_name=\"Ollama API URL\",\n            info=f\"Endpoint of the Ollama API (Ollama only). Defaults to {DEFAULT_OLLAMA_URL}\",\n            value=DEFAULT_OLLAMA_URL,\n            show=False,\n            real_time_refresh=True,\n        ),\n        IntInput(\n            name=\"dimensions\",\n            display_name=\"Dimensions\",\n            info=\"The number of dimensions the resulting output embeddings should have. \"\n            \"Only supported by certain models.\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"chunk_size\",\n            display_name=\"Chunk Size\",\n            advanced=True,\n            value=1000,\n        ),\n        FloatInput(\n            name=\"request_timeout\",\n            display_name=\"Request Timeout\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"max_retries\",\n            display_name=\"Max Retries\",\n            advanced=True,\n            value=3,\n        ),\n        BoolInput(\n            name=\"show_progress_bar\",\n            display_name=\"Show Progress Bar\",\n            advanced=True,\n        ),\n        DictInput(\n            name=\"model_kwargs\",\n            display_name=\"Model Kwargs\",\n            advanced=True,\n            info=(\n                \"Additional keyword arguments to pass to the model. Only used by providers that support this parameter \"\n                \"(e.g. OpenAI, Google Generative AI). \"\n                \"Ignored for providers that do not include it in their parameter mapping.\"\n            ),\n        ),\n        IntInput(\n            name=\"truncate_input_tokens\",\n            display_name=\"Truncate Input Tokens\",\n            advanced=True,\n            value=200,\n            show=False,\n        ),\n        BoolInput(\n            name=\"input_text\",\n            display_name=\"Include the original text in the output\",\n            value=True,\n            advanced=True,\n            show=False,\n        ),\n    ]\n\n    def build_embeddings(self) -> Embeddings:\n        \"\"\"Build and return an embeddings instance based on the selected model.\"\"\"\n        return get_embeddings(\n            model=self.model,\n            user_id=self.user_id,\n            api_key=self.api_key,\n            api_base=self.api_base,\n            dimensions=self.dimensions,\n            chunk_size=self.chunk_size,\n            request_timeout=self.request_timeout,\n            max_retries=self.max_retries,\n            show_progress_bar=self.show_progress_bar,\n            model_kwargs=self.model_kwargs,\n            watsonx_url=getattr(self, \"base_url_ibm_watsonx\", None),\n            watsonx_project_id=getattr(self, \"project_id\", None),\n            watsonx_truncate_input_tokens=getattr(self, \"truncate_input_tokens\", None),\n            watsonx_input_text=getattr(self, \"input_text\", None),\n            ollama_base_url=getattr(self, \"ollama_base_url\", None),\n        )\n"
               },
               "dimensions": {
                 "_input_type": "IntInput",
@@ -1778,7 +1756,7 @@
                 "trace_as_metadata": true,
                 "track_in_telemetry": true,
                 "type": "int",
-                "value": ""
+                "value": 0
               },
               "input_text": {
                 "_input_type": "BoolInput",
@@ -1800,7 +1778,7 @@
                 "type": "bool",
                 "value": true
               },
-              "is_refresh": false,
+              "is_refresh": true,
               "max_retries": {
                 "_input_type": "IntInput",
                 "advanced": true,
@@ -1822,41 +1800,135 @@
                 "value": 3
               },
               "model": {
-                "_input_type": "DropdownInput",
+                "_input_type": "ModelInput",
                 "advanced": false,
-                "combobox": false,
-                "dialog_inputs": {},
-                "display_name": "Model Name",
+                "display_name": "Embedding Model",
                 "dynamic": false,
-                "external_options": {},
-                "info": "Select the embedding model to use",
+                "external_options": {
+                  "fields": {
+                    "data": {
+                      "node": {
+                        "display_name": "Connect other models",
+                        "icon": "CornerDownLeft",
+                        "name": "connect_other_models"
+                      }
+                    }
+                  }
+                },
+                "info": "Select your model provider",
+                "input_types": [
+                  "Embeddings"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "model_type": "embedding",
                 "name": "model",
                 "options": [
-                  "text-embedding-3-small",
-                  "text-embedding-3-large",
-                  "text-embedding-ada-002"
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "embedding_class": "OpenAIEmbeddings",
+                      "model_type": "embeddings",
+                      "param_mapping": {
+                        "api_base": "base_url",
+                        "api_key": "api_key",
+                        "chunk_size": "chunk_size",
+                        "dimensions": "dimensions",
+                        "max_retries": "max_retries",
+                        "model": "model",
+                        "model_kwargs": "model_kwargs",
+                        "request_timeout": "timeout",
+                        "show_progress_bar": "show_progress_bar"
+                      }
+                    },
+                    "name": "text-embedding-3-small",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "embedding_class": "OpenAIEmbeddings",
+                      "model_type": "embeddings",
+                      "param_mapping": {
+                        "api_base": "base_url",
+                        "api_key": "api_key",
+                        "chunk_size": "chunk_size",
+                        "dimensions": "dimensions",
+                        "max_retries": "max_retries",
+                        "model": "model",
+                        "model_kwargs": "model_kwargs",
+                        "request_timeout": "timeout",
+                        "show_progress_bar": "show_progress_bar"
+                      }
+                    },
+                    "name": "text-embedding-3-large",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "embedding_class": "OpenAIEmbeddings",
+                      "model_type": "embeddings",
+                      "param_mapping": {
+                        "api_base": "base_url",
+                        "api_key": "api_key",
+                        "chunk_size": "chunk_size",
+                        "dimensions": "dimensions",
+                        "max_retries": "max_retries",
+                        "model": "model",
+                        "model_kwargs": "model_kwargs",
+                        "request_timeout": "timeout",
+                        "show_progress_bar": "show_progress_bar"
+                      }
+                    },
+                    "name": "text-embedding-ada-002",
+                    "provider": "OpenAI"
+                  }
                 ],
-                "options_metadata": [],
                 "override_skip": false,
-                "placeholder": "",
+                "placeholder": "Setup Provider",
                 "real_time_refresh": true,
                 "refresh_button": true,
-                "required": false,
+                "required": true,
                 "show": true,
                 "title_case": false,
-                "toggle": false,
                 "tool_mode": false,
-                "trace_as_metadata": true,
-                "track_in_telemetry": true,
-                "type": "str",
-                "value": "text-embedding-3-small"
+                "trace_as_input": true,
+                "track_in_telemetry": false,
+                "type": "model",
+                "value": [
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "embedding_class": "OpenAIEmbeddings",
+                      "model_type": "embeddings",
+                      "param_mapping": {
+                        "api_base": "base_url",
+                        "api_key": "api_key",
+                        "chunk_size": "chunk_size",
+                        "dimensions": "dimensions",
+                        "max_retries": "max_retries",
+                        "model": "model",
+                        "model_kwargs": "model_kwargs",
+                        "request_timeout": "timeout",
+                        "show_progress_bar": "show_progress_bar"
+                      }
+                    },
+                    "name": "text-embedding-3-small",
+                    "provider": "OpenAI"
+                  }
+                ]
               },
               "model_kwargs": {
                 "_input_type": "DictInput",
                 "advanced": true,
                 "display_name": "Model Kwargs",
                 "dynamic": false,
-                "info": "Additional keyword arguments to pass to the model.",
+                "info": "Additional keyword arguments to pass to the model. Only used by providers that support this parameter (e.g. OpenAI, Google Generative AI). Ignored for providers that do not include it in their parameter mapping.",
                 "list": false,
                 "list_add_label": "Add More",
                 "name": "model_kwargs",
@@ -1872,14 +1944,11 @@
                 "value": {}
               },
               "ollama_base_url": {
-                "_input_type": "MessageTextInput",
+                "_input_type": "StrInput",
                 "advanced": false,
                 "display_name": "Ollama API URL",
                 "dynamic": false,
                 "info": "Endpoint of the Ollama API (Ollama only). Defaults to http://localhost:11434",
-                "input_types": [
-                  "Message"
-                ],
                 "list": false,
                 "list_add_label": "Add More",
                 "load_from_db": false,
@@ -1891,11 +1960,10 @@
                 "show": false,
                 "title_case": false,
                 "tool_mode": false,
-                "trace_as_input": true,
                 "trace_as_metadata": true,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": ""
+                "value": "http://localhost:11434"
               },
               "project_id": {
                 "_input_type": "MessageTextInput",
@@ -1921,45 +1989,6 @@
                 "track_in_telemetry": false,
                 "type": "str",
                 "value": ""
-              },
-              "provider": {
-                "_input_type": "DropdownInput",
-                "advanced": false,
-                "combobox": false,
-                "dialog_inputs": {},
-                "display_name": "Model Provider",
-                "dynamic": false,
-                "external_options": {},
-                "info": "Select the embedding model provider",
-                "name": "provider",
-                "options": [
-                  "OpenAI",
-                  "Ollama",
-                  "IBM watsonx.ai"
-                ],
-                "options_metadata": [
-                  {
-                    "icon": "OpenAI"
-                  },
-                  {
-                    "icon": "Ollama"
-                  },
-                  {
-                    "icon": "WatsonxAI"
-                  }
-                ],
-                "override_skip": false,
-                "placeholder": "",
-                "real_time_refresh": true,
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "toggle": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "track_in_telemetry": true,
-                "type": "str",
-                "value": "OpenAI"
               },
               "request_timeout": {
                 "_input_type": "FloatInput",
@@ -2028,9 +2057,9 @@
           "type": "EmbeddingModel"
         },
         "dragging": false,
-        "id": "EmbeddingModel-K3FqD",
+        "id": "EmbeddingModel-Mi0F0",
         "measured": {
-          "height": 367,
+          "height": 205,
           "width": 320
         },
         "position": {
@@ -2042,43 +2071,149 @@
       },
       {
         "data": {
-          "id": "note-c5n9X",
+          "id": "note-i9zqD",
           "node": {
-            "description": "Google Drive authentication can be done using a JSON key or a physical key file.",
+            "description": "# Document Ingestion from Google Drive\n\nIngests documents from a Google Drive folder into an Astra DB vector collection so you can power RAG retrieval over them. Reads files from Drive, splits them into chunks, generates embeddings, and writes the embedded chunks to Astra.\n\n---\n\n## Quick Start\n\n1. **Set up Google Drive** -- paste a service account JSON and the folder ID in the Google Drive Folder Reader node\n2. **Set up Astra DB** -- paste your application token, then pick database + collection\n3. **Add the embedding provider API key** (default: OpenAI)\n4. Click **Playground** (top-right) -- the flow processes all files in the folder\n\n---\n\n## How it works\n\n1. **Google Drive Folder Reader** -- reads files from the configured Drive folder\n2. **Split Text** -- chunks each file (1000 chars, 200 overlap)\n3. **Embedding Model** -- embeds each chunk (default: OpenAI `text-embedding-3-small`)\n4. **Astra DB** -- stores the embedded chunks in a vector collection ready for RAG\n\n> Google Drive Folder Reader is a bundle component -- the \"Update available\" badge will remain on it. That is expected.\n\n---\n\n## Next Steps\n\nThis flow only **ingests**. To actually query your documents, build a separate RAG flow:\n\n1. **Create a query flow** with Chat Input -> Astra DB (Search) -> Prompt -> Language Model -> Chat Output\n2. **Point Astra DB at the same collection** you used here -- same token, database, collection name\n3. **Test queries in Playground** -- ask questions about your ingested docs\n\nOther useful follow-ups:\n- **Schedule re-ingestion** -- this flow is one-shot; re-run it when files change\n- **Filter by file type** -- add a Conditional node between the GD Reader and Split Text if you want to skip PDFs/images\n- **Tune chunk size** -- 1000/200 is a safe default; smaller chunks (500/100) help with precise QA, larger (2000/400) with context-heavy answers\n",
             "display_name": "",
             "documentation": "",
-            "template": {}
+            "template": {
+              "backgroundColor": "blue"
+            }
           },
           "type": "note"
         },
-        "dragging": true,
-        "height": 324,
-        "id": "note-c5n9X",
+        "dragging": false,
+        "height": 720,
+        "id": "note-i9zqD",
         "measured": {
-          "height": 324,
-          "width": 324
+          "height": 720,
+          "width": 500
         },
         "position": {
-          "x": -354.24552521511305,
-          "y": 547.079352261862
+          "x": -511.6859357666015,
+          "y": 155.50417128906247
+        },
+        "positionAbsolute": {
+          "x": -540,
+          "y": 80
         },
         "resizing": false,
         "selected": false,
         "type": "noteNode",
-        "width": 324
+        "width": 500
+      },
+      {
+        "data": {
+          "id": "note-Q3uB4",
+          "node": {
+            "description": "## Google Drive Folder Reader — Setup Required\n\n> Reads documents from a Google Drive folder using a service account.\n\n**Service Account JSON** *(required, secret)*\n1. Go to https://console.cloud.google.com/iam-admin/serviceaccounts\n2. Create a service account (or pick an existing one)\n3. Create a JSON key and download it\n4. Share the target Drive folder with the service account's email (Viewer permission)\n5. Paste the entire JSON contents here\n\n**Folder ID** *(required)*\n1. Open the Drive folder in your browser\n2. Copy the long alphanumeric ID from the URL (after `/folders/`)\n3. Paste it here — replace the sample folder ID that ships with the flow\n\n> \"Update available\" badge stays on this node — bundle component, not in the standard 1.9.2 registry.\n",
+            "display_name": "",
+            "documentation": "",
+            "template": {
+              "backgroundColor": "amber"
+            }
+          },
+          "type": "note"
+        },
+        "dragging": false,
+        "height": 410,
+        "id": "note-Q3uB4",
+        "measured": {
+          "height": 410,
+          "width": 400
+        },
+        "position": {
+          "x": 48,
+          "y": 80
+        },
+        "positionAbsolute": {
+          "x": 48,
+          "y": 80
+        },
+        "resizing": false,
+        "selected": false,
+        "type": "noteNode",
+        "width": 400
+      },
+      {
+        "data": {
+          "id": "note-PSrav",
+          "node": {
+            "description": "## Astra DB — Setup Required\n\n> Stores embedded document chunks in a serverless vector database.\n\n**Application Token** *(required, secret)*\n1. Go to https://astra.datastax.com → Tokens\n2. Create a token with **Database Administrator** role\n3. Copy the token (starts with `AstraCS:...`) and paste here\n\n**Database Name** *(required)*\nWith a valid token, the dropdown auto-discovers your databases — pick one.\n\n**Collection Name** *(required)*\nName of the vector collection. If it doesn't exist, Astra creates it on first write.\n",
+            "display_name": "",
+            "documentation": "",
+            "template": {
+              "backgroundColor": "amber"
+            }
+          },
+          "type": "note"
+        },
+        "dragging": false,
+        "height": 410,
+        "id": "note-PSrav",
+        "measured": {
+          "height": 410,
+          "width": 400
+        },
+        "position": {
+          "x": 816,
+          "y": 80
+        },
+        "positionAbsolute": {
+          "x": 816,
+          "y": 80
+        },
+        "resizing": false,
+        "selected": false,
+        "type": "noteNode",
+        "width": 400
+      },
+      {
+        "data": {
+          "id": "note-JNDTB",
+          "node": {
+            "description": "## Embedding Model — Setup Required\n\n> Generates vector embeddings for each text chunk before storage.\n\n**Model Provider** *(dropdown)*\nPick your provider — OpenAI, Anthropic, Google, Cohere, Hugging Face, etc. Default: OpenAI.\n\n**API Key** *(required, secret)*\n1. Go to your provider's dashboard (e.g., https://platform.openai.com/api-keys for OpenAI)\n2. Generate a key and paste it here\n\n**Model**\nPre-configured: `text-embedding-3-small`. Change if you switched provider.\n",
+            "display_name": "",
+            "documentation": "",
+            "template": {
+              "backgroundColor": "amber"
+            }
+          },
+          "type": "note"
+        },
+        "dragging": false,
+        "height": 739,
+        "id": "note-JNDTB",
+        "measured": {
+          "height": 739,
+          "width": 443
+        },
+        "position": {
+          "x": 816,
+          "y": 1052
+        },
+        "positionAbsolute": {
+          "x": 816,
+          "y": 1052
+        },
+        "resizing": false,
+        "selected": false,
+        "type": "noteNode",
+        "width": 443
       }
     ],
     "viewport": {
-      "x": 348.97304617481615,
-      "y": -401.3183083008871,
-      "zoom": 0.7957132845556928
+      "x": 214.38416674027206,
+      "y": 50.85382713452846,
+      "zoom": 0.25
     }
   },
   "description": "Language Engineering Excellence.",
   "endpoint_name": null,
-  "id": "bb806354-6312-47bb-ab99-c042fd9a7518",
+  "id": "11231c31-3da4-49b8-b6a8-a4e8d00ddf38",
   "is_component": false,
-  "last_tested_version": "1.7.1",
+  "last_tested_version": "1.9.2",
+  "locked": false,
   "name": "rag_document_ingestion_from_google_drive",
   "tags": []
 }
