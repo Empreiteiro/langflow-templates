@@ -7,7 +7,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "TextInput",
-            "id": "TextInput-J8cwJ",
+            "id": "TextInput-RNVut",
             "name": "text",
             "output_types": [
               "Message"
@@ -15,19 +15,19 @@
           },
           "targetHandle": {
             "fieldName": "data",
-            "id": "Webhook-huqq9",
+            "id": "Webhook-xQRpb",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "reactflow__edge-TextInput-J8cwJ{œdataTypeœ:œTextInputœ,œidœ:œTextInput-J8cwJœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-Webhook-huqq9{œfieldNameœ:œdataœ,œidœ:œWebhook-huqq9œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-TextInput-RNVut{œdataTypeœ:œTextInputœ,œidœ:œTextInput-RNVutœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-Webhook-xQRpb{œfieldNameœ:œdataœ,œidœ:œWebhook-xQRpbœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "TextInput-J8cwJ",
-        "sourceHandle": "{œdataTypeœ:œTextInputœ,œidœ:œTextInput-J8cwJœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Webhook-huqq9",
-        "targetHandle": "{œfieldNameœ:œdataœ,œidœ:œWebhook-huqq9œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "source": "TextInput-RNVut",
+        "sourceHandle": "{œdataTypeœ:œTextInputœ,œidœ:œTextInput-RNVutœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Webhook-xQRpb",
+        "targetHandle": "{œfieldNameœ:œdataœ,œidœ:œWebhook-xQRpbœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       },
       {
         "animated": false,
@@ -35,7 +35,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "Webhook",
-            "id": "Webhook-huqq9",
+            "id": "Webhook-xQRpb",
             "name": "output_data",
             "output_types": [
               "Data"
@@ -43,7 +43,7 @@
           },
           "targetHandle": {
             "fieldName": "input_data",
-            "id": "TypeConverterComponent-n6FFH",
+            "id": "TypeConverterComponent-Ubovh",
             "inputTypes": [
               "Message",
               "Data",
@@ -52,12 +52,12 @@
             "type": "other"
           }
         },
-        "id": "reactflow__edge-Webhook-huqq9{œdataTypeœ:œWebhookœ,œidœ:œWebhook-huqq9œ,œnameœ:œoutput_dataœ,œoutput_typesœ:[œDataœ]}-TypeConverterComponent-n6FFH{œfieldNameœ:œinput_dataœ,œidœ:œTypeConverterComponent-n6FFHœ,œinputTypesœ:[œMessageœ,œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-Webhook-xQRpb{œdataTypeœ:œWebhookœ,œidœ:œWebhook-xQRpbœ,œnameœ:œoutput_dataœ,œoutput_typesœ:[œDataœ]}-TypeConverterComponent-Ubovh{œfieldNameœ:œinput_dataœ,œidœ:œTypeConverterComponent-Ubovhœ,œinputTypesœ:[œMessageœ,œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "Webhook-huqq9",
-        "sourceHandle": "{œdataTypeœ:œWebhookœ,œidœ:œWebhook-huqq9œ,œnameœ:œoutput_dataœ,œoutput_typesœ:[œDataœ]}",
-        "target": "TypeConverterComponent-n6FFH",
-        "targetHandle": "{œfieldNameœ:œinput_dataœ,œidœ:œTypeConverterComponent-n6FFHœ,œinputTypesœ:[œMessageœ,œDataœ,œDataFrameœ],œtypeœ:œotherœ}"
+        "source": "Webhook-xQRpb",
+        "sourceHandle": "{œdataTypeœ:œWebhookœ,œidœ:œWebhook-xQRpbœ,œnameœ:œoutput_dataœ,œoutput_typesœ:[œDataœ]}",
+        "target": "TypeConverterComponent-Ubovh",
+        "targetHandle": "{œfieldNameœ:œinput_dataœ,œidœ:œTypeConverterComponent-Ubovhœ,œinputTypesœ:[œMessageœ,œDataœ,œDataFrameœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -65,7 +65,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "APIRequest",
-            "id": "APIRequest-TdbGD",
+            "id": "APIRequest-b0pvm",
             "name": "component_as_tool",
             "output_types": [
               "Tool"
@@ -73,19 +73,19 @@
           },
           "targetHandle": {
             "fieldName": "tools",
-            "id": "Agent-QNmj7",
+            "id": "Agent-1oAqi",
             "inputTypes": [
               "Tool"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-APIRequest-TdbGD{œdataTypeœ:œAPIRequestœ,œidœ:œAPIRequest-TdbGDœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-QNmj7{œfieldNameœ:œtoolsœ,œidœ:œAgent-QNmj7œ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-APIRequest-b0pvm{œdataTypeœ:œAPIRequestœ,œidœ:œAPIRequest-b0pvmœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-1oAqi{œfieldNameœ:œtoolsœ,œidœ:œAgent-1oAqiœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "APIRequest-TdbGD",
-        "sourceHandle": "{œdataTypeœ:œAPIRequestœ,œidœ:œAPIRequest-TdbGDœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
-        "target": "Agent-QNmj7",
-        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-QNmj7œ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+        "source": "APIRequest-b0pvm",
+        "sourceHandle": "{œdataTypeœ:œAPIRequestœ,œidœ:œAPIRequest-b0pvmœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
+        "target": "Agent-1oAqi",
+        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-1oAqiœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -93,7 +93,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "Prompt Template",
-            "id": "Prompt Template-f2yEL",
+            "id": "Prompt Template-z3mem",
             "name": "prompt",
             "output_types": [
               "Message"
@@ -101,19 +101,19 @@
           },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "Agent-QNmj7",
+            "id": "Agent-1oAqi",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "reactflow__edge-Prompt Template-f2yEL{œdataTypeœ:œPrompt Templateœ,œidœ:œPrompt Template-f2yELœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-Agent-QNmj7{œfieldNameœ:œinput_valueœ,œidœ:œAgent-QNmj7œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-Prompt Template-z3mem{œdataTypeœ:œPrompt Templateœ,œidœ:œPrompt Template-z3memœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-Agent-1oAqi{œfieldNameœ:œinput_valueœ,œidœ:œAgent-1oAqiœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "Prompt Template-f2yEL",
-        "sourceHandle": "{œdataTypeœ:œPrompt Templateœ,œidœ:œPrompt Template-f2yELœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Agent-QNmj7",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œAgent-QNmj7œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "source": "Prompt Template-z3mem",
+        "sourceHandle": "{œdataTypeœ:œPrompt Templateœ,œidœ:œPrompt Template-z3memœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Agent-1oAqi",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œAgent-1oAqiœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       },
       {
         "animated": false,
@@ -121,7 +121,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "TypeConverterComponent",
-            "id": "TypeConverterComponent-n6FFH",
+            "id": "TypeConverterComponent-Ubovh",
             "name": "message_output",
             "output_types": [
               "Message"
@@ -129,19 +129,19 @@
           },
           "targetHandle": {
             "fieldName": "system_prompt",
-            "id": "Agent-QNmj7",
+            "id": "Agent-1oAqi",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "reactflow__edge-TypeConverterComponent-n6FFH{œdataTypeœ:œTypeConverterComponentœ,œidœ:œTypeConverterComponent-n6FFHœ,œnameœ:œmessage_outputœ,œoutput_typesœ:[œMessageœ]}-Agent-QNmj7{œfieldNameœ:œsystem_promptœ,œidœ:œAgent-QNmj7œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-TypeConverterComponent-Ubovh{œdataTypeœ:œTypeConverterComponentœ,œidœ:œTypeConverterComponent-Ubovhœ,œnameœ:œmessage_outputœ,œoutput_typesœ:[œMessageœ]}-Agent-1oAqi{œfieldNameœ:œsystem_promptœ,œidœ:œAgent-1oAqiœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "TypeConverterComponent-n6FFH",
-        "sourceHandle": "{œdataTypeœ:œTypeConverterComponentœ,œidœ:œTypeConverterComponent-n6FFHœ,œnameœ:œmessage_outputœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Agent-QNmj7",
-        "targetHandle": "{œfieldNameœ:œsystem_promptœ,œidœ:œAgent-QNmj7œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "source": "TypeConverterComponent-Ubovh",
+        "sourceHandle": "{œdataTypeœ:œTypeConverterComponentœ,œidœ:œTypeConverterComponent-Ubovhœ,œnameœ:œmessage_outputœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Agent-1oAqi",
+        "targetHandle": "{œfieldNameœ:œsystem_promptœ,œidœ:œAgent-1oAqiœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       },
       {
         "animated": false,
@@ -149,7 +149,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "Agent",
-            "id": "Agent-QNmj7",
+            "id": "Agent-1oAqi",
             "name": "response",
             "output_types": [
               "Message"
@@ -157,26 +157,26 @@
           },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "TextOutput-V13if",
+            "id": "TextOutput-xXE26",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "reactflow__edge-Agent-QNmj7{œdataTypeœ:œAgentœ,œidœ:œAgent-QNmj7œ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}-TextOutput-V13if{œfieldNameœ:œinput_valueœ,œidœ:œTextOutput-V13ifœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-Agent-1oAqi{œdataTypeœ:œAgentœ,œidœ:œAgent-1oAqiœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}-TextOutput-xXE26{œfieldNameœ:œinput_valueœ,œidœ:œTextOutput-xXE26œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "Agent-QNmj7",
-        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-QNmj7œ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "TextOutput-V13if",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œTextOutput-V13ifœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "source": "Agent-1oAqi",
+        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-1oAqiœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "TextOutput-xXE26",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œTextOutput-xXE26œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       }
     ],
     "nodes": [
       {
         "data": {
           "display_name": "Webhook",
-          "id": "Webhook-huqq9",
+          "id": "Webhook-xQRpb",
           "node": {
             "base_classes": [
               "Data"
@@ -338,9 +338,9 @@
           "showNode": true,
           "type": "Webhook"
         },
-        "id": "Webhook-huqq9",
+        "id": "Webhook-xQRpb",
         "measured": {
-          "height": 231,
+          "height": 229,
           "width": 320
         },
         "position": {
@@ -354,7 +354,7 @@
         "data": {
           "description": "Get user text inputs.",
           "display_name": "Text Input",
-          "id": "TextInput-J8cwJ",
+          "id": "TextInput-RNVut",
           "node": {
             "base_classes": [
               "Message"
@@ -488,9 +488,9 @@
           "type": "TextInput"
         },
         "dragging": false,
-        "id": "TextInput-J8cwJ",
+        "id": "TextInput-RNVut",
         "measured": {
-          "height": 285,
+          "height": 282,
           "width": 320
         },
         "position": {
@@ -504,7 +504,7 @@
         "data": {
           "description": "Sends text output via API.",
           "display_name": "Text Output",
-          "id": "TextOutput-V13if",
+          "id": "TextOutput-xXE26",
           "node": {
             "base_classes": [
               "Message"
@@ -521,15 +521,14 @@
             ],
             "frozen": false,
             "icon": "type",
-            "legacy": false,
-            "lf_version": "1.9.2",
+            "legacy": true,
             "metadata": {
-              "code_hash": "6aba888f4632",
+              "code_hash": "3ececc60ddaf",
               "dependencies": {
                 "dependencies": [
                   {
                     "name": "lfx",
-                    "version": "0.2.1"
+                    "version": null
                   }
                 ],
                 "total_dependencies": 1
@@ -558,6 +557,9 @@
               }
             ],
             "pinned": false,
+            "replacement": [
+              "input_output.ChatOutput"
+            ],
             "template": {
               "_type": "Component",
               "code": {
@@ -576,7 +578,7 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "from lfx.base.io.text import TextComponent\nfrom lfx.io import MultilineInput, Output\nfrom lfx.schema.message import Message\n\n\nclass TextOutputComponent(TextComponent):\n    display_name = \"Text Output\"\n    description = \"Sends text output via API.\"\n    documentation: str = \"https://docs.langflow.org/text-input-and-output\"\n    icon = \"type\"\n    name = \"TextOutput\"\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Inputs\",\n            info=\"Text to be passed as output.\",\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Output Text\", name=\"text\", method=\"text_response\"),\n    ]\n\n    def text_response(self) -> Message:\n        message = Message(\n            text=self.input_value,\n        )\n        self.status = self.input_value\n        return message\n"
+                "value": "from lfx.base.io.text import TextComponent\nfrom lfx.io import MultilineInput, Output\nfrom lfx.schema.message import Message\n\n\nclass TextOutputComponent(TextComponent):\n    display_name = \"Text Output\"\n    description = \"Sends text output via API.\"\n    documentation: str = \"https://docs.langflow.org/text-input-and-output\"\n    icon = \"type\"\n    name = \"TextOutput\"\n    legacy = True\n    replacement = [\"input_output.ChatOutput\"]\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Inputs\",\n            info=\"Text to be passed as output.\",\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Output Text\", name=\"text\", method=\"text_response\"),\n    ]\n\n    def text_response(self) -> Message:\n        message = Message(\n            text=self.input_value,\n        )\n        self.status = self.input_value\n        return message\n"
               },
               "input_value": {
                 "_input_type": "MultilineInput",
@@ -595,6 +597,7 @@
                 "multiline": true,
                 "name": "input_value",
                 "override_skip": false,
+                "password": false,
                 "placeholder": "",
                 "required": false,
                 "show": true,
@@ -612,9 +615,9 @@
           "showNode": true,
           "type": "TextOutput"
         },
-        "id": "TextOutput-V13if",
+        "id": "TextOutput-xXE26",
         "measured": {
-          "height": 216,
+          "height": 282,
           "width": 320
         },
         "position": {
@@ -628,7 +631,7 @@
         "data": {
           "description": "Make HTTP requests using URL or cURL commands.",
           "display_name": "API Request",
-          "id": "APIRequest-TdbGD",
+          "id": "APIRequest-b0pvm",
           "node": {
             "base_classes": [
               "JSON"
@@ -655,6 +658,7 @@
             ],
             "frozen": false,
             "icon": "Globe",
+            "last_updated": "2026-06-12T12:27:40.748Z",
             "legacy": false,
             "metadata": {
               "code_hash": "1a052ebb9519",
@@ -705,6 +709,12 @@
             ],
             "pinned": false,
             "template": {
+              "_frontend_node_flow_id": {
+                "value": "a9f1ef65-5ded-431c-b1ae-089b444ba535"
+              },
+              "_frontend_node_folder_id": {
+                "value": "46cbb6fc-e3f7-4d0f-a0cf-2299fe21e68b"
+              },
               "_type": "Component",
               "body": {
                 "_input_type": "TableInput",
@@ -882,6 +892,7 @@
                 "type": "bool",
                 "value": false
               },
+              "is_refresh": false,
               "method": {
                 "_input_type": "DropdownInput",
                 "advanced": false,
@@ -1080,9 +1091,9 @@
           "type": "APIRequest"
         },
         "dragging": false,
-        "id": "APIRequest-TdbGD",
+        "id": "APIRequest-b0pvm",
         "measured": {
-          "height": 389,
+          "height": 387,
           "width": 320
         },
         "position": {
@@ -1094,7 +1105,7 @@
       },
       {
         "data": {
-          "id": "Prompt Template-f2yEL",
+          "id": "Prompt Template-z3mem",
           "node": {
             "base_classes": [
               "Message"
@@ -1240,9 +1251,9 @@
           "type": "Prompt Template"
         },
         "dragging": false,
-        "id": "Prompt Template-f2yEL",
+        "id": "Prompt Template-z3mem",
         "measured": {
-          "height": 265,
+          "height": 264,
           "width": 320
         },
         "position": {
@@ -1254,7 +1265,7 @@
       },
       {
         "data": {
-          "id": "TypeConverterComponent-n6FFH",
+          "id": "TypeConverterComponent-Ubovh",
           "node": {
             "base_classes": [
               "Message"
@@ -1406,9 +1417,9 @@
           "type": "TypeConverterComponent"
         },
         "dragging": false,
-        "id": "TypeConverterComponent-n6FFH",
+        "id": "TypeConverterComponent-Ubovh",
         "measured": {
-          "height": 265,
+          "height": 264,
           "width": 320
         },
         "position": {
@@ -1423,7 +1434,7 @@
           "_connectionMode": false,
           "description": "Define the agent's instructions, then enter a task to complete using tools.",
           "display_name": "Agent",
-          "id": "Agent-QNmj7",
+          "id": "Agent-1oAqi",
           "node": {
             "base_classes": [
               "Data",
@@ -1458,6 +1469,7 @@
             ],
             "frozen": false,
             "icon": "bot",
+            "last_updated": "2026-06-12T12:27:40.775Z",
             "legacy": false,
             "metadata": {
               "code_hash": "d08c17dbf863",
@@ -1512,6 +1524,7 @@
                 "name": "structured_response",
                 "options": null,
                 "required_inputs": null,
+                "selected": "Data",
                 "tool_mode": true,
                 "types": [
                   "Data",
@@ -1522,6 +1535,14 @@
             ],
             "pinned": false,
             "template": {
+              "_frontend_node_flow_id": {
+                "input_types": [],
+                "value": "a9f1ef65-5ded-431c-b1ae-089b444ba535"
+              },
+              "_frontend_node_folder_id": {
+                "input_types": [],
+                "value": "46cbb6fc-e3f7-4d0f-a0cf-2299fe21e68b"
+              },
               "_type": "Component",
               "add_calculator_tool": {
                 "_input_type": "BoolInput",
@@ -1529,6 +1550,7 @@
                 "display_name": "Calculator",
                 "dynamic": false,
                 "info": "If true, adds a zero-config arithmetic calculator tool to the agent (safe: only +, -, *, /, ** operators via AST).",
+                "input_types": [],
                 "list": false,
                 "list_add_label": "Add More",
                 "name": "add_calculator_tool",
@@ -1549,6 +1571,7 @@
                 "display_name": "Current Date",
                 "dynamic": false,
                 "info": "If true, will add a tool to the agent that returns the current date.",
+                "input_types": [],
                 "list": false,
                 "list_add_label": "Add More",
                 "name": "add_current_date_tool",
@@ -1568,7 +1591,7 @@
                 "advanced": true,
                 "display_name": "API Key",
                 "dynamic": false,
-                "info": "Overrides global provider settings. Leave blank to use your pre-configured API Key.",
+                "info": "Falls back to GOOGLE_API_KEY environment variable",
                 "input_types": [],
                 "load_from_db": true,
                 "name": "api_key",
@@ -1592,6 +1615,7 @@
                 "dynamic": false,
                 "external_options": {},
                 "info": "The base URL of the API (IBM watsonx.ai only)",
+                "input_types": [],
                 "name": "base_url_ibm_watsonx",
                 "options": [
                   "https://us-south.ml.cloud.ibm.com",
@@ -1621,6 +1645,7 @@
                 "fileTypes": [],
                 "file_path": "",
                 "info": "",
+                "input_types": [],
                 "list": false,
                 "load_from_db": false,
                 "multiline": true,
@@ -1693,6 +1718,7 @@
                 "display_name": "Handle Parse Errors",
                 "dynamic": false,
                 "info": "Adds tool-execution retry as a safety net. `create_agent` already feeds tool-call validation errors back to the LLM automatically; this flag layers `ToolRetryMiddleware` on top so transient tool runtime failures are retried (max 2 retries).",
+                "input_types": [],
                 "list": false,
                 "list_add_label": "Add More",
                 "name": "handle_parsing_errors",
@@ -1732,12 +1758,14 @@
                 "type": "str",
                 "value": ""
               },
+              "is_refresh": false,
               "max_iterations": {
                 "_input_type": "IntInput",
                 "advanced": true,
                 "display_name": "Max Iterations",
                 "dynamic": false,
                 "info": "Maximum number of model calls the agent can make before stopping (maps to `ModelCallLimitMiddleware.run_limit` on the create_agent path). Must be at least 1 — it is a safety cap, never 'unlimited'.",
+                "input_types": [],
                 "list": false,
                 "list_add_label": "Add More",
                 "name": "max_iterations",
@@ -1764,6 +1792,7 @@
                 "display_name": "Max Tokens",
                 "dynamic": false,
                 "info": "Maximum number of tokens to generate. Field name varies by provider.",
+                "input_types": [],
                 "list": false,
                 "list_add_label": "Add More",
                 "name": "max_tokens",
@@ -1812,6 +1841,166 @@
                 "load_from_db": false,
                 "model_type": "language",
                 "name": "model",
+                "options": [
+                  {
+                    "category": "Anthropic",
+                    "icon": "Anthropic",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatAnthropic",
+                      "model_name_param": "model"
+                    },
+                    "name": "claude-fable-5",
+                    "provider": "Anthropic"
+                  },
+                  {
+                    "category": "Anthropic",
+                    "icon": "Anthropic",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatAnthropic",
+                      "model_name_param": "model"
+                    },
+                    "name": "claude-opus-4-8",
+                    "provider": "Anthropic"
+                  },
+                  {
+                    "category": "Anthropic",
+                    "icon": "Anthropic",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatAnthropic",
+                      "model_name_param": "model"
+                    },
+                    "name": "claude-opus-4-7",
+                    "provider": "Anthropic"
+                  },
+                  {
+                    "category": "Anthropic",
+                    "icon": "Anthropic",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatAnthropic",
+                      "model_name_param": "model"
+                    },
+                    "name": "claude-sonnet-4-6",
+                    "provider": "Anthropic"
+                  },
+                  {
+                    "category": "Anthropic",
+                    "icon": "Anthropic",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatAnthropic",
+                      "model_name_param": "model"
+                    },
+                    "name": "claude-opus-4-6",
+                    "provider": "Anthropic"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model",
+                      "reasoning_models": [
+                        "gpt-5.5-pro"
+                      ]
+                    },
+                    "name": "gpt-5.5-pro",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model",
+                      "reasoning_models": [
+                        "gpt-5.5"
+                      ]
+                    },
+                    "name": "gpt-5.5",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model",
+                      "reasoning_models": [
+                        "gpt-5.4-nano"
+                      ]
+                    },
+                    "name": "gpt-5.4-nano",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model",
+                      "reasoning_models": [
+                        "gpt-5.4-mini"
+                      ]
+                    },
+                    "name": "gpt-5.4-mini",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model",
+                      "reasoning_models": [
+                        "gpt-5.4"
+                      ]
+                    },
+                    "name": "gpt-5.4",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "icon": "GoogleGenerativeAI",
+                    "metadata": {
+                      "api_key_param": "google_api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_output_tokens",
+                      "model_class": "ChatGoogleGenerativeAIFixed",
+                      "model_name_param": "model",
+                      "not_enabled_locally": true
+                    },
+                    "name": "gemini-2.5-flash",
+                    "provider": "Google Generative AI"
+                  }
+                ],
                 "override_skip": false,
                 "placeholder": "Setup Provider",
                 "real_time_refresh": true,
@@ -1845,6 +2034,7 @@
                 "display_name": "Number of Chat History Messages",
                 "dynamic": false,
                 "info": "Number of chat history messages to retrieve.",
+                "input_types": [],
                 "list": false,
                 "list_add_label": "Add More",
                 "name": "n_messages",
@@ -1933,6 +2123,7 @@
                 "display_name": "watsonx Project ID",
                 "dynamic": false,
                 "info": "The project ID associated with the foundation model (IBM watsonx.ai only)",
+                "input_types": [],
                 "list": false,
                 "list_add_label": "Add More",
                 "load_from_db": false,
@@ -1954,6 +2145,7 @@
                 "display_name": "Stream",
                 "dynamic": false,
                 "info": "Stream the response from the model. Streaming works only in Chat.",
+                "input_types": [],
                 "list": false,
                 "list_add_label": "Add More",
                 "name": "stream",
@@ -2027,9 +2219,9 @@
           "type": "Agent"
         },
         "dragging": false,
-        "id": "Agent-QNmj7",
+        "id": "Agent-1oAqi",
         "measured": {
-          "height": 431,
+          "height": 429,
           "width": 320
         },
         "position": {
@@ -2041,7 +2233,7 @@
       },
       {
         "data": {
-          "id": "note-5p3XE",
+          "id": "note-PNNVp",
           "node": {
             "description": "# Smart Ticket Routing\n\nRoutes incoming support tickets to the right agent (or department) based on ticket content and metadata. An Agent classifies and enriches each ticket using the system prompt and an external API tool, returning a structured routing decision.\n\n---\n\n## Quick Start\n\n1. **Add your provider API key** in the Agent node (default: Google Gemini)\n2. **(Optional) Configure the API Request tool** if you have an external CRM/ticket system to query\n3. **Test with the pre-filled sample ticket** in Text Input, or POST your own to the Webhook URL\n4. Click **Playground** (top-right)\n\n---\n\n## How it works\n\n1. **Text Input** -- holds a sample ticket payload (JSON) for manual testing\n2. **Webhook** -- receives incoming tickets via HTTP POST in production\n3. **Type Convert** -- converts the incoming payload into a Message the Agent can read\n4. **Prompt Template** -- system prompt with the routing logic and classification rules\n5. **API Request (tool)** -- exposed to the Agent as a callable tool (e.g. lookup CRM contact, validate priority)\n6. **Agent** -- classifies the ticket and decides routing using the prompt + tool\n7. **Text Output** -- returns the structured routing decision\n\n---\n\n## Next Steps\n\nThis flow gives you a single routing decision per ticket. Useful follow-ups:\n- **Pipe to a real ticketing system** -- replace Text Output with a webhook-back to HubSpot, Zendesk, Freshdesk, or Salesforce\n- **Add classification logging** -- chain a Database/Sheets writer to record every decision for audit\n- **Tune the prompt** -- the Prompt Template ships with a HubSpot-flavored ruleset; adjust to your team structure, priorities, and SLA bands\n- **Configure the API Request tool** -- point it at your real CRM API so the agent can enrich tickets with live data\n",
             "display_name": "",
@@ -2054,7 +2246,7 @@
         },
         "dragging": false,
         "height": 1502,
-        "id": "note-5p3XE",
+        "id": "note-PNNVp",
         "measured": {
           "height": 1502,
           "width": 828
@@ -2074,7 +2266,7 @@
       },
       {
         "data": {
-          "id": "note-Ojd4S",
+          "id": "note-PZpBg",
           "node": {
             "description": "## Agent -- Setup Required\n\n> Classifies and routes the ticket using the Prompt Template + API Request tool.\n\n**Model Provider** *(dropdown)*\nDefault: Google Generative AI (`gemini-2.5-flash`). Switch to OpenAI, Anthropic, Groq, Mistral, NVIDIA, etc. if you prefer.\n\n**API Key** *(required, secret)*\n1. Go to your provider's dashboard (e.g., https://aistudio.google.com/apikey for Gemini)\n2. Generate a key and paste it here\n\n**Project ID**\nLeave empty for AI Studio / OpenAI / Anthropic. Required for WatsonX or GCP Vertex AI.\n\n**Base URL**\nLeave empty for default. Set only if you proxy through a self-hosted gateway.\n",
             "display_name": "",
@@ -2087,7 +2279,7 @@
         },
         "dragging": false,
         "height": 320,
-        "id": "note-Ojd4S",
+        "id": "note-PZpBg",
         "measured": {
           "height": 320,
           "width": 400
@@ -2107,7 +2299,7 @@
       },
       {
         "data": {
-          "id": "note-uP5BJ",
+          "id": "note-Mxx7r",
           "node": {
             "description": "## Webhook -- How to use\n\n> In production, this receives ticket payloads via HTTP POST. The curl command field auto-populates with your flow's webhook URL after import.\n\n**To test manually:** keep the wire from **Text Input** (which ships with a sample HubSpot ticket payload). The flow will use that JSON as the input.\n\n**To integrate for real:**\n1. After import, click the Webhook node and copy the `curl` command\n2. Configure your ticketing system to POST tickets to that URL\n3. Disconnect the Text Input wire OR let it be a manual override\n\nThe Webhook URL changes on every re-import (Langflow regenerates the flow ID), so always re-copy after a fresh import.\n",
             "display_name": "",
@@ -2120,7 +2312,7 @@
         },
         "dragging": false,
         "height": 340,
-        "id": "note-uP5BJ",
+        "id": "note-Mxx7r",
         "measured": {
           "height": 340,
           "width": 420
@@ -2140,7 +2332,7 @@
       },
       {
         "data": {
-          "id": "note-Mrxb4",
+          "id": "note-syYlN",
           "node": {
             "description": "## API Request -- Tool Configuration\n\n> Exposed to the Agent as a callable tool. The Agent decides when to call it during reasoning.\n\nThe ticket-routing prompt expects this tool to query an external CRM (default skeleton: HubSpot). To wire it up:\n\n1. **URL** -- set your CRM endpoint, e.g. `https://api.hubapi.com/crm/v3/objects/contacts`\n2. **Method** -- usually `GET` (default) or `POST` depending on your API\n3. **Headers** -- add your auth header (e.g. `Authorization: Bearer <token>`)\n\nIf you don't have a CRM to query, the flow still works -- the Agent just won't have live context to enrich routing decisions.\n\n> \"Update available\" badge stays on this node -- it's in **tool_mode**, intentionally preserved as-is so the tool wiring to the Agent stays valid.\n",
             "display_name": "",
@@ -2153,7 +2345,7 @@
         },
         "dragging": false,
         "height": 370,
-        "id": "note-Mrxb4",
+        "id": "note-syYlN",
         "measured": {
           "height": 370,
           "width": 420
@@ -2173,14 +2365,14 @@
       }
     ],
     "viewport": {
-      "x": -435.53534826837995,
-      "y": -80.12044642160225,
-      "zoom": 0.6571182295424035
+      "x": -876.372469635628,
+      "y": -479.83518702719846,
+      "zoom": 0.5668016194331987
     }
   },
   "description": "Automatically routes support tickets to the most appropriate agents based on content and expertise.",
   "endpoint_name": null,
-  "id": "f3295637-22e5-4a02-917a-b311211008bf",
+  "id": "a9f1ef65-5ded-431c-b1ae-089b444ba535",
   "is_component": false,
   "last_tested_version": "1.10.0",
   "locked": false,
