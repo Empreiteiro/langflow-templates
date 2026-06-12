@@ -7,7 +7,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "Agent",
-            "id": "Agent-mlbFt",
+            "id": "Agent-QCFVS",
             "name": "response",
             "output_types": [
               "Message"
@@ -15,7 +15,7 @@
           },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "ChatOutput-o5Tc8",
+            "id": "ChatOutput-1wGkK",
             "inputTypes": [
               "Data",
               "JSON",
@@ -26,12 +26,12 @@
             "type": "other"
           }
         },
-        "id": "reactflow__edge-Agent-mlbFt{œdataTypeœ:œAgentœ,œidœ:œAgent-mlbFtœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-o5Tc8{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-o5Tc8œ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-Agent-QCFVS{œdataTypeœ:œAgentœ,œidœ:œAgent-QCFVSœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-1wGkK{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-1wGkKœ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "Agent-mlbFt",
-        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-mlbFtœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "ChatOutput-o5Tc8",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-o5Tc8œ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}"
+        "source": "Agent-QCFVS",
+        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-QCFVSœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "ChatOutput-1wGkK",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-1wGkKœ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -39,7 +39,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "AstraDB",
-            "id": "AstraDB-3r3qo",
+            "id": "AstraDB-w6LzT",
             "name": "component_as_tool",
             "output_types": [
               "Tool"
@@ -47,19 +47,19 @@
           },
           "targetHandle": {
             "fieldName": "tools",
-            "id": "Agent-mlbFt",
+            "id": "Agent-QCFVS",
             "inputTypes": [
               "Tool"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-AstraDB-3r3qo{œdataTypeœ:œAstraDBœ,œidœ:œAstraDB-3r3qoœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-mlbFt{œfieldNameœ:œtoolsœ,œidœ:œAgent-mlbFtœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-AstraDB-w6LzT{œdataTypeœ:œAstraDBœ,œidœ:œAstraDB-w6LzTœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-QCFVS{œfieldNameœ:œtoolsœ,œidœ:œAgent-QCFVSœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "AstraDB-3r3qo",
-        "sourceHandle": "{œdataTypeœ:œAstraDBœ,œidœ:œAstraDB-3r3qoœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
-        "target": "Agent-mlbFt",
-        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-mlbFtœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+        "source": "AstraDB-w6LzT",
+        "sourceHandle": "{œdataTypeœ:œAstraDBœ,œidœ:œAstraDB-w6LzTœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
+        "target": "Agent-QCFVS",
+        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-QCFVSœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -67,7 +67,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "URLComponent",
-            "id": "URLComponent-JymGN",
+            "id": "URLComponent-xD22f",
             "name": "component_as_tool",
             "output_types": [
               "Tool"
@@ -75,19 +75,19 @@
           },
           "targetHandle": {
             "fieldName": "tools",
-            "id": "Agent-mlbFt",
+            "id": "Agent-QCFVS",
             "inputTypes": [
               "Tool"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-URLComponent-JymGN{œdataTypeœ:œURLComponentœ,œidœ:œURLComponent-JymGNœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-mlbFt{œfieldNameœ:œtoolsœ,œidœ:œAgent-mlbFtœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-URLComponent-xD22f{œdataTypeœ:œURLComponentœ,œidœ:œURLComponent-xD22fœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-QCFVS{œfieldNameœ:œtoolsœ,œidœ:œAgent-QCFVSœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "URLComponent-JymGN",
-        "sourceHandle": "{œdataTypeœ:œURLComponentœ,œidœ:œURLComponent-JymGNœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
-        "target": "Agent-mlbFt",
-        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-mlbFtœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+        "source": "URLComponent-xD22f",
+        "sourceHandle": "{œdataTypeœ:œURLComponentœ,œidœ:œURLComponent-xD22fœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
+        "target": "Agent-QCFVS",
+        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-QCFVSœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -95,7 +95,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "Prompt",
-            "id": "Prompt-OQyJw",
+            "id": "Prompt-zbLtW",
             "name": "prompt",
             "output_types": [
               "Message"
@@ -103,19 +103,19 @@
           },
           "targetHandle": {
             "fieldName": "system_prompt",
-            "id": "Agent-mlbFt",
+            "id": "Agent-QCFVS",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "reactflow__edge-Prompt-OQyJw{œdataTypeœ:œPromptœ,œidœ:œPrompt-OQyJwœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-Agent-mlbFt{œfieldNameœ:œsystem_promptœ,œidœ:œAgent-mlbFtœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-Prompt-zbLtW{œdataTypeœ:œPromptœ,œidœ:œPrompt-zbLtWœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-Agent-QCFVS{œfieldNameœ:œsystem_promptœ,œidœ:œAgent-QCFVSœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "Prompt-OQyJw",
-        "sourceHandle": "{œdataTypeœ:œPromptœ,œidœ:œPrompt-OQyJwœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Agent-mlbFt",
-        "targetHandle": "{œfieldNameœ:œsystem_promptœ,œidœ:œAgent-mlbFtœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "source": "Prompt-zbLtW",
+        "sourceHandle": "{œdataTypeœ:œPromptœ,œidœ:œPrompt-zbLtWœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Agent-QCFVS",
+        "targetHandle": "{œfieldNameœ:œsystem_promptœ,œidœ:œAgent-QCFVSœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       },
       {
         "animated": false,
@@ -123,7 +123,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "ChatInput",
-            "id": "ChatInput-NhCAi",
+            "id": "ChatInput-QeNG9",
             "name": "message",
             "output_types": [
               "Message"
@@ -131,25 +131,25 @@
           },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "Agent-mlbFt",
+            "id": "Agent-QCFVS",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "reactflow__edge-ChatInput-NhCAi{œdataTypeœ:œChatInputœ,œidœ:œChatInput-NhCAiœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Agent-mlbFt{œfieldNameœ:œinput_valueœ,œidœ:œAgent-mlbFtœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-ChatInput-QeNG9{œdataTypeœ:œChatInputœ,œidœ:œChatInput-QeNG9œ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Agent-QCFVS{œfieldNameœ:œinput_valueœ,œidœ:œAgent-QCFVSœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "ChatInput-NhCAi",
-        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-NhCAiœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Agent-mlbFt",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œAgent-mlbFtœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "source": "ChatInput-QeNG9",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-QeNG9œ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Agent-QCFVS",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œAgent-QCFVSœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       }
     ],
     "nodes": [
       {
         "data": {
-          "id": "URLComponent-JymGN",
+          "id": "URLComponent-xD22f",
           "node": {
             "base_classes": [
               "Message",
@@ -179,31 +179,27 @@
             "icon": "layout-template",
             "legacy": false,
             "metadata": {
-              "code_hash": "d5cd3660cc15",
+              "code_hash": "2e225a90043a",
               "dependencies": {
                 "dependencies": [
                   {
-                    "name": "requests",
-                    "version": "2.34.2"
+                    "name": "httpx",
+                    "version": "0.28.1"
                   },
                   {
                     "name": "bs4",
                     "version": "4.12.3"
                   },
                   {
-                    "name": "langchain_community",
-                    "version": "0.4.1"
-                  },
-                  {
                     "name": "markitdown",
-                    "version": "0.1.5"
+                    "version": "0.1.6"
                   },
                   {
                     "name": "lfx",
                     "version": null
                   }
                 ],
-                "total_dependencies": 5
+                "total_dependencies": 4
               },
               "module": "custom_components.url"
             },
@@ -288,7 +284,7 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "import importlib\nimport io\nimport os\nimport re\n\nimport requests\nfrom bs4 import BeautifulSoup\nfrom langchain_community.document_loaders import RecursiveUrlLoader\nfrom markitdown import MarkItDown\n\nfrom lfx.custom.custom_component.component import Component\nfrom lfx.field_typing.range_spec import RangeSpec\nfrom lfx.helpers.data import safe_convert\nfrom lfx.io import BoolInput, DropdownInput, IntInput, MessageTextInput, Output, SliderInput, TableInput\nfrom lfx.log.logger import logger\nfrom lfx.schema.dataframe import DataFrame\nfrom lfx.schema.message import Message\nfrom lfx.utils.request_utils import get_user_agent\nfrom lfx.utils.ssrf_protection import SSRFProtectionError, validate_url_for_ssrf\n\n# Constants\nDEFAULT_TIMEOUT = 30\nDEFAULT_MAX_DEPTH = 1\nDEFAULT_FORMAT = \"Text\"\n\n\nURL_REGEX = re.compile(\n    r\"^(https?:\\/\\/)?\" r\"(www\\.)?\" r\"([a-zA-Z0-9.-]+)\" r\"(\\.[a-zA-Z]{2,})?\" r\"(:\\d+)?\" r\"(\\/[^\\s]*)?$\",\n    re.IGNORECASE,\n)\n\nUSER_AGENT = None\n# Check if langflow is installed using importlib.util.find_spec(name))\nif importlib.util.find_spec(\"langflow\"):\n    langflow_installed = True\n    USER_AGENT = get_user_agent()\nelse:\n    langflow_installed = False\n    USER_AGENT = \"lfx\"\n\n\nclass URLComponent(Component):\n    \"\"\"A component that loads and parses content from web pages recursively.\n\n    This component allows fetching content from one or more URLs, with options to:\n    - Control crawl depth\n    - Prevent crawling outside the root domain\n    - Use async loading for better performance\n    - Extract either raw HTML or clean text\n    - Configure request headers and timeouts\n    \"\"\"\n\n    display_name = \"URL\"\n    description = \"Fetch content from one or more web pages, following links recursively.\"\n    documentation: str = \"https://docs.langflow.org/url\"\n    icon = \"layout-template\"\n    name = \"URLComponent\"\n\n    inputs = [\n        MessageTextInput(\n            name=\"urls\",\n            display_name=\"URLs\",\n            info=\"Enter one or more URLs to crawl recursively, by clicking the '+' button.\",\n            is_list=True,\n            tool_mode=True,\n            placeholder=\"Enter a URL...\",\n            list_add_label=\"Add URL\",\n            input_types=[\"Message\"],\n        ),\n        SliderInput(\n            name=\"max_depth\",\n            display_name=\"Depth\",\n            info=(\n                \"Controls how many 'clicks' away from the initial page the crawler will go:\\n\"\n                \"- depth 1: only the initial page\\n\"\n                \"- depth 2: initial page + all pages linked directly from it\\n\"\n                \"- depth 3: initial page + direct links + links found on those direct link pages\\n\"\n                \"Note: This is about link traversal, not URL path depth.\"\n            ),\n            value=DEFAULT_MAX_DEPTH,\n            range_spec=RangeSpec(min=1, max=5, step=1),\n            required=False,\n            min_label=\" \",\n            max_label=\" \",\n            min_label_icon=\"None\",\n            max_label_icon=\"None\",\n            # slider_input=True\n        ),\n        BoolInput(\n            name=\"prevent_outside\",\n            display_name=\"Prevent Outside\",\n            info=(\n                \"If enabled, only crawls URLs within the same domain as the root URL. \"\n                \"This helps prevent the crawler from going to external websites.\"\n            ),\n            value=True,\n            required=False,\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"use_async\",\n            display_name=\"Use Async\",\n            info=(\n                \"If enabled, uses asynchronous loading which can be significantly faster \"\n                \"but might use more system resources.\"\n            ),\n            value=True,\n            required=False,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"format\",\n            display_name=\"Output Format\",\n            info=(\n                \"Output Format. Use 'Text' to extract the text from the HTML, \"\n                \"'Markdown' to parse the HTML into Markdown format, or 'HTML' \"\n                \"for the raw HTML content.\"\n            ),\n            options=[\"Text\", \"HTML\", \"Markdown\"],\n            value=DEFAULT_FORMAT,\n            advanced=True,\n        ),\n        IntInput(\n            name=\"timeout\",\n            display_name=\"Timeout\",\n            info=\"Timeout for the request in seconds.\",\n            value=DEFAULT_TIMEOUT,\n            required=False,\n            advanced=True,\n        ),\n        TableInput(\n            name=\"headers\",\n            display_name=\"Headers\",\n            info=\"The headers to send with the request\",\n            table_schema=[\n                {\n                    \"name\": \"key\",\n                    \"display_name\": \"Header\",\n                    \"type\": \"str\",\n                    \"description\": \"Header name\",\n                },\n                {\n                    \"name\": \"value\",\n                    \"display_name\": \"Value\",\n                    \"type\": \"str\",\n                    \"description\": \"Header value\",\n                },\n            ],\n            value=[{\"key\": \"User-Agent\", \"value\": USER_AGENT}],\n            advanced=True,\n            input_types=[\"DataFrame\", \"Table\"],\n        ),\n        BoolInput(\n            name=\"filter_text_html\",\n            display_name=\"Filter Text/HTML\",\n            info=\"If enabled, filters out text/css content type from the results.\",\n            value=True,\n            required=False,\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"continue_on_failure\",\n            display_name=\"Continue on Failure\",\n            info=\"If enabled, continues crawling even if some requests fail.\",\n            value=True,\n            required=False,\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"check_response_status\",\n            display_name=\"Check Response Status\",\n            info=\"If enabled, checks the response status of the request.\",\n            value=False,\n            required=False,\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"autoset_encoding\",\n            display_name=\"Autoset Encoding\",\n            info=\"If enabled, automatically sets the encoding of the request.\",\n            value=True,\n            required=False,\n            advanced=True,\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Extracted Pages\", name=\"page_results\", method=\"fetch_content\"),\n        Output(display_name=\"Raw Content\", name=\"raw_results\", method=\"fetch_content_as_message\", tool_mode=False),\n    ]\n\n    @staticmethod\n    def _html_extractor(x: str) -> str:\n        \"\"\"Extract raw HTML content.\"\"\"\n        return x\n\n    @staticmethod\n    def _text_extractor(x: str) -> str:\n        \"\"\"Extract clean text from HTML.\"\"\"\n        return BeautifulSoup(x, \"lxml\").get_text()\n\n    @staticmethod\n    def _markdown_extractor(x: str) -> str:\n        \"\"\"Convert HTML to Markdown format.\"\"\"\n        stream = io.BytesIO(x.encode(\"utf-8\"))\n        result = MarkItDown(enable_plugins=False).convert_stream(stream)\n        return result.markdown\n\n    @staticmethod\n    def validate_url(url: str) -> bool:\n        \"\"\"Validates if the given string matches URL pattern.\n\n        Args:\n            url: The URL string to validate\n\n        Returns:\n            bool: True if the URL is valid, False otherwise\n        \"\"\"\n        return bool(URL_REGEX.match(url))\n\n    def ensure_url(self, url: str) -> str:\n        \"\"\"Ensures the given string is a valid URL.\n\n        Args:\n            url: The URL string to validate and normalize\n\n        Returns:\n            str: The normalized URL\n\n        Raises:\n            ValueError: If the URL is invalid or blocked by SSRF protection\n        \"\"\"\n        url = url.strip()\n        if not url.startswith((\"http://\", \"https://\")):\n            url = \"https://\" + url\n\n        if not self.validate_url(url):\n            msg = f\"Invalid URL: {url}\"\n            raise ValueError(msg)\n\n        # SSRF Protection: Validate URL to prevent access to internal resources\n        # Blocks requests to private IPs, localhost, and cloud metadata endpoints\n        # when LANGFLOW_SSRF_PROTECTION_ENABLED=true\n        try:\n            validate_url_for_ssrf(url, warn_only=False)\n        except SSRFProtectionError as e:\n            msg = f\"SSRF Protection: {e}\"\n            raise ValueError(msg) from e\n\n        return url\n\n    def _create_loader(self, url: str) -> RecursiveUrlLoader:\n        \"\"\"Creates a RecursiveUrlLoader instance with the configured settings.\n\n        Args:\n            url: The URL to load\n\n        Returns:\n            RecursiveUrlLoader: Configured loader instance\n        \"\"\"\n        headers_dict = {header[\"key\"]: header[\"value\"] for header in self.headers if header[\"value\"] is not None}\n        extractors = {\n            \"HTML\": self._html_extractor,\n            \"Markdown\": self._markdown_extractor,\n            \"Text\": self._text_extractor,\n        }\n        extractor = extractors.get(self.format, self._text_extractor)\n\n        proxy_env_keys = (\n            \"http_proxy\",\n            \"HTTP_PROXY\",\n            \"https_proxy\",\n            \"HTTPS_PROXY\",\n            \"all_proxy\",\n            \"ALL_PROXY\",\n        )\n        has_proxy = any((os.environ.get(key) or \"\").strip() for key in proxy_env_keys)\n\n        final_use_async = self.use_async\n        if has_proxy and self.use_async:\n            logger.warning(\n                \"Proxy environment variables detected. Disabling 'use_async' in URLComponent \"\n                \"as the underlying async loader does not reliably respect system proxies. \"\n                \"Crawling will proceed synchronously (which may be slower).\"\n            )\n            final_use_async = False\n\n        return RecursiveUrlLoader(\n            url=url,\n            max_depth=self.max_depth,\n            prevent_outside=self.prevent_outside,\n            use_async=final_use_async,\n            extractor=extractor,\n            timeout=self.timeout,\n            headers=headers_dict,\n            check_response_status=self.check_response_status,\n            continue_on_failure=self.continue_on_failure,\n            base_url=url,  # Add base_url to ensure consistent domain crawling\n            autoset_encoding=self.autoset_encoding,  # Enable automatic encoding detection\n            exclude_dirs=[],  # Allow customization of excluded directories\n            link_regex=None,  # Allow customization of link filtering\n        )\n\n    def fetch_url_contents(self) -> list[dict]:\n        \"\"\"Load documents from the configured URLs.\n\n        Returns:\n            List[Data]: List of Data objects containing the fetched content\n\n        Raises:\n            ValueError: If no valid URLs are provided or if there's an error loading documents\n        \"\"\"\n        try:\n            urls = list({self.ensure_url(url) for url in self.urls if url.strip()})\n            logger.debug(f\"URLs: {urls}\")\n            if not urls:\n                msg = \"No valid URLs provided.\"\n                raise ValueError(msg)\n\n            all_docs = []\n            for url in urls:\n                logger.debug(f\"Loading documents from {url}\")\n\n                try:\n                    loader = self._create_loader(url)\n                    docs = loader.load()\n\n                    if not docs:\n                        logger.warning(f\"No documents found for {url}\")\n                        continue\n\n                    logger.debug(f\"Found {len(docs)} documents from {url}\")\n                    all_docs.extend(docs)\n\n                except requests.exceptions.RequestException as e:\n                    logger.exception(f\"Error loading documents from {url}: {e}\")\n                    continue\n\n            if not all_docs:\n                msg = \"No documents were successfully loaded from any URL\"\n                raise ValueError(msg)\n\n            # data = [Data(text=doc.page_content, **doc.metadata) for doc in all_docs]\n            data = [\n                {\n                    \"text\": safe_convert(doc.page_content, clean_data=True),\n                    \"url\": doc.metadata.get(\"source\", \"\"),\n                    \"title\": doc.metadata.get(\"title\", \"\"),\n                    \"description\": doc.metadata.get(\"description\", \"\"),\n                    \"content_type\": doc.metadata.get(\"content_type\", \"\"),\n                    \"language\": doc.metadata.get(\"language\", \"\"),\n                }\n                for doc in all_docs\n            ]\n        except Exception as e:\n            error_msg = e.message if hasattr(e, \"message\") else e\n            msg = f\"Error loading documents: {error_msg!s}\"\n            logger.exception(msg)\n            raise ValueError(msg) from e\n        return data\n\n    def fetch_content(self) -> DataFrame:\n        \"\"\"Convert the documents to a DataFrame.\"\"\"\n        return DataFrame(data=self.fetch_url_contents())\n\n    def fetch_content_as_message(self) -> Message:\n        \"\"\"Convert the documents to a Message.\"\"\"\n        url_contents = self.fetch_url_contents()\n        return Message(text=\"\\n\\n\".join([x[\"text\"] for x in url_contents]), data={\"data\": url_contents})\n"
+                "value": "import importlib.util\nimport io\nimport re\nfrom urllib.parse import urljoin, urlparse\n\nimport httpx\nfrom bs4 import BeautifulSoup\nfrom markitdown import MarkItDown\n\nfrom lfx.custom.custom_component.component import Component\nfrom lfx.field_typing.range_spec import RangeSpec\nfrom lfx.helpers.data import safe_convert\nfrom lfx.io import BoolInput, DropdownInput, IntInput, MessageTextInput, Output, SliderInput, TableInput\nfrom lfx.log.logger import logger\nfrom lfx.schema.dataframe import DataFrame\nfrom lfx.schema.message import Message\nfrom lfx.utils.request_utils import get_user_agent\nfrom lfx.utils.ssrf_protection import SSRFProtectionError, is_ssrf_protection_enabled, validate_and_resolve_url\nfrom lfx.utils.ssrf_transport import create_ssrf_protected_client\n\n# Constants\nDEFAULT_TIMEOUT = 30\nDEFAULT_MAX_DEPTH = 1\nDEFAULT_FORMAT = \"Text\"\n\n\nURL_REGEX = re.compile(\n    r\"^(https?:\\/\\/)?\" r\"(www\\.)?\" r\"([a-zA-Z0-9.-]+)\" r\"(\\.[a-zA-Z]{2,})?\" r\"(:\\d+)?\" r\"(\\/[^\\s]*)?$\",\n    re.IGNORECASE,\n)\n\nUSER_AGENT = None\n# Check if langflow is installed using importlib.util.find_spec(name))\nif importlib.util.find_spec(\"langflow\"):\n    langflow_installed = True\n    USER_AGENT = get_user_agent()\nelse:\n    langflow_installed = False\n    USER_AGENT = \"lfx\"\n\n\nclass URLComponent(Component):\n    \"\"\"A component that loads and parses content from web pages recursively.\n\n    This component allows fetching content from one or more URLs, with options to:\n    - Control crawl depth\n    - Prevent crawling outside the root domain\n    - Use async loading for better performance\n    - Extract either raw HTML or clean text\n    - Configure request headers and timeouts\n    \"\"\"\n\n    display_name = \"URL\"\n    description = \"Fetch content from one or more web pages, following links recursively.\"\n    documentation: str = \"https://docs.langflow.org/url\"\n    icon = \"layout-template\"\n    name = \"URLComponent\"\n\n    inputs = [\n        MessageTextInput(\n            name=\"urls\",\n            display_name=\"URLs\",\n            info=\"Enter one or more URLs to crawl recursively, by clicking the '+' button.\",\n            is_list=True,\n            tool_mode=True,\n            placeholder=\"Enter a URL...\",\n            list_add_label=\"Add URL\",\n            input_types=[\"Message\"],\n        ),\n        SliderInput(\n            name=\"max_depth\",\n            display_name=\"Depth\",\n            info=(\n                \"Controls how many 'clicks' away from the initial page the crawler will go:\\n\"\n                \"- depth 1: only the initial page\\n\"\n                \"- depth 2: initial page + all pages linked directly from it\\n\"\n                \"- depth 3: initial page + direct links + links found on those direct link pages\\n\"\n                \"Note: This is about link traversal, not URL path depth.\"\n            ),\n            value=DEFAULT_MAX_DEPTH,\n            range_spec=RangeSpec(min=1, max=5, step=1),\n            required=False,\n            min_label=\" \",\n            max_label=\" \",\n            min_label_icon=\"None\",\n            max_label_icon=\"None\",\n            # slider_input=True\n        ),\n        BoolInput(\n            name=\"prevent_outside\",\n            display_name=\"Prevent Outside\",\n            info=(\n                \"If enabled, only crawls URLs within the same domain as the root URL. \"\n                \"This helps prevent the crawler from going to external websites.\"\n            ),\n            value=True,\n            required=False,\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"use_async\",\n            display_name=\"Use Async\",\n            info=(\n                \"If enabled, uses asynchronous loading which can be significantly faster \"\n                \"but might use more system resources.\"\n            ),\n            value=True,\n            required=False,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"format\",\n            display_name=\"Output Format\",\n            info=(\n                \"Output Format. Use 'Text' to extract the text from the HTML, \"\n                \"'Markdown' to parse the HTML into Markdown format, or 'HTML' \"\n                \"for the raw HTML content.\"\n            ),\n            options=[\"Text\", \"HTML\", \"Markdown\"],\n            value=DEFAULT_FORMAT,\n            advanced=True,\n        ),\n        IntInput(\n            name=\"timeout\",\n            display_name=\"Timeout\",\n            info=\"Timeout for the request in seconds.\",\n            value=DEFAULT_TIMEOUT,\n            required=False,\n            advanced=True,\n        ),\n        TableInput(\n            name=\"headers\",\n            display_name=\"Headers\",\n            info=\"The headers to send with the request\",\n            table_schema=[\n                {\n                    \"name\": \"key\",\n                    \"display_name\": \"Header\",\n                    \"type\": \"str\",\n                    \"description\": \"Header name\",\n                },\n                {\n                    \"name\": \"value\",\n                    \"display_name\": \"Value\",\n                    \"type\": \"str\",\n                    \"description\": \"Header value\",\n                },\n            ],\n            value=[{\"key\": \"User-Agent\", \"value\": USER_AGENT}],\n            advanced=True,\n            input_types=[\"DataFrame\", \"Table\"],\n        ),\n        BoolInput(\n            name=\"filter_text_html\",\n            display_name=\"Filter Text/HTML\",\n            info=\"If enabled, filters out text/css content type from the results.\",\n            value=True,\n            required=False,\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"continue_on_failure\",\n            display_name=\"Continue on Failure\",\n            info=\"If enabled, continues crawling even if some requests fail.\",\n            value=True,\n            required=False,\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"check_response_status\",\n            display_name=\"Check Response Status\",\n            info=\"If enabled, checks the response status of the request.\",\n            value=False,\n            required=False,\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"autoset_encoding\",\n            display_name=\"Autoset Encoding\",\n            info=\"If enabled, automatically sets the encoding of the request.\",\n            value=True,\n            required=False,\n            advanced=True,\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Extracted Pages\", name=\"page_results\", method=\"fetch_content\"),\n        Output(display_name=\"Raw Content\", name=\"raw_results\", method=\"fetch_content_as_message\", tool_mode=False),\n    ]\n\n    @staticmethod\n    def _html_extractor(x: str) -> str:\n        \"\"\"Extract raw HTML content.\"\"\"\n        return x\n\n    @staticmethod\n    def _text_extractor(x: str) -> str:\n        \"\"\"Extract clean text from HTML.\"\"\"\n        return BeautifulSoup(x, \"lxml\").get_text()\n\n    @staticmethod\n    def _markdown_extractor(x: str) -> str:\n        \"\"\"Convert HTML to Markdown format.\"\"\"\n        stream = io.BytesIO(x.encode(\"utf-8\"))\n        result = MarkItDown(enable_plugins=False).convert_stream(stream)\n        return result.markdown\n\n    @staticmethod\n    def validate_url(url: str) -> bool:\n        \"\"\"Validates if the given string matches URL pattern.\n\n        Args:\n            url: The URL string to validate\n\n        Returns:\n            bool: True if the URL is valid, False otherwise\n        \"\"\"\n        return bool(URL_REGEX.match(url))\n\n    def ensure_url(self, url: str) -> tuple[str, list[str]]:\n        \"\"\"Ensures the given string is a valid URL and returns validated IPs for DNS pinning.\n\n        Args:\n            url: The URL string to validate and normalize\n\n        Returns:\n            tuple[str, list[str]]: The normalized URL and list of validated IPs for DNS pinning\n\n        Raises:\n            ValueError: If the URL is invalid or blocked by SSRF protection\n        \"\"\"\n        url = url.strip()\n        if not url.startswith((\"http://\", \"https://\")):\n            url = \"https://\" + url\n\n        if not self.validate_url(url):\n            msg = f\"Invalid URL: {url}\"\n            raise ValueError(msg)\n\n        # ============================================================================\n        # SSRF Protection with DNS Pinning\n        # ============================================================================\n        # This prevents DNS rebinding attacks by:\n        # 1. Resolving DNS and validating IPs during security check\n        # 2. Returning the validated IP addresses for DNS pinning\n        # 3. Using a custom HTTP transport that forces use of the pinned IPs\n        # 4. Ignoring any new DNS resolutions (prevents rebinding)\n        #\n        # Without DNS pinning, an attacker could:\n        # - First DNS lookup: returns public IP (passes validation)\n        # - Second DNS lookup: returns internal IP (bypasses protection)\n        # - Attack succeeds: accesses internal services\n        #\n        # With DNS pinning:\n        # - First DNS lookup: returns public IP (passes validation)\n        # - IPs are pinned and returned\n        # - HTTP request: uses pinned IPs directly (no new DNS lookup)\n        # - Attack fails: even if DNS changes, we use the validated IPs\n        # ============================================================================\n        try:\n            _validated_url, validated_ips = validate_and_resolve_url(url)\n        except SSRFProtectionError as e:\n            msg = f\"SSRF Protection: {e}\"\n            raise ValueError(msg) from e\n        else:\n            # Log DNS pinning information for security auditing\n            if validated_ips:\n                logger.debug(f\"SSRF Protection: Using DNS pinning with {len(validated_ips)} validated IP(s) for {url}\")\n\n            return url, validated_ips\n\n    def _build_http_client(self, url: str, validated_ips: list[str]) -> httpx.AsyncClient:\n        \"\"\"Create an HTTP client with DNS pinning for SSRF protection.\n\n        Args:\n            url: The request URL whose hostname will be pinned\n            validated_ips: IPs validated by validate_and_resolve_url for this URL\n\n        Returns:\n            httpx.AsyncClient: A client with DNS pinning when SSRF protection is enabled\n        \"\"\"\n        if is_ssrf_protection_enabled() and validated_ips:\n            hostname = urlparse(url).hostname\n            if hostname:\n                return create_ssrf_protected_client(hostname=hostname, validated_ips=validated_ips)\n        return httpx.AsyncClient()\n\n    async def _fetch_url_with_pinning(self, url: str, validated_ips: list[str], headers: dict) -> tuple[str, dict]:\n        \"\"\"Fetch a single URL with DNS pinning protection.\n\n        Args:\n            url: The URL to fetch\n            validated_ips: Validated IPs for DNS pinning\n            headers: HTTP headers to send\n\n        Returns:\n            tuple[str, dict]: The HTML content and metadata\n        \"\"\"\n        async with self._build_http_client(url, validated_ips) as client:\n            try:\n                response = await client.get(url, headers=headers, timeout=self.timeout, follow_redirects=False)\n\n                if self.check_response_status:\n                    response.raise_for_status()\n\n                content_type = response.headers.get(\"content-type\", \"\").lower()\n\n                # Filter out CSS files if requested\n                if self.filter_text_html and \"text/css\" in content_type:\n                    logger.debug(f\"Skipping CSS file: {url}\")\n                    return \"\", {}\n\n                # Get the HTML content\n                html_content = response.text\n\n                # Extract metadata\n                metadata = {\n                    \"source\": str(response.url),\n                    \"title\": \"\",\n                    \"description\": \"\",\n                    \"content_type\": content_type,\n                    \"language\": \"\",\n                }\n\n                # Try to extract title and description from HTML\n                try:\n                    soup = BeautifulSoup(html_content, \"lxml\")\n                except Exception:  # noqa: BLE001\n                    # Broad exception is acceptable here - metadata extraction is optional\n                    # and we don't want to fail the entire request if it fails\n                    logger.debug(f\"Failed to extract metadata from {url}\")\n                else:\n                    if soup.title:\n                        metadata[\"title\"] = soup.title.string or \"\"\n\n                    # Try to get description from meta tags\n                    meta_desc = soup.find(\"meta\", attrs={\"name\": \"description\"})\n                    if meta_desc and meta_desc.get(\"content\"):\n                        metadata[\"description\"] = meta_desc[\"content\"]\n\n                    # Try to get language\n                    html_tag = soup.find(\"html\")\n                    if html_tag and html_tag.get(\"lang\"):\n                        metadata[\"language\"] = html_tag[\"lang\"]\n\n            except httpx.HTTPError as e:\n                if self.continue_on_failure:\n                    logger.warning(f\"Failed to fetch {url}: {e}\")\n                    return \"\", {}\n                raise\n            else:\n                return html_content, metadata\n\n    async def _crawl_recursive(\n        self, start_url: str, validated_ips: list[str], headers: dict, visited: set, depth: int = 0\n    ) -> list[dict]:\n        \"\"\"Recursively crawl URLs with DNS pinning protection.\n\n        Args:\n            start_url: The URL to start crawling from\n            validated_ips: Validated IPs for DNS pinning\n            headers: HTTP headers to send\n            visited: Set of already visited URLs\n            depth: Current crawl depth\n\n        Returns:\n            list[dict]: List of documents with content and metadata\n        \"\"\"\n        if depth >= self.max_depth or start_url in visited:\n            return []\n\n        visited.add(start_url)\n        documents = []\n\n        # Fetch the current URL\n        html_content, metadata = await self._fetch_url_with_pinning(start_url, validated_ips, headers)\n\n        if not html_content:\n            return documents\n\n        # Extract content based on format\n        extractors = {\n            \"HTML\": self._html_extractor,\n            \"Markdown\": self._markdown_extractor,\n            \"Text\": self._text_extractor,\n        }\n        extractor = extractors.get(self.format, self._text_extractor)\n        extracted_content = extractor(html_content)\n\n        # Add the document\n        documents.append(\n            {\n                \"page_content\": extracted_content,\n                \"metadata\": metadata,\n            }\n        )\n\n        # If we haven't reached max depth, extract and follow links\n        if depth < self.max_depth - 1:\n            try:\n                soup = BeautifulSoup(html_content, \"lxml\")\n                links = soup.find_all(\"a\", href=True)\n\n                for link in links:\n                    href = link[\"href\"]\n                    # Resolve relative URLs\n                    absolute_url = urljoin(start_url, href)\n\n                    # Skip if already visited\n                    if absolute_url in visited:\n                        continue\n\n                    # Check if we should prevent going outside the domain\n                    if self.prevent_outside:\n                        start_domain = urlparse(start_url).netloc\n                        link_domain = urlparse(absolute_url).netloc\n                        if start_domain != link_domain:\n                            continue\n\n                    # Validate and crawl the linked URL\n                    try:\n                        _, link_validated_ips = self.ensure_url(absolute_url)\n                        sub_docs = await self._crawl_recursive(\n                            absolute_url, link_validated_ips, headers, visited, depth + 1\n                        )\n                        documents.extend(sub_docs)\n                    except (ValueError, SSRFProtectionError) as e:\n                        if self.continue_on_failure:\n                            logger.warning(f\"Skipping {absolute_url}: {e}\")\n                            continue\n                        raise\n\n            except Exception:  # noqa: BLE001\n                # Broad exception is acceptable here - link extraction is optional\n                # and we don't want to fail the entire crawl if one page has issues\n                logger.debug(f\"Failed to extract links from {start_url}\")\n\n        return documents\n\n    async def fetch_url_contents(self) -> list[dict]:\n        \"\"\"Load documents from the configured URLs with SSRF protection and DNS pinning.\n\n        This method implements comprehensive SSRF (Server-Side Request Forgery) protection\n        using DNS pinning to prevent DNS rebinding attacks. Each URL is validated and its\n        DNS resolution is pinned before any HTTP requests are made.\n\n        Returns:\n            list[dict]: List of documents with content and metadata\n\n        Raises:\n            ValueError: If no valid URLs are provided or if there's an error loading documents\n        \"\"\"\n        try:\n            # Validate all URLs and get their validated IPs for DNS pinning\n            validated_urls = []\n            first_validation_error: Exception | None = None\n            for url in self.urls:\n                if not url.strip():\n                    continue\n                try:\n                    normalized_url, validated_ips = self.ensure_url(url)\n                    validated_urls.append((normalized_url, validated_ips))\n                except (ValueError, SSRFProtectionError) as e:\n                    # Remember the first rejection so its real cause (for example an\n                    # SSRF block) can be surfaced if no URL survives validation,\n                    # instead of being hidden behind \"No valid URLs provided\".\n                    if first_validation_error is None:\n                        first_validation_error = e\n                    if self.continue_on_failure:\n                        logger.warning(f\"Skipping invalid URL {url}: {e}\")\n                        continue\n                    raise\n\n            # Remove duplicates while preserving order\n            seen = set()\n            unique_validated_urls = []\n            for url, ips in validated_urls:\n                if url not in seen:\n                    seen.add(url)\n                    unique_validated_urls.append((url, ips))\n\n            logger.debug(f\"Validated {len(unique_validated_urls)} unique URL(s)\")\n\n            if not unique_validated_urls:\n                # Surface the actual reason every candidate URL was rejected (e.g. an\n                # SSRF block) rather than a generic message, so a security failure is\n                # not silently swallowed when continue_on_failure is enabled.\n                if first_validation_error is not None:\n                    raise first_validation_error\n                msg = \"No valid URLs provided.\"\n                raise ValueError(msg)\n\n            # Prepare headers\n            headers_dict = {header[\"key\"]: header[\"value\"] for header in self.headers if header[\"value\"] is not None}\n\n            # Crawl all URLs\n            all_docs = []\n            for url, validated_ips in unique_validated_urls:\n                logger.debug(f\"Crawling {url} with max_depth={self.max_depth}\")\n\n                try:\n                    visited = set()\n                    docs = await self._crawl_recursive(url, validated_ips, headers_dict, visited, depth=0)\n\n                    if not docs:\n                        logger.warning(f\"No documents found for {url}\")\n                        continue\n\n                    logger.debug(f\"Found {len(docs)} document(s) from {url}\")\n                    all_docs.extend(docs)\n\n                except httpx.HTTPError as e:\n                    if self.continue_on_failure:\n                        logger.warning(f\"Error loading documents from {url}: {e}\")\n                        continue\n                    msg = f\"Error loading documents from {url}: {e}\"\n                    raise ValueError(msg) from e\n\n            if not all_docs:\n                msg = \"No documents were successfully loaded from any URL\"\n                raise ValueError(msg)\n\n            # Convert to output format\n            return [\n                {\n                    \"text\": safe_convert(doc[\"page_content\"], clean_data=True),\n                    \"url\": doc[\"metadata\"].get(\"source\", \"\"),\n                    \"title\": doc[\"metadata\"].get(\"title\", \"\"),\n                    \"description\": doc[\"metadata\"].get(\"description\", \"\"),\n                    \"content_type\": doc[\"metadata\"].get(\"content_type\", \"\"),\n                    \"language\": doc[\"metadata\"].get(\"language\", \"\"),\n                }\n                for doc in all_docs\n            ]\n\n        except Exception as e:\n            error_msg = e.message if hasattr(e, \"message\") else str(e)\n            msg = f\"Error loading documents: {error_msg}\"\n            logger.exception(msg)\n            raise ValueError(msg) from e\n\n    async def fetch_content(self) -> DataFrame:\n        \"\"\"Convert the documents to a DataFrame.\"\"\"\n        url_contents = await self.fetch_url_contents()\n        return DataFrame(data=url_contents)\n\n    async def fetch_content_as_message(self) -> Message:\n        \"\"\"Convert the documents to a Message.\"\"\"\n        url_contents = await self.fetch_url_contents()\n        return Message(text=\"\\n\\n\".join([x[\"text\"] for x in url_contents]), data={\"data\": url_contents})\n"
               },
               "continue_on_failure": {
                 "_input_type": "BoolInput",
@@ -381,12 +377,14 @@
                   {
                     "description": "Header name",
                     "display_name": "Header",
+                    "formatter": "text",
                     "name": "key",
                     "type": "str"
                   },
                   {
                     "description": "Header value",
                     "display_name": "Value",
+                    "formatter": "text",
                     "name": "value",
                     "type": "str"
                   }
@@ -573,21 +571,21 @@
           "type": "URLComponent"
         },
         "dragging": false,
-        "id": "URLComponent-JymGN",
+        "id": "URLComponent-xD22f",
         "measured": {
-          "height": 299,
+          "height": 298,
           "width": 320
         },
         "position": {
           "x": 1009.8764693346293,
           "y": 607.2538972848804
         },
-        "selected": false,
+        "selected": true,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "AstraDB-3r3qo",
+          "id": "AstraDB-w6LzT",
           "node": {
             "base_classes": [
               "Data",
@@ -627,7 +625,7 @@
             ],
             "frozen": false,
             "icon": "AstraDB",
-            "last_updated": "2026-06-05T13:00:26.767Z",
+            "last_updated": "2026-06-12T12:29:14.645Z",
             "legacy": false,
             "lf_version": "1.9.2",
             "metadata": {},
@@ -656,10 +654,10 @@
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
-                "value": "226cd96e-7619-40fe-8a34-ff1c53e8dbf6"
+                "value": "0e440428-0b89-4968-ace9-80eec84a1bd4"
               },
               "_frontend_node_folder_id": {
-                "value": "60c2ca93-8f72-4efc-b308-ce00dd71f6b6"
+                "value": "46cbb6fc-e3f7-4d0f-a0cf-2299fe21e68b"
               },
               "_type": "Component",
               "advanced_search_filter": {
@@ -1414,9 +1412,9 @@
           "type": "AstraDB"
         },
         "dragging": false,
-        "id": "AstraDB-3r3qo",
+        "id": "AstraDB-w6LzT",
         "measured": {
-          "height": 365,
+          "height": 364,
           "width": 320
         },
         "position": {
@@ -1428,7 +1426,7 @@
       },
       {
         "data": {
-          "id": "Agent-mlbFt",
+          "id": "Agent-QCFVS",
           "node": {
             "base_classes": [
               "Data",
@@ -1463,6 +1461,7 @@
             ],
             "frozen": false,
             "icon": "bot",
+            "last_updated": "2026-06-12T12:29:14.647Z",
             "legacy": false,
             "metadata": {
               "code_hash": "d08c17dbf863",
@@ -1516,6 +1515,7 @@
                 "name": "structured_response",
                 "options": null,
                 "required_inputs": null,
+                "selected": "Data",
                 "tool_mode": true,
                 "types": [
                   "Data",
@@ -1526,6 +1526,14 @@
             ],
             "pinned": false,
             "template": {
+              "_frontend_node_flow_id": {
+                "input_types": [],
+                "value": "0e440428-0b89-4968-ace9-80eec84a1bd4"
+              },
+              "_frontend_node_folder_id": {
+                "input_types": [],
+                "value": "46cbb6fc-e3f7-4d0f-a0cf-2299fe21e68b"
+              },
               "_type": "Component",
               "add_calculator_tool": {
                 "_input_type": "BoolInput",
@@ -1533,6 +1541,7 @@
                 "display_name": "Calculator",
                 "dynamic": false,
                 "info": "If true, adds a zero-config arithmetic calculator tool to the agent (safe: only +, -, *, /, ** operators via AST).",
+                "input_types": [],
                 "list": false,
                 "list_add_label": "Add More",
                 "name": "add_calculator_tool",
@@ -1553,6 +1562,7 @@
                 "display_name": "Current Date",
                 "dynamic": false,
                 "info": "If true, will add a tool to the agent that returns the current date.",
+                "input_types": [],
                 "list": false,
                 "list_add_label": "Add More",
                 "name": "add_current_date_tool",
@@ -1572,7 +1582,7 @@
                 "advanced": true,
                 "display_name": "API Key",
                 "dynamic": false,
-                "info": "Overrides global provider settings. Leave blank to use your pre-configured API Key.",
+                "info": "Falls back to ANTHROPIC_API_KEY environment variable",
                 "input_types": [],
                 "load_from_db": true,
                 "name": "api_key",
@@ -1596,6 +1606,7 @@
                 "dynamic": false,
                 "external_options": {},
                 "info": "The base URL of the API (IBM watsonx.ai only)",
+                "input_types": [],
                 "name": "base_url_ibm_watsonx",
                 "options": [
                   "https://us-south.ml.cloud.ibm.com",
@@ -1625,6 +1636,7 @@
                 "fileTypes": [],
                 "file_path": "",
                 "info": "",
+                "input_types": [],
                 "list": false,
                 "load_from_db": false,
                 "multiline": true,
@@ -1697,6 +1709,7 @@
                 "display_name": "Handle Parse Errors",
                 "dynamic": false,
                 "info": "Adds tool-execution retry as a safety net. `create_agent` already feeds tool-call validation errors back to the LLM automatically; this flag layers `ToolRetryMiddleware` on top so transient tool runtime failures are retried (max 2 retries).",
+                "input_types": [],
                 "list": false,
                 "list_add_label": "Add More",
                 "name": "handle_parsing_errors",
@@ -1736,12 +1749,14 @@
                 "type": "str",
                 "value": ""
               },
+              "is_refresh": false,
               "max_iterations": {
                 "_input_type": "IntInput",
                 "advanced": true,
                 "display_name": "Max Iterations",
                 "dynamic": false,
                 "info": "Maximum number of model calls the agent can make before stopping (maps to `ModelCallLimitMiddleware.run_limit` on the create_agent path). Must be at least 1 — it is a safety cap, never 'unlimited'.",
+                "input_types": [],
                 "list": false,
                 "list_add_label": "Add More",
                 "name": "max_iterations",
@@ -1768,6 +1783,7 @@
                 "display_name": "Max Tokens",
                 "dynamic": false,
                 "info": "Maximum number of tokens to generate. Field name varies by provider.",
+                "input_types": [],
                 "list": false,
                 "list_add_label": "Add More",
                 "name": "max_tokens",
@@ -1816,6 +1832,153 @@
                 "load_from_db": false,
                 "model_type": "language",
                 "name": "model",
+                "options": [
+                  {
+                    "category": "Anthropic",
+                    "icon": "Anthropic",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatAnthropic",
+                      "model_name_param": "model"
+                    },
+                    "name": "claude-fable-5",
+                    "provider": "Anthropic"
+                  },
+                  {
+                    "category": "Anthropic",
+                    "icon": "Anthropic",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatAnthropic",
+                      "model_name_param": "model"
+                    },
+                    "name": "claude-opus-4-8",
+                    "provider": "Anthropic"
+                  },
+                  {
+                    "category": "Anthropic",
+                    "icon": "Anthropic",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatAnthropic",
+                      "model_name_param": "model"
+                    },
+                    "name": "claude-opus-4-7",
+                    "provider": "Anthropic"
+                  },
+                  {
+                    "category": "Anthropic",
+                    "icon": "Anthropic",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatAnthropic",
+                      "model_name_param": "model"
+                    },
+                    "name": "claude-sonnet-4-6",
+                    "provider": "Anthropic"
+                  },
+                  {
+                    "category": "Anthropic",
+                    "icon": "Anthropic",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatAnthropic",
+                      "model_name_param": "model"
+                    },
+                    "name": "claude-opus-4-6",
+                    "provider": "Anthropic"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model",
+                      "reasoning_models": [
+                        "gpt-5.5-pro"
+                      ]
+                    },
+                    "name": "gpt-5.5-pro",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model",
+                      "reasoning_models": [
+                        "gpt-5.5"
+                      ]
+                    },
+                    "name": "gpt-5.5",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model",
+                      "reasoning_models": [
+                        "gpt-5.4-nano"
+                      ]
+                    },
+                    "name": "gpt-5.4-nano",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model",
+                      "reasoning_models": [
+                        "gpt-5.4-mini"
+                      ]
+                    },
+                    "name": "gpt-5.4-mini",
+                    "provider": "OpenAI"
+                  },
+                  {
+                    "category": "OpenAI",
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "api_key_param": "api_key",
+                      "context_length": 128000,
+                      "max_tokens_field_name": "max_tokens",
+                      "model_class": "ChatOpenAI",
+                      "model_name_param": "model",
+                      "reasoning_models": [
+                        "gpt-5.4"
+                      ]
+                    },
+                    "name": "gpt-5.4",
+                    "provider": "OpenAI"
+                  }
+                ],
                 "override_skip": false,
                 "placeholder": "Setup Provider",
                 "real_time_refresh": true,
@@ -1857,6 +2020,7 @@
                 "display_name": "Number of Chat History Messages",
                 "dynamic": false,
                 "info": "Number of chat history messages to retrieve.",
+                "input_types": [],
                 "list": false,
                 "list_add_label": "Add More",
                 "name": "n_messages",
@@ -1945,6 +2109,7 @@
                 "display_name": "watsonx Project ID",
                 "dynamic": false,
                 "info": "The project ID associated with the foundation model (IBM watsonx.ai only)",
+                "input_types": [],
                 "list": false,
                 "list_add_label": "Add More",
                 "load_from_db": false,
@@ -1966,6 +2131,7 @@
                 "display_name": "Stream",
                 "dynamic": false,
                 "info": "Stream the response from the model. Streaming works only in Chat.",
+                "input_types": [],
                 "list": false,
                 "list_add_label": "Add More",
                 "name": "stream",
@@ -2039,9 +2205,9 @@
           "type": "Agent"
         },
         "dragging": false,
-        "id": "Agent-mlbFt",
+        "id": "Agent-QCFVS",
         "measured": {
-          "height": 431,
+          "height": 429,
           "width": 320
         },
         "position": {
@@ -2053,7 +2219,7 @@
       },
       {
         "data": {
-          "id": "Prompt-OQyJw",
+          "id": "Prompt-zbLtW",
           "node": {
             "base_classes": [
               "Message"
@@ -2172,9 +2338,9 @@
           "type": "Prompt"
         },
         "dragging": false,
-        "id": "Prompt-OQyJw",
+        "id": "Prompt-zbLtW",
         "measured": {
-          "height": 265,
+          "height": 264,
           "width": 320
         },
         "position": {
@@ -2186,7 +2352,7 @@
       },
       {
         "data": {
-          "id": "ChatOutput-o5Tc8",
+          "id": "ChatOutput-1wGkK",
           "node": {
             "base_classes": [
               "Message"
@@ -2472,9 +2638,9 @@
           "type": "ChatOutput"
         },
         "dragging": false,
-        "id": "ChatOutput-o5Tc8",
+        "id": "ChatOutput-1wGkK",
         "measured": {
-          "height": 52,
+          "height": 51,
           "width": 192
         },
         "position": {
@@ -2486,7 +2652,7 @@
       },
       {
         "data": {
-          "id": "ChatInput-NhCAi",
+          "id": "ChatInput-QeNG9",
           "node": {
             "base_classes": [
               "Message"
@@ -2766,9 +2932,9 @@
           "type": "ChatInput"
         },
         "dragging": false,
-        "id": "ChatInput-NhCAi",
+        "id": "ChatInput-QeNG9",
         "measured": {
-          "height": 52,
+          "height": 51,
           "width": 192
         },
         "position": {
@@ -2780,7 +2946,7 @@
       },
       {
         "data": {
-          "id": "note-6XI95",
+          "id": "note-jd2Nv",
           "node": {
             "description": "# RAG Article in Web with Agent\n\nAgentic RAG that combines two retrieval strategies: it can **fetch web pages** (URL tool) AND **search a vector database** (Astra DB tool). The Agent decides per question which tool(s) to use, then synthesizes an answer.\n\n---\n\n## Quick Start\n\n1. **Add your OpenAI API key** in the Agent node (or switch provider)\n2. **Configure Astra DB** (token + database + collection) in the Astra DB tool\n3. **(Optional) Change the URL** in the URL tool -- ships with a sample Medium article\n4. Click **Playground** (top-right) and ask a question -- the Agent picks the right tool\n\n---\n\n## How it works\n\n1. **Chat Input** -- user question (e.g. \"What does the article say about publishing on Medium?\")\n2. **Prompt** -- system prompt telling the Agent how to use its tools\n3. **Agent** -- decides which tool to call:\n   - **URL tool** (`fetch_content`) -- pulls fresh content from a web page\n   - **Astra DB tool** (`search_documents`) -- semantic search over the vector collection\n4. **Chat Output** -- returns the synthesized answer\n\n---\n\n## Next Steps\n\nThis flow handles QUERIES. To populate the Astra collection first, build a separate **ingestion flow**:\n\n1. **URL -> Split Text -> Astra DB** (vectorization + storage)\n2. Use the same collection name as this Agent's Astra DB tool\n3. Then ask questions here -- the Agent will retrieve from what you ingested\n\nOther useful follow-ups:\n- **Add more tools** -- e.g. a Calculator, an SQL query tool, or a Slack-poster tool\n- **Tighten the Prompt** -- specify when to prefer URL fetch vs. vector search\n- **Log Agent decisions** -- chain a logger to ChatOutput to audit tool selection\n",
             "display_name": "",
@@ -2793,7 +2959,7 @@
         },
         "dragging": false,
         "height": 620,
-        "id": "note-6XI95",
+        "id": "note-jd2Nv",
         "measured": {
           "height": 620,
           "width": 540
@@ -2813,7 +2979,7 @@
       },
       {
         "data": {
-          "id": "note-94gl0",
+          "id": "note-lpROy",
           "node": {
             "description": "## Astra DB Tool -- Setup Required\n\n> Exposed to the Agent as `search_documents`. Performs hybrid search over your vector collection.\n\n**Application Token** *(required, secret)*\n1. Go to https://astra.datastax.com -> Tokens\n2. Create a token with **Database Administrator** role\n3. Copy (starts with `AstraCS:...`) and paste here\n\n**Database Name** *(required)*\nAuto-discovers when token is valid -- pick from dropdown.\n\n**Collection Name** *(required)*\nThe vector collection to search. Pre-set to use **Hybrid Search** + NVIDIA reranker for higher-quality retrieval.\n\n> The collection must already exist with documents ingested. Use a separate ingestion flow to populate it -- see Next Steps in the Overview note.\n\n> \"Update available\" badge stays on this node -- it's in **tool_mode** (exposed to Agent), intentionally kept as-is.\n",
             "display_name": "",
@@ -2826,7 +2992,7 @@
         },
         "dragging": false,
         "height": 400,
-        "id": "note-94gl0",
+        "id": "note-lpROy",
         "measured": {
           "height": 400,
           "width": 440
@@ -2846,7 +3012,7 @@
       },
       {
         "data": {
-          "id": "note-GRg6f",
+          "id": "note-F8S1C",
           "node": {
             "description": "## URL Tool -- Configuration\n\n> Exposed to the Agent as `fetch_content`. Fetches a web page on demand during reasoning.\n\n**URLs**\nPre-filled with a Medium sample article. Replace with the source you want the Agent to read from -- could be docs, blog posts, news.\n\n**Format**\nDefault: `Text`. Switch to `HTML` if you want raw markup (rarely needed).\n\n**Depth**\nHow many linked pages to follow recursively. Default `1` = just the given URL.\n\n> \"Update available\" badge stays -- tool_mode component, intentionally preserved.\n",
             "display_name": "",
@@ -2859,7 +3025,7 @@
         },
         "dragging": false,
         "height": 320,
-        "id": "note-GRg6f",
+        "id": "note-F8S1C",
         "measured": {
           "height": 320,
           "width": 380
@@ -2879,7 +3045,7 @@
       },
       {
         "data": {
-          "id": "note-eVKmM",
+          "id": "note-eV2RC",
           "node": {
             "description": "## Agent -- Setup Required\n\n> Decides which tool to call (URL fetch or Astra search) and synthesizes the final answer.\n\n**Model Provider** *(dropdown)*\nDefault: OpenAI (`gpt-4o`). Switch to Anthropic / Google / Groq / Mistral / NVIDIA / IBM as needed.\n\n**API Key** *(required, secret)*\n1. Go to your provider's dashboard (e.g. https://platform.openai.com/api-keys)\n2. Generate a key and paste it here\n\n**Project ID / Base URL**\nLeave empty for OpenAI / Anthropic / Gemini. Required only for WatsonX or self-hosted gateways.\n",
             "display_name": "",
@@ -2892,7 +3058,7 @@
         },
         "dragging": false,
         "height": 320,
-        "id": "note-eVKmM",
+        "id": "note-eV2RC",
         "measured": {
           "height": 320,
           "width": 400
@@ -2912,14 +3078,14 @@
       }
     ],
     "viewport": {
-      "x": -120.4437964733047,
-      "y": -237.37694914189143,
-      "zoom": 0.5637694914189142
+      "x": -434.1158082690263,
+      "y": -267.3826170245533,
+      "zoom": 0.6134311777210574
     }
   },
   "description": "It needs Split Text Tool to agent be able to create chunks from the URL content",
   "endpoint_name": null,
-  "id": "226cd96e-7619-40fe-8a34-ff1c53e8dbf6",
+  "id": "0e440428-0b89-4968-ace9-80eec84a1bd4",
   "is_component": false,
   "last_tested_version": "1.10.0",
   "locked": false,
