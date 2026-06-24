@@ -1,0 +1,140 @@
+{
+  "name": "CAJAL Scientific Paper Generator",
+  "description": "Generate structured scientific papers with IMRaD format using local LLMs. Perfect for researchers who need draft papers with proper citations, methodology, and reproducible structure.",
+  "icon": "book-open",
+  "tags": ["Content Generation"],
+  "flow": {
+    "data": {
+      "edges": [
+        {
+          "id": "xy-edge__ChatInput-CAJAL{message}-Agent-CAJAL{input_value}",
+          "source": "ChatInput-CAJAL",
+          "sourceHandle": "{dataType:ChatInput,id:ChatInput-CAJAL,name:message,output_types:[Message]}",
+          "target": "Agent-CAJAL",
+          "targetHandle": "{fieldName:input_value,id:Agent-CAJAL,inputTypes:[Message],type:str}",
+          "animated": false,
+          "selected": false
+        },
+        {
+          "id": "xy-edge__Agent-CAJAL{response}-ChatOutput-CAJAL{input_value}",
+          "source": "Agent-CAJAL",
+          "sourceHandle": "{dataType:Agent,id:Agent-CAJAL,name:response,output_types:[Message]}",
+          "target": "ChatOutput-CAJAL",
+          "targetHandle": "{fieldName:input_value,id:ChatOutput-CAJAL,inputTypes:[Data,DataFrame,Message],type:other}",
+          "animated": false,
+          "selected": false
+        }
+      ],
+      "nodes": [
+        {
+          "id": "ChatInput-CAJAL",
+          "type": "genericNode",
+          "position": { "x": 100, "y": 200 },
+          "data": {
+            "id": "ChatInput-CAJAL",
+            "type": "ChatInput",
+            "showNode": true,
+            "node": {
+              "template": {
+                "input_value": {
+                  "type": "str",
+                  "value": "Generate a scientific paper about neural network optimization with proper IMRaD structure",
+                  "display_name": "Paper Topic"
+                },
+                "sender": {
+                  "type": "str",
+                  "value": "User"
+                },
+                "sender_name": {
+                  "type": "str",
+                  "value": "Researcher"
+                },
+                "session_id": {
+                  "type": "str",
+                  "value": ""
+                }
+              },
+              "outputs": [
+                {
+                  "name": "message",
+                  "display_name": "Chat Message",
+                  "types": ["Message"],
+                  "selected": "Message"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "Agent-CAJAL",
+          "type": "genericNode",
+          "position": { "x": 500, "y": 200 },
+          "data": {
+            "id": "Agent-CAJAL",
+            "type": "Agent",
+            "showNode": true,
+            "node": {
+              "template": {
+                "system_prompt": {
+                  "type": "str",
+                  "value": "You are CAJAL, a specialized scientific paper generation agent. You generate research papers following strict IMRaD structure:\n\n1. INTRODUCTION (200-400 words): Context, problem statement, research questions\n2. METHODS (200-400 words): Study design, participants, instruments, procedures, data analysis\n3. RESULTS (200-400 words): Findings with statistical tests, tables/figures references\n4. DISCUSSION (200-400 words): Interpretation, implications, limitations, future work\n\nRules:\n- Use [Author, Year] citation format with minimum 5 references\n- Include DOI or arXiv IDs where available\n- Statistical notation: M (SD), t(df) = value, p < .05, Cohen's d = value\n- Flag methodology limitations explicitly\n- Generate BibTeX references block at the end",
+                  "display_name": "CAJAL System Prompt",
+                  "multiline": true
+                },
+                "model_name": {
+                  "type": "str",
+                  "value": "gpt-4"
+                },
+                "temperature": {
+                  "type": "float",
+                  "value": 0.7
+                },
+                "max_tokens": {
+                  "type": "int",
+                  "value": 4000
+                }
+              },
+              "outputs": [
+                {
+                  "name": "response",
+                  "display_name": "Response",
+                  "types": ["Message"],
+                  "selected": "Message"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "ChatOutput-CAJAL",
+          "type": "genericNode",
+          "position": { "x": 900, "y": 200 },
+          "data": {
+            "id": "ChatOutput-CAJAL",
+            "type": "ChatOutput",
+            "showNode": true,
+            "node": {
+              "template": {
+                "input_value": {
+                  "type": "str",
+                  "value": ""
+                }
+              },
+              "outputs": [
+                {
+                  "name": "message",
+                  "display_name": "Chat Message",
+                  "types": ["Message"],
+                  "selected": "Message"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "description": "# CAJAL Scientific Paper Generator\n\nGenerate structured scientific papers with IMRaD format using Langflow's Agent component.\n\n## Prerequisites\n\n- OpenAI API key or local LLM endpoint (Ollama compatible)\n\n## Quickstart\n\n1. Set your API key in the Agent component\n2. Enter a research topic in the Chat Input\n3. The CAJAL agent generates a complete IMRaD paper with citations\n4. Output includes Introduction, Methods, Results, Discussion + BibTeX references\n\n## Features\n\n- Strict IMRaD structure (200-400 words per section)\n- Automatic [Author, Year] citation generation\n- Statistical notation compliance\n- BibTeX reference block generation",
+    "endpoint_name": "cajal-paper-generator",
+    "last_tested_version": "1.2.0"
+  }
+}
