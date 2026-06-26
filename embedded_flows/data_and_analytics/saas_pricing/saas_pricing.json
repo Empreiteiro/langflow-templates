@@ -7,7 +7,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "Agent",
-            "id": "Agent-bNGtH",
+            "id": "Agent-Zm0pK",
             "name": "response",
             "output_types": [
               "Message"
@@ -15,7 +15,7 @@
           },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "ChatOutput-Bdpjz",
+            "id": "ChatOutput-9LXqX",
             "inputTypes": [
               "Data",
               "JSON",
@@ -26,12 +26,12 @@
             "type": "other"
           }
         },
-        "id": "reactflow__edge-Agent-bNGtH{œdataTypeœ: œAgentœ, œidœ: œAgent-bNGtHœ, œnameœ: œresponseœ, œoutput_typesœ: [œMessageœ]}-ChatOutput-Bdpjz{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-Bdpjzœ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-Agent-Zm0pK{œdataTypeœ:œAgentœ,œidœ:œAgent-Zm0pKœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-9LXqX{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-9LXqXœ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "Agent-bNGtH",
-        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-bNGtHœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "ChatOutput-Bdpjz",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-Bdpjzœ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}"
+        "source": "Agent-Zm0pK",
+        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-Zm0pKœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "ChatOutput-9LXqX",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-9LXqXœ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -39,7 +39,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "ChatInput",
-            "id": "ChatInput-YOLRJ",
+            "id": "ChatInput-xlH2P",
             "name": "message",
             "output_types": [
               "Message"
@@ -47,19 +47,19 @@
           },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "Agent-bNGtH",
+            "id": "Agent-Zm0pK",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "xy-edge__ChatInput-YOLRJ{œdataTypeœ:œChatInputœ,œidœ:œChatInput-YOLRJœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Agent-bNGtH{œfieldNameœ:œinput_valueœ,œidœ:œAgent-bNGtHœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-ChatInput-xlH2P{œdataTypeœ:œChatInputœ,œidœ:œChatInput-xlH2Pœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Agent-Zm0pK{œfieldNameœ:œinput_valueœ,œidœ:œAgent-Zm0pKœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "ChatInput-YOLRJ",
-        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-YOLRJœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Agent-bNGtH",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œAgent-bNGtHœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "source": "ChatInput-xlH2P",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-xlH2Pœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Agent-Zm0pK",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œAgent-Zm0pKœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       },
       {
         "animated": false,
@@ -67,7 +67,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "SQLComponent",
-            "id": "SQLDatabase-saas",
+            "id": "SQLComponent-NMSUa",
             "name": "component_as_tool",
             "output_types": [
               "Tool"
@@ -75,19 +75,19 @@
           },
           "targetHandle": {
             "fieldName": "tools",
-            "id": "Agent-bNGtH",
+            "id": "Agent-Zm0pK",
             "inputTypes": [
               "Tool"
             ],
             "type": "other"
           }
         },
-        "id": "xy-edge__SQLDatabase-saas{œdataTypeœ:œSQLComponentœ,œidœ:œSQLDatabase-saasœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-bNGtH{œfieldNameœ:œtoolsœ,œidœ:œAgent-bNGtHœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-SQLComponent-NMSUa{œdataTypeœ:œSQLComponentœ,œidœ:œSQLComponent-NMSUaœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-Zm0pK{œfieldNameœ:œtoolsœ,œidœ:œAgent-Zm0pKœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "SQLDatabase-saas",
-        "sourceHandle": "{œdataTypeœ:œSQLComponentœ,œidœ:œSQLDatabase-saasœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
-        "target": "Agent-bNGtH",
-        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-bNGtHœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+        "source": "SQLComponent-NMSUa",
+        "sourceHandle": "{œdataTypeœ:œSQLComponentœ,œidœ:œSQLComponent-NMSUaœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
+        "target": "Agent-Zm0pK",
+        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-Zm0pKœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
       }
     ],
     "nodes": [
@@ -95,7 +95,7 @@
         "data": {
           "description": "Display a chat message in the Playground.",
           "display_name": "Chat Output",
-          "id": "ChatOutput-Bdpjz",
+          "id": "ChatOutput-9LXqX",
           "node": {
             "base_classes": [
               "Message"
@@ -363,9 +363,9 @@
           "type": "ChatOutput"
         },
         "dragging": false,
-        "id": "ChatOutput-Bdpjz",
+        "id": "ChatOutput-9LXqX",
         "measured": {
-          "height": 168,
+          "height": 169,
           "width": 320
         },
         "position": {
@@ -382,7 +382,7 @@
       {
         "data": {
           "_connectionMode": false,
-          "id": "Agent-bNGtH",
+          "id": "Agent-Zm0pK",
           "node": {
             "base_classes": [
               "Message"
@@ -415,7 +415,7 @@
             ],
             "frozen": false,
             "icon": "bot",
-            "last_updated": "2026-06-25T17:27:23.131Z",
+            "last_updated": "2026-06-26T12:08:38.812Z",
             "legacy": false,
             "lf_version": "1.10.0",
             "metadata": {
@@ -484,11 +484,11 @@
             "template": {
               "_frontend_node_flow_id": {
                 "input_types": [],
-                "value": "309e5b3f-f797-4441-9fd2-acdeac504402"
+                "value": "847e1f44-3667-4af8-bc1b-d620558f068e"
               },
               "_frontend_node_folder_id": {
                 "input_types": [],
-                "value": "d3faa7b1-8308-442a-964e-517a6ffbea16"
+                "value": "511db528-db06-4bf9-bdf0-f13221918e76"
               },
               "_type": "Component",
               "add_calculator_tool": {
@@ -538,9 +538,9 @@
                 "advanced": true,
                 "display_name": "API Key",
                 "dynamic": false,
-                "info": "Overrides global provider settings. Leave blank to use your pre-configured API Key.",
+                "info": "Falls back to OPENAI_API_KEY environment variable",
                 "input_types": [],
-                "load_from_db": false,
+                "load_from_db": true,
                 "name": "api_key",
                 "override_skip": false,
                 "password": true,
@@ -551,7 +551,7 @@
                 "title_case": false,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": ""
+                "value": "OPENAI_API_KEY"
               },
               "base_url_ibm_watsonx": {
                 "_input_type": "DropdownInput",
@@ -704,7 +704,7 @@
                 "type": "str",
                 "value": ""
               },
-              "is_refresh": true,
+              "is_refresh": false,
               "max_iterations": {
                 "_input_type": "IntInput",
                 "advanced": true,
@@ -782,149 +782,26 @@
                 "name": "model",
                 "options": [
                   {
-                    "category": "OpenAI",
                     "icon": "OpenAI",
                     "metadata": {
-                      "api_key_param": "api_key",
-                      "context_length": 128000,
-                      "max_tokens_field_name": "max_tokens",
-                      "model_class": "ChatOpenAI",
-                      "model_name_param": "model",
-                      "reasoning_models": [
-                        "gpt-5.5-pro"
-                      ]
-                    },
-                    "name": "gpt-5.5-pro",
-                    "provider": "OpenAI"
-                  },
-                  {
-                    "category": "OpenAI",
-                    "icon": "OpenAI",
-                    "metadata": {
-                      "api_key_param": "api_key",
-                      "context_length": 128000,
-                      "max_tokens_field_name": "max_tokens",
-                      "model_class": "ChatOpenAI",
-                      "model_name_param": "model",
-                      "reasoning_models": [
-                        "gpt-5.5"
-                      ]
+                      "context_window": 1050000,
+                      "cost_per_million_in": 5,
+                      "cost_per_million_out": 30,
+                      "created": 1776902400,
+                      "default": true,
+                      "deprecated": false,
+                      "icon": "OpenAI",
+                      "model_type": "llm",
+                      "not_enabled_locally": true,
+                      "not_supported": false,
+                      "preview": false,
+                      "reasoning": true,
+                      "search": false,
+                      "tool_calling": true,
+                      "vision": true
                     },
                     "name": "gpt-5.5",
                     "provider": "OpenAI"
-                  },
-                  {
-                    "category": "OpenAI",
-                    "icon": "OpenAI",
-                    "metadata": {
-                      "api_key_param": "api_key",
-                      "context_length": 128000,
-                      "max_tokens_field_name": "max_tokens",
-                      "model_class": "ChatOpenAI",
-                      "model_name_param": "model",
-                      "reasoning_models": [
-                        "gpt-5.4-nano"
-                      ]
-                    },
-                    "name": "gpt-5.4-nano",
-                    "provider": "OpenAI"
-                  },
-                  {
-                    "category": "OpenAI",
-                    "icon": "OpenAI",
-                    "metadata": {
-                      "api_key_param": "api_key",
-                      "context_length": 128000,
-                      "max_tokens_field_name": "max_tokens",
-                      "model_class": "ChatOpenAI",
-                      "model_name_param": "model",
-                      "reasoning_models": [
-                        "gpt-5.4-mini"
-                      ]
-                    },
-                    "name": "gpt-5.4-mini",
-                    "provider": "OpenAI"
-                  },
-                  {
-                    "category": "OpenAI",
-                    "icon": "OpenAI",
-                    "metadata": {
-                      "api_key_param": "api_key",
-                      "context_length": 128000,
-                      "max_tokens_field_name": "max_tokens",
-                      "model_class": "ChatOpenAI",
-                      "model_name_param": "model",
-                      "reasoning_models": [
-                        "gpt-5.4"
-                      ]
-                    },
-                    "name": "gpt-5.4",
-                    "provider": "OpenAI"
-                  },
-                  {
-                    "category": "Google Generative AI",
-                    "icon": "GoogleGenerativeAI",
-                    "metadata": {
-                      "api_key_param": "google_api_key",
-                      "context_length": 128000,
-                      "max_tokens_field_name": "max_output_tokens",
-                      "model_class": "ChatGoogleGenerativeAIFixed",
-                      "model_name_param": "model"
-                    },
-                    "name": "gemini-3.5-flash",
-                    "provider": "Google Generative AI"
-                  },
-                  {
-                    "category": "Google Generative AI",
-                    "icon": "GoogleGenerativeAI",
-                    "metadata": {
-                      "api_key_param": "google_api_key",
-                      "context_length": 128000,
-                      "max_tokens_field_name": "max_output_tokens",
-                      "model_class": "ChatGoogleGenerativeAIFixed",
-                      "model_name_param": "model"
-                    },
-                    "name": "gemini-3.1-flash-lite",
-                    "provider": "Google Generative AI"
-                  },
-                  {
-                    "category": "Google Generative AI",
-                    "icon": "GoogleGenerativeAI",
-                    "metadata": {
-                      "api_key_param": "google_api_key",
-                      "context_length": 128000,
-                      "max_tokens_field_name": "max_output_tokens",
-                      "model_class": "ChatGoogleGenerativeAIFixed",
-                      "model_name_param": "model"
-                    },
-                    "name": "gemma-4-31b-it",
-                    "provider": "Google Generative AI"
-                  },
-                  {
-                    "category": "Google Generative AI",
-                    "icon": "GoogleGenerativeAI",
-                    "metadata": {
-                      "api_key_param": "google_api_key",
-                      "context_length": 128000,
-                      "max_tokens_field_name": "max_output_tokens",
-                      "model_class": "ChatGoogleGenerativeAIFixed",
-                      "model_name_param": "model"
-                    },
-                    "name": "gemma-4-26b-a4b-it",
-                    "provider": "Google Generative AI"
-                  },
-                  {
-                    "category": "Google Generative AI",
-                    "icon": "GoogleGenerativeAI",
-                    "metadata": {
-                      "api_key_param": "google_api_key",
-                      "context_length": 128000,
-                      "max_tokens_field_name": "max_output_tokens",
-                      "model_class": "ChatGoogleGenerativeAIFixed",
-                      "model_name_param": "model"
-                    },
-                    "name": "gemini-3.1-flash-lite-preview",
-                    "provider": "Google Generative AI"
                   }
                 ],
                 "override_skip": false,
@@ -1156,9 +1033,9 @@
           "type": "Agent"
         },
         "dragging": false,
-        "id": "Agent-bNGtH",
+        "id": "Agent-Zm0pK",
         "measured": {
-          "height": 430,
+          "height": 431,
           "width": 320
         },
         "position": {
@@ -1170,7 +1047,7 @@
       },
       {
         "data": {
-          "id": "SQLDatabase-saas",
+          "id": "SQLComponent-NMSUa",
           "node": {
             "base_classes": [
               "Table"
@@ -1190,11 +1067,9 @@
             ],
             "frozen": false,
             "icon": "database",
-            "last_updated": "2026-06-25T17:31:22.163Z",
             "legacy": false,
-            "lf_version": "1.10.0",
             "metadata": {
-              "code_hash": "a8dd79af50b8",
+              "code_hash": "fb4189cb5af3",
               "dependencies": {
                 "dependencies": [
                   {
@@ -1203,7 +1078,7 @@
                   },
                   {
                     "name": "sqlalchemy",
-                    "version": "2.0.50"
+                    "version": "2.0.51"
                   },
                   {
                     "name": "lfx",
@@ -1219,7 +1094,7 @@
                 "db",
                 "fetch"
               ],
-              "module": "lfx.components.data_source.sql_executor.SQLComponent"
+              "module": "custom_components.sql_database"
             },
             "minimized": false,
             "output_types": [],
@@ -1227,7 +1102,7 @@
               {
                 "allows_loop": false,
                 "cache": true,
-                "display_name": "Result Table",
+                "display_name": "Toolset",
                 "group_outputs": false,
                 "hidden": null,
                 "loop_types": null,
@@ -1245,12 +1120,6 @@
             ],
             "pinned": false,
             "template": {
-              "_frontend_node_flow_id": {
-                "value": "309e5b3f-f797-4441-9fd2-acdeac504402"
-              },
-              "_frontend_node_folder_id": {
-                "value": "d3faa7b1-8308-442a-964e-517a6ffbea16"
-              },
               "_type": "Component",
               "add_error": {
                 "_input_type": "BoolInput",
@@ -1288,7 +1157,7 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "from typing import TYPE_CHECKING, Any\n\nfrom langchain_community.utilities import SQLDatabase\nfrom sqlalchemy.exc import SQLAlchemyError\n\nfrom lfx.custom.custom_component.component_with_cache import ComponentWithCache\nfrom lfx.io import BoolInput, MessageTextInput, MultilineInput, Output\nfrom lfx.schema.dataframe import DataFrame\nfrom lfx.schema.message import Message\nfrom lfx.services.cache.utils import CacheMiss\n\nif TYPE_CHECKING:\n    from sqlalchemy.engine import Result\n\n\nclass SQLComponent(ComponentWithCache):\n    \"\"\"A sql component.\"\"\"\n\n    display_name = \"SQL Database\"\n    description = \"Executes SQL queries on SQLAlchemy-compatible databases.\"\n    documentation: str = \"https://docs.langflow.org/sql-database\"\n    icon = \"database\"\n    name = \"SQLComponent\"\n    metadata = {\"keywords\": [\"sql\", \"database\", \"query\", \"db\", \"fetch\"]}\n\n    def __init__(self, **kwargs) -> None:\n        super().__init__(**kwargs)\n        self.db: SQLDatabase = None\n\n    def maybe_create_db(self):\n        if self.database_url != \"\":\n            if self._shared_component_cache:\n                cached_db = self._shared_component_cache.get(self.database_url)\n                if not isinstance(cached_db, CacheMiss):\n                    self.db = cached_db\n                    return\n                self.log(\"Connecting to database\")\n            try:\n                self.db = SQLDatabase.from_uri(self.database_url)\n            except Exception as e:\n                msg = f\"An error occurred while connecting to the database: {e}\"\n                raise ValueError(msg) from e\n            if self._shared_component_cache:\n                self._shared_component_cache.set(self.database_url, self.db)\n\n    inputs = [\n        MessageTextInput(name=\"database_url\", display_name=\"Database URL\", required=True),\n        MultilineInput(name=\"query\", display_name=\"SQL Query\", tool_mode=True, required=True),\n        BoolInput(name=\"include_columns\", display_name=\"Include Columns\", value=True, tool_mode=True, advanced=True),\n        BoolInput(\n            name=\"add_error\",\n            display_name=\"Add Error\",\n            value=False,\n            tool_mode=True,\n            info=\"If True, the error will be added to the result\",\n            advanced=True,\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Result Table\", name=\"run_sql_query\", method=\"run_sql_query\"),\n    ]\n\n    def build_component(\n        self,\n    ) -> Message:\n        error = None\n        self.maybe_create_db()\n        try:\n            result = self.db.run(self.query, include_columns=self.include_columns)\n            self.status = result\n        except SQLAlchemyError as e:\n            msg = f\"An error occurred while running the SQL Query: {e}\"\n            self.log(msg)\n            result = str(e)\n            self.status = result\n            error = repr(e)\n\n        if self.add_error and error is not None:\n            result = f\"{result}\\n\\nError: {error}\\n\\nQuery: {self.query}\"\n        elif error is not None:\n            # Then we won't add the error to the result\n            result = self.query\n\n        return Message(text=result)\n\n    def __execute_query(self) -> list[dict[str, Any]]:\n        self.maybe_create_db()\n        try:\n            cursor: Result[Any] = self.db.run(self.query, fetch=\"cursor\")\n            return [x._asdict() for x in cursor.fetchall()]\n        except SQLAlchemyError as e:\n            msg = f\"An error occurred while running the SQL Query: {e}\"\n            self.log(msg)\n            raise ValueError(msg) from e\n\n    def run_sql_query(self) -> DataFrame:\n        result = self.__execute_query()\n        df_result = DataFrame(result)\n        self.status = df_result\n        return df_result\n"
+                "value": "from typing import TYPE_CHECKING, Any\n\nfrom langchain_community.utilities import SQLDatabase\nfrom sqlalchemy.exc import SQLAlchemyError\n\nfrom lfx.custom.custom_component.component_with_cache import ComponentWithCache\nfrom lfx.io import BoolInput, MessageTextInput, MultilineInput, Output\nfrom lfx.schema.dataframe import DataFrame\nfrom lfx.schema.message import Message\nfrom lfx.services.cache.utils import CacheMiss\n\nif TYPE_CHECKING:\n    from sqlalchemy.engine import Result\n\nSQL_DATABASE_ENGINE_ARGS = {\"pool_pre_ping\": True}\n\n\nclass SQLComponent(ComponentWithCache):\n    \"\"\"A sql component.\"\"\"\n\n    display_name = \"SQL Database\"\n    description = \"Executes SQL queries on SQLAlchemy-compatible databases.\"\n    documentation: str = \"https://docs.langflow.org/sql-database\"\n    icon = \"database\"\n    name = \"SQLComponent\"\n    metadata = {\"keywords\": [\"sql\", \"database\", \"query\", \"db\", \"fetch\"]}\n\n    def __init__(self, **kwargs) -> None:\n        super().__init__(**kwargs)\n        self.db: SQLDatabase = None\n\n    def maybe_create_db(self):\n        if self.database_url != \"\":\n            if self._shared_component_cache:\n                cached_db = self._shared_component_cache.get(self.database_url)\n                if not isinstance(cached_db, CacheMiss):\n                    self.db = cached_db\n                    return\n                self.log(\"Connecting to database\")\n            try:\n                self.db = SQLDatabase.from_uri(self.database_url, engine_args=SQL_DATABASE_ENGINE_ARGS)\n            except Exception as e:\n                msg = f\"An error occurred while connecting to the database: {e}\"\n                raise ValueError(msg) from e\n            if self._shared_component_cache:\n                self._shared_component_cache.set(self.database_url, self.db)\n\n    inputs = [\n        MessageTextInput(name=\"database_url\", display_name=\"Database URL\", required=True),\n        MultilineInput(name=\"query\", display_name=\"SQL Query\", tool_mode=True, required=True),\n        BoolInput(name=\"include_columns\", display_name=\"Include Columns\", value=True, tool_mode=True, advanced=True),\n        BoolInput(\n            name=\"add_error\",\n            display_name=\"Add Error\",\n            value=False,\n            tool_mode=True,\n            info=\"If True, the error will be added to the result\",\n            advanced=True,\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Result Table\", name=\"run_sql_query\", method=\"run_sql_query\"),\n    ]\n\n    def build_component(\n        self,\n    ) -> Message:\n        error = None\n        self.maybe_create_db()\n        try:\n            result = self.db.run(self.query, include_columns=self.include_columns)\n            self.status = result\n        except SQLAlchemyError as e:\n            msg = f\"An error occurred while running the SQL Query: {e}\"\n            self.log(msg)\n            result = str(e)\n            self.status = result\n            error = repr(e)\n\n        if self.add_error and error is not None:\n            result = f\"{result}\\n\\nError: {error}\\n\\nQuery: {self.query}\"\n        elif error is not None:\n            # Then we won't add the error to the result\n            result = self.query\n\n        return Message(text=result)\n\n    def __execute_query(self) -> list[dict[str, Any]]:\n        self.maybe_create_db()\n        try:\n            cursor: Result[Any] = self.db.run(self.query, fetch=\"cursor\")\n            return [x._asdict() for x in cursor.fetchall()]\n        except SQLAlchemyError as e:\n            msg = f\"An error occurred while running the SQL Query: {e}\"\n            self.log(msg)\n            raise ValueError(msg) from e\n\n    def run_sql_query(self) -> DataFrame:\n        result = self.__execute_query()\n        df_result = DataFrame(result)\n        self.status = df_result\n        return df_result\n"
               },
               "database_url": {
                 "_input_type": "MessageTextInput",
@@ -1335,7 +1204,6 @@
                 "type": "bool",
                 "value": true
               },
-              "is_refresh": false,
               "query": {
                 "_input_type": "MultilineInput",
                 "advanced": false,
@@ -1423,9 +1291,9 @@
           "type": "SQLComponent"
         },
         "dragging": false,
-        "id": "SQLDatabase-saas",
+        "id": "SQLComponent-NMSUa",
         "measured": {
-          "height": 308,
+          "height": 309,
           "width": 320
         },
         "position": {
@@ -1441,7 +1309,7 @@
       },
       {
         "data": {
-          "id": "note-saas",
+          "id": "note-c8flE",
           "node": {
             "description": "# 💵 SaaS Pricing\n\nCalculate the right monthly subscription price for a software product — from costs, profit margin, and subscriber count. The Agent can also pull the numbers from your own database.\n\n## Setup\n1. **Agent** — add your LLM key. ⚠️ **Use a capable model** (e.g. a flagship GPT / Claude / Gemini Pro tier). The Agent calls the **SQL Database** tool and does multi-step math, so smaller/faster models may loop and hit the recursion limit when querying the DB.\n2. **SQL Database** *(optional)* — set your **Database URL** to let the Agent query real cost / subscriber data from your own database. Leave it unset to just type the numbers in the chat.\n3. The Agent has a built-in **calculator** and **current-date** tool.\n\n## How it works\n1. **Chat Input → Agent** — your request (e.g. \"subscription price for Beta CRM using my database\", or \"price: infra 2000, support 1000, dev 3000, margin 30%, 200 subscribers\").\n2. The Agent queries the **SQL Database** when connected, then computes the minimum price per subscriber with its built-in calculator.\n3. **Agent → Chat Output** — the recommended pricing breakdown.\n\n## Run\nOpen the **Playground**, describe the product (or name one in your connected database), and run.\n\n> Tip: when using the database, mention the table/product so the Agent queries it in one shot — and prefer a capable model to avoid tool-call loops.",
             "display_name": "",
@@ -1454,7 +1322,7 @@
         },
         "dragging": false,
         "height": 777,
-        "id": "note-saas",
+        "id": "note-c8flE",
         "measured": {
           "height": 777,
           "width": 550
@@ -1474,7 +1342,7 @@
       },
       {
         "data": {
-          "id": "ChatInput-YOLRJ",
+          "id": "ChatInput-xlH2P",
           "node": {
             "base_classes": [
               "Message"
@@ -1754,7 +1622,7 @@
           "type": "ChatInput"
         },
         "dragging": false,
-        "id": "ChatInput-YOLRJ",
+        "id": "ChatInput-xlH2P",
         "measured": {
           "height": 52,
           "width": 192
@@ -1768,17 +1636,17 @@
       }
     ],
     "viewport": {
-      "x": -485.01184804330114,
-      "y": 184.34645819094237,
-      "zoom": 0.6121232097516552
+      "x": -453.5702887990344,
+      "y": 204.86430225381386,
+      "zoom": 0.6003309938019736
     }
   },
   "description": "Calculate the optimal monthly SaaS subscription price from costs, margin, and subscriber estimate. The Agent uses its built-in calculator and can optionally query the user's own database via a SQL Database tool. ",
   "endpoint_name": null,
-  "id": "309e5b3f-f797-4441-9fd2-acdeac504402",
+  "id": "847e1f44-3667-4af8-bc1b-d620558f068e",
   "is_component": false,
-  "last_tested_version": "1.10.0",
+  "last_tested_version": "1.10.1",
   "locked": false,
   "name": "SaaS Pricing",
-  "tags": null
+  "tags": []
 }

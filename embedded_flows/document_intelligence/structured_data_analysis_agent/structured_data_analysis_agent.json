@@ -7,7 +7,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "FileDescriptionGeneratorComponent",
-            "id": "FileDescriptionGeneratorComponent-cRYrx",
+            "id": "FileDescriptionGeneratorComponent-oTrJn",
             "name": "descriptions",
             "output_types": [
               "JSON"
@@ -15,7 +15,7 @@
           },
           "targetHandle": {
             "fieldName": "ingest_data",
-            "id": "Chroma-BMFoU",
+            "id": "Chroma-eMTbF",
             "inputTypes": [
               "Data",
               "DataFrame",
@@ -24,12 +24,12 @@
             "type": "other"
           }
         },
-        "id": "reactflow__edge-FileDescriptionGeneratorComponent-cRYrx{œdataTypeœ:œFileDescriptionGeneratorComponentœ,œidœ:œFileDescriptionGeneratorComponent-cRYrxœ,œnameœ:œdescriptionsœ,œoutput_typesœ:[œJSONœ]}-Chroma-BMFoU{œfieldNameœ:œingest_dataœ,œidœ:œChroma-BMFoUœ,œinputTypesœ:[œDataœ,œDataFrameœ,œTableœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-FileDescriptionGeneratorComponent-oTrJn{œdataTypeœ:œFileDescriptionGeneratorComponentœ,œidœ:œFileDescriptionGeneratorComponent-oTrJnœ,œnameœ:œdescriptionsœ,œoutput_typesœ:[œJSONœ]}-Chroma-eMTbF{œfieldNameœ:œingest_dataœ,œidœ:œChroma-eMTbFœ,œinputTypesœ:[œDataœ,œDataFrameœ,œTableœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "FileDescriptionGeneratorComponent-cRYrx",
-        "sourceHandle": "{œdataTypeœ:œFileDescriptionGeneratorComponentœ,œidœ:œFileDescriptionGeneratorComponent-cRYrxœ,œnameœ:œdescriptionsœ,œoutput_typesœ:[œJSONœ]}",
-        "target": "Chroma-BMFoU",
-        "targetHandle": "{œfieldNameœ:œingest_dataœ,œidœ:œChroma-BMFoUœ,œinputTypesœ:[œDataœ,œDataFrameœ,œTableœ],œtypeœ:œotherœ}"
+        "source": "FileDescriptionGeneratorComponent-oTrJn",
+        "sourceHandle": "{œdataTypeœ:œFileDescriptionGeneratorComponentœ,œidœ:œFileDescriptionGeneratorComponent-oTrJnœ,œnameœ:œdescriptionsœ,œoutput_typesœ:[œJSONœ]}",
+        "target": "Chroma-eMTbF",
+        "targetHandle": "{œfieldNameœ:œingest_dataœ,œidœ:œChroma-eMTbFœ,œinputTypesœ:[œDataœ,œDataFrameœ,œTableœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -37,7 +37,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "Chroma",
-            "id": "Chroma-OfYZq",
+            "id": "Chroma-IkIQx",
             "name": "component_as_tool",
             "output_types": [
               "Tool"
@@ -45,19 +45,19 @@
           },
           "targetHandle": {
             "fieldName": "tools",
-            "id": "OpenDsStarAgent-TN1C4",
+            "id": "OpenDsStarAgent-CYVYX",
             "inputTypes": [
               "Tool"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-Chroma-OfYZq{œdataTypeœ:œChromaœ,œidœ:œChroma-OfYZqœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-OpenDsStarAgent-TN1C4{œfieldNameœ:œtoolsœ,œidœ:œOpenDsStarAgent-TN1C4œ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-Chroma-IkIQx{œdataTypeœ:œChromaœ,œidœ:œChroma-IkIQxœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-OpenDsStarAgent-CYVYX{œfieldNameœ:œtoolsœ,œidœ:œOpenDsStarAgent-CYVYXœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "Chroma-OfYZq",
-        "sourceHandle": "{œdataTypeœ:œChromaœ,œidœ:œChroma-OfYZqœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
-        "target": "OpenDsStarAgent-TN1C4",
-        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œOpenDsStarAgent-TN1C4œ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+        "source": "Chroma-IkIQx",
+        "sourceHandle": "{œdataTypeœ:œChromaœ,œidœ:œChroma-IkIQxœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
+        "target": "OpenDsStarAgent-CYVYX",
+        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œOpenDsStarAgent-CYVYXœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -65,7 +65,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "ChatInput",
-            "id": "ChatInput-wgQEP",
+            "id": "ChatInput-zSTGd",
             "name": "message",
             "output_types": [
               "Message"
@@ -73,19 +73,19 @@
           },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "OpenDsStarAgent-TN1C4",
+            "id": "OpenDsStarAgent-CYVYX",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "reactflow__edge-ChatInput-wgQEP{œdataTypeœ:œChatInputœ,œidœ:œChatInput-wgQEPœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-OpenDsStarAgent-TN1C4{œfieldNameœ:œinput_valueœ,œidœ:œOpenDsStarAgent-TN1C4œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-ChatInput-zSTGd{œdataTypeœ:œChatInputœ,œidœ:œChatInput-zSTGdœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-OpenDsStarAgent-CYVYX{œfieldNameœ:œinput_valueœ,œidœ:œOpenDsStarAgent-CYVYXœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "ChatInput-wgQEP",
-        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-wgQEPœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "OpenDsStarAgent-TN1C4",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œOpenDsStarAgent-TN1C4œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "source": "ChatInput-zSTGd",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-zSTGdœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "OpenDsStarAgent-CYVYX",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œOpenDsStarAgent-CYVYXœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       },
       {
         "animated": false,
@@ -93,7 +93,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "OpenDsStarAgent",
-            "id": "OpenDsStarAgent-TN1C4",
+            "id": "OpenDsStarAgent-CYVYX",
             "name": "response",
             "output_types": [
               "Message"
@@ -101,7 +101,7 @@
           },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "ChatOutput-MJp4A",
+            "id": "ChatOutput-JmTk1",
             "inputTypes": [
               "Data",
               "JSON",
@@ -112,12 +112,12 @@
             "type": "other"
           }
         },
-        "id": "reactflow__edge-OpenDsStarAgent-TN1C4{œdataTypeœ:œOpenDsStarAgentœ,œidœ:œOpenDsStarAgent-TN1C4œ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-MJp4A{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-MJp4Aœ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-OpenDsStarAgent-CYVYX{œdataTypeœ:œOpenDsStarAgentœ,œidœ:œOpenDsStarAgent-CYVYXœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-JmTk1{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-JmTk1œ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "OpenDsStarAgent-TN1C4",
-        "sourceHandle": "{œdataTypeœ:œOpenDsStarAgentœ,œidœ:œOpenDsStarAgent-TN1C4œ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "ChatOutput-MJp4A",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-MJp4Aœ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}"
+        "source": "OpenDsStarAgent-CYVYX",
+        "sourceHandle": "{œdataTypeœ:œOpenDsStarAgentœ,œidœ:œOpenDsStarAgent-CYVYXœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "ChatOutput-JmTk1",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-JmTk1œ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -125,7 +125,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "FileContentRetriever",
-            "id": "FileContentRetriever-f5TBu",
+            "id": "FileContentRetriever-Yhfgz",
             "name": "component_as_tool",
             "output_types": [
               "Tool"
@@ -133,19 +133,19 @@
           },
           "targetHandle": {
             "fieldName": "tools",
-            "id": "OpenDsStarAgent-TN1C4",
+            "id": "OpenDsStarAgent-CYVYX",
             "inputTypes": [
               "Tool"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-FileContentRetriever-f5TBu{œdataTypeœ:œFileContentRetrieverœ,œidœ:œFileContentRetriever-f5TBuœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-OpenDsStarAgent-TN1C4{œfieldNameœ:œtoolsœ,œidœ:œOpenDsStarAgent-TN1C4œ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-FileContentRetriever-Yhfgz{œdataTypeœ:œFileContentRetrieverœ,œidœ:œFileContentRetriever-Yhfgzœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-OpenDsStarAgent-CYVYX{œfieldNameœ:œtoolsœ,œidœ:œOpenDsStarAgent-CYVYXœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "FileContentRetriever-f5TBu",
-        "sourceHandle": "{œdataTypeœ:œFileContentRetrieverœ,œidœ:œFileContentRetriever-f5TBuœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
-        "target": "OpenDsStarAgent-TN1C4",
-        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œOpenDsStarAgent-TN1C4œ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+        "source": "FileContentRetriever-Yhfgz",
+        "sourceHandle": "{œdataTypeœ:œFileContentRetrieverœ,œidœ:œFileContentRetriever-Yhfgzœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
+        "target": "OpenDsStarAgent-CYVYX",
+        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œOpenDsStarAgent-CYVYXœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -153,7 +153,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "Chroma",
-            "id": "Chroma-BMFoU",
+            "id": "Chroma-eMTbF",
             "name": "search_results",
             "output_types": [
               "JSON"
@@ -161,7 +161,7 @@
           },
           "targetHandle": {
             "fieldName": "inputs",
-            "id": "MergeFlows-bm5Cj",
+            "id": "MergeFlows-TfkV5",
             "inputTypes": [
               "Data",
               "DataFrame",
@@ -173,12 +173,12 @@
             "type": "other"
           }
         },
-        "id": "reactflow__edge-Chroma-BMFoU{œdataTypeœ:œChromaœ,œidœ:œChroma-BMFoUœ,œnameœ:œsearch_resultsœ,œoutput_typesœ:[œJSONœ]}-MergeFlows-bm5Cj{œfieldNameœ:œinputsœ,œidœ:œMergeFlows-bm5Cjœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ,œToolœ,œJSONœ,œTableœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-Chroma-eMTbF{œdataTypeœ:œChromaœ,œidœ:œChroma-eMTbFœ,œnameœ:œsearch_resultsœ,œoutput_typesœ:[œJSONœ]}-MergeFlows-TfkV5{œfieldNameœ:œinputsœ,œidœ:œMergeFlows-TfkV5œ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ,œToolœ,œJSONœ,œTableœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "Chroma-BMFoU",
-        "sourceHandle": "{œdataTypeœ:œChromaœ,œidœ:œChroma-BMFoUœ,œnameœ:œsearch_resultsœ,œoutput_typesœ:[œJSONœ]}",
-        "target": "MergeFlows-bm5Cj",
-        "targetHandle": "{œfieldNameœ:œinputsœ,œidœ:œMergeFlows-bm5Cjœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ,œToolœ,œJSONœ,œTableœ],œtypeœ:œotherœ}"
+        "source": "Chroma-eMTbF",
+        "sourceHandle": "{œdataTypeœ:œChromaœ,œidœ:œChroma-eMTbFœ,œnameœ:œsearch_resultsœ,œoutput_typesœ:[œJSONœ]}",
+        "target": "MergeFlows-TfkV5",
+        "targetHandle": "{œfieldNameœ:œinputsœ,œidœ:œMergeFlows-TfkV5œ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ,œToolœ,œJSONœ,œTableœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -186,7 +186,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "FileContentRetriever",
-            "id": "FileContentRetriever-Nt7VT",
+            "id": "FileContentRetriever-353E9",
             "name": "content",
             "output_types": [
               "Message"
@@ -194,7 +194,7 @@
           },
           "targetHandle": {
             "fieldName": "inputs",
-            "id": "MergeFlows-bm5Cj",
+            "id": "MergeFlows-TfkV5",
             "inputTypes": [
               "Data",
               "DataFrame",
@@ -206,12 +206,12 @@
             "type": "other"
           }
         },
-        "id": "reactflow__edge-FileContentRetriever-Nt7VT{œdataTypeœ:œFileContentRetrieverœ,œidœ:œFileContentRetriever-Nt7VTœ,œnameœ:œcontentœ,œoutput_typesœ:[œMessageœ]}-MergeFlows-bm5Cj{œfieldNameœ:œinputsœ,œidœ:œMergeFlows-bm5Cjœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ,œToolœ,œJSONœ,œTableœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-FileContentRetriever-353E9{œdataTypeœ:œFileContentRetrieverœ,œidœ:œFileContentRetriever-353E9œ,œnameœ:œcontentœ,œoutput_typesœ:[œMessageœ]}-MergeFlows-TfkV5{œfieldNameœ:œinputsœ,œidœ:œMergeFlows-TfkV5œ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ,œToolœ,œJSONœ,œTableœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "FileContentRetriever-Nt7VT",
-        "sourceHandle": "{œdataTypeœ:œFileContentRetrieverœ,œidœ:œFileContentRetriever-Nt7VTœ,œnameœ:œcontentœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "MergeFlows-bm5Cj",
-        "targetHandle": "{œfieldNameœ:œinputsœ,œidœ:œMergeFlows-bm5Cjœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ,œToolœ,œJSONœ,œTableœ],œtypeœ:œotherœ}"
+        "source": "FileContentRetriever-353E9",
+        "sourceHandle": "{œdataTypeœ:œFileContentRetrieverœ,œidœ:œFileContentRetriever-353E9œ,œnameœ:œcontentœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "MergeFlows-TfkV5",
+        "targetHandle": "{œfieldNameœ:œinputsœ,œidœ:œMergeFlows-TfkV5œ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ,œToolœ,œJSONœ,œTableœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -219,7 +219,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "OllamaModel",
-            "id": "OllamaModel-roez5",
+            "id": "OllamaModel-7LbmX",
             "name": "model_output",
             "output_types": [
               "LanguageModel"
@@ -227,19 +227,19 @@
           },
           "targetHandle": {
             "fieldName": "llm",
-            "id": "FileDescriptionGeneratorComponent-cRYrx",
+            "id": "FileDescriptionGeneratorComponent-oTrJn",
             "inputTypes": [
               "LanguageModel"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-OllamaModel-roez5{œdataTypeœ:œOllamaModelœ,œidœ:œOllamaModel-roez5œ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-FileDescriptionGeneratorComponent-cRYrx{œfieldNameœ:œllmœ,œidœ:œFileDescriptionGeneratorComponent-cRYrxœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-OllamaModel-7LbmX{œdataTypeœ:œOllamaModelœ,œidœ:œOllamaModel-7LbmXœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-FileDescriptionGeneratorComponent-oTrJn{œfieldNameœ:œllmœ,œidœ:œFileDescriptionGeneratorComponent-oTrJnœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "OllamaModel-roez5",
-        "sourceHandle": "{œdataTypeœ:œOllamaModelœ,œidœ:œOllamaModel-roez5œ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
-        "target": "FileDescriptionGeneratorComponent-cRYrx",
-        "targetHandle": "{œfieldNameœ:œllmœ,œidœ:œFileDescriptionGeneratorComponent-cRYrxœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œotherœ}"
+        "source": "OllamaModel-7LbmX",
+        "sourceHandle": "{œdataTypeœ:œOllamaModelœ,œidœ:œOllamaModel-7LbmXœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
+        "target": "FileDescriptionGeneratorComponent-oTrJn",
+        "targetHandle": "{œfieldNameœ:œllmœ,œidœ:œFileDescriptionGeneratorComponent-oTrJnœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -247,7 +247,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "OllamaModel",
-            "id": "OllamaModel-roez5",
+            "id": "OllamaModel-7LbmX",
             "name": "model_output",
             "output_types": [
               "LanguageModel"
@@ -255,19 +255,19 @@
           },
           "targetHandle": {
             "fieldName": "llm",
-            "id": "OpenDsStarAgent-TN1C4",
+            "id": "OpenDsStarAgent-CYVYX",
             "inputTypes": [
               "LanguageModel"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-OllamaModel-roez5{œdataTypeœ:œOllamaModelœ,œidœ:œOllamaModel-roez5œ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-OpenDsStarAgent-TN1C4{œfieldNameœ:œllmœ,œidœ:œOpenDsStarAgent-TN1C4œ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-OllamaModel-7LbmX{œdataTypeœ:œOllamaModelœ,œidœ:œOllamaModel-7LbmXœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-OpenDsStarAgent-CYVYX{œfieldNameœ:œllmœ,œidœ:œOpenDsStarAgent-CYVYXœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "OllamaModel-roez5",
-        "sourceHandle": "{œdataTypeœ:œOllamaModelœ,œidœ:œOllamaModel-roez5œ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
-        "target": "OpenDsStarAgent-TN1C4",
-        "targetHandle": "{œfieldNameœ:œllmœ,œidœ:œOpenDsStarAgent-TN1C4œ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œotherœ}"
+        "source": "OllamaModel-7LbmX",
+        "sourceHandle": "{œdataTypeœ:œOllamaModelœ,œidœ:œOllamaModel-7LbmXœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
+        "target": "OpenDsStarAgent-CYVYX",
+        "targetHandle": "{œfieldNameœ:œllmœ,œidœ:œOpenDsStarAgent-CYVYXœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -275,7 +275,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "OllamaEmbeddings",
-            "id": "OllamaEmbeddings-flujQ",
+            "id": "OllamaEmbeddings-zAbkk",
             "name": "embeddings",
             "output_types": [
               "Embeddings"
@@ -283,19 +283,19 @@
           },
           "targetHandle": {
             "fieldName": "embedding",
-            "id": "Chroma-BMFoU",
+            "id": "Chroma-eMTbF",
             "inputTypes": [
               "Embeddings"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-OllamaEmbeddings-flujQ{œdataTypeœ:œOllamaEmbeddingsœ,œidœ:œOllamaEmbeddings-flujQœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-Chroma-BMFoU{œfieldNameœ:œembeddingœ,œidœ:œChroma-BMFoUœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-OllamaEmbeddings-zAbkk{œdataTypeœ:œOllamaEmbeddingsœ,œidœ:œOllamaEmbeddings-zAbkkœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-Chroma-eMTbF{œfieldNameœ:œembeddingœ,œidœ:œChroma-eMTbFœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "OllamaEmbeddings-flujQ",
-        "sourceHandle": "{œdataTypeœ:œOllamaEmbeddingsœ,œidœ:œOllamaEmbeddings-flujQœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}",
-        "target": "Chroma-BMFoU",
-        "targetHandle": "{œfieldNameœ:œembeddingœ,œidœ:œChroma-BMFoUœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}"
+        "source": "OllamaEmbeddings-zAbkk",
+        "sourceHandle": "{œdataTypeœ:œOllamaEmbeddingsœ,œidœ:œOllamaEmbeddings-zAbkkœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}",
+        "target": "Chroma-eMTbF",
+        "targetHandle": "{œfieldNameœ:œembeddingœ,œidœ:œChroma-eMTbFœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -303,7 +303,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "OllamaEmbeddings",
-            "id": "OllamaEmbeddings-flujQ",
+            "id": "OllamaEmbeddings-zAbkk",
             "name": "embeddings",
             "output_types": [
               "Embeddings"
@@ -311,19 +311,19 @@
           },
           "targetHandle": {
             "fieldName": "embedding",
-            "id": "Chroma-OfYZq",
+            "id": "Chroma-IkIQx",
             "inputTypes": [
               "Embeddings"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-OllamaEmbeddings-flujQ{œdataTypeœ:œOllamaEmbeddingsœ,œidœ:œOllamaEmbeddings-flujQœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-Chroma-OfYZq{œfieldNameœ:œembeddingœ,œidœ:œChroma-OfYZqœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-OllamaEmbeddings-zAbkk{œdataTypeœ:œOllamaEmbeddingsœ,œidœ:œOllamaEmbeddings-zAbkkœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-Chroma-IkIQx{œfieldNameœ:œembeddingœ,œidœ:œChroma-IkIQxœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "OllamaEmbeddings-flujQ",
-        "sourceHandle": "{œdataTypeœ:œOllamaEmbeddingsœ,œidœ:œOllamaEmbeddings-flujQœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}",
-        "target": "Chroma-OfYZq",
-        "targetHandle": "{œfieldNameœ:œembeddingœ,œidœ:œChroma-OfYZqœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}"
+        "source": "OllamaEmbeddings-zAbkk",
+        "sourceHandle": "{œdataTypeœ:œOllamaEmbeddingsœ,œidœ:œOllamaEmbeddings-zAbkkœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}",
+        "target": "Chroma-IkIQx",
+        "targetHandle": "{œfieldNameœ:œembeddingœ,œidœ:œChroma-IkIQxœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -331,7 +331,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "File",
-            "id": "File-2z7y5",
+            "id": "File-jKAIS",
             "name": "message",
             "output_types": [
               "Message"
@@ -339,7 +339,7 @@
           },
           "targetHandle": {
             "fieldName": "file_data",
-            "id": "FileDescriptionGeneratorComponent-cRYrx",
+            "id": "FileDescriptionGeneratorComponent-oTrJn",
             "inputTypes": [
               "Data",
               "DataFrame",
@@ -348,12 +348,12 @@
             "type": "other"
           }
         },
-        "id": "reactflow__edge-File-2z7y5{œdataTypeœ:œFileœ,œidœ:œFile-2z7y5œ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-FileDescriptionGeneratorComponent-cRYrx{œfieldNameœ:œfile_dataœ,œidœ:œFileDescriptionGeneratorComponent-cRYrxœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-File-jKAIS{œdataTypeœ:œFileœ,œidœ:œFile-jKAISœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-FileDescriptionGeneratorComponent-oTrJn{œfieldNameœ:œfile_dataœ,œidœ:œFileDescriptionGeneratorComponent-oTrJnœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "File-2z7y5",
-        "sourceHandle": "{œdataTypeœ:œFileœ,œidœ:œFile-2z7y5œ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "FileDescriptionGeneratorComponent-cRYrx",
-        "targetHandle": "{œfieldNameœ:œfile_dataœ,œidœ:œFileDescriptionGeneratorComponent-cRYrxœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
+        "source": "File-jKAIS",
+        "sourceHandle": "{œdataTypeœ:œFileœ,œidœ:œFile-jKAISœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "FileDescriptionGeneratorComponent-oTrJn",
+        "targetHandle": "{œfieldNameœ:œfile_dataœ,œidœ:œFileDescriptionGeneratorComponent-oTrJnœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -361,7 +361,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "File",
-            "id": "File-2z7y5",
+            "id": "File-jKAIS",
             "name": "message",
             "output_types": [
               "Message"
@@ -369,7 +369,7 @@
           },
           "targetHandle": {
             "fieldName": "file_data",
-            "id": "FileContentRetriever-Nt7VT",
+            "id": "FileContentRetriever-353E9",
             "inputTypes": [
               "Data",
               "DataFrame",
@@ -378,12 +378,12 @@
             "type": "other"
           }
         },
-        "id": "reactflow__edge-File-2z7y5{œdataTypeœ:œFileœ,œidœ:œFile-2z7y5œ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-FileContentRetriever-Nt7VT{œfieldNameœ:œfile_dataœ,œidœ:œFileContentRetriever-Nt7VTœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-File-jKAIS{œdataTypeœ:œFileœ,œidœ:œFile-jKAISœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-FileContentRetriever-353E9{œfieldNameœ:œfile_dataœ,œidœ:œFileContentRetriever-353E9œ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "File-2z7y5",
-        "sourceHandle": "{œdataTypeœ:œFileœ,œidœ:œFile-2z7y5œ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "FileContentRetriever-Nt7VT",
-        "targetHandle": "{œfieldNameœ:œfile_dataœ,œidœ:œFileContentRetriever-Nt7VTœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
+        "source": "File-jKAIS",
+        "sourceHandle": "{œdataTypeœ:œFileœ,œidœ:œFile-jKAISœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "FileContentRetriever-353E9",
+        "targetHandle": "{œfieldNameœ:œfile_dataœ,œidœ:œFileContentRetriever-353E9œ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -391,7 +391,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "SaveToFile",
-            "id": "SaveToFile-bWLll",
+            "id": "SaveToFile-9FQfI",
             "name": "component_as_tool",
             "output_types": [
               "Tool"
@@ -399,25 +399,25 @@
           },
           "targetHandle": {
             "fieldName": "tools",
-            "id": "OpenDsStarAgent-TN1C4",
+            "id": "OpenDsStarAgent-CYVYX",
             "inputTypes": [
               "Tool"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-SaveToFile-bWLll{œdataTypeœ:œSaveToFileœ,œidœ:œSaveToFile-bWLllœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-OpenDsStarAgent-TN1C4{œfieldNameœ:œtoolsœ,œidœ:œOpenDsStarAgent-TN1C4œ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-SaveToFile-9FQfI{œdataTypeœ:œSaveToFileœ,œidœ:œSaveToFile-9FQfIœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-OpenDsStarAgent-CYVYX{œfieldNameœ:œtoolsœ,œidœ:œOpenDsStarAgent-CYVYXœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "SaveToFile-bWLll",
-        "sourceHandle": "{œdataTypeœ:œSaveToFileœ,œidœ:œSaveToFile-bWLllœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
-        "target": "OpenDsStarAgent-TN1C4",
-        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œOpenDsStarAgent-TN1C4œ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+        "source": "SaveToFile-9FQfI",
+        "sourceHandle": "{œdataTypeœ:œSaveToFileœ,œidœ:œSaveToFile-9FQfIœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
+        "target": "OpenDsStarAgent-CYVYX",
+        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œOpenDsStarAgent-CYVYXœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
       }
     ],
     "nodes": [
       {
         "data": {
-          "id": "OpenDsStarAgent-TN1C4",
+          "id": "OpenDsStarAgent-CYVYX",
           "node": {
             "base_classes": [
               "Message",
@@ -801,9 +801,9 @@
           "type": "OpenDsStarAgent"
         },
         "dragging": false,
-        "id": "OpenDsStarAgent-TN1C4",
+        "id": "OpenDsStarAgent-CYVYX",
         "measured": {
-          "height": 310,
+          "height": 311,
           "width": 320
         },
         "position": {
@@ -815,7 +815,7 @@
       },
       {
         "data": {
-          "id": "FileDescriptionGeneratorComponent-cRYrx",
+          "id": "FileDescriptionGeneratorComponent-oTrJn",
           "node": {
             "base_classes": [
               "JSON"
@@ -1026,9 +1026,9 @@
           "type": "FileDescriptionGeneratorComponent"
         },
         "dragging": false,
-        "id": "FileDescriptionGeneratorComponent-cRYrx",
+        "id": "FileDescriptionGeneratorComponent-oTrJn",
         "measured": {
-          "height": 244,
+          "height": 245,
           "width": 320
         },
         "position": {
@@ -1040,7 +1040,7 @@
       },
       {
         "data": {
-          "id": "File-2z7y5",
+          "id": "File-jKAIS",
           "node": {
             "base_classes": [
               "Message"
@@ -1081,7 +1081,7 @@
             ],
             "frozen": false,
             "icon": "file-text",
-            "last_updated": "2026-06-25T21:14:51.188Z",
+            "last_updated": "2026-06-26T12:13:07.091Z",
             "legacy": false,
             "lf_version": "1.8.1",
             "metadata": {
@@ -1133,10 +1133,10 @@
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
-                "value": "b1417259-cc18-4371-a44a-b659a8cce454"
+                "value": "d7d2d5cd-e195-4328-ac1a-b8e7dbf03c9d"
               },
               "_frontend_node_folder_id": {
-                "value": "d3faa7b1-8308-442a-964e-517a6ffbea16"
+                "value": "511db528-db06-4bf9-bdf0-f13221918e76"
               },
               "_type": "Component",
               "advanced_mode": {
@@ -1767,9 +1767,9 @@
           "type": "File"
         },
         "dragging": false,
-        "id": "File-2z7y5",
+        "id": "File-jKAIS",
         "measured": {
-          "height": 275,
+          "height": 276,
           "width": 320
         },
         "position": {
@@ -1781,7 +1781,7 @@
       },
       {
         "data": {
-          "id": "ChatInput-wgQEP",
+          "id": "ChatInput-zSTGd",
           "node": {
             "base_classes": [
               "Message"
@@ -2062,7 +2062,7 @@
           "type": "ChatInput"
         },
         "dragging": false,
-        "id": "ChatInput-wgQEP",
+        "id": "ChatInput-zSTGd",
         "measured": {
           "height": 52,
           "width": 192
@@ -2076,7 +2076,7 @@
       },
       {
         "data": {
-          "id": "ChatOutput-MJp4A",
+          "id": "ChatOutput-JmTk1",
           "node": {
             "base_classes": [
               "Message"
@@ -2363,7 +2363,7 @@
           "type": "ChatOutput"
         },
         "dragging": false,
-        "id": "ChatOutput-MJp4A",
+        "id": "ChatOutput-JmTk1",
         "measured": {
           "height": 52,
           "width": 192
@@ -2377,7 +2377,7 @@
       },
       {
         "data": {
-          "id": "note-FeM7a",
+          "id": "note-qnCin",
           "node": {
             "description": "# Ingestion Pipeline",
             "display_name": "",
@@ -2391,7 +2391,7 @@
         },
         "dragging": false,
         "height": 949,
-        "id": "note-FeM7a",
+        "id": "note-qnCin",
         "measured": {
           "height": 949,
           "width": 1357
@@ -2407,7 +2407,7 @@
       },
       {
         "data": {
-          "id": "note-xRDNs",
+          "id": "note-9ftWr",
           "node": {
             "description": "# Agent Inference",
             "display_name": "",
@@ -2421,7 +2421,7 @@
         },
         "dragging": false,
         "height": 1152,
-        "id": "note-xRDNs",
+        "id": "note-9ftWr",
         "measured": {
           "height": 1152,
           "width": 1362
@@ -2437,7 +2437,7 @@
       },
       {
         "data": {
-          "id": "note-zywfT",
+          "id": "note-FkADH",
           "node": {
             "description": "## About OpenDsStar and structured data analysis\n\n**OpenDsStar — Structured Data Agent 📚**\n\n[OpenDsStar](https://github.com/IBM/OpenDsStar) is an open-source implementation of the [DS-Star](https://arxiv.org/abs/2509.21825) agent. It keeps the core DS-Star workflow of planning, code generation, execution, debugging, and verification, while using a more practical tool-centric architecture that improves modularity, extensibility, and execution efficiency.\n\nThis Langflow template applies OpenDsStar to **structured data analysis** over tabular datasets such as **CSV, Excel, Parquet, JSON, and TSV**. It enables natural-language exploration, retrieval, and reasoning over uploaded structured data.\n",
             "display_name": "",
@@ -2451,7 +2451,7 @@
         },
         "dragging": false,
         "height": 340,
-        "id": "note-zywfT",
+        "id": "note-FkADH",
         "measured": {
           "height": 340,
           "width": 898
@@ -2467,7 +2467,7 @@
       },
       {
         "data": {
-          "id": "note-IHWwv",
+          "id": "note-c9x8h",
           "node": {
             "description": "# Models",
             "display_name": "",
@@ -2481,7 +2481,7 @@
         },
         "dragging": false,
         "height": 1018,
-        "id": "note-IHWwv",
+        "id": "note-c9x8h",
         "measured": {
           "height": 1018,
           "width": 421
@@ -2497,7 +2497,7 @@
       },
       {
         "data": {
-          "id": "note-rRTbv",
+          "id": "note-t6CBQ",
           "node": {
             "description": "# Data",
             "display_name": "",
@@ -2511,7 +2511,7 @@
         },
         "dragging": false,
         "height": 479,
-        "id": "note-rRTbv",
+        "id": "note-t6CBQ",
         "measured": {
           "height": 479,
           "width": 410
@@ -2527,7 +2527,7 @@
       },
       {
         "data": {
-          "id": "Chroma-BMFoU",
+          "id": "Chroma-eMTbF",
           "node": {
             "base_classes": [
               "JSON",
@@ -2973,9 +2973,9 @@
           "type": "Chroma"
         },
         "dragging": false,
-        "id": "Chroma-BMFoU",
+        "id": "Chroma-eMTbF",
         "measured": {
-          "height": 458,
+          "height": 459,
           "width": 320
         },
         "position": {
@@ -2987,7 +2987,7 @@
       },
       {
         "data": {
-          "id": "Chroma-OfYZq",
+          "id": "Chroma-IkIQx",
           "node": {
             "base_classes": [
               "JSON",
@@ -3019,7 +3019,7 @@
             ],
             "frozen": false,
             "icon": "Chroma",
-            "last_updated": "2026-06-25T21:14:49.344Z",
+            "last_updated": "2026-06-26T12:13:06.969Z",
             "legacy": false,
             "lf_version": "1.8.1",
             "metadata": {
@@ -3076,10 +3076,10 @@
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
-                "value": "b1417259-cc18-4371-a44a-b659a8cce454"
+                "value": "d7d2d5cd-e195-4328-ac1a-b8e7dbf03c9d"
               },
               "_frontend_node_folder_id": {
-                "value": "d3faa7b1-8308-442a-964e-517a6ffbea16"
+                "value": "511db528-db06-4bf9-bdf0-f13221918e76"
               },
               "_type": "Component",
               "allow_duplicates": {
@@ -3491,9 +3491,9 @@
           "type": "Chroma"
         },
         "dragging": false,
-        "id": "Chroma-OfYZq",
+        "id": "Chroma-IkIQx",
         "measured": {
-          "height": 462,
+          "height": 463,
           "width": 320
         },
         "position": {
@@ -3505,7 +3505,7 @@
       },
       {
         "data": {
-          "id": "FileContentRetriever-Nt7VT",
+          "id": "FileContentRetriever-353E9",
           "node": {
             "base_classes": [
               "Message",
@@ -3675,9 +3675,9 @@
           "type": "FileContentRetriever"
         },
         "dragging": false,
-        "id": "FileContentRetriever-Nt7VT",
+        "id": "FileContentRetriever-353E9",
         "measured": {
-          "height": 364,
+          "height": 365,
           "width": 320
         },
         "position": {
@@ -3689,7 +3689,7 @@
       },
       {
         "data": {
-          "id": "FileContentRetriever-f5TBu",
+          "id": "FileContentRetriever-Yhfgz",
           "node": {
             "base_classes": [
               "Message",
@@ -3709,7 +3709,7 @@
             ],
             "frozen": false,
             "icon": "file-text",
-            "last_updated": "2026-06-25T21:14:49.346Z",
+            "last_updated": "2026-06-26T12:13:06.970Z",
             "legacy": false,
             "lf_version": "1.8.1",
             "metadata": {
@@ -3754,10 +3754,10 @@
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
-                "value": "b1417259-cc18-4371-a44a-b659a8cce454"
+                "value": "d7d2d5cd-e195-4328-ac1a-b8e7dbf03c9d"
               },
               "_frontend_node_folder_id": {
-                "value": "d3faa7b1-8308-442a-964e-517a6ffbea16"
+                "value": "511db528-db06-4bf9-bdf0-f13221918e76"
               },
               "_type": "Component",
               "code": {
@@ -3917,9 +3917,9 @@
           "type": "FileContentRetriever"
         },
         "dragging": false,
-        "id": "FileContentRetriever-f5TBu",
+        "id": "FileContentRetriever-Yhfgz",
         "measured": {
-          "height": 396,
+          "height": 397,
           "width": 320
         },
         "position": {
@@ -3931,7 +3931,7 @@
       },
       {
         "data": {
-          "id": "MergeFlows-bm5Cj",
+          "id": "MergeFlows-TfkV5",
           "node": {
             "base_classes": [
               "Message"
@@ -4036,9 +4036,9 @@
           "type": "MergeFlows"
         },
         "dragging": false,
-        "id": "MergeFlows-bm5Cj",
+        "id": "MergeFlows-TfkV5",
         "measured": {
-          "height": 184,
+          "height": 185,
           "width": 320
         },
         "position": {
@@ -4050,7 +4050,7 @@
       },
       {
         "data": {
-          "id": "OllamaModel-roez5",
+          "id": "OllamaModel-7LbmX",
           "node": {
             "base_classes": [
               "JSON",
@@ -4097,11 +4097,9 @@
             ],
             "frozen": false,
             "icon": "Ollama",
-            "last_updated": "2026-06-25T21:14:49.357Z",
             "legacy": false,
-            "lf_version": "1.8.1",
             "metadata": {
-              "code_hash": "2aa7e6ecf48c",
+              "code_hash": "0f49f2dd2972",
               "dependencies": {
                 "dependencies": [
                   {
@@ -4125,7 +4123,7 @@
                 "language model",
                 "large language model"
               ],
-              "module": "lfx.components.ollama.ollama.ChatOllamaComponent"
+              "module": "custom_components.ollama"
             },
             "minimized": false,
             "output_types": [],
@@ -4201,12 +4199,6 @@
             ],
             "pinned": false,
             "template": {
-              "_frontend_node_flow_id": {
-                "value": "b1417259-cc18-4371-a44a-b659a8cce454"
-              },
-              "_frontend_node_folder_id": {
-                "value": "d3faa7b1-8308-442a-964e-517a6ffbea16"
-              },
               "_type": "Component",
               "api_key": {
                 "_input_type": "SecretStrInput",
@@ -4266,7 +4258,7 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "import asyncio\nimport json\nfrom contextlib import suppress\nfrom typing import Any\nfrom urllib.parse import urljoin\n\nimport httpx\nfrom langchain_ollama import ChatOllama\n\nfrom lfx.base.models.model import LCModelComponent\nfrom lfx.field_typing import LanguageModel\nfrom lfx.field_typing.range_spec import RangeSpec\nfrom lfx.helpers.base_model import build_model_from_schema\nfrom lfx.io import (\n    BoolInput,\n    DictInput,\n    DropdownInput,\n    FloatInput,\n    IntInput,\n    MessageTextInput,\n    Output,\n    SecretStrInput,\n    SliderInput,\n    StrInput,\n    TableInput,\n)\nfrom lfx.log.logger import logger\nfrom lfx.schema.data import Data\nfrom lfx.schema.dataframe import DataFrame\nfrom lfx.schema.table import EditMode\nfrom lfx.utils.util import transform_localhost_url\n\nHTTP_STATUS_OK = 200\nTABLE_ROW_PLACEHOLDER = {\"name\": \"field\", \"description\": \"description of field\", \"type\": \"str\", \"multiple\": \"False\"}\n\n\nclass ChatOllamaComponent(LCModelComponent):\n    display_name = \"Ollama\"\n    description = \"Generate text using Ollama Local LLMs.\"\n    icon = \"Ollama\"\n    name = \"OllamaModel\"\n\n    # Define constants for JSON keys\n    JSON_MODELS_KEY = \"models\"\n    JSON_NAME_KEY = \"name\"\n    JSON_CAPABILITIES_KEY = \"capabilities\"\n    DESIRED_CAPABILITY = \"completion\"\n    TOOL_CALLING_CAPABILITY = \"tools\"\n\n    # Define the table schema for the format input\n    TABLE_SCHEMA = [\n        {\n            \"name\": \"name\",\n            \"display_name\": \"Name\",\n            \"type\": \"str\",\n            \"description\": \"Specify the name of the output field.\",\n            \"default\": \"field\",\n            \"edit_mode\": EditMode.INLINE,\n        },\n        {\n            \"name\": \"description\",\n            \"display_name\": \"Description\",\n            \"type\": \"str\",\n            \"description\": \"Describe the purpose of the output field.\",\n            \"default\": \"description of field\",\n            \"edit_mode\": EditMode.POPOVER,\n        },\n        {\n            \"name\": \"type\",\n            \"display_name\": \"Type\",\n            \"type\": \"str\",\n            \"edit_mode\": EditMode.INLINE,\n            \"description\": (\"Indicate the data type of the output field (e.g., str, int, float, bool, dict).\"),\n            \"options\": [\"str\", \"int\", \"float\", \"bool\", \"dict\"],\n            \"default\": \"str\",\n        },\n        {\n            \"name\": \"multiple\",\n            \"display_name\": \"As List\",\n            \"type\": \"boolean\",\n            \"description\": \"Set to True if this output field should be a list of the specified type.\",\n            \"edit_mode\": EditMode.INLINE,\n            \"options\": [\"True\", \"False\"],\n            \"default\": \"False\",\n        },\n    ]\n    default_table_row = {row[\"name\"]: row.get(\"default\", None) for row in TABLE_SCHEMA}\n    default_table_row_schema = build_model_from_schema([default_table_row]).model_json_schema()\n\n    inputs = [\n        StrInput(\n            name=\"base_url\",\n            display_name=\"Ollama API URL\",\n            info=\"Endpoint of the Ollama API. Defaults to http://localhost:11434.\",\n            value=\"http://localhost:11434\",\n            real_time_refresh=True,\n        ),\n        DropdownInput(\n            name=\"model_name\",\n            display_name=\"Model Name\",\n            options=[],\n            info=\"Refer to https://ollama.com/library for more models.\",\n            refresh_button=True,\n            real_time_refresh=True,\n            required=True,\n        ),\n        SecretStrInput(\n            name=\"api_key\",\n            display_name=\"Ollama API Key\",\n            info=\"Your Ollama API key.\",\n            value=None,\n            required=False,\n            real_time_refresh=True,\n            advanced=True,\n        ),\n        SliderInput(\n            name=\"temperature\",\n            display_name=\"Temperature\",\n            value=0.1,\n            range_spec=RangeSpec(min=0, max=1, step=0.01),\n            advanced=True,\n        ),\n        TableInput(\n            name=\"format\",\n            display_name=\"Format\",\n            info=\"Specify the format of the output.\",\n            table_schema=TABLE_SCHEMA,\n            value=default_table_row,\n            show=False,\n        ),\n        DictInput(name=\"metadata\", display_name=\"Metadata\", info=\"Metadata to add to the run trace.\", advanced=True),\n        DropdownInput(\n            name=\"mirostat\",\n            display_name=\"Mirostat\",\n            options=[\"Disabled\", \"Mirostat\", \"Mirostat 2.0\"],\n            info=\"Enable/disable Mirostat sampling for controlling perplexity.\",\n            value=\"Disabled\",\n            advanced=True,\n            real_time_refresh=True,\n        ),\n        FloatInput(\n            name=\"mirostat_eta\",\n            display_name=\"Mirostat Eta\",\n            info=\"Learning rate for Mirostat algorithm. (Default: 0.1)\",\n            advanced=True,\n        ),\n        FloatInput(\n            name=\"mirostat_tau\",\n            display_name=\"Mirostat Tau\",\n            info=\"Controls the balance between coherence and diversity of the output. (Default: 5.0)\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"num_ctx\",\n            display_name=\"Context Window Size\",\n            info=\"Size of the context window for generating tokens. (Default: 2048)\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"num_gpu\",\n            display_name=\"Number of GPUs\",\n            info=\"Number of GPUs to use for computation. (Default: 1 on macOS, 0 to disable)\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"num_thread\",\n            display_name=\"Number of Threads\",\n            info=\"Number of threads to use during computation. (Default: detected for optimal performance)\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"repeat_last_n\",\n            display_name=\"Repeat Last N\",\n            info=\"How far back the model looks to prevent repetition. (Default: 64, 0 = disabled, -1 = num_ctx)\",\n            advanced=True,\n        ),\n        FloatInput(\n            name=\"repeat_penalty\",\n            display_name=\"Repeat Penalty\",\n            info=\"Penalty for repetitions in generated text. (Default: 1.1)\",\n            advanced=True,\n        ),\n        FloatInput(name=\"tfs_z\", display_name=\"TFS Z\", info=\"Tail free sampling value. (Default: 1)\", advanced=True),\n        IntInput(name=\"timeout\", display_name=\"Timeout\", info=\"Timeout for the request stream.\", advanced=True),\n        IntInput(\n            name=\"top_k\", display_name=\"Top K\", info=\"Limits token selection to top K. (Default: 40)\", advanced=True\n        ),\n        FloatInput(name=\"top_p\", display_name=\"Top P\", info=\"Works together with top-k. (Default: 0.9)\", advanced=True),\n        BoolInput(\n            name=\"enable_verbose_output\",\n            display_name=\"Ollama Verbose Output\",\n            info=\"Whether to print out response text.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"tags\",\n            display_name=\"Tags\",\n            info=\"Comma-separated list of tags to add to the run trace.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"stop_tokens\",\n            display_name=\"Stop Tokens\",\n            info=\"Comma-separated list of tokens to signal the model to stop generating text.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"system\", display_name=\"System\", info=\"System to use for generating text.\", advanced=True\n        ),\n        BoolInput(\n            name=\"tool_model_enabled\",\n            display_name=\"Tool Model Enabled\",\n            info=\"Whether to enable tool calling in the model.\",\n            value=True,\n            real_time_refresh=True,\n        ),\n        MessageTextInput(\n            name=\"template\", display_name=\"Template\", info=\"Template to use for generating text.\", advanced=True\n        ),\n        BoolInput(\n            name=\"enable_structured_output\",\n            display_name=\"Enable Structured Output\",\n            info=\"Whether to enable structured output in the model.\",\n            value=False,\n            advanced=False,\n            real_time_refresh=True,\n        ),\n        *LCModelComponent.get_base_inputs(),\n    ]\n\n    outputs = [\n        Output(display_name=\"Text\", name=\"text_output\", method=\"text_response\"),\n        Output(display_name=\"Language Model\", name=\"model_output\", method=\"build_model\"),\n        Output(display_name=\"JSON\", name=\"data_output\", method=\"build_data_output\"),\n        Output(display_name=\"Table\", name=\"dataframe_output\", method=\"build_dataframe_output\"),\n    ]\n\n    def build_model(self) -> LanguageModel:  # type: ignore[type-var]\n        # Mapping mirostat settings to their corresponding values\n        mirostat_options = {\"Mirostat\": 1, \"Mirostat 2.0\": 2}\n\n        # Default to None for 'Disabled'\n        mirostat_value = mirostat_options.get(self.mirostat, None)\n\n        # Set mirostat_eta and mirostat_tau to None if mirostat is disabled\n        if mirostat_value is None:\n            mirostat_eta = None\n            mirostat_tau = None\n        else:\n            mirostat_eta = self.mirostat_eta\n            mirostat_tau = self.mirostat_tau\n\n        transformed_base_url = transform_localhost_url(self.base_url)\n\n        # Check if URL contains /v1 suffix (OpenAI-compatible mode)\n        if transformed_base_url and transformed_base_url.rstrip(\"/\").endswith(\"/v1\"):\n            # Strip /v1 suffix and log warning\n            transformed_base_url = transformed_base_url.rstrip(\"/\").removesuffix(\"/v1\")\n            logger.warning(\n                \"Detected '/v1' suffix in base URL. The Ollama component uses the native Ollama API, \"\n                \"not the OpenAI-compatible API. The '/v1' suffix has been automatically removed. \"\n                \"If you want to use the OpenAI-compatible API, please use the OpenAI component instead. \"\n                \"Learn more at https://docs.ollama.com/openai#openai-compatibility\"\n            )\n\n        try:\n            output_format = self._parse_format_field(self.format) if self.enable_structured_output else None\n        except Exception as e:\n            msg = f\"Failed to parse the format field: {e}\"\n            raise ValueError(msg) from e\n\n        # Mapping system settings to their corresponding values\n        llm_params = {\n            \"base_url\": transformed_base_url,\n            \"model\": self.model_name,\n            \"mirostat\": mirostat_value,\n            \"format\": output_format or None,\n            \"metadata\": self.metadata,\n            \"tags\": self.tags.split(\",\") if self.tags else None,\n            \"mirostat_eta\": mirostat_eta,\n            \"mirostat_tau\": mirostat_tau,\n            \"num_ctx\": self.num_ctx or None,\n            \"num_gpu\": self.num_gpu or None,\n            \"num_thread\": self.num_thread or None,\n            \"repeat_last_n\": self.repeat_last_n or None,\n            \"repeat_penalty\": self.repeat_penalty or None,\n            \"temperature\": self.temperature or None,\n            \"stop\": self.stop_tokens.split(\",\") if self.stop_tokens else None,\n            \"system\": self.system,\n            \"tfs_z\": self.tfs_z or None,\n            \"timeout\": self.timeout or None,\n            \"top_k\": self.top_k or None,\n            \"top_p\": self.top_p or None,\n            \"verbose\": self.enable_verbose_output or False,\n            \"template\": self.template,\n        }\n        headers = self.headers\n        if headers is not None:\n            llm_params[\"client_kwargs\"] = {\"headers\": headers}\n\n        # Remove parameters with None values\n        llm_params = {k: v for k, v in llm_params.items() if v is not None}\n\n        try:\n            output = ChatOllama(**llm_params)\n        except Exception as e:\n            msg = (\n                \"Unable to connect to the Ollama API. \"\n                \"Please verify the base URL, ensure the relevant Ollama model is pulled, and try again.\"\n            )\n            raise ValueError(msg) from e\n\n        return output\n\n    async def is_valid_ollama_url(self, url: str) -> bool:\n        try:\n            async with httpx.AsyncClient() as client:\n                url = transform_localhost_url(url)\n                if not url:\n                    return False\n                # Strip /v1 suffix if present, as Ollama API endpoints are at root level\n                url = url.rstrip(\"/\").removesuffix(\"/v1\")\n                if not url.endswith(\"/\"):\n                    url = url + \"/\"\n                return (\n                    await client.get(url=urljoin(url, \"api/tags\"), headers=self.headers)\n                ).status_code == HTTP_STATUS_OK\n        except httpx.RequestError:\n            return False\n\n    async def update_build_config(self, build_config: dict, field_value: Any, field_name: str | None = None):\n        if field_name == \"enable_structured_output\":  # bind enable_structured_output boolean to format show value\n            build_config[\"format\"][\"show\"] = field_value\n\n        if field_name == \"mirostat\":\n            if field_value == \"Disabled\":\n                build_config[\"mirostat_eta\"][\"advanced\"] = True\n                build_config[\"mirostat_tau\"][\"advanced\"] = True\n                build_config[\"mirostat_eta\"][\"value\"] = None\n                build_config[\"mirostat_tau\"][\"value\"] = None\n\n            else:\n                build_config[\"mirostat_eta\"][\"advanced\"] = False\n                build_config[\"mirostat_tau\"][\"advanced\"] = False\n\n                if field_value == \"Mirostat 2.0\":\n                    build_config[\"mirostat_eta\"][\"value\"] = 0.2\n                    build_config[\"mirostat_tau\"][\"value\"] = 10\n                else:\n                    build_config[\"mirostat_eta\"][\"value\"] = 0.1\n                    build_config[\"mirostat_tau\"][\"value\"] = 5\n\n        if field_name in {\"model_name\", \"base_url\", \"tool_model_enabled\"}:\n            # Use field_value if base_url is being updated, otherwise use self.base_url\n            base_url_to_check = field_value if field_name == \"base_url\" else self.base_url\n            # Fallback to self.base_url if field_value is None or empty\n            if not base_url_to_check and field_name == \"base_url\":\n                base_url_to_check = self.base_url\n            logger.warning(f\"Fetching Ollama models from updated URL: {base_url_to_check}\")\n\n            if base_url_to_check and await self.is_valid_ollama_url(base_url_to_check):\n                tool_model_enabled = build_config[\"tool_model_enabled\"].get(\"value\", False) or self.tool_model_enabled\n                build_config[\"model_name\"][\"options\"] = await self.get_models(\n                    base_url_to_check, tool_model_enabled=tool_model_enabled\n                )\n            else:\n                build_config[\"model_name\"][\"options\"] = []\n        if field_name == \"keep_alive_flag\":\n            if field_value == \"Keep\":\n                build_config[\"keep_alive\"][\"value\"] = \"-1\"\n                build_config[\"keep_alive\"][\"advanced\"] = True\n            elif field_value == \"Immediately\":\n                build_config[\"keep_alive\"][\"value\"] = \"0\"\n                build_config[\"keep_alive\"][\"advanced\"] = True\n            else:\n                build_config[\"keep_alive\"][\"advanced\"] = False\n\n        return build_config\n\n    async def get_models(self, base_url_value: str, *, tool_model_enabled: bool | None = None) -> list[str]:\n        \"\"\"Fetches a list of models from the Ollama API suitable for text generation.\n\n        Args:\n            base_url_value (str): The base URL of the Ollama API.\n            tool_model_enabled (bool | None, optional): If True, filters the models further to include\n                only those that support tool calling. Defaults to None.\n\n        Returns:\n            list[str]: A list of model names suitable for text generation. Models are included if:\n                - They have the \"completion\" capability, OR\n                - The capabilities field is not returned (backwards compatibility with older Ollama versions)\n                If `tool_model_enabled` is True, only models with verified \"tools\" capability are included\n                (models without capabilities info are excluded in this case).\n\n        Raises:\n            ValueError: If there is an issue with the API request or response, or if the model\n                names cannot be retrieved.\n        \"\"\"\n        try:\n            # Strip /v1 suffix if present, as Ollama API endpoints are at root level\n            base_url = base_url_value.rstrip(\"/\").removesuffix(\"/v1\")\n            if not base_url.endswith(\"/\"):\n                base_url = base_url + \"/\"\n            base_url = transform_localhost_url(base_url)\n\n            # Ollama REST API to return models\n            tags_url = urljoin(base_url, \"api/tags\")\n\n            # Ollama REST API to return model capabilities\n            show_url = urljoin(base_url, \"api/show\")\n\n            async with httpx.AsyncClient() as client:\n                headers = self.headers\n                # Fetch available models\n                tags_response = await client.get(url=tags_url, headers=headers)\n                tags_response.raise_for_status()\n                models = tags_response.json()\n                if asyncio.iscoroutine(models):\n                    models = await models\n                await logger.adebug(f\"Available models: {models}\")\n\n                # Filter models that are NOT embedding models\n                model_ids = []\n                for model in models[self.JSON_MODELS_KEY]:\n                    model_name = model[self.JSON_NAME_KEY]\n                    await logger.adebug(f\"Checking model: {model_name}\")\n\n                    payload = {\"model\": model_name}\n                    show_response = await client.post(url=show_url, json=payload, headers=headers)\n                    show_response.raise_for_status()\n                    json_data = show_response.json()\n                    if asyncio.iscoroutine(json_data):\n                        json_data = await json_data\n\n                    capabilities = json_data.get(self.JSON_CAPABILITIES_KEY)\n                    await logger.adebug(f\"Model: {model_name}, Capabilities: {capabilities}\")\n\n                    # If capabilities not provided, assume it's a completion model (backwards compatibility\n                    # with older Ollama versions that don't return capabilities from /api/show)\n                    if capabilities is None:\n                        if not tool_model_enabled:\n                            model_ids.append(model_name)\n                        # If tool_model_enabled is True but no capabilities info, skip the model\n                        # since we can't verify tool support\n                    elif self.DESIRED_CAPABILITY in capabilities and (\n                        not tool_model_enabled or self.TOOL_CALLING_CAPABILITY in capabilities\n                    ):\n                        model_ids.append(model_name)\n\n        except (httpx.RequestError, ValueError) as e:\n            msg = \"Could not get model names from Ollama.\"\n            raise ValueError(msg) from e\n\n        return model_ids\n\n    def _parse_format_field(self, format_value: Any) -> Any:\n        \"\"\"Parse the format field to handle both string and dict inputs.\n\n        The format field can be:\n        - A simple string like \"json\" (backward compatibility)\n        - A JSON string from NestedDictInput that needs parsing\n        - A dict/JSON schema (already parsed)\n        - None or empty\n\n        Args:\n            format_value: The raw format value from the input field\n\n        Returns:\n            Parsed format value as string, dict, or None\n        \"\"\"\n        if not format_value:\n            return None\n\n        schema = format_value\n        if isinstance(format_value, list):\n            schema = build_model_from_schema(format_value).model_json_schema()\n            if schema == self.default_table_row_schema:\n                return None  # the rows are generic placeholder rows\n        elif isinstance(format_value, str):  # parse as json if string\n            with suppress(json.JSONDecodeError):  # e.g., literal \"json\" is valid for format field\n                schema = json.loads(format_value)\n\n        return schema or None\n\n    async def _parse_json_response(self) -> Any:\n        \"\"\"Parse the JSON response from the model.\n\n        This method gets the text response and attempts to parse it as JSON.\n        Works with models that have format='json' or a JSON schema set.\n\n        Returns:\n            Parsed JSON (dict, list, or primitive type)\n\n        Raises:\n            ValueError: If the response is not valid JSON\n        \"\"\"\n        message = await self.text_response()\n        text = message.text if hasattr(message, \"text\") else str(message)\n\n        if not text:\n            msg = \"No response from model\"\n            raise ValueError(msg)\n\n        try:\n            return json.loads(text)\n        except json.JSONDecodeError as e:\n            msg = f\"Invalid JSON response. Ensure model supports JSON output. Error: {e}\"\n            raise ValueError(msg) from e\n\n    async def build_data_output(self) -> Data:\n        \"\"\"Build a Data output from the model's JSON response.\n\n        Returns:\n            Data: A Data object containing the parsed JSON response\n        \"\"\"\n        parsed = await self._parse_json_response()\n\n        # If the response is already a dict, wrap it in Data\n        if isinstance(parsed, dict):\n            return Data(data=parsed)\n\n        # If it's a list, wrap in a results container\n        if isinstance(parsed, list):\n            if len(parsed) == 1:\n                return Data(data=parsed[0])\n            return Data(data={\"results\": parsed})\n\n        # For primitive types, wrap in a value container\n        return Data(data={\"value\": parsed})\n\n    async def build_dataframe_output(self) -> DataFrame:\n        \"\"\"Build a DataFrame output from the model's JSON response.\n\n        Returns:\n            DataFrame: A DataFrame containing the parsed JSON response\n\n        Raises:\n            ValueError: If the response cannot be converted to a DataFrame\n        \"\"\"\n        parsed = await self._parse_json_response()\n\n        # If it's a list of dicts, convert directly to DataFrame\n        if isinstance(parsed, list):\n            if not parsed:\n                return DataFrame()\n            # Ensure all items are dicts for proper DataFrame conversion\n            if all(isinstance(item, dict) for item in parsed):\n                return DataFrame(parsed)\n            msg = \"List items must be dictionaries to convert to DataFrame\"\n            raise ValueError(msg)\n\n        # If it's a single dict, wrap in a list to create a single-row DataFrame\n        if isinstance(parsed, dict):\n            return DataFrame([parsed])\n\n        # For primitive types, create a single-column DataFrame\n        return DataFrame([{\"value\": parsed}])\n\n    @property\n    def headers(self) -> dict[str, str] | None:\n        \"\"\"Get the headers for the Ollama API.\"\"\"\n        if self.api_key and self.api_key.strip():\n            return {\"Authorization\": f\"Bearer {self.api_key}\"}\n        return None\n"
+                "value": "import asyncio\nimport json\nfrom contextlib import suppress\nfrom typing import Any\nfrom urllib.parse import urljoin\n\nimport httpx\nfrom langchain_ollama import ChatOllama\n\nfrom lfx.base.models.model import LCModelComponent\nfrom lfx.field_typing import LanguageModel\nfrom lfx.field_typing.range_spec import RangeSpec\nfrom lfx.helpers.base_model import build_model_from_schema\nfrom lfx.io import (\n    BoolInput,\n    DictInput,\n    DropdownInput,\n    FloatInput,\n    IntInput,\n    MessageTextInput,\n    Output,\n    SecretStrInput,\n    SliderInput,\n    StrInput,\n    TableInput,\n)\nfrom lfx.log.logger import logger\nfrom lfx.schema.data import Data\nfrom lfx.schema.dataframe import DataFrame\nfrom lfx.schema.table import EditMode\nfrom lfx.utils.ssrf_httpx import (\n    ssrf_protected_httpx_client_kwargs_for_url,\n    ssrf_safe_async_get,\n    ssrf_safe_async_post,\n)\nfrom lfx.utils.ssrf_protection import SSRFProtectionError\nfrom lfx.utils.util import transform_localhost_url\n\nHTTP_STATUS_OK = 200\nTABLE_ROW_PLACEHOLDER = {\"name\": \"field\", \"description\": \"description of field\", \"type\": \"str\", \"multiple\": \"False\"}\n\n\nclass ChatOllamaComponent(LCModelComponent):\n    display_name = \"Ollama\"\n    description = \"Generate text using Ollama Local LLMs.\"\n    icon = \"Ollama\"\n    name = \"OllamaModel\"\n\n    # Define constants for JSON keys\n    JSON_MODELS_KEY = \"models\"\n    JSON_NAME_KEY = \"name\"\n    JSON_CAPABILITIES_KEY = \"capabilities\"\n    DESIRED_CAPABILITY = \"completion\"\n    TOOL_CALLING_CAPABILITY = \"tools\"\n\n    # Define the table schema for the format input\n    TABLE_SCHEMA = [\n        {\n            \"name\": \"name\",\n            \"display_name\": \"Name\",\n            \"type\": \"str\",\n            \"description\": \"Specify the name of the output field.\",\n            \"default\": \"field\",\n            \"edit_mode\": EditMode.INLINE,\n        },\n        {\n            \"name\": \"description\",\n            \"display_name\": \"Description\",\n            \"type\": \"str\",\n            \"description\": \"Describe the purpose of the output field.\",\n            \"default\": \"description of field\",\n            \"edit_mode\": EditMode.POPOVER,\n        },\n        {\n            \"name\": \"type\",\n            \"display_name\": \"Type\",\n            \"type\": \"str\",\n            \"edit_mode\": EditMode.INLINE,\n            \"description\": (\"Indicate the data type of the output field (e.g., str, int, float, bool, dict).\"),\n            \"options\": [\"str\", \"int\", \"float\", \"bool\", \"dict\"],\n            \"default\": \"str\",\n        },\n        {\n            \"name\": \"multiple\",\n            \"display_name\": \"As List\",\n            \"type\": \"boolean\",\n            \"description\": \"Set to True if this output field should be a list of the specified type.\",\n            \"edit_mode\": EditMode.INLINE,\n            \"options\": [\"True\", \"False\"],\n            \"default\": \"False\",\n        },\n    ]\n    default_table_row = {row[\"name\"]: row.get(\"default\", None) for row in TABLE_SCHEMA}\n    default_table_row_schema = build_model_from_schema([default_table_row]).model_json_schema()\n\n    inputs = [\n        StrInput(\n            name=\"base_url\",\n            display_name=\"Ollama API URL\",\n            info=\"Endpoint of the Ollama API. Defaults to http://localhost:11434.\",\n            value=\"http://localhost:11434\",\n            real_time_refresh=True,\n        ),\n        DropdownInput(\n            name=\"model_name\",\n            display_name=\"Model Name\",\n            options=[],\n            info=\"Refer to https://ollama.com/library for more models.\",\n            refresh_button=True,\n            real_time_refresh=True,\n            required=True,\n        ),\n        SecretStrInput(\n            name=\"api_key\",\n            display_name=\"Ollama API Key\",\n            info=\"Your Ollama API key.\",\n            value=None,\n            required=False,\n            real_time_refresh=True,\n            advanced=True,\n        ),\n        SliderInput(\n            name=\"temperature\",\n            display_name=\"Temperature\",\n            value=0.1,\n            range_spec=RangeSpec(min=0, max=1, step=0.01),\n            advanced=True,\n        ),\n        TableInput(\n            name=\"format\",\n            display_name=\"Format\",\n            info=\"Specify the format of the output.\",\n            table_schema=TABLE_SCHEMA,\n            value=default_table_row,\n            show=False,\n        ),\n        DictInput(name=\"metadata\", display_name=\"Metadata\", info=\"Metadata to add to the run trace.\", advanced=True),\n        DropdownInput(\n            name=\"mirostat\",\n            display_name=\"Mirostat\",\n            options=[\"Disabled\", \"Mirostat\", \"Mirostat 2.0\"],\n            info=\"Enable/disable Mirostat sampling for controlling perplexity.\",\n            value=\"Disabled\",\n            advanced=True,\n            real_time_refresh=True,\n        ),\n        FloatInput(\n            name=\"mirostat_eta\",\n            display_name=\"Mirostat Eta\",\n            info=\"Learning rate for Mirostat algorithm. (Default: 0.1)\",\n            advanced=True,\n        ),\n        FloatInput(\n            name=\"mirostat_tau\",\n            display_name=\"Mirostat Tau\",\n            info=\"Controls the balance between coherence and diversity of the output. (Default: 5.0)\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"num_ctx\",\n            display_name=\"Context Window Size\",\n            info=\"Size of the context window for generating tokens. (Default: 2048)\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"num_gpu\",\n            display_name=\"Number of GPUs\",\n            info=\"Number of GPUs to use for computation. (Default: 1 on macOS, 0 to disable)\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"num_thread\",\n            display_name=\"Number of Threads\",\n            info=\"Number of threads to use during computation. (Default: detected for optimal performance)\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"repeat_last_n\",\n            display_name=\"Repeat Last N\",\n            info=\"How far back the model looks to prevent repetition. (Default: 64, 0 = disabled, -1 = num_ctx)\",\n            advanced=True,\n        ),\n        FloatInput(\n            name=\"repeat_penalty\",\n            display_name=\"Repeat Penalty\",\n            info=\"Penalty for repetitions in generated text. (Default: 1.1)\",\n            advanced=True,\n        ),\n        FloatInput(name=\"tfs_z\", display_name=\"TFS Z\", info=\"Tail free sampling value. (Default: 1)\", advanced=True),\n        IntInput(name=\"timeout\", display_name=\"Timeout\", info=\"Timeout for the request stream.\", advanced=True),\n        IntInput(\n            name=\"top_k\", display_name=\"Top K\", info=\"Limits token selection to top K. (Default: 40)\", advanced=True\n        ),\n        FloatInput(name=\"top_p\", display_name=\"Top P\", info=\"Works together with top-k. (Default: 0.9)\", advanced=True),\n        BoolInput(\n            name=\"enable_verbose_output\",\n            display_name=\"Ollama Verbose Output\",\n            info=\"Whether to print out response text.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"tags\",\n            display_name=\"Tags\",\n            info=\"Comma-separated list of tags to add to the run trace.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"stop_tokens\",\n            display_name=\"Stop Tokens\",\n            info=\"Comma-separated list of tokens to signal the model to stop generating text.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"system\", display_name=\"System\", info=\"System to use for generating text.\", advanced=True\n        ),\n        BoolInput(\n            name=\"tool_model_enabled\",\n            display_name=\"Tool Model Enabled\",\n            info=\"Whether to enable tool calling in the model.\",\n            value=True,\n            real_time_refresh=True,\n        ),\n        MessageTextInput(\n            name=\"template\", display_name=\"Template\", info=\"Template to use for generating text.\", advanced=True\n        ),\n        BoolInput(\n            name=\"enable_structured_output\",\n            display_name=\"Enable Structured Output\",\n            info=\"Whether to enable structured output in the model.\",\n            value=False,\n            advanced=False,\n            real_time_refresh=True,\n        ),\n        *LCModelComponent.get_base_inputs(),\n    ]\n\n    outputs = [\n        Output(display_name=\"Text\", name=\"text_output\", method=\"text_response\"),\n        Output(display_name=\"Language Model\", name=\"model_output\", method=\"build_model\"),\n        Output(display_name=\"JSON\", name=\"data_output\", method=\"build_data_output\"),\n        Output(display_name=\"Table\", name=\"dataframe_output\", method=\"build_dataframe_output\"),\n    ]\n\n    def build_model(self) -> LanguageModel:  # type: ignore[type-var]\n        # Mapping mirostat settings to their corresponding values\n        mirostat_options = {\"Mirostat\": 1, \"Mirostat 2.0\": 2}\n\n        # Default to None for 'Disabled'\n        mirostat_value = mirostat_options.get(self.mirostat, None)\n\n        # Set mirostat_eta and mirostat_tau to None if mirostat is disabled\n        if mirostat_value is None:\n            mirostat_eta = None\n            mirostat_tau = None\n        else:\n            mirostat_eta = self.mirostat_eta\n            mirostat_tau = self.mirostat_tau\n\n        transformed_base_url = transform_localhost_url(self.base_url)\n\n        # Check if URL contains /v1 suffix (OpenAI-compatible mode)\n        if transformed_base_url and transformed_base_url.rstrip(\"/\").endswith(\"/v1\"):\n            # Strip /v1 suffix and log warning\n            transformed_base_url = transformed_base_url.rstrip(\"/\").removesuffix(\"/v1\")\n            logger.warning(\n                \"Detected '/v1' suffix in base URL. The Ollama component uses the native Ollama API, \"\n                \"not the OpenAI-compatible API. The '/v1' suffix has been automatically removed. \"\n                \"If you want to use the OpenAI-compatible API, please use the OpenAI component instead. \"\n                \"Learn more at https://docs.ollama.com/openai#openai-compatibility\"\n            )\n\n        sync_client_kwargs, async_client_kwargs = ssrf_protected_httpx_client_kwargs_for_url(transformed_base_url)\n\n        try:\n            output_format = self._parse_format_field(self.format) if self.enable_structured_output else None\n        except Exception as e:\n            msg = f\"Failed to parse the format field: {e}\"\n            raise ValueError(msg) from e\n\n        # Mapping system settings to their corresponding values\n        llm_params = {\n            \"base_url\": transformed_base_url,\n            \"model\": self.model_name,\n            \"mirostat\": mirostat_value,\n            \"format\": output_format or None,\n            \"metadata\": self.metadata,\n            \"tags\": self.tags.split(\",\") if self.tags else None,\n            \"mirostat_eta\": mirostat_eta,\n            \"mirostat_tau\": mirostat_tau,\n            \"num_ctx\": self.num_ctx or None,\n            \"num_gpu\": self.num_gpu or None,\n            \"num_thread\": self.num_thread or None,\n            \"repeat_last_n\": self.repeat_last_n or None,\n            \"repeat_penalty\": self.repeat_penalty or None,\n            \"temperature\": self.temperature or None,\n            \"stop\": self.stop_tokens.split(\",\") if self.stop_tokens else None,\n            \"system\": self.system,\n            \"tfs_z\": self.tfs_z or None,\n            \"timeout\": self.timeout or None,\n            \"top_k\": self.top_k or None,\n            \"top_p\": self.top_p or None,\n            \"verbose\": self.enable_verbose_output or False,\n            \"template\": self.template,\n        }\n        headers = self.headers\n        if headers is not None:\n            llm_params[\"client_kwargs\"] = {\"headers\": headers}\n        if sync_client_kwargs:\n            llm_params[\"sync_client_kwargs\"] = sync_client_kwargs\n        if async_client_kwargs:\n            llm_params[\"async_client_kwargs\"] = async_client_kwargs\n\n        # Remove parameters with None values\n        llm_params = {k: v for k, v in llm_params.items() if v is not None}\n\n        try:\n            output = ChatOllama(**llm_params)\n        except Exception as e:\n            msg = (\n                \"Unable to connect to the Ollama API. \"\n                \"Please verify the base URL, ensure the relevant Ollama model is pulled, and try again.\"\n            )\n            raise ValueError(msg) from e\n\n        return output\n\n    async def is_valid_ollama_url(self, url: str) -> bool:\n        try:\n            url = transform_localhost_url(url)\n            if not url:\n                return False\n            # Strip /v1 suffix if present, as Ollama API endpoints are at root level\n            url = url.rstrip(\"/\").removesuffix(\"/v1\")\n            if not url.endswith(\"/\"):\n                url = url + \"/\"\n            response = await ssrf_safe_async_get(urljoin(url, \"api/tags\"), headers=self.headers)\n        except SSRFProtectionError as e:\n            msg = f\"SSRF Protection: {e}\"\n            raise ValueError(msg) from e\n        except httpx.RequestError:\n            return False\n        else:\n            return response.status_code == HTTP_STATUS_OK\n\n    async def update_build_config(self, build_config: dict, field_value: Any, field_name: str | None = None):\n        if field_name == \"enable_structured_output\":  # bind enable_structured_output boolean to format show value\n            build_config[\"format\"][\"show\"] = field_value\n\n        if field_name == \"mirostat\":\n            if field_value == \"Disabled\":\n                build_config[\"mirostat_eta\"][\"advanced\"] = True\n                build_config[\"mirostat_tau\"][\"advanced\"] = True\n                build_config[\"mirostat_eta\"][\"value\"] = None\n                build_config[\"mirostat_tau\"][\"value\"] = None\n\n            else:\n                build_config[\"mirostat_eta\"][\"advanced\"] = False\n                build_config[\"mirostat_tau\"][\"advanced\"] = False\n\n                if field_value == \"Mirostat 2.0\":\n                    build_config[\"mirostat_eta\"][\"value\"] = 0.2\n                    build_config[\"mirostat_tau\"][\"value\"] = 10\n                else:\n                    build_config[\"mirostat_eta\"][\"value\"] = 0.1\n                    build_config[\"mirostat_tau\"][\"value\"] = 5\n\n        if field_name in {\"model_name\", \"base_url\", \"tool_model_enabled\"}:\n            # Use field_value if base_url is being updated, otherwise use self.base_url\n            base_url_to_check = field_value if field_name == \"base_url\" else self.base_url\n            # Fallback to self.base_url if field_value is None or empty\n            if not base_url_to_check and field_name == \"base_url\":\n                base_url_to_check = self.base_url\n            logger.warning(f\"Fetching Ollama models from updated URL: {base_url_to_check}\")\n\n            if base_url_to_check and await self.is_valid_ollama_url(base_url_to_check):\n                tool_model_enabled = build_config[\"tool_model_enabled\"].get(\"value\", False) or self.tool_model_enabled\n                build_config[\"model_name\"][\"options\"] = await self.get_models(\n                    base_url_to_check, tool_model_enabled=tool_model_enabled\n                )\n            else:\n                build_config[\"model_name\"][\"options\"] = []\n        if field_name == \"keep_alive_flag\":\n            if field_value == \"Keep\":\n                build_config[\"keep_alive\"][\"value\"] = \"-1\"\n                build_config[\"keep_alive\"][\"advanced\"] = True\n            elif field_value == \"Immediately\":\n                build_config[\"keep_alive\"][\"value\"] = \"0\"\n                build_config[\"keep_alive\"][\"advanced\"] = True\n            else:\n                build_config[\"keep_alive\"][\"advanced\"] = False\n\n        return build_config\n\n    async def get_models(self, base_url_value: str, *, tool_model_enabled: bool | None = None) -> list[str]:\n        \"\"\"Fetches a list of models from the Ollama API suitable for text generation.\n\n        Args:\n            base_url_value (str): The base URL of the Ollama API.\n            tool_model_enabled (bool | None, optional): If True, filters the models further to include\n                only those that support tool calling. Defaults to None.\n\n        Returns:\n            list[str]: A list of model names suitable for text generation. Models are included if:\n                - They have the \"completion\" capability, OR\n                - The capabilities field is not returned (backwards compatibility with older Ollama versions)\n                If `tool_model_enabled` is True, only models with verified \"tools\" capability are included\n                (models without capabilities info are excluded in this case).\n\n        Raises:\n            ValueError: If there is an issue with the API request or response, or if the model\n                names cannot be retrieved.\n        \"\"\"\n        try:\n            # Strip /v1 suffix if present, as Ollama API endpoints are at root level\n            base_url = base_url_value.rstrip(\"/\").removesuffix(\"/v1\")\n            if not base_url.endswith(\"/\"):\n                base_url = base_url + \"/\"\n            base_url = transform_localhost_url(base_url)\n\n            # Ollama REST API to return models\n            tags_url = urljoin(base_url, \"api/tags\")\n\n            # Ollama REST API to return model capabilities\n            show_url = urljoin(base_url, \"api/show\")\n\n            headers = self.headers\n            # Fetch available models\n            tags_response = await ssrf_safe_async_get(tags_url, headers=headers)\n            tags_response.raise_for_status()\n            models = tags_response.json()\n            if asyncio.iscoroutine(models):\n                models = await models\n            await logger.adebug(f\"Available models: {models}\")\n\n            # Filter models that are NOT embedding models\n            model_ids = []\n            for model in models[self.JSON_MODELS_KEY]:\n                model_name = model[self.JSON_NAME_KEY]\n                await logger.adebug(f\"Checking model: {model_name}\")\n\n                payload = {\"model\": model_name}\n                show_response = await ssrf_safe_async_post(show_url, json=payload, headers=headers)\n                show_response.raise_for_status()\n                json_data = show_response.json()\n                if asyncio.iscoroutine(json_data):\n                    json_data = await json_data\n\n                capabilities = json_data.get(self.JSON_CAPABILITIES_KEY)\n                await logger.adebug(f\"Model: {model_name}, Capabilities: {capabilities}\")\n\n                # If capabilities not provided, assume it's a completion model (backwards compatibility\n                # with older Ollama versions that don't return capabilities from /api/show)\n                if capabilities is None:\n                    if not tool_model_enabled:\n                        model_ids.append(model_name)\n                    # If tool_model_enabled is True but no capabilities info, skip the model\n                    # since we can't verify tool support\n                elif self.DESIRED_CAPABILITY in capabilities and (\n                    not tool_model_enabled or self.TOOL_CALLING_CAPABILITY in capabilities\n                ):\n                    model_ids.append(model_name)\n\n        except SSRFProtectionError as e:\n            msg = f\"SSRF Protection: {e}\"\n            raise ValueError(msg) from e\n        except (httpx.RequestError, ValueError) as e:\n            msg = \"Could not get model names from Ollama.\"\n            raise ValueError(msg) from e\n\n        return model_ids\n\n    def _parse_format_field(self, format_value: Any) -> Any:\n        \"\"\"Parse the format field to handle both string and dict inputs.\n\n        The format field can be:\n        - A simple string like \"json\" (backward compatibility)\n        - A JSON string from NestedDictInput that needs parsing\n        - A dict/JSON schema (already parsed)\n        - None or empty\n\n        Args:\n            format_value: The raw format value from the input field\n\n        Returns:\n            Parsed format value as string, dict, or None\n        \"\"\"\n        if not format_value:\n            return None\n\n        schema = format_value\n        if isinstance(format_value, list):\n            schema = build_model_from_schema(format_value).model_json_schema()\n            if schema == self.default_table_row_schema:\n                return None  # the rows are generic placeholder rows\n        elif isinstance(format_value, str):  # parse as json if string\n            with suppress(json.JSONDecodeError):  # e.g., literal \"json\" is valid for format field\n                schema = json.loads(format_value)\n\n        return schema or None\n\n    async def _parse_json_response(self) -> Any:\n        \"\"\"Parse the JSON response from the model.\n\n        This method gets the text response and attempts to parse it as JSON.\n        Works with models that have format='json' or a JSON schema set.\n\n        Returns:\n            Parsed JSON (dict, list, or primitive type)\n\n        Raises:\n            ValueError: If the response is not valid JSON\n        \"\"\"\n        message = await self.text_response()\n        text = message.text if hasattr(message, \"text\") else str(message)\n\n        if not text:\n            msg = \"No response from model\"\n            raise ValueError(msg)\n\n        try:\n            return json.loads(text)\n        except json.JSONDecodeError as e:\n            msg = f\"Invalid JSON response. Ensure model supports JSON output. Error: {e}\"\n            raise ValueError(msg) from e\n\n    async def build_data_output(self) -> Data:\n        \"\"\"Build a Data output from the model's JSON response.\n\n        Returns:\n            Data: A Data object containing the parsed JSON response\n        \"\"\"\n        parsed = await self._parse_json_response()\n\n        # If the response is already a dict, wrap it in Data\n        if isinstance(parsed, dict):\n            return Data(data=parsed)\n\n        # If it's a list, wrap in a results container\n        if isinstance(parsed, list):\n            if len(parsed) == 1:\n                return Data(data=parsed[0])\n            return Data(data={\"results\": parsed})\n\n        # For primitive types, wrap in a value container\n        return Data(data={\"value\": parsed})\n\n    async def build_dataframe_output(self) -> DataFrame:\n        \"\"\"Build a DataFrame output from the model's JSON response.\n\n        Returns:\n            DataFrame: A DataFrame containing the parsed JSON response\n\n        Raises:\n            ValueError: If the response cannot be converted to a DataFrame\n        \"\"\"\n        parsed = await self._parse_json_response()\n\n        # If it's a list of dicts, convert directly to DataFrame\n        if isinstance(parsed, list):\n            if not parsed:\n                return DataFrame()\n            # Ensure all items are dicts for proper DataFrame conversion\n            if all(isinstance(item, dict) for item in parsed):\n                return DataFrame(parsed)\n            msg = \"List items must be dictionaries to convert to DataFrame\"\n            raise ValueError(msg)\n\n        # If it's a single dict, wrap in a list to create a single-row DataFrame\n        if isinstance(parsed, dict):\n            return DataFrame([parsed])\n\n        # For primitive types, create a single-column DataFrame\n        return DataFrame([{\"value\": parsed}])\n\n    @property\n    def headers(self) -> dict[str, str] | None:\n        \"\"\"Get the headers for the Ollama API.\"\"\"\n        if self.api_key and self.api_key.strip():\n            return {\"Authorization\": f\"Bearer {self.api_key}\"}\n        return None\n"
               },
               "enable_structured_output": {
                 "_input_type": "BoolInput",
@@ -4413,7 +4405,6 @@
                 "type": "str",
                 "value": ""
               },
-              "is_refresh": false,
               "metadata": {
                 "_input_type": "DictInput",
                 "advanced": true,
@@ -4513,10 +4504,7 @@
                 "external_options": {},
                 "info": "Refer to https://ollama.com/library for more models.",
                 "name": "model_name",
-                "options": [
-                  "qwen2.5:7b",
-                  "qwen2.5:0.5b"
-                ],
+                "options": [],
                 "options_metadata": [],
                 "override_skip": false,
                 "placeholder": "",
@@ -4920,9 +4908,9 @@
           "type": "OllamaModel"
         },
         "dragging": false,
-        "id": "OllamaModel-roez5",
+        "id": "OllamaModel-7LbmX",
         "measured": {
-          "height": 536,
+          "height": 538,
           "width": 320
         },
         "position": {
@@ -4934,7 +4922,7 @@
       },
       {
         "data": {
-          "id": "OllamaEmbeddings-flujQ",
+          "id": "OllamaEmbeddings-zAbkk",
           "node": {
             "base_classes": [
               "Embeddings"
@@ -4953,11 +4941,9 @@
             ],
             "frozen": false,
             "icon": "Ollama",
-            "last_updated": "2026-06-25T21:14:49.361Z",
             "legacy": false,
-            "lf_version": "1.8.1",
             "metadata": {
-              "code_hash": "a8c56d0835de",
+              "code_hash": "e42e16033136",
               "dependencies": {
                 "dependencies": [
                   {
@@ -4981,7 +4967,7 @@
                 "language model",
                 "large language model"
               ],
-              "module": "lfx.components.ollama.ollama_embeddings.OllamaEmbeddingsComponent"
+              "module": "custom_components.ollama_embeddings"
             },
             "minimized": false,
             "output_types": [],
@@ -5006,12 +4992,6 @@
             ],
             "pinned": false,
             "template": {
-              "_frontend_node_flow_id": {
-                "value": "b1417259-cc18-4371-a44a-b659a8cce454"
-              },
-              "_frontend_node_folder_id": {
-                "value": "d3faa7b1-8308-442a-964e-517a6ffbea16"
-              },
               "_type": "Component",
               "api_key": {
                 "_input_type": "SecretStrInput",
@@ -5071,9 +5051,8 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "import asyncio\nfrom typing import Any\nfrom urllib.parse import urljoin\n\nimport httpx\nfrom langchain_ollama import OllamaEmbeddings\n\nfrom lfx.base.models.model import LCModelComponent\nfrom lfx.field_typing import Embeddings\nfrom lfx.io import DropdownInput, Output, SecretStrInput, StrInput\nfrom lfx.log.logger import logger\nfrom lfx.utils.util import transform_localhost_url\n\nHTTP_STATUS_OK = 200\n\n\nclass OllamaEmbeddingsComponent(LCModelComponent):\n    display_name: str = \"Ollama Embeddings\"\n    description: str = \"Generate embeddings using Ollama models.\"\n    documentation = \"https://python.langchain.com/docs/integrations/text_embedding/ollama\"\n    icon = \"Ollama\"\n    name = \"OllamaEmbeddings\"\n\n    # Define constants for JSON keys\n    JSON_MODELS_KEY = \"models\"\n    JSON_NAME_KEY = \"name\"\n    JSON_CAPABILITIES_KEY = \"capabilities\"\n    EMBEDDING_CAPABILITY = \"embedding\"\n\n    inputs = [\n        DropdownInput(\n            name=\"model_name\",\n            display_name=\"Ollama Model\",\n            value=\"\",\n            options=[],\n            real_time_refresh=True,\n            refresh_button=True,\n            combobox=True,\n            required=True,\n        ),\n        StrInput(\n            name=\"base_url\",\n            display_name=\"Ollama Base URL\",\n            info=\"Endpoint of the Ollama API. Defaults to http://localhost:11434.\",\n            value=\"http://localhost:11434\",\n            required=True,\n            real_time_refresh=True,\n        ),\n        SecretStrInput(\n            name=\"api_key\",\n            display_name=\"Ollama API Key\",\n            info=\"Your Ollama API key.\",\n            value=None,\n            required=False,\n            real_time_refresh=True,\n            advanced=True,\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Embeddings\", name=\"embeddings\", method=\"build_embeddings\"),\n    ]\n\n    @property\n    def headers(self) -> dict[str, str] | None:\n        \"\"\"Get the headers for the Ollama API.\"\"\"\n        if self.api_key and self.api_key.strip():\n            return {\"Authorization\": f\"Bearer {self.api_key}\"}\n        return None\n\n    def build_embeddings(self) -> Embeddings:\n        transformed_base_url = transform_localhost_url(self.base_url)\n\n        # Strip /v1 suffix if present\n        if transformed_base_url and transformed_base_url.rstrip(\"/\").endswith(\"/v1\"):\n            transformed_base_url = transformed_base_url.rstrip(\"/\").removesuffix(\"/v1\")\n            logger.warning(\n                \"Detected '/v1' suffix in base URL. The Ollama component uses the native Ollama API, \"\n                \"not the OpenAI-compatible API. The '/v1' suffix has been automatically removed. \"\n                \"If you want to use the OpenAI-compatible API, please use the OpenAI component instead. \"\n                \"Learn more at https://docs.ollama.com/openai#openai-compatibility\"\n            )\n\n        llm_params = {\n            \"model\": self.model_name,\n            \"base_url\": transformed_base_url,\n        }\n\n        if self.headers:\n            llm_params[\"client_kwargs\"] = {\"headers\": self.headers}\n\n        try:\n            output = OllamaEmbeddings(**llm_params)\n        except Exception as e:\n            msg = (\n                \"Unable to connect to the Ollama API. \"\n                \"Please verify the base URL, ensure the relevant Ollama model is pulled, and try again.\"\n            )\n            raise ValueError(msg) from e\n        return output\n\n    async def update_build_config(self, build_config: dict, field_value: Any, field_name: str | None = None):\n        if field_name in {\"base_url\", \"model_name\"} and not await self.is_valid_ollama_url(self.base_url):\n            msg = \"Ollama is not running on the provided base URL. Please start Ollama and try again.\"\n            raise ValueError(msg)\n        if field_name in {\"model_name\", \"base_url\"}:\n            # Use field_value if base_url is being updated, otherwise use self.base_url\n            base_url_to_check = field_value if field_name == \"base_url\" else self.base_url\n            # Fallback to self.base_url if field_value is None or empty\n            if not base_url_to_check and field_name == \"base_url\":\n                base_url_to_check = self.base_url\n            logger.warning(f\"Fetching Ollama models from updated URL: {base_url_to_check}\")\n\n            if base_url_to_check and await self.is_valid_ollama_url(base_url_to_check):\n                build_config[\"model_name\"][\"options\"] = await self.get_model(base_url_to_check)\n            else:\n                build_config[\"model_name\"][\"options\"] = []\n\n        return build_config\n\n    async def get_model(self, base_url_value: str) -> list[str]:\n        \"\"\"Get the model names from Ollama.\"\"\"\n        try:\n            # Strip /v1 suffix if present, as Ollama API endpoints are at root level\n            base_url = base_url_value.rstrip(\"/\").removesuffix(\"/v1\")\n            if not base_url.endswith(\"/\"):\n                base_url = base_url + \"/\"\n            base_url = transform_localhost_url(base_url)\n\n            # Ollama REST API to return models\n            tags_url = urljoin(base_url, \"api/tags\")\n\n            # Ollama REST API to return model capabilities\n            show_url = urljoin(base_url, \"api/show\")\n\n            async with httpx.AsyncClient() as client:\n                headers = self.headers\n                # Fetch available models\n                tags_response = await client.get(url=tags_url, headers=headers)\n                tags_response.raise_for_status()\n                models = tags_response.json()\n                if asyncio.iscoroutine(models):\n                    models = await models\n                await logger.adebug(f\"Available models: {models}\")\n\n                # Filter models that are embedding models\n                model_ids = []\n                for model in models[self.JSON_MODELS_KEY]:\n                    model_name = model[self.JSON_NAME_KEY]\n                    await logger.adebug(f\"Checking model: {model_name}\")\n\n                    payload = {\"model\": model_name}\n                    show_response = await client.post(url=show_url, json=payload, headers=headers)\n                    show_response.raise_for_status()\n                    json_data = show_response.json()\n                    if asyncio.iscoroutine(json_data):\n                        json_data = await json_data\n\n                    capabilities = json_data.get(self.JSON_CAPABILITIES_KEY, [])\n                    await logger.adebug(f\"Model: {model_name}, Capabilities: {capabilities}\")\n\n                    if self.EMBEDDING_CAPABILITY in capabilities:\n                        model_ids.append(model_name)\n\n        except (httpx.RequestError, ValueError) as e:\n            msg = \"Could not get model names from Ollama.\"\n            raise ValueError(msg) from e\n\n        return model_ids\n\n    async def is_valid_ollama_url(self, url: str) -> bool:\n        try:\n            async with httpx.AsyncClient() as client:\n                url = transform_localhost_url(url)\n                if not url:\n                    return False\n                # Strip /v1 suffix if present, as Ollama API endpoints are at root level\n                url = url.rstrip(\"/\").removesuffix(\"/v1\")\n                if not url.endswith(\"/\"):\n                    url = url + \"/\"\n                return (\n                    await client.get(url=urljoin(url, \"api/tags\"), headers=self.headers)\n                ).status_code == HTTP_STATUS_OK\n        except httpx.RequestError:\n            return False\n"
+                "value": "import asyncio\nfrom typing import Any\nfrom urllib.parse import urljoin\n\nimport httpx\nfrom langchain_ollama import OllamaEmbeddings\n\nfrom lfx.base.models.model import LCModelComponent\nfrom lfx.field_typing import Embeddings\nfrom lfx.io import DropdownInput, Output, SecretStrInput, StrInput\nfrom lfx.log.logger import logger\nfrom lfx.utils.ssrf_httpx import (\n    ssrf_protected_httpx_client_kwargs_for_url,\n    ssrf_safe_async_get,\n    ssrf_safe_async_post,\n)\nfrom lfx.utils.ssrf_protection import SSRFProtectionError\nfrom lfx.utils.util import transform_localhost_url\n\nHTTP_STATUS_OK = 200\n\n\nclass OllamaEmbeddingsComponent(LCModelComponent):\n    display_name: str = \"Ollama Embeddings\"\n    description: str = \"Generate embeddings using Ollama models.\"\n    documentation = \"https://python.langchain.com/docs/integrations/text_embedding/ollama\"\n    icon = \"Ollama\"\n    name = \"OllamaEmbeddings\"\n\n    # Define constants for JSON keys\n    JSON_MODELS_KEY = \"models\"\n    JSON_NAME_KEY = \"name\"\n    JSON_CAPABILITIES_KEY = \"capabilities\"\n    EMBEDDING_CAPABILITY = \"embedding\"\n\n    inputs = [\n        DropdownInput(\n            name=\"model_name\",\n            display_name=\"Ollama Model\",\n            value=\"\",\n            options=[],\n            real_time_refresh=True,\n            refresh_button=True,\n            combobox=True,\n            required=True,\n        ),\n        StrInput(\n            name=\"base_url\",\n            display_name=\"Ollama Base URL\",\n            info=\"Endpoint of the Ollama API. Defaults to http://localhost:11434.\",\n            value=\"http://localhost:11434\",\n            required=True,\n            real_time_refresh=True,\n        ),\n        SecretStrInput(\n            name=\"api_key\",\n            display_name=\"Ollama API Key\",\n            info=\"Your Ollama API key.\",\n            value=None,\n            required=False,\n            real_time_refresh=True,\n            advanced=True,\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Embeddings\", name=\"embeddings\", method=\"build_embeddings\"),\n    ]\n\n    @property\n    def headers(self) -> dict[str, str] | None:\n        \"\"\"Get the headers for the Ollama API.\"\"\"\n        if self.api_key and self.api_key.strip():\n            return {\"Authorization\": f\"Bearer {self.api_key}\"}\n        return None\n\n    def build_embeddings(self) -> Embeddings:\n        transformed_base_url = transform_localhost_url(self.base_url)\n\n        # Strip /v1 suffix if present\n        if transformed_base_url and transformed_base_url.rstrip(\"/\").endswith(\"/v1\"):\n            transformed_base_url = transformed_base_url.rstrip(\"/\").removesuffix(\"/v1\")\n            logger.warning(\n                \"Detected '/v1' suffix in base URL. The Ollama component uses the native Ollama API, \"\n                \"not the OpenAI-compatible API. The '/v1' suffix has been automatically removed. \"\n                \"If you want to use the OpenAI-compatible API, please use the OpenAI component instead. \"\n                \"Learn more at https://docs.ollama.com/openai#openai-compatibility\"\n            )\n\n        sync_client_kwargs, async_client_kwargs = ssrf_protected_httpx_client_kwargs_for_url(transformed_base_url)\n\n        llm_params = {\n            \"model\": self.model_name,\n            \"base_url\": transformed_base_url,\n        }\n\n        if sync_client_kwargs:\n            llm_params[\"sync_client_kwargs\"] = sync_client_kwargs\n        if async_client_kwargs:\n            llm_params[\"async_client_kwargs\"] = async_client_kwargs\n        if self.headers:\n            llm_params[\"client_kwargs\"] = {\"headers\": self.headers}\n\n        try:\n            output = OllamaEmbeddings(**llm_params)\n        except Exception as e:\n            msg = (\n                \"Unable to connect to the Ollama API. \"\n                \"Please verify the base URL, ensure the relevant Ollama model is pulled, and try again.\"\n            )\n            raise ValueError(msg) from e\n        return output\n\n    async def update_build_config(self, build_config: dict, field_value: Any, field_name: str | None = None):\n        if field_name in {\"base_url\", \"model_name\"} and not await self.is_valid_ollama_url(self.base_url):\n            msg = \"Ollama is not running on the provided base URL. Please start Ollama and try again.\"\n            raise ValueError(msg)\n        if field_name in {\"model_name\", \"base_url\"}:\n            # Use field_value if base_url is being updated, otherwise use self.base_url\n            base_url_to_check = field_value if field_name == \"base_url\" else self.base_url\n            # Fallback to self.base_url if field_value is None or empty\n            if not base_url_to_check and field_name == \"base_url\":\n                base_url_to_check = self.base_url\n            logger.warning(f\"Fetching Ollama models from updated URL: {base_url_to_check}\")\n\n            if base_url_to_check and await self.is_valid_ollama_url(base_url_to_check):\n                build_config[\"model_name\"][\"options\"] = await self.get_model(base_url_to_check)\n            else:\n                build_config[\"model_name\"][\"options\"] = []\n\n        return build_config\n\n    async def get_model(self, base_url_value: str) -> list[str]:\n        \"\"\"Get the model names from Ollama.\"\"\"\n        try:\n            # Strip /v1 suffix if present, as Ollama API endpoints are at root level\n            base_url = base_url_value.rstrip(\"/\").removesuffix(\"/v1\")\n            if not base_url.endswith(\"/\"):\n                base_url = base_url + \"/\"\n            base_url = transform_localhost_url(base_url)\n\n            # Ollama REST API to return models\n            tags_url = urljoin(base_url, \"api/tags\")\n\n            # Ollama REST API to return model capabilities\n            show_url = urljoin(base_url, \"api/show\")\n\n            headers = self.headers\n            # Fetch available models\n            tags_response = await ssrf_safe_async_get(tags_url, headers=headers)\n            tags_response.raise_for_status()\n            models = tags_response.json()\n            if asyncio.iscoroutine(models):\n                models = await models\n            await logger.adebug(f\"Available models: {models}\")\n\n            # Filter models that are embedding models\n            model_ids = []\n            for model in models[self.JSON_MODELS_KEY]:\n                model_name = model[self.JSON_NAME_KEY]\n                await logger.adebug(f\"Checking model: {model_name}\")\n\n                payload = {\"model\": model_name}\n                show_response = await ssrf_safe_async_post(show_url, json=payload, headers=headers)\n                show_response.raise_for_status()\n                json_data = show_response.json()\n                if asyncio.iscoroutine(json_data):\n                    json_data = await json_data\n\n                capabilities = json_data.get(self.JSON_CAPABILITIES_KEY, [])\n                await logger.adebug(f\"Model: {model_name}, Capabilities: {capabilities}\")\n\n                if self.EMBEDDING_CAPABILITY in capabilities:\n                    model_ids.append(model_name)\n\n        except SSRFProtectionError as e:\n            msg = f\"SSRF Protection: {e}\"\n            raise ValueError(msg) from e\n        except (httpx.RequestError, ValueError) as e:\n            msg = \"Could not get model names from Ollama.\"\n            raise ValueError(msg) from e\n\n        return model_ids\n\n    async def is_valid_ollama_url(self, url: str) -> bool:\n        try:\n            url = transform_localhost_url(url)\n            if not url:\n                return False\n            # Strip /v1 suffix if present, as Ollama API endpoints are at root level\n            url = url.rstrip(\"/\").removesuffix(\"/v1\")\n            if not url.endswith(\"/\"):\n                url = url + \"/\"\n            response = await ssrf_safe_async_get(urljoin(url, \"api/tags\"), headers=self.headers)\n        except SSRFProtectionError as e:\n            msg = f\"SSRF Protection: {e}\"\n            raise ValueError(msg) from e\n        except httpx.RequestError:\n            return False\n        else:\n            return response.status_code == HTTP_STATUS_OK\n"
               },
-              "is_refresh": false,
               "model_name": {
                 "_input_type": "DropdownInput",
                 "advanced": false,
@@ -5083,6 +5062,7 @@
                 "dynamic": false,
                 "external_options": {},
                 "info": "",
+                "load_from_db": false,
                 "name": "model_name",
                 "options": [],
                 "options_metadata": [],
@@ -5107,9 +5087,9 @@
           "type": "OllamaEmbeddings"
         },
         "dragging": false,
-        "id": "OllamaEmbeddings-flujQ",
+        "id": "OllamaEmbeddings-zAbkk",
         "measured": {
-          "height": 288,
+          "height": 289,
           "width": 320
         },
         "position": {
@@ -5121,7 +5101,7 @@
       },
       {
         "data": {
-          "id": "note-fSXjn",
+          "id": "note-xPy9b",
           "node": {
             "description": "## How the flow works\n\nThis flow is organized into four color-coded sections:\n\n**Data (Yellow)**  \nUpload one or more structured data files that you want the agent to analyze.\n\n**Models (Pink)**  \nConfigure a language model for reasoning and description generation, and an embedding model for indexing and retrieval.\n\n**Ingestion Pipeline (Green)**  \nThe ingestion flow reads uploaded files, generates semantic descriptions for them, stores those descriptions in a vector database, and prepares file retrieval data for later use.\n\n**Agent Inference (Blue)**  \nDuring chat, the OpenDsStar agent reuses the ingested vector data and file retrieval data through tools. It searches for relevant files, retrieves their contents when needed, reasons over the data, and returns an answer.\n\nIn short: **upload files → ingest and index them → reuse the ingested data at query time → analyze and answer**\n",
             "display_name": "",
@@ -5135,7 +5115,7 @@
         },
         "dragging": false,
         "height": 652,
-        "id": "note-fSXjn",
+        "id": "note-xPy9b",
         "measured": {
           "height": 652,
           "width": 901
@@ -5151,7 +5131,7 @@
       },
       {
         "data": {
-          "id": "note-iVo2g",
+          "id": "note-v8fAB",
           "node": {
             "description": "## Setup\n\n**Configure the models**  \nSet a language model and an embedding model in the **Models** section.\n\n**Configure persistent storage correctly**  \nThis flow uses both the **Vector Store** and the **File Content Retriever** twice:\n- once in the **Ingestion Pipeline**\n- again in **Agent Inference**, where they are used as tools over the ingested data\n\nSet the directories as follows:\n- both **Vector Store** components should use the **same Persistent Directory**\n- both **File Content Retriever** components should use the **same Persistent Directory**\n- the **Vector Store** directory and the **File Content Retriever** directory should be **different**\n\nThis allows the ingestion and inference stages to share the same stored vector data and file retrieval data, while keeping those two storage layers separate.",
             "display_name": "",
@@ -5165,7 +5145,7 @@
         },
         "dragging": false,
         "height": 633,
-        "id": "note-iVo2g",
+        "id": "note-v8fAB",
         "measured": {
           "height": 633,
           "width": 896
@@ -5181,7 +5161,7 @@
       },
       {
         "data": {
-          "id": "note-lGid5",
+          "id": "note-JgV9B",
           "node": {
             "description": "## How to run it\n\n**Upload your files**  \nAdd one or more structured data files in the **Data** section.\n\n**Run the ingestion pipeline**  \nExecute the ingestion flow so each file is processed, described, and indexed.\n\n**Open the chat / playground**  \nStart the agent flow and ask questions in plain English.\n\n**Analyze your data**  \nThe agent will use the ingested vector store and file retrieval tools to find relevant files, access their contents, and answer based on the uploaded data.\n",
             "display_name": "",
@@ -5195,7 +5175,7 @@
         },
         "dragging": false,
         "height": 429,
-        "id": "note-lGid5",
+        "id": "note-JgV9B",
         "measured": {
           "height": 429,
           "width": 895
@@ -5211,7 +5191,7 @@
       },
       {
         "data": {
-          "id": "note-CULh0",
+          "id": "note-QqpFM",
           "node": {
             "description": "## Notes\n\n- The **Write File** tool is also included, allowing the agent to create structured output files such as **CSV, Excel, or JSON** with analysis results.  \n  (e.g. *Create a CSV with all Airbnb listings in NYC that cost less than 300 USD per night.*)\n- Using the **Write File** tool, code agents can also save plots as **HTML** files when requested.  \n  (e.g. *Create a plot of house price vs. review score for all Airbnb listings in the Upper East Side, and save it as an HTML file.*)",
             "display_name": "",
@@ -5225,7 +5205,7 @@
         },
         "dragging": false,
         "height": 251,
-        "id": "note-CULh0",
+        "id": "note-QqpFM",
         "measured": {
           "height": 251,
           "width": 895
@@ -5241,7 +5221,7 @@
       },
       {
         "data": {
-          "id": "SaveToFile-bWLll",
+          "id": "SaveToFile-9FQfI",
           "node": {
             "base_classes": [
               "Message"
@@ -5272,7 +5252,7 @@
             ],
             "frozen": false,
             "icon": "file-text",
-            "last_updated": "2026-06-25T21:14:49.363Z",
+            "last_updated": "2026-06-26T12:13:06.974Z",
             "legacy": false,
             "metadata": {
               "code_hash": "837120b2e497",
@@ -5336,10 +5316,10 @@
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
-                "value": "b1417259-cc18-4371-a44a-b659a8cce454"
+                "value": "d7d2d5cd-e195-4328-ac1a-b8e7dbf03c9d"
               },
               "_frontend_node_folder_id": {
-                "value": "d3faa7b1-8308-442a-964e-517a6ffbea16"
+                "value": "511db528-db06-4bf9-bdf0-f13221918e76"
               },
               "_type": "Component",
               "append_mode": {
@@ -5794,9 +5774,9 @@
           "type": "SaveToFile"
         },
         "dragging": false,
-        "id": "SaveToFile-bWLll",
+        "id": "SaveToFile-9FQfI",
         "measured": {
-          "height": 365,
+          "height": 366,
           "width": 320
         },
         "position": {
@@ -5808,16 +5788,16 @@
       }
     ],
     "viewport": {
-      "x": 838.1894798834617,
-      "y": 862.8544043623683,
-      "zoom": 0.3465981033853372
+      "x": 869.4771349310664,
+      "y": 991.3086766369322,
+      "zoom": 0.37308739340651753
     }
   },
   "description": "A complete workflow for structured data analysis using the OpenDsStar agent. OpenDsStar is an open-source implementation of the DS-Star agent, with several deliberate design enhancements, and can be used effectively for structured data analysis tasks",
   "endpoint_name": null,
-  "id": "b1417259-cc18-4371-a44a-b659a8cce454",
+  "id": "d7d2d5cd-e195-4328-ac1a-b8e7dbf03c9d",
   "is_component": false,
-  "last_tested_version": "1.10.0",
+  "last_tested_version": "1.10.1",
   "locked": false,
   "name": "Structured Data Analysis Agent",
   "tags": [
