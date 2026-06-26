@@ -732,7 +732,7 @@
                 "title_case": false,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": "GOOGLE_API_KEY"
+                "value": ""
               },
               "base_url_ibm_watsonx": {
                 "_input_type": "DropdownInput",
@@ -989,29 +989,7 @@
                 "trace_as_input": true,
                 "track_in_telemetry": false,
                 "type": "model",
-                "value": [
-                  {
-                    "icon": "GoogleGenerativeAI",
-                    "metadata": {
-                      "context_window": 1048576,
-                      "cost_per_million_in": 1.5,
-                      "cost_per_million_out": 9,
-                      "created": 1779148800,
-                      "default": true,
-                      "deprecated": false,
-                      "icon": "Google Generative AI",
-                      "model_type": "llm",
-                      "not_supported": false,
-                      "preview": false,
-                      "reasoning": true,
-                      "search": false,
-                      "tool_calling": true,
-                      "vision": true
-                    },
-                    "name": "gemini-3.5-flash",
-                    "provider": "Google Generative AI"
-                  }
-                ]
+                "value": ""
               },
               "ollama_base_url": {
                 "_input_type": "MessageInput",
