@@ -951,7 +951,7 @@
                 "trace_as_metadata": true,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": "ibm-granite/granite-embedding-english-r2"
+                "value": ""
               },
               "file_data": {
                 "_input_type": "HandleInput",
@@ -5078,7 +5078,7 @@
                 "trace_as_metadata": true,
                 "track_in_telemetry": true,
                 "type": "str",
-                "value": "granite-embedding:latest"
+                "value": ""
               }
             },
             "tool_mode": false
