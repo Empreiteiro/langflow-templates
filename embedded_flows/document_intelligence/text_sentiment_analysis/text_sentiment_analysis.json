@@ -1456,9 +1456,7 @@
                   "bz2",
                   "gz"
                 ],
-                "file_path": [
-                  "d101eff3-16aa-4bd9-add2-44a883d16060/Text Sentiment Analysis_sample.txt"
-                ],
+                "file_path": [],
                 "info": "Supported file extensions: csv, json, pdf, txt, md, mdx, yaml, yml, xml, html, htm, docx, py, sh, sql, js, ts, tsx, adoc, asciidoc, asc, bmp, dotx, dotm, docm, jpg, jpeg, png, potx, ppsx, pptm, potm, ppsm, pptx, tiff, xls, xlsx, xhtml, webp; optionally bundled in file extensions: zip, tar, tgz, bz2, gz",
                 "list": true,
                 "list_add_label": "Add More",
@@ -2353,7 +2351,7 @@
                 "trace_as_metadata": true,
                 "track_in_telemetry": true,
                 "type": "bool",
-                "value": true
+                "value": false
               },
               "system_prompt": {
                 "_input_type": "MultilineInput",
