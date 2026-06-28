@@ -1128,9 +1128,7 @@
                   "bz2",
                   "gz"
                 ],
-                "file_path": [
-                  "12b76c3c-85ad-470b-8cdb-f39e71b8b8d0/Financial Report Parser_sample.md"
-                ],
+                "file_path": [],
                 "info": "Supported file extensions: csv, json, pdf, txt, md, mdx, yaml, yml, xml, html, htm, docx, py, sh, sql, js, ts, tsx, adoc, asciidoc, asc, bmp, dotx, dotm, docm, jpg, jpeg, png, potx, ppsx, pptm, potm, ppsm, pptx, tiff, xls, xlsx, xhtml, webp; optionally bundled in file extensions: zip, tar, tgz, bz2, gz",
                 "list": true,
                 "list_add_label": "Add More",

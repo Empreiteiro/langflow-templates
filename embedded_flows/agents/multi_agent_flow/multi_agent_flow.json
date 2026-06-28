@@ -1369,7 +1369,7 @@
                 "trace_as_metadata": true,
                 "track_in_telemetry": true,
                 "type": "bool",
-                "value": true
+                "value": false
               },
               "system_prompt": {
                 "_input_type": "MultilineInput",
@@ -2150,7 +2150,7 @@
                 "trace_as_metadata": true,
                 "track_in_telemetry": true,
                 "type": "bool",
-                "value": true
+                "value": false
               },
               "system_prompt": {
                 "_input_type": "MultilineInput",
